@@ -76,7 +76,7 @@ home = {
         {'title': t('t55'), 'text': t('t56')}, {'title': t('t57'), 'text': t('t58')}, {'title': t('t59'), 'text': t('t60')}]},
     'team': {'label': t('t102'), 'title': t('t103'), 'text': t('t104')},
     'results': {'label': t('t61'), 'title': t('t62'), 'text': t('t63'), 'stats': [
-        {'value': same('14+'), 'text': t('t64')}, {'value': same('5'), 'text': t('t65')},
+        {'value': same('14+'), 'text': t('t64')}, {'value': same('17+'), 'text': t('t65')},
         {'value': same('Effie'), 'text': t('t66')}, {'value': same('PCM®'), 'text': same('Professional Certified Marketer, AMA')}]},
 }
 # Equipo: nombre, rol y tags desde el HTML del diseño.

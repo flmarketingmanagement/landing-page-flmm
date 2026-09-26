@@ -386,6 +386,33 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 .flmm-form--jetpack .wp-block-jetpack-button .wp-block-button__link:hover,
 .flmm-form--jetpack button[type="submit"]:hover { background: var(--pink) !important; }
 .flmm-form--jetpack .flmm-contact__alt { margin-top: 1.25rem; }
+/* Servicios: desplegable de selección múltiple. */
+.flmm-form--jetpack .flmm-services-field-wrap { position: relative; }
+.flmm-form--jetpack .flmm-services-field-wrap fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+.flmm-form--jetpack .flmm-services-field-wrap legend { padding: 0; margin-bottom: .4rem; }
+.flmm-select {
+	width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+	background: transparent; border: 0; border-bottom: 1px solid var(--field-line); padding: .5rem 0; cursor: pointer;
+	font: 400 16px/1.5 var(--sans); color: var(--on-dark-2); text-align: left;
+}
+.flmm-select.has-value { color: var(--on-dark); }
+.flmm-select:focus-visible { outline: 2px solid var(--pink); outline-offset: 2px; }
+.flmm-select__value { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.flmm-select__chev { width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg) translateY(-3px); flex: none; transition: transform .2s; }
+.flmm-services-field-wrap.is-open .flmm-select { border-color: var(--pink); }
+.flmm-services-field-wrap.is-open .flmm-select__chev { transform: rotate(-135deg) translateY(-2px); }
+.flmm-form--jetpack .flmm-services-field-wrap.is-enhanced .grunion-checkbox-multiple-options {
+	display: none; position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + .35rem);
+	max-height: 18rem; overflow-y: auto; padding: .5rem; margin: 0;
+	background: var(--dark-2); border: 1px solid var(--dark-line); border-radius: var(--r-sm); box-shadow: 0 18px 40px rgba(0,0,0,.35);
+}
+.flmm-form--jetpack .flmm-services-field-wrap.is-open .grunion-checkbox-multiple-options { display: grid; gap: 0; }
+.flmm-form--jetpack .flmm-services-field-wrap .wp-block-jetpack-option { text-transform: none !important; letter-spacing: 0 !important; display: flex !important; align-items: center; gap: .7rem; margin: 0 !important; padding: .55rem .6rem; border-radius: 8px; cursor: pointer; color: var(--on-dark); font: 400 15px/1.35 var(--sans) !important; }
+.flmm-form--jetpack .flmm-services-field-wrap .wp-block-jetpack-option:hover { background: rgba(255,255,255,.06); }
+.flmm-form--jetpack .flmm-services-field-wrap input[type=checkbox] { accent-color: var(--pink); width: 16px; height: 16px; margin: 0; flex: none; }
+.flmm-form--jetpack .flmm-services-field-wrap .grunion-checkbox-multiple-label,
+.flmm-form--jetpack .flmm-services-field-wrap .grunion-field-text { font: inherit !important; color: inherit !important; }
+
 /* Botón de envío: separado del mensaje y alineado a la izquierda. */
 .flmm-form--jetpack .contact-submit { margin: 1.75rem 0 0 !important; padding: 0 !important; display: flex; }
 /* Confirmación del envío con la tipografía y los colores del sitio. */

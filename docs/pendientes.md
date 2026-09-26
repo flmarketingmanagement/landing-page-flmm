@@ -6,7 +6,7 @@ Datos o decisiones que no se inventaron y hay que confirmar.
 
 1. **Equipo:** fotos y URLs de LinkedIn de las 13 personas. Hoy el carrusel muestra iniciales y no enlaza a LinkedIn.
 2. **Años de experiencia del equipo:** mostrarlos a todos o a ninguno (hoy: a ninguno).
-3. **Trayectoria del home:** confirmar las cifras "14+ años en marketing digital" y "5 países con clientes activos" (vienen del diseño).
+3. **Trayectoria del home:** confirmar "14+ años en marketing digital". Países: confirmado, 17+ países con experiencia y clientes B2B y B2C.
 4. **Testimonios de clientes:** autorización de Leonardo Rangel (RMPartes.cl), Carol Sánchez (Gig) y Manuel Trigo (PolariGlass) para mostrarlos en las páginas de servicio.
 5. **Reseñas del podcast:** autorización de Daniel Goncalves y Pablo Pozarski (se tradujeron al español).
 6. **Vero Design:** confirmar "más de 200 marcas en más de 7 países" (página de contenido creativo y su meta description).
@@ -17,15 +17,14 @@ Datos o decisiones que no se inventaron y hay que confirmar.
 
 ## Decisiones
 
-11. **Bot de Telegram:** fragmento 1656 de WPCode, activo en el pie de todo el sitio. Mantener, quitar o reemplazar por el botón de Telegram del theme.
+11. **Bot de Telegram:** decidido. Se quita el botón flotante (desactivar el fragmento 1656 de WPCode en staging y producción) y se enlaza "Marky Digital (Agent)" en la columna Contacto del footer. Falta el enlace del agente (Apariencia > FLMM Studio).
 12. **Copia del formulario:** el formulario anterior enviaba copia a un Gmail personal. El nuevo solo envía a hello@flmarketingmanagement.com. Confirmar si se agrega la copia.
 13. **Idea Flow y plugins viejos:** confirmar la limpieza de la fase 8 (Elementor, Superb Addons, Layout Grid).
-
 14. **Correos del formulario en spam:** en staging salen desde un dominio de pruebas (wpcomstaging.com), lo que suele mandarlos a spam. Revisar de nuevo en producción; si siguen llegando a spam, revisar los registros SPF y DKIM del dominio con el proveedor de correo.
 
 ## Accesos
 
-14. **GitHub Actions** activado en el repositorio.
-15. **GitHub Deployments** conectado en staging (rama `staging`) y luego en producción (rama `main`, manual).
-16. **Acceso de red** del entorno de Claude a flmarketingmanagement.com y al dominio de staging, para la QA sobre el sitio real.
-17. **Search Console:** acceso para enviar el sitemap y pedir la indexación.
+15. ~~**GitHub Actions**~~ activo.
+16. **GitHub Deployments:** staging conectado (rama `staging`); falta producción (rama `main`, manual).
+17. **Acceso de red** del entorno de Claude a flmarketingmanagement.com y al dominio de staging, para la QA sobre el sitio real.
+18. **Search Console:** acceso para enviar el sitemap y pedir la indexación.

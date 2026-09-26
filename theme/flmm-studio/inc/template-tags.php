@@ -268,3 +268,47 @@ function flmm_breadcrumb_items() {
 	}
 	return $items;
 }
+
+/**
+ * Servicios del sitio en el idioma actual (para el formulario de contacto).
+ *
+ * @return string[]
+ */
+function flmm_service_names() {
+	$names = array(
+		array( 'Marketing strategy', 'Estrategia de marketing' ),
+		array( 'Performance Marketing', 'Performance Marketing' ),
+		array( 'SEO + AEO', 'SEO + AEO' ),
+		array( 'AEO content', 'Contenido AEO' ),
+		array( 'Creative & multimedia content', 'Contenido creativo y multimedia' ),
+		array( 'E-commerce & websites', 'E-commerce y sitios web' ),
+		array( 'Growth Hacking', 'Growth Hacking' ),
+		array( 'Analytics & insights', 'Analítica e insights' ),
+		array( 'AI assistants', 'Asistentes de IA' ),
+		array( 'Automation & Martech', 'Automatización y Martech' ),
+		array( 'Custom platforms', 'Plataformas a medida' ),
+	);
+	$lang = 'es' === flmm_lang() ? 1 : 0;
+	return array_map(
+		static function ( $pair ) use ( $lang ) {
+			return $pair[ $lang ];
+		},
+		$names
+	);
+}
+
+/**
+ * Campo de Jetpack con selección múltiple de servicios. El script lo muestra como un desplegable.
+ *
+ * @return string Marcado de bloques.
+ */
+function flmm_contact_services_field() {
+	$options = '';
+	foreach ( flmm_service_names() as $name ) {
+		$options .= '<!-- wp:jetpack/option ' . wp_json_encode( array( 'label' => $name ), JSON_UNESCAPED_UNICODE ) . ' /-->';
+	}
+	return '<!-- wp:jetpack/field-checkbox-multiple ' . wp_json_encode( array( 'required' => false, 'className' => 'flmm-services-field' ) ) . ' --><div>'
+		. '<!-- wp:jetpack/label ' . wp_json_encode( array( 'label' => flmm__( 'Services of interest' ) ), JSON_UNESCAPED_UNICODE ) . ' /-->'
+		. '<!-- wp:jetpack/options --><div class="wp-block-jetpack-options">' . $options . '</div><!-- /wp:jetpack/options -->'
+		. '</div><!-- /wp:jetpack/field-checkbox-multiple -->';
+}

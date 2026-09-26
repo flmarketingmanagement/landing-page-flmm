@@ -55,6 +55,7 @@ $flmm_actions = sprintf(
 					) . ' --><div class="wp-block-jetpack-contact-form">'
 						. $flmm_field( 'name', flmm__( 'Name' ), array(), array( 'width' => 50 ) )
 						. $flmm_field( 'email', flmm__( 'Email' ), array( 'type' => 'email' ), array( 'width' => 50 ) )
+						. flmm_contact_services_field()
 						. $flmm_field( 'textarea', flmm__( 'How can we help?' ), array( 'type' => 'textarea' ) )
 						. '</div><!-- /wp:jetpack/contact-form -->';
 					echo do_blocks( apply_filters( 'flmm_contact_form_markup', $flmm_form ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped

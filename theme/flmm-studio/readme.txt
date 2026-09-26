@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.0.3 =
+* Equipo en orden aleatorio por sesión, 17+ países, servicios en el formulario (selección múltiple) y enlace a Marky Digital (Agent).
 
 = 1.0.2 =
 * About rediseñado, botón y confirmación del formulario, logo del footer en línea, tags de Performance Marketing.

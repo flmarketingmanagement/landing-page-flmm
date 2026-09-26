@@ -71,6 +71,10 @@ function flmm_strings() {
 		'Opening your email…'                => 'Abriendo tu correo…',
 		'Website inquiry: '                  => 'Contacto web: ',
 		'Message sent'                       => 'Mensaje enviado',
+		'Services of interest'               => 'Servicios de interés',
+		'Select one or more services'        => 'Elige uno o más servicios',
+		'%d selected'                        => '%d seleccionados',
+		'Custom platforms'                   => 'Plataformas a medida',
 		'Thanks! We received your message and will reply soon.' => '¡Gracias! Recibimos tu mensaje y te responderemos pronto.',
 		// Servicios.
 		'Updated: %s'                        => 'Actualizado: %s',
