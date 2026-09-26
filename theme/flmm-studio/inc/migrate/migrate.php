@@ -952,6 +952,20 @@ function flmm_mig_render() {
 		<h1>Migración FLMM</h1>
 		<p>Aplica el nuevo contenido bilingüe. Cada paso se puede repetir sin duplicar nada. Úsalo primero en staging.</p>
 		<p>Requisitos: theme FLMM Studio activo, Polylang activo y, para el paso de SEO y redirecciones, Rank Math.</p>
+		<?php
+		$auto = get_option( 'flmm_mig_auto_status' );
+		if ( $auto ) {
+			printf(
+				'<p><strong>Migración automática:</strong> versión %1$s, %2$s, %3$s. Se ejecuta sola cada vez que se despliega una versión nueva del theme.</p>',
+				esc_html( $auto['version'] ),
+				esc_html( wp_date( 'Y-m-d H:i', $auto['time'] ) ),
+				$auto['errors'] ? '<span style="color:#b32d2e">' . esc_html( $auto['errors'] ) . ' errores (ver registro abajo)</span>' : 'sin errores'
+			);
+		}
+		if ( ! $log ) {
+			$log = (array) get_option( 'flmm_migration_last_log', array() );
+		}
+		?>
 		<form method="post">
 			<?php wp_nonce_field( 'flmm_mig', 'flmm_mig_nonce' ); ?>
 			<p><button class="button button-primary button-hero" name="step" value="all">Ejecutar todos los pasos</button></p>

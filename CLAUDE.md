@@ -31,6 +31,7 @@
 - Plugins relevantes: Rank Math (SEO), GTM4WP (carga GTM-N3SW2MJ4), Jetpack (formularios), WPCode (fragmento 1656 "Telegram").
 - Informes: docs/fase-0-auditoria.md, docs/fases-3-7.md, docs/fase-8-lanzamiento.md. Pendientes: docs/pendientes.md.
 - Ramas: `staging` despliega solo al sitio de staging; `main` despliega solo a producción al fusionar un PR. Trabajar en ramas y abrir PR a `main`.
+- Migración automática: cada versión nueva del theme (subir `Version` en style.css y `FLMM_VERSION`) ejecuta todos los pasos por WP-Cron al desplegar. El contenido de las páginas que crea la migración se reescribe desde el código: editarlo en el repo, no en WordPress. Se desactiva con el filtro `flmm_auto_migrate`.
 - Imágenes de la migración: si se reemplaza una, usar un nombre de archivo nuevo (la migración no vuelve a subir un archivo con el mismo nombre).
 
 ## Theme flmm-studio
