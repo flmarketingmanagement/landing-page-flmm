@@ -436,15 +436,15 @@ function flmm_mig_step_company() {
 			array( 'post_title' => $en['title'], 'post_content' => $en['content'], 'page_template' => isset( $en['template'] ) ? $en['template'] : '', 'comment_status' => 'closed' ),
 			array( 'post_title' => $es['title'], 'post_content' => $es['content'], 'page_template' => isset( $es['template'] ) ? $es['template'] : '', 'comment_status' => 'closed' )
 		);
-		if ( 'privacy-policy' === $slug ) {
+		if ( 'privacy-policy' === $slug || 'about' === $slug ) {
 			foreach ( $pair as $lang => $id ) {
-				$img = flmm_mig_image( 'privacy-policy', $lang );
+				$img = flmm_mig_image( $slug, $lang );
 				if ( $img ) {
 					set_post_thumbnail( $id, $img['id'] );
 				}
 			}
 		}
-		if ( 'about' === $slug && ! empty( $pair['en'] ) && ! empty( $pair['es'] ) ) {
+		if ( 'about' === $slug && ! flmm_mig_image( 'about', 'es' ) && ! empty( $pair['en'] ) && ! empty( $pair['es'] ) ) {
 			$thumb = get_post_thumbnail_id( $pair['en'] );
 			if ( $thumb ) {
 				set_post_thumbnail( $pair['es'], $thumb );

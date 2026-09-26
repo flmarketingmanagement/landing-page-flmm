@@ -64,6 +64,7 @@ function flmm_mig_media() {
 		'ai-assistants'         => array( 'AI assistant: scattered messages processed into organized, actionable outputs', 'Asistente de IA: mensajes dispersos procesados en resultados ordenados y accionables' ),
 		'marketing-automation'  => array( 'Marketing automation: tools like Google, Meta, Slack and Shopify connected through one hub', 'Automatización de marketing: herramientas como Google, Meta, Slack y Shopify conectadas en un solo centro' ),
 		'privacy-policy'        => array( 'Privacy policy: a shield protecting personal data', 'Política de privacidad: un escudo que protege los datos personales' ),
+		'about'                 => array( 'FL Marketing Management team: people connected to ideas, content, growth and clients around the world', 'Equipo de FL Marketing Management: personas conectadas con ideas, contenido, crecimiento y clientes en todo el mundo' ),
 		'post-metrics'          => array( 'B2B performance marketing metrics: a count to start measuring what matters, beyond CPC', 'Métricas de performance marketing B2B: un conteo para empezar a medir lo que importa, más allá del CPC' ),
 		'post-dictionary'       => array( 'AI marketing glossary: loose letters connected to organized terms and definitions', 'Glosario de marketing con IA: letras sueltas conectadas a términos y definiciones ordenadas' ),
 		'post-entropy'          => array( 'Shannon entropy in marketing: many audience segments connected into one clear signal', 'Entropía de Shannon en marketing: muchos segmentos de audiencia conectados en una señal clara' ),
@@ -452,6 +453,11 @@ function flmm_mig_about_page( $lang ) {
 			),
 			array( 'className' => 'flmm-sv-hero', 'layout' => array( 'type' => 'default' ) )
 		);
+	$image = function_exists( 'flmm_mig_image' ) ? flmm_mig_image( 'about', $lang ) : false;
+	if ( $image ) {
+		$hero .= flmm_bo( 'image', array( 'id' => (int) $image['id'], 'sizeSlug' => 'full', 'linkDestination' => 'none', 'className' => 'flmm-sv-img flmm-rv' ) )
+			. '<figure class="wp-block-image size-full flmm-sv-img flmm-rv"><img src="' . esc_url( $image['url'] ) . '" alt="' . esc_attr( $image['alt'] ) . '" class="wp-image-' . (int) $image['id'] . '"/></figure><!-- /wp:image -->';
+	}
 	$html = flmm_group( $hero, array( 'align' => 'full', 'className' => 'flmm-sv-top flmm-about-top', 'layout' => array( 'type' => 'constrained' ) ) );
 
 	// Qué hacemos.
