@@ -438,13 +438,13 @@ function flmm_mig_step_company() {
 		);
 		if ( 'privacy-policy' === $slug || 'about' === $slug ) {
 			foreach ( $pair as $lang => $id ) {
-				$img = flmm_mig_image( $slug, $lang );
+				$img = flmm_mig_image( 'about' === $slug ? 'about-team' : $slug, $lang );
 				if ( $img ) {
 					set_post_thumbnail( $id, $img['id'] );
 				}
 			}
 		}
-		if ( 'about' === $slug && ! flmm_mig_image( 'about', 'es' ) && ! empty( $pair['en'] ) && ! empty( $pair['es'] ) ) {
+		if ( 'about' === $slug && ! flmm_mig_image( 'about-team', 'es' ) && ! empty( $pair['en'] ) && ! empty( $pair['es'] ) ) {
 			$thumb = get_post_thumbnail_id( $pair['en'] );
 			if ( $thumb ) {
 				set_post_thumbnail( $pair['es'], $thumb );
