@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.2.2 =
+* Imagen para compartir en redes (Open Graph) en la home y el blog, y como imagen por defecto de Rank Math.
 
 = 1.2.1 =
 * Migración automática: al desplegar una versión nueva, WP-Cron ejecuta todos los pasos. Estado y registro en Herramientas > Migración FLMM.

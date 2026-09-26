@@ -302,6 +302,9 @@ function flmm_mig_step_media() {
 	$map = array();
 	foreach ( flmm_mig_media() as $key => $alts ) {
 		$file = $key . '-illustration.webp';
+		if ( ! file_exists( __DIR__ . '/media/' . $file ) ) {
+			$file = $key . '-illustration.jpg';
+		}
 		$en   = flmm_mig_upload( $file, $alts[0], $alts[0] );
 		if ( ! $en ) {
 			continue;
@@ -509,6 +512,15 @@ function flmm_mig_step_home() {
 	}
 	delete_transient( 'pll_languages_list' );
 	flush_rewrite_rules();
+	// Imagen para compartir en redes (Open Graph) de la home y el blog.
+	foreach ( array( $pair, $blog ) as $pages ) {
+		foreach ( $pages as $lang => $id ) {
+			$img = flmm_mig_image( 'home-share', $lang );
+			if ( $img ) {
+				set_post_thumbnail( $id, $img['id'] );
+			}
+		}
+	}
 	flmm_mig_state( 'home', array( 'home' => $pair, 'blog' => $blog ) );
 }
 
@@ -808,6 +820,12 @@ function flmm_mig_step_seo() {
 			'social_additional_profiles'    => flmm_option( 'linkedin' ) . "\n" . flmm_option( 'instagram' ),
 		)
 	);
+	// Imagen por defecto para compartir en redes (páginas sin imagen propia).
+	$share = flmm_mig_image( 'home-share', 'en' );
+	if ( $share ) {
+		$titles['open_graph_image']    = $share['url'];
+		$titles['open_graph_image_id'] = $share['id'];
+	}
 	update_option( 'rank-math-options-titles', $titles );
 	$general                = (array) get_option( 'rank-math-options-general', array() );
 	$general['breadcrumbs'] = 'on';
