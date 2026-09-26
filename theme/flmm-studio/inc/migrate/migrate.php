@@ -770,6 +770,16 @@ function flmm_mig_step_seo() {
 			}
 		}
 	}
+	foreach ( flmm_mig_category_descriptions() as $key => $by_lang ) {
+		$cat = flmm_mig_category( $key );
+		foreach ( $by_lang as $lang => $desc ) {
+			if ( empty( $cat[ $lang ] ) ) {
+				continue;
+			}
+			wp_update_term( $cat[ $lang ], 'category', array( 'description' => $desc ) );
+			update_term_meta( $cat[ $lang ], 'rank_math_description', $desc );
+		}
+	}
 	// Ajustes generales: organización, artículo como BlogPosting y migas de pan en el schema.
 	$titles = (array) get_option( 'rank-math-options-titles', array() );
 	$titles = array_merge(
@@ -787,7 +797,7 @@ function flmm_mig_step_seo() {
 	$general                = (array) get_option( 'rank-math-options-general', array() );
 	$general['breadcrumbs'] = 'on';
 	update_option( 'rank-math-options-general', $general );
-	flmm_mig_log( 'Rank Math: títulos, descripciones, keyword e imagen OG por página; organización, BlogPosting y migas de pan configurados.' );
+	flmm_mig_log( 'Rank Math: títulos, descripciones, keyword e imagen OG por página; descripción de categorías; organización, BlogPosting y migas de pan configurados.' );
 }
 
 /**

@@ -148,6 +148,26 @@ function flmm_mig_categories() {
 }
 
 /**
+ * Descripción de cada categoría (se muestra en el archivo y es la meta description): clave => EN, ES.
+ */
+function flmm_mig_category_descriptions() {
+	return array(
+		'performance' => array(
+			'en' => 'Articles on B2B and B2C performance marketing: paid media, metrics beyond CPC, attribution and how AI changes campaign optimization and budget decisions.',
+			'es' => 'Artículos sobre performance marketing B2B y B2C: medios pagados, métricas más allá del CPC, atribución y cómo la IA cambia la optimización de campañas.',
+		),
+		'aeo'         => array(
+			'en' => 'Articles on AEO (answer engine optimization): how to get your brand cited by ChatGPT, Gemini and Perplexity, and how it works together with classic SEO.',
+			'es' => 'Artículos sobre AEO (optimización para motores de respuesta): cómo lograr que ChatGPT, Gemini y Perplexity citen tu marca y cómo se combina con el SEO.',
+		),
+		'ai'          => array(
+			'en' => 'Articles on artificial intelligence in marketing: key terms, LLMs, automation and practical ways to use AI in strategy, content and paid media campaigns.',
+			'es' => 'Artículos sobre inteligencia artificial en marketing: términos clave, LLM, automatización y formas prácticas de usar la IA en estrategia, contenido y medios.',
+		),
+	);
+}
+
+/**
  * Autor: datos del perfil.
  */
 function flmm_mig_author() {

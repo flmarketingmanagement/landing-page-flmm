@@ -112,7 +112,7 @@ Correcciones aplicadas durante la QA: título duplicado con Rank Math, alineaci�
 | /llms.txt | Responde 200 con servicios en EN y ES |
 
 Observaciones:
-- Las 6 páginas de categoría (EN y ES) no tienen meta description.
-- Los artículos muestran los botones de compartir y "Me gusta" de Jetpack.
-- En la página se inyecta un chat de n8n (cdn.jsdelivr.net/npm/@n8n/chat) que no viene del theme; probablemente de GTM o de un fragmento. Confirmar si se mantiene.
+- Las 6 páginas de categoría no tenían meta description: se agregaron en la migración (paso 10, theme 1.0.7).
+- Los artículos muestran los botones de compartir y "Me gusta" de Jetpack: se mantienen.
+- En la página se inyecta un chat de n8n (cdn.jsdelivr.net/npm/@n8n/chat) que no viene del theme; probablemente de GTM o de un fragmento. Lo agregó el dueño: se mantiene.
 - Los errores de consola vistos en la QA venían del límite de peticiones de WP.com (429) durante las pruebas, no del sitio.

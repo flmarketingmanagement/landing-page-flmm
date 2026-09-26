@@ -26,7 +26,7 @@ Instalar el theme en producción y ejecutar allí la misma migración que en sta
    - Desactivar y eliminar Elementor y su "Kit por defecto".
    - Desactivar Superb Addons y Layout Grid (no los usa el nuevo contenido).
    - Borrar las plantillas personalizadas del theme anterior (Idea Flow).
-   - Decidir qué hacer con el fragmento de WPCode "Telegram" (1656).
+   - Desactivar el fragmento de WPCode "Telegram" (1656). El chat de n8n se mantiene.
 9. **Search Console:** enviar /sitemap_index.xml y pedir la indexación de home (EN y ES), los 10 servicios y los 3 artículos.
 10. **Después del lanzamiento:** quitar la herramienta de migración del theme (`inc/migrate/`) en una versión nueva.
 
