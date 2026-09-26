@@ -23,3 +23,14 @@
 - Contacto: formulario corto + "Envíame un mail" + Telegram (t.me/aleloveeee). Email: hello@flmarketingmanagement.com.
 - Equipo en carrusel. Felipe Ríos Barraza figura como advisor.
 - Las URLs de servicios existentes se mantienen para no perder posicionamiento.
+
+## Sitio y entornos
+- Producción: flmarketingmanagement.com (blog ID 226031076). Staging: staging-a94a-flmarketingmanagement.wpcomstaging.com (blog ID 257600917).
+- Trabajar siempre en staging; producción solo con aprobación explícita.
+- Plugins relevantes: Rank Math (SEO), GTM4WP (carga GTM-N3SW2MJ4), Jetpack (formularios), WPCode (fragmento 1656 "Telegram").
+- Informe de la fase 0: docs/fase-0-auditoria.md.
+
+## Theme flmm-studio
+- Textos visibles del theme: usar `flmm__( 'Texto en inglés' )` y agregar la traducción en `inc/i18n.php`.
+- Secciones nuevas: agregar un constructor en `inc/patterns.php` (recibe idioma y datos) y registrarlo en `flmm_pattern_list()`.
+- Al subir imágenes, usar nombres que no coincidan con slugs de páginas (por ejemplo `consulting-illustration.webp`): un adjunto con el slug `consulting` le quita la URL a la página.

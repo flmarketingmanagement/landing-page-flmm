@@ -1,0 +1,275 @@
+{
+ "slug": "consulting",
+ "n": "01",
+ "name": {
+  "es": "Estrategia de marketing",
+  "en": "Marketing strategy"
+ },
+ "title": {
+  "es": "Consultoría y estrategia de marketing digital | FL Marketing",
+  "en": "Digital Marketing Strategy & Consulting | FL Marketing"
+ },
+ "desc": {
+  "es": "Consultoría de marketing digital para definir objetivos, canales y presupuesto con metas medibles. Estrategia senior para marcas en EE. UU. y Latinoamérica.",
+  "en": "Digital marketing consulting to define goals, channels and budget with measurable targets. Senior strategy for growing brands in the US and Latin America."
+ },
+ "h1": {
+  "es": "Estrategia y consultoría de marketing digital",
+  "en": "Digital marketing strategy &amp; consulting"
+ },
+ "lead": {
+  "es": "La consultoría de marketing digital define qué hacer, en qué canales y con qué presupuesto para que tu marca crezca de forma medible. Analizamos tu situación actual, detectamos oportunidades y construimos un plan con metas claras por etapa, que tu equipo o el nuestro puede ejecutar.",
+  "en": "Digital marketing consulting defines what to do, on which channels and with what budget so your brand grows in a measurable way. We analyze your current situation, find opportunities and build a plan with clear targets for each stage, ready for your team or ours to execute."
+ },
+ "inc": [
+  {
+   "title": {
+    "es": "Diagnóstico de marketing",
+    "en": "Marketing audit"
+   },
+   "text": {
+    "es": "Revisión de cuentas, canales, datos y competencia.",
+    "en": "Review of accounts, channels, data and competitors."
+   }
+  },
+  {
+   "title": {
+    "es": "Plan estratégico",
+    "en": "Strategic plan"
+   },
+   "text": {
+    "es": "Objetivos, canales, mensajes y presupuesto por etapa.",
+    "en": "Goals, channels, messaging and budget by stage."
+   }
+  },
+  {
+   "title": {
+    "es": "Definición de KPIs",
+    "en": "KPI framework"
+   },
+   "text": {
+    "es": "Métricas conectadas a ventas, no a vanidad.",
+    "en": "Metrics tied to revenue, not vanity."
+   }
+  },
+  {
+   "title": {
+    "es": "Acompañamiento",
+    "en": "Ongoing advisory"
+   },
+   "text": {
+    "es": "Sesiones periódicas para revisar avances y ajustar.",
+    "en": "Regular sessions to review progress and adjust."
+   }
+  }
+ ],
+ "who": [
+  {
+   "es": "Marcas que invierten en marketing sin una estrategia clara.",
+   "en": "Brands investing in marketing without a clear strategy."
+  },
+  {
+   "es": "Equipos internos que necesitan dirección senior.",
+   "en": "In-house teams that need senior direction."
+  },
+  {
+   "es": "Empresas que entran a un nuevo mercado o canal.",
+   "en": "Companies entering a new market or channel."
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "es": "¿Qué incluye una consultoría de marketing digital?",
+    "en": "What does digital marketing consulting include?"
+   },
+   "a": {
+    "es": "Incluye un diagnóstico de tus canales, datos y competencia; un plan estratégico con objetivos, canales, mensajes y presupuesto; la definición de KPIs conectados a ventas y sesiones de seguimiento. El resultado es una hoja de ruta concreta que tu equipo puede ejecutar o que podemos ejecutar nosotros.",
+    "en": "It includes an audit of your channels, data and competitors; a strategic plan with goals, channels, messaging and budget; a KPI framework tied to revenue; and follow-up sessions. The result is a concrete roadmap that your team can execute, or that we can execute for you from start to finish."
+   }
+  },
+  {
+   "q": {
+    "es": "¿Cuánto dura una consultoría?",
+    "en": "How long does a consulting engagement take?"
+   },
+   "a": {
+    "es": "El diagnóstico y el plan inicial suelen tomar entre dos y cuatro semanas, según el tamaño de la cuenta y la cantidad de canales. Después, el acompañamiento puede ser mensual o por proyecto, dependiendo de la madurez de tu equipo y de los objetivos del negocio.",
+    "en": "The audit and initial plan usually take two to four weeks, depending on account size and the number of channels involved. After that, advisory can be monthly or per project, depending on your team’s maturity and your business goals for the following months."
+   }
+  },
+  {
+   "q": {
+    "es": "¿Trabajan con equipos internos?",
+    "en": "Do you work with in-house teams?"
+   },
+   "a": {
+    "es": "Sí. Podemos liderar la estrategia y dejar la ejecución a tu equipo, trabajar en conjunto o hacernos cargo de todo. En cualquier caso, documentamos las decisiones y compartimos el conocimiento para que tu equipo gane claridad y autonomía, no dependencia de la agencia.",
+    "en": "Yes. We can lead strategy and leave execution to your team, work side by side, or take care of everything. In every case, we document decisions and share knowledge so your team gains clarity and autonomy instead of becoming dependent on the agency."
+   }
+  },
+  {
+   "q": {
+    "es": "¿Cuándo conviene contratar una consultoría?",
+    "en": "When should I hire a marketing consultant?"
+   },
+   "a": {
+    "es": "Conviene cuando inviertes en marketing pero no sabes qué canales generan ventas, cuando vas a entrar a un nuevo mercado o canal, o cuando tu equipo necesita dirección senior. Un diagnóstico externo suele revelar oportunidades y gastos innecesarios que desde dentro cuesta ver.",
+    "en": "It makes sense when you invest in marketing but don’t know which channels drive sales, when you are entering a new market or channel, or when your team needs senior direction. An outside audit usually reveals opportunities and wasted spend that are hard to see from the inside."
+   }
+  }
+ ],
+ "cmp": {
+  "title": {
+   "es": "¿Consultoría o agencia de ejecución?",
+   "en": "Consulting or execution agency?"
+  },
+  "col1": {
+   "es": "Consultoría",
+   "en": "Consulting"
+  },
+  "col2": {
+   "es": "Agencia de ejecución",
+   "en": "Execution agency"
+  },
+  "rows": [
+   {
+    "label": {
+     "es": "Qué entrega",
+     "en": "What you get"
+    },
+    "c1": {
+     "es": "Diagnóstico, plan y dirección estratégica",
+     "en": "Audit, plan and strategic direction"
+    },
+    "c2": {
+     "es": "Campañas y piezas en funcionamiento",
+     "en": "Live campaigns and assets"
+    }
+   },
+   {
+    "label": {
+     "es": "Quién ejecuta",
+     "en": "Who executes"
+    },
+    "c1": {
+     "es": "Tu equipo, con nuestro acompañamiento",
+     "en": "Your team, with our guidance"
+    },
+    "c2": {
+     "es": "La agencia",
+     "en": "The agency"
+    }
+   },
+   {
+    "label": {
+     "es": "Ideal para",
+     "en": "Best for"
+    },
+    "c1": {
+     "es": "Equipos internos que necesitan dirección",
+     "en": "In-house teams that need direction"
+    },
+    "c2": {
+     "es": "Empresas sin equipo de marketing",
+     "en": "Companies without a marketing team"
+    }
+   },
+   {
+    "label": {
+     "es": "Duración",
+     "en": "Duration"
+    },
+    "c1": {
+     "es": "Semanas o acompañamiento mensual",
+     "en": "Weeks or monthly advisory"
+    },
+    "c2": {
+     "es": "Contrato continuo",
+     "en": "Ongoing contract"
+    }
+   }
+  ]
+ },
+ "defs": [
+  {
+   "term": {
+    "es": "Plan de marketing",
+    "en": "Marketing plan"
+   },
+   "def": {
+    "es": "Documento que define objetivos, audiencias, canales, mensajes y presupuesto para un período concreto.",
+    "en": "A document that sets goals, audiences, channels, messaging and budget for a specific period."
+   }
+  },
+  {
+   "term": {
+    "es": "KPI",
+    "en": "KPI"
+   },
+   "def": {
+    "es": "Indicador clave de desempeño: la métrica que muestra si una estrategia cumple su objetivo, como ventas o costo por cliente.",
+    "en": "Key performance indicator: the metric that shows whether a strategy meets its goal, such as sales or cost per customer."
+   }
+  },
+  {
+   "term": {
+    "es": "Mix de canales",
+    "en": "Channel mix"
+   },
+   "def": {
+    "es": "Combinación de canales (buscadores, redes, email, contenido) y el peso de cada uno en el presupuesto.",
+    "en": "The combination of channels (search, social, email, content) and the share of budget each one receives."
+   }
+  }
+ ],
+ "ref": null,
+ "headings": {
+  "inc": {
+   "es": "¿Qué incluye nuestro servicio de estrategia de marketing?",
+   "en": "What’s included in our marketing strategy service?"
+  },
+  "defs": {
+   "es": "Conceptos clave de estrategia de marketing",
+   "en": "Marketing strategy: key concepts"
+  },
+  "method": {
+   "es": "¿Cómo funciona nuestro proceso de estrategia de marketing?",
+   "en": "How does our marketing strategy process work?"
+  },
+  "who": {
+   "es": "¿Para quién es el servicio de estrategia de marketing?",
+   "en": "Who is our marketing strategy service for?"
+  },
+  "why": {
+   "es": "¿Por qué elegirnos para estrategia de marketing?",
+   "en": "Why choose us for marketing strategy?"
+  },
+  "faq": {
+   "es": "Preguntas frecuentes sobre estrategia de marketing",
+   "en": "Marketing strategy FAQ"
+  }
+ },
+ "testi": "carol",
+ "team": [
+  "Alejandro Lovera",
+  "Nicole Arancibia",
+  "Felipe Ríos Barraza"
+ ],
+ "rel": [
+  "performance-marketing",
+  "analytics",
+  "growth-hacking"
+ ],
+ "testimonial": {
+  "quote": {
+   "es": "«Trabajar con ustedes ha tenido un impacto real en nuestra agencia. Su enfoque estratégico y su apoyo constante mejoraron significativamente cómo gestionamos marcas de vino en cinco países.»",
+   "en": "“Working with you has been truly impactful for our agency. Your strategic approach and consistent support have significantly improved how we manage wine brands across five countries.”"
+  },
+  "name": "Carol Sánchez",
+  "role": {
+   "es": "Directora general, Gig",
+   "en": "Managing Director, Gig"
+  }
+ }
+}
