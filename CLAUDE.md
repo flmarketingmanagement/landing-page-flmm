@@ -28,9 +28,14 @@
 - Producción: flmarketingmanagement.com (blog ID 226031076). Staging: staging-a94a-flmarketingmanagement.wpcomstaging.com (blog ID 257600917).
 - Trabajar siempre en staging; producción solo con aprobación explícita.
 - Plugins relevantes: Rank Math (SEO), GTM4WP (carga GTM-N3SW2MJ4), Jetpack (formularios), WPCode (fragmento 1656 "Telegram").
-- Informe de la fase 0: docs/fase-0-auditoria.md.
+- Informes: docs/fase-0-auditoria.md, docs/fases-3-7.md, docs/fase-8-lanzamiento.md. Pendientes: docs/pendientes.md.
+- Ramas: `staging` despliega solo al sitio de staging; `main` se despliega a producción a mano.
 
 ## Theme flmm-studio
 - Textos visibles del theme: usar `flmm__( 'Texto en inglés' )` y agregar la traducción en `inc/i18n.php`.
 - Secciones nuevas: agregar un constructor en `inc/patterns.php` (recibe idioma y datos) y registrarlo en `flmm_pattern_list()`.
 - Al subir imágenes, usar nombres que no coincidan con slugs de páginas (por ejemplo `consulting-illustration.webp`): un adjunto con el slug `consulting` le quita la URL a la página.
+- URLs en español: slugs propios (Polylang gratis no comparte slugs). Mapa en `inc/migrate/data.php` (`flmm_mig_es_slugs()`).
+- Polylang 3.7+ guarda sus opciones al final de la petición: cambiarlas con `PLL()->options->set()`, no con `update_option()`.
+- El theme no declara `title-tag`: el título lo pone la plantilla de bloques con el filtro de Rank Math (si no, sale duplicado).
+- Schema: Rank Math emite Organization, WebSite, WebPage, BreadcrumbList, BlogPosting y Person; el theme solo Service y FAQPage.

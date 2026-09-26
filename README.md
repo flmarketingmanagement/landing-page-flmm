@@ -79,7 +79,7 @@ El workflow `.github/workflows/wpcom.yml` valida el theme (sintaxis PHP, JSON, a
 
 | Entorno | Sitio | Rama | Despliegue |
 |---|---|---|---|
-| Staging | staging-a94a-flmarketingmanagement.wpcomstaging.com | `main` | Automático en cada push que cambie el theme |
+| Staging | staging-a94a-flmarketingmanagement.wpcomstaging.com | `staging` | Automático en cada push que cambie el theme |
 | Producción | flmarketingmanagement.com | `main` | Manual, solo con aprobación |
 
 ### Conectar el repositorio (una vez por sitio)
@@ -87,7 +87,7 @@ El workflow `.github/workflows/wpcom.yml` valida el theme (sintaxis PHP, JSON, a
 1. En wordpress.com/sites abre el sitio (primero **staging**) y entra en **Configuración del servidor** o **Alojamiento** > **GitHub Deployments** (Despliegues de GitHub).
 2. Haz clic en **Conectar repositorio** y autoriza la app de WordPress.com en GitHub para `flmarketingmanagement/landing-page-flmm`.
 3. Completa:
-   - **Rama:** `main`
+   - **Rama:** `staging` en el sitio de staging, `main` en producción
    - **Directorio de destino:** `/wp-content/themes/flmm-studio`
    - **Despliegues automáticos:** activado en staging, desactivado en producción
    - **Modo de despliegue:** Avanzado, con el workflow `.github/workflows/wpcom.yml`
@@ -96,14 +96,39 @@ El workflow `.github/workflows/wpcom.yml` valida el theme (sintaxis PHP, JSON, a
 
 ### Flujo de trabajo
 
-1. Los cambios se hacen en una rama (`feature/...`) y se revisan en un pull request.
-2. Al fusionar en `main`, GitHub Actions valida el theme y WordPress.com lo despliega en staging.
-3. Tras revisar staging, el despliegue a producción se lanza a mano desde GitHub Deployments en el sitio de producción.
+1. Los cambios se hacen en una rama (`feature/...`).
+2. Para probarlos, se llevan a la rama `staging`: GitHub Actions valida el theme y WordPress.com lo despliega en staging.
+3. Tras revisar staging, se abre un pull request a `main`. Al fusionarlo, el despliegue a producción se lanza a mano desde GitHub Deployments.
 
 Si una validación falla, el workflow no genera el artefacto y no se despliega nada. El historial queda en la pestaña Actions de GitHub y en el registro de despliegues de WordPress.com.
 
+## Contenido y migración
+
+- El contenido vive en WordPress, una página por idioma enlazada en Polylang (EN sin prefijo, ES en `/es/` con slugs en español).
+- **Herramientas > Migración FLMM** (en `theme/flmm-studio/inc/migrate/`) aplica el contenido nuevo en once pasos repetibles: idiomas, imágenes, servicios, páginas de empresa, home, blog, autor, menús, SEO de Rank Math y redirecciones. Se quita del theme después del lanzamiento.
+- Los textos de servicios salen de `src/services_data.py` y `src/services_extra.py` (exportados a `src/content.json` con `python3 src/export_content.py`). Los de las páginas de empresa están en `inc/migrate/data.php`.
+
+### Cómo editar contenido
+
+- **Páginas y servicios:** se editan en el editor de bloques. Cada sección es un grupo con bloques core (títulos, párrafos, tablas, bloques Detalles para la FAQ). Para agregar una sección, usa el insertor de patrones: categorías "FLMM: Home", "FLMM: Servicio" y "FLMM: Artículo", cada patrón en EN y ES.
+- **Traducciones:** en la lista de páginas, la columna de Polylang enlaza cada página con su traducción.
+- **Menús:** Apariencia > Menús, un menú por idioma para Header, Footer navegación y Footer empresa.
+- **Textos del header, footer y contacto:** Idiomas > Traducciones (grupo FLMM Studio).
+- **Email, Telegram, redes, GTM y schema:** Apariencia > FLMM Studio.
+- **Autor:** Usuarios > Perfil, sección FLMM Studio (cargo y biografía en español, LinkedIn y foto).
+- **SEO:** Rank Math en cada página (título, descripción e imagen OG).
+
+## Documentación
+
+- `docs/fase-0-auditoria.md`: auditoría y redirecciones.
+- `docs/fase-1/`: capturas comparativas diseño vs theme.
+- `docs/fases-3-7.md`: migración, formulario, SEO y QA.
+- `docs/fase-8-lanzamiento.md`: checklist de lanzamiento.
+- `docs/pendientes.md`: datos y decisiones por confirmar.
+
 ## Próximos pasos
 
-1. Fase 3: activar el theme y Polylang en staging (`staging-a94a-flmarketingmanagement.wpcomstaging.com`).
+1. Conectar GitHub Deployments en staging, activar el theme y ejecutar la migración (ver `docs/fases-3-7.md`).
+2. Lanzamiento con aprobación (ver `docs/fase-8-lanzamiento.md`).
 
 El contenido de las páginas vive en WordPress (base de datos); el repositorio guarda el código del theme y el diseño.
