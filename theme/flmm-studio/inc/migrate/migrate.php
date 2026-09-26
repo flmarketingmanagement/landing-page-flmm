@@ -12,6 +12,7 @@ defined( 'ABSPATH' ) || exit;
 
 require_once __DIR__ . '/data.php';
 require_once __DIR__ . '/local.php';
+require_once __DIR__ . '/complianz.php';
 
 /**
  * Pasos disponibles: clave => array( título, función ).
@@ -26,6 +27,7 @@ function flmm_mig_steps() {
 		'home'      => array( '6. Home y blog (portada, página de entradas)', 'flmm_mig_step_home' ),
 		'posts'     => array( '7. Blog: idiomas, pares EN/ES, categorías y correcciones', 'flmm_mig_step_posts' ),
 		'author'    => array( '8. Autor: biografía EN y ES', 'flmm_mig_step_author' ),
+		'cookies'   => array( '8b. Banner de cookies (Complianz): textos EN/ES y política de cookies en español', 'flmm_mig_step_cookies' ),
 		'menus'     => array( '9. Menús en ambos idiomas', 'flmm_mig_step_menus' ),
 		'seo'       => array( '10. SEO (Rank Math): títulos, descripciones, imagen OG y ajustes', 'flmm_mig_step_seo' ),
 		'redirects' => array( '11. Redirecciones 301 y páginas antiguas a borrador', 'flmm_mig_step_redirects' ),
@@ -712,6 +714,10 @@ function flmm_mig_step_menus() {
 		'en' => array( 'Services', 'Platforms', 'Method', 'Team', 'Blog', 'Contact', 'About us', 'Privacy Policy' ),
 		'es' => array( 'Servicios', 'Plataformas', 'Método', 'Equipo', 'Blog', 'Contacto', 'Sobre nosotros', 'Política de privacidad' ),
 	);
+	$cookies     = (array) flmm_mig_state( 'cookies' );
+	$cookie_item = static function ( $lang ) use ( $cookies ) {
+		return empty( $cookies[ $lang ] ) ? array() : array( array( 'es' === $lang ? 'Política de cookies' : 'Cookie Policy', (int) $cookies[ $lang ] ) );
+	};
 	$locations = array();
 	foreach ( array( 'en', 'es' ) as $lang ) {
 		$l    = $labels[ $lang ];
@@ -722,7 +728,7 @@ function flmm_mig_step_menus() {
 		};
 		$locations['primary'][ $lang ]        = flmm_mig_menu( 'Header (' . strtoupper( $lang ) . ')', array( array( $l[0], $base . '#services' ), array( $l[1], $base . '#platforms' ), array( $l[3], $base . '#team' ), array( $l[4], $blog ), array( $l[5], '#contact' ) ) );
 		$locations['footer-nav'][ $lang ]     = flmm_mig_menu( 'Footer navegación (' . strtoupper( $lang ) . ')', array( array( $l[0], $base . '#services' ), array( $l[1], $base . '#platforms' ), array( $l[2], $base . '#method' ), array( $l[3], $base . '#team' ), array( $l[4], $blog ) ) );
-		$locations['footer-company'][ $lang ] = flmm_mig_menu( 'Footer empresa (' . strtoupper( $lang ) . ')', array( array( $l[6], $page( 'about' ) ), array( 'Digitales Sin Fronteras', $page( 'digitales-sin-fronteras' ) ), array( 'Marketing Today Podcast', $page( 'podcast' ) ), array( $l[7], $page( 'privacy-policy' ) ), array( 'es' === $lang ? 'Marketing en Florida' : 'Marketing in Florida', $page( 'marketing-agency-florida' ) ), array( 'Lakeland', $page( 'digital-marketing-lakeland' ) ) ) );
+		$locations['footer-company'][ $lang ] = flmm_mig_menu( 'Footer empresa (' . strtoupper( $lang ) . ')', array_merge( array( array( $l[6], $page( 'about' ) ), array( 'Digitales Sin Fronteras', $page( 'digitales-sin-fronteras' ) ), array( 'Marketing Today Podcast', $page( 'podcast' ) ), array( $l[7], $page( 'privacy-policy' ) ), array( 'es' === $lang ? 'Marketing en Florida' : 'Marketing in Florida', $page( 'marketing-agency-florida' ) ), array( 'Lakeland', $page( 'digital-marketing-lakeland' ) ) ), $cookie_item( $lang ) ) );
 	}
 	$nav_menus                      = (array) flmm_mig_pll_get( 'nav_menus' );
 	$nav_menus[ get_stylesheet() ] = $locations;
