@@ -876,10 +876,16 @@ function flmm_mig_run( $keys ) {
 	$GLOBALS['flmm_mig_log'] = array();
 	$steps                   = flmm_mig_steps();
 	foreach ( $keys as $key ) {
-		if ( isset( $steps[ $key ] ) ) {
-			flmm_mig_log( $steps[ $key ][0], 'step' );
-			call_user_func( $steps[ $key ][1] );
+		if ( ! isset( $steps[ $key ] ) ) {
+			continue;
 		}
+		flmm_mig_log( $steps[ $key ][0], 'step' );
+		// Todos los pasos salvo el de idiomas necesitan Polylang activo y con EN y ES creados.
+		if ( 'languages' !== $key && ! flmm_mig_has_pll() ) {
+			flmm_mig_log( 'Polylang no está activo o faltan los idiomas EN y ES. Activa Polylang y ejecuta de nuevo todos los pasos.', 'error' );
+			break;
+		}
+		call_user_func( $steps[ $key ][1] );
 	}
 	// Al final: caché de idiomas de Polylang, reglas de URL y caché de llms.txt.
 	if ( function_exists( 'PLL' ) && method_exists( PLL()->model, 'clean_languages_cache' ) ) {
