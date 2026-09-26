@@ -17,7 +17,7 @@ Datos o decisiones que no se inventaron y hay que confirmar.
 
 ## Decisiones
 
-11. **Bot de Telegram:** decidido. Se quita el botón flotante (desactivar el fragmento 1656 de WPCode en staging y producción) y se enlaza "Marky Digital (Agent)" en la columna Contacto del footer. Falta el enlace del agente (Apariencia > FLMM Studio).
+11. **Bot de Telegram:** decidido. Se quita el botón flotante (desactivar el fragmento 1656 de WPCode en staging y producción) y se enlaza "Marky Digital (Agent)" en la columna Contacto del footer. Enlace: https://t.me/marky_digital_bot?start=web. Fragmento desactivado en staging; falta desactivarlo en producción.
 12. **Copia del formulario:** el formulario anterior enviaba copia a un Gmail personal. El nuevo solo envía a hello@flmarketingmanagement.com. Confirmar si se agrega la copia.
 13. **Idea Flow y plugins viejos:** confirmar la limpieza de la fase 8 (Elementor, Superb Addons, Layout Grid).
 14. **Correos del formulario en spam:** en staging salen desde un dominio de pruebas (wpcomstaging.com), lo que suele mandarlos a spam. Revisar de nuevo en producción; si siguen llegando a spam, revisar los registros SPF y DKIM del dominio con el proveedor de correo.

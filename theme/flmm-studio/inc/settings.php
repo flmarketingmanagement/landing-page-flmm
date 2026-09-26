@@ -17,7 +17,7 @@ function flmm_default_options() {
 		'schema_mode' => 'auto',
 		'email'       => 'hello@flmarketingmanagement.com',
 		'telegram'    => 'https://t.me/aleloveeee',
-		'agent_url'   => '',
+		'agent_url'   => 'https://t.me/marky_digital_bot?start=web',
 		'linkedin'    => 'https://www.linkedin.com/company/fl-marketing-management/',
 		'instagram'   => 'https://www.instagram.com/flmarketingmanagement/',
 	);
