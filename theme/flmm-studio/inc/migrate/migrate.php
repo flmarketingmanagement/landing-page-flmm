@@ -894,8 +894,28 @@ function flmm_mig_run( $keys ) {
 	delete_transient( 'pll_languages_list' );
 	delete_transient( 'flmm_llms_txt' );
 	flush_rewrite_rules();
+	// Polylang puede volver a guardar su caché de idiomas en esta misma petición con datos a medias
+	// (por ejemplo, sin la portada en español). Se vuelve a limpiar en la siguiente petición.
+	update_option( 'flmm_mig_clean_pll', 1, false );
 	return $GLOBALS['flmm_mig_log'];
 }
+
+/**
+ * Limpia la caché de idiomas de Polylang en la petición siguiente a una migración.
+ */
+function flmm_mig_deferred_clean() {
+	if ( ! get_option( 'flmm_mig_clean_pll' ) || ( defined( 'DOING_AJAX' ) && DOING_AJAX ) ) {
+		return;
+	}
+	delete_option( 'flmm_mig_clean_pll' );
+	if ( function_exists( 'PLL' ) && method_exists( PLL()->model, 'clean_languages_cache' ) ) {
+		PLL()->model->clean_languages_cache();
+	}
+	delete_transient( 'pll_languages_list' );
+	delete_transient( 'flmm_llms_txt' );
+	flush_rewrite_rules();
+}
+add_action( 'admin_init', 'flmm_mig_deferred_clean', 1 );
 
 /**
  * Pinta la pantalla.
