@@ -354,6 +354,7 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 .flmm-contact .flmm-btn--ghost:hover { border-color: var(--on-dark); }
 .flmm-contact__alt { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; }
 .flmm-contact__or { font-size: 14px; color: var(--on-dark-2); margin: 0 .25rem 0 0; }
+.flmm-contact__agent { font-size: 14px; color: var(--on-dark-2); margin: .75rem 0 0; }
 
 /* Formulario (diseño y Jetpack Forms). */
 .flmm-form { margin-top: 2.75rem; max-width: 640px; }
