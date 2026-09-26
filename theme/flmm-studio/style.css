@@ -1,0 +1,17 @@
+/*
+Theme Name: FLMM Studio
+Theme URI: https://flmarketingmanagement.com/
+Author: FL Marketing Management
+Author URI: https://flmarketingmanagement.com/
+Description: Block theme de FL Marketing Management. Sobrio y neutro, bilingüe (EN/ES con Polylang), con plantillas de servicio, blog con índice lateral y patrones editables.
+Requires at least: 6.6
+Tested up to: 6.8
+Requires PHP: 7.4
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: flmm-studio
+Tags: block-patterns, full-site-editing, translation-ready, wide-blocks, editor-style, custom-menu, featured-images
+*/
+
+/* Los estilos viven en theme.json y en assets/css/theme.css. */

@@ -1,0 +1,68 @@
+# Despliegue del theme flmm-studio con GitHub Deployments de WordPress.com (modo avanzado).
+#
+# WordPress.com ejecuta este workflow y despliega el artefacto "wpcom" en el directorio
+# configurado en la conexión: /wp-content/themes/flmm-studio
+#   - Staging: despliegue automático al hacer push a la rama staging.
+#   - Producción: despliegue manual desde el panel de WordPress.com (rama main).
+# Solo se sube theme/flmm-studio. Si alguna validación falla, no hay artefacto y no se despliega nada.
+name: Publicar theme en WordPress.com
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+    paths:
+      - 'theme/flmm-studio/**'
+      - '.github/workflows/wpcom.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: wpcom-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Validar y empaquetar el theme
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Preparar PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          tools: none
+
+      - name: Revisar sintaxis PHP
+        run: |
+          find theme/flmm-studio -name '*.php' -print0 | xargs -0 -n1 php -l
+
+      - name: Revisar JSON
+        run: |
+          for f in $(find theme/flmm-studio -name '*.json'); do
+            python3 -m json.tool "$f" > /dev/null || { echo "JSON inválido: $f"; exit 1; }
+          done
+
+      - name: Revisar archivos obligatorios
+        run: |
+          for f in style.css theme.json functions.php templates/index.html; do
+            test -f "theme/flmm-studio/$f" || { echo "Falta $f"; exit 1; }
+          done
+
+      - name: Revisar que no haya raya larga en textos del theme
+        run: |
+          if grep -rn "—" theme/flmm-studio --include='*.php' --include='*.html' --include='*.json' --include='*.js'; then
+            echo "Hay rayas largas (—) en el theme. Reemplázalas." && exit 1
+          fi
+
+      - name: Subir el artefacto para WordPress.com
+        uses: actions/upload-artifact@v4
+        with:
+          # WordPress.com busca un artefacto con este nombre exacto.
+          name: wpcom
+          # Al subir una sola carpeta, su contenido queda en la raíz del artefacto.
+          path: theme/flmm-studio
+          include-hidden-files: false
+          retention-days: 1

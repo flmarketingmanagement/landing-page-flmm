@@ -1,0 +1,756 @@
+{
+ "hero": {
+  "title": {
+   "es": "El marketing cambió.",
+   "en": "Marketing changed."
+  },
+  "soft": {
+   "es": "Nosotros también.",
+   "en": "So did we."
+  },
+  "cta1": {
+   "es": "Escríbenos",
+   "en": "Get in touch"
+  },
+  "cta2": {
+   "es": "Ver servicios",
+   "en": "See services"
+  }
+ },
+ "services": {
+  "label": {
+   "es": "Servicios",
+   "en": "Services"
+  },
+  "title": {
+   "es": "Un solo equipo para todo tu marketing.",
+   "en": "One team for all your marketing."
+  },
+  "text": {
+   "es": "Estrategia, medios, contenido, tecnología y datos bajo un mismo techo. Trabajamos pocas cuentas a la vez para dedicarles atención real.",
+   "en": "Strategy, media, content, technology and data under one roof. We work with a limited number of accounts to give each one real attention."
+  },
+  "items": [
+   {
+    "slug": "consulting",
+    "name": {
+     "es": "Estrategia de marketing",
+     "en": "Marketing strategy"
+    },
+    "text": {
+     "es": "Unimos conocimiento técnico y experiencia para diseñar una estrategia integral con resultados medibles.",
+     "en": "We combine technical skills and experience to build an integrated strategy with measurable results."
+    },
+    "tags": [
+     {
+      "es": "Planificación",
+      "en": "Planning"
+     },
+     {
+      "es": "Posicionamiento",
+      "en": "Positioning"
+     }
+    ]
+   },
+   {
+    "slug": "performance-marketing",
+    "name": {
+     "es": "Performance Marketing",
+     "en": "Performance Marketing"
+    },
+    "text": {
+     "es": "Diseñamos, ejecutamos y optimizamos campañas enfocadas en crecimiento, eficiencia y ROAS.",
+     "en": "We design, run and optimize campaigns focused on growth, efficiency and ROAS."
+    },
+    "tags": [
+     {
+      "es": "Google",
+      "en": "Google"
+     },
+     {
+      "es": "Meta",
+      "en": "Meta"
+     },
+     {
+      "es": "TikTok",
+      "en": "TikTok"
+     },
+     {
+      "es": "LinkedIn",
+      "en": "LinkedIn"
+     }
+    ]
+   },
+   {
+    "slug": "seo-aeo",
+    "name": {
+     "es": "SEO + AEO",
+     "en": "SEO + AEO"
+    },
+    "text": {
+     "es": "SEO técnico y de contenido para aumentar el tráfico orgánico y la demanda.",
+     "en": "Technical and content SEO to grow organic traffic and demand."
+    },
+    "tags": [
+     {
+      "es": "Técnico",
+      "en": "Technical"
+     },
+     {
+      "es": "Contenido",
+      "en": "Content"
+     }
+    ]
+   },
+   {
+    "slug": "aeo-content",
+    "name": {
+     "es": "Contenido AEO",
+     "en": "AEO content"
+    },
+    "text": {
+     "es": "Contenido optimizado para respuestas de IA, buscadores y visibilidad en LLMs.",
+     "en": "Content optimized for AI answers, search engines and visibility in LLMs."
+    },
+    "tags": [
+     {
+      "es": "ChatGPT",
+      "en": "ChatGPT"
+     },
+     {
+      "es": "Gemini",
+      "en": "Gemini"
+     },
+     {
+      "es": "Perplexity",
+      "en": "Perplexity"
+     }
+    ]
+   },
+   {
+    "slug": "design-branding",
+    "name": {
+     "es": "Contenido creativo y multimedia",
+     "en": "Creative &amp; multimedia content"
+    },
+    "text": {
+     "es": "Creamos, diseñamos y promocionamos contenido que potencia tu comunicación.",
+     "en": "We create, design and promote content that strengthens your communication."
+    },
+    "tags": [
+     {
+      "es": "Diseño",
+      "en": "Design"
+     },
+     {
+      "es": "Video",
+      "en": "Video"
+     },
+     {
+      "es": "Redes sociales",
+      "en": "Social media"
+     }
+    ]
+   },
+   {
+    "slug": "website",
+    "name": {
+     "es": "E-commerce y sitios web",
+     "en": "E-commerce &amp; websites"
+    },
+    "text": {
+     "es": "Sitios de alta conversión, pensados para velocidad, UX y rendimiento.",
+     "en": "High-converting websites built for speed, UX and performance."
+    },
+    "tags": [
+     {
+      "es": "Shopify",
+      "en": "Shopify"
+     },
+     {
+      "es": "Wix",
+      "en": "Wix"
+     },
+     {
+      "es": "WordPress",
+      "en": "WordPress"
+     }
+    ]
+   },
+   {
+    "slug": "growth-hacking",
+    "name": {
+     "es": "Growth Hacking",
+     "en": "Growth Hacking"
+    },
+    "text": {
+     "es": "Estrategias de adquisición y retención basadas en datos y experimentación constante.",
+     "en": "Acquisition and retention strategies driven by data and constant experimentation."
+    },
+    "tags": [
+     {
+      "es": "Experimentos",
+      "en": "Experiments"
+     },
+     {
+      "es": "Retención",
+      "en": "Retention"
+     }
+    ]
+   },
+   {
+    "slug": "analytics",
+    "name": {
+     "es": "Analítica e insights",
+     "en": "Analytics &amp; insights"
+    },
+    "text": {
+     "es": "Recolectamos y analizamos datos para medir cada acción y decidir mejor.",
+     "en": "We collect and analyze data to measure every action and make better decisions."
+    },
+    "tags": [
+     {
+      "es": "GA4",
+      "en": "GA4"
+     },
+     {
+      "es": "GTM",
+      "en": "GTM"
+     },
+     {
+      "es": "Dashboards",
+      "en": "Dashboards"
+     }
+    ]
+   },
+   {
+    "slug": "ai-assistants",
+    "name": {
+     "es": "Asistentes de IA",
+     "en": "AI assistants"
+    },
+    "text": {
+     "es": "Agentes de IA a medida que automatizan tareas, apoyan equipos y escalan operaciones.",
+     "en": "Custom AI agents that automate tasks, support teams and scale operations."
+    },
+    "tags": [
+     {
+      "es": "Agentes",
+      "en": "Agents"
+     },
+     {
+      "es": "Integraciones",
+      "en": "Integrations"
+     }
+    ]
+   },
+   {
+    "slug": "marketing-automation",
+    "name": {
+     "es": "Automatización y Martech",
+     "en": "Automation &amp; Martech"
+    },
+    "text": {
+     "es": "Implementamos plataformas para gestionar contactos y automatizar procesos clave.",
+     "en": "We implement platforms to manage contacts and automate key processes."
+    },
+    "tags": [
+     {
+      "es": "CRM",
+      "en": "CRM"
+     },
+     {
+      "es": "Email",
+      "en": "Email"
+     },
+     {
+      "es": "Automatización",
+      "en": "Automation"
+     }
+    ]
+   }
+  ]
+ },
+ "platforms": {
+  "label": {
+   "es": "Plataformas a medida",
+   "en": "Custom platforms"
+  },
+  "title": {
+   "es": "También construimos software.",
+   "en": "We also build software."
+  },
+  "text": {
+   "es": "Cuando una herramienta existente no alcanza, diseñamos y desarrollamos la plataforma que tu negocio necesita, de la idea al lanzamiento.",
+   "en": "When off-the-shelf tools fall short, we design and build the platform your business needs, from idea to launch."
+  },
+  "items": [
+   {
+    "n": {
+     "es": "Caso 01",
+     "en": "Case 01"
+    },
+    "name": {
+     "es": "Zircca",
+     "en": "Zircca"
+    },
+    "text": {
+     "es": "Software SaaS de gestión de casos para laboratorios dentales.",
+     "en": "SaaS case management software for dental labs."
+    },
+    "tags": [
+     {
+      "es": "SaaS",
+      "en": "SaaS"
+     },
+     {
+      "es": "Web app",
+      "en": "Web app"
+     }
+    ],
+    "url": "https://zircca.com",
+    "link": {
+     "es": "zircca.com",
+     "en": "zircca.com"
+    }
+   },
+   {
+    "n": {
+     "es": "Caso 02",
+     "en": "Case 02"
+    },
+    "name": {
+     "es": "Guilietta",
+     "en": "Guilietta"
+    },
+    "text": {
+     "es": "Plataforma de seguridad personal para mujeres: viaje seguro con alertas automáticas y análisis de conversaciones con IA.",
+     "en": "Personal safety platform for women: safe travel with automatic alerts and AI conversation analysis."
+    },
+    "tags": [
+     {
+      "es": "Web",
+      "en": "Web"
+     },
+     {
+      "es": "iOS",
+      "en": "iOS"
+     },
+     {
+      "es": "Android",
+      "en": "Android"
+     },
+     {
+      "es": "IA",
+      "en": "AI"
+     }
+    ],
+    "url": "https://app.guilietta.com/",
+    "link": {
+     "es": "app.guilietta.com",
+     "en": "app.guilietta.com"
+    }
+   },
+   {
+    "n": {
+     "es": "Tu proyecto",
+     "en": "Your project"
+    },
+    "name": {
+     "es": "¿Tienes una idea?",
+     "en": "Have an idea?"
+    },
+    "text": {
+     "es": "Cuéntanos qué necesitas y te decimos cómo llevarlo a producción.",
+     "en": "Tell us what you need and we’ll show you how to take it to production."
+    },
+    "tags": [],
+    "url": "#contact",
+    "link": {
+     "es": "Hablemos",
+     "en": "Let’s talk"
+    },
+    "dark": true
+   }
+  ]
+ },
+ "method": {
+  "label": {
+   "es": "Método",
+   "en": "Method"
+  },
+  "title": {
+   "es": "Simple, medible, constante.",
+   "en": "Simple, measurable, consistent."
+  },
+  "text": {
+   "es": "Un proceso claro para que siempre sepas qué se hace, por qué y con qué resultado.",
+   "en": "A clear process so you always know what we do, why, and what it delivers."
+  },
+  "steps": [
+   {
+    "title": {
+     "es": "Diagnóstico",
+     "en": "Diagnosis"
+    },
+    "text": {
+     "es": "Auditamos cuentas, tracking y datos para entender dónde está el dinero y dónde se pierde.",
+     "en": "We audit accounts, tracking and data to find where the money is and where it leaks."
+    }
+   },
+   {
+    "title": {
+     "es": "Estrategia",
+     "en": "Strategy"
+    },
+    "text": {
+     "es": "Definimos objetivos, canales y presupuesto con metas concretas por etapa.",
+     "en": "We set goals, channels and budget with clear targets for each stage."
+    }
+   },
+   {
+    "title": {
+     "es": "Ejecución",
+     "en": "Execution"
+    },
+    "text": {
+     "es": "Implementamos, medimos y optimizamos cada semana con reportes claros.",
+     "en": "We implement, measure and optimize every week with clear reports."
+    }
+   }
+  ]
+ },
+ "team": {
+  "label": {
+   "es": "Equipo",
+   "en": "Team"
+  },
+  "title": {
+   "es": "Especialistas, no generalistas.",
+   "en": "Specialists, not generalists."
+  },
+  "text": {
+   "es": "Cada área la lleva una persona con años de experiencia en su especialidad y certificaciones validadas.",
+   "en": "Each area is led by someone with years of experience in their field and validated certifications."
+  },
+  "members": [
+   {
+    "name": "Alejandro Lovera",
+    "role": {
+     "es": "Fundador · Estrategia y performance",
+     "en": "Founder · Strategy &amp; performance"
+    },
+    "tags": [
+     {
+      "es": "AMA PCM®",
+      "en": "AMA PCM®"
+     },
+     {
+      "es": "Effie",
+      "en": "Effie"
+     },
+     {
+      "es": "Máster Big Data &amp; BI",
+      "en": "MSc Big Data &amp; BI"
+     },
+     {
+      "es": "Máster IA Empresarial",
+      "en": "MSc Business AI"
+     }
+    ]
+   },
+   {
+    "name": "Antonio Araya",
+    "role": {
+     "es": "Director de SEO y AEO",
+     "en": "SEO &amp; AEO Director"
+    },
+    "tags": [
+     {
+      "es": "Ex Head Regional SEO Falabella",
+      "en": "Ex Regional Head of SEO, Falabella"
+     },
+     {
+      "es": "Ex PedidosYa",
+      "en": "Ex PedidosYa"
+     },
+     {
+      "es": "IA y automatización",
+      "en": "AI automation"
+     }
+    ]
+   },
+   {
+    "name": "Felipe Ríos Barraza",
+    "role": {
+     "es": "Advisor · Growth y SEO",
+     "en": "Advisor · Growth &amp; SEO"
+    },
+    "tags": [
+     {
+      "es": "Economista, U. de Chile",
+      "en": "Economist, U. de Chile"
+     },
+     {
+      "es": "Head of Growth",
+      "en": "Head of Growth"
+     },
+     {
+      "es": "Docente",
+      "en": "Lecturer"
+     }
+    ]
+   },
+   {
+    "name": "Nicole Arancibia",
+    "role": {
+     "es": "Estrategia de marketing digital",
+     "en": "Digital marketing strategy"
+    },
+    "tags": [
+     {
+      "es": "Magíster en Marketing",
+      "en": "MSc Marketing"
+     },
+     {
+      "es": "Ingeniera Comercial",
+      "en": "Business Engineer"
+     },
+     {
+      "es": "Fintech y banca",
+      "en": "Fintech &amp; banking"
+     }
+    ]
+   },
+   {
+    "name": "María Silvia Andueza",
+    "role": {
+     "es": "Operaciones y medios digitales",
+     "en": "Operations &amp; digital media"
+    },
+    "tags": [
+     {
+      "es": "Máster Marketing Digital, Esden",
+      "en": "MSc Digital Marketing, Esden"
+     },
+     {
+      "es": "Programática",
+      "en": "Programmatic"
+     },
+     {
+      "es": "LATAM",
+      "en": "LATAM"
+     }
+    ]
+   },
+   {
+    "name": "Lusry Montilla",
+    "role": {
+     "es": "Performance marketing senior",
+     "en": "Senior performance marketing"
+    },
+    "tags": [
+     {
+      "es": "Paid media",
+      "en": "Paid media"
+     },
+     {
+      "es": "E-commerce &amp; Retail",
+      "en": "E-commerce &amp; Retail"
+     }
+    ]
+   },
+   {
+    "name": "Gever Salazar",
+    "role": {
+     "es": "Datos de marketing",
+     "en": "Marketing data"
+    },
+    "tags": [
+     {
+      "es": "Matemático, Estadística",
+      "en": "Mathematician, Statistics"
+     },
+     {
+      "es": "Google Analytics",
+      "en": "Google Analytics"
+     }
+    ]
+   },
+   {
+    "name": "Daniel Mansutti",
+    "role": {
+     "es": "Consultor SEO y GEO",
+     "en": "SEO &amp; GEO consultant"
+    },
+    "tags": [
+     {
+      "es": "Ingeniero de sistemas",
+      "en": "Systems engineer"
+     },
+     {
+      "es": "AEO / GEO",
+      "en": "AEO / GEO"
+     },
+     {
+      "es": "SEO técnico",
+      "en": "Technical SEO"
+     }
+    ]
+   },
+   {
+    "name": "Juan Jorquera",
+    "role": {
+     "es": "Ingeniería de software",
+     "en": "Software engineering"
+    },
+    "tags": [
+     {
+      "es": "Arquitectura",
+      "en": "Architecture"
+     },
+     {
+      "es": "APIs e integraciones",
+      "en": "APIs &amp; integrations"
+     }
+    ]
+   },
+   {
+    "name": "Nicolás González",
+    "role": {
+     "es": "Dirección de arte",
+     "en": "Art direction"
+    },
+    "tags": [
+     {
+      "es": "Head of Art",
+      "en": "Head of Art"
+     },
+     {
+      "es": "Diseño",
+      "en": "Design"
+     }
+    ]
+   },
+   {
+    "name": "Paul Guzmán",
+    "role": {
+     "es": "Dirección, producción y edición de video",
+     "en": "Video direction, production &amp; editing"
+    },
+    "tags": [
+     {
+      "es": "Branded storytelling",
+      "en": "Branded storytelling"
+     },
+     {
+      "es": "Contenido y video",
+      "en": "Content &amp; video"
+     },
+     {
+      "es": "UAM",
+      "en": "UAM"
+     }
+    ]
+   },
+   {
+    "name": "Veronica Guadagno",
+    "role": {
+     "es": "Identidad visual · Vero Design",
+     "en": "Visual identity · Vero Design"
+    },
+    "tags": [
+     {
+      "es": "Branding",
+      "en": "Branding"
+     },
+     {
+      "es": "Diseño de logos",
+      "en": "Logo design"
+     },
+     {
+      "es": "Dirección creativa",
+      "en": "Creative direction"
+     }
+    ]
+   },
+   {
+    "name": "Luz Muñoz Pereira",
+    "role": {
+     "es": "Contenido y redes sociales",
+     "en": "Content &amp; social media"
+    },
+    "tags": [
+     {
+      "es": "Periodista",
+      "en": "Journalist"
+     },
+     {
+      "es": "Copywriting",
+      "en": "Copywriting"
+     },
+     {
+      "es": "SEO",
+      "en": "SEO"
+     }
+    ]
+   }
+  ]
+ },
+ "results": {
+  "label": {
+   "es": "Trayectoria",
+   "en": "Track record"
+  },
+  "title": {
+   "es": "Experiencia que se nota.",
+   "en": "Experience that shows."
+  },
+  "text": {
+   "es": "Dirigida por <strong>Alejandro Lovera</strong>, publicista con másteres en Big Data &amp; Business Intelligence e IA Empresarial, y más de 14 años gestionando marketing para marcas en EE. UU. y Latinoamérica.",
+   "en": "Led by <strong>Alejandro Lovera</strong>, an advertising professional with master’s degrees in Big Data &amp; Business Intelligence and Business AI, and 14+ years managing marketing for brands in the US and Latin America."
+  },
+  "stats": [
+   {
+    "value": {
+     "es": "14+",
+     "en": "14+"
+    },
+    "text": {
+     "es": "Años en marketing digital",
+     "en": "Years in digital marketing"
+    }
+   },
+   {
+    "value": {
+     "es": "5",
+     "en": "5"
+    },
+    "text": {
+     "es": "Países con clientes activos",
+     "en": "Countries with active clients"
+    }
+   },
+   {
+    "value": {
+     "es": "Effie",
+     "en": "Effie"
+    },
+    "text": {
+     "es": "Bronce en Chile con Under Armour",
+     "en": "Bronze in Chile with Under Armour"
+    }
+   },
+   {
+    "value": {
+     "es": "PCM®",
+     "en": "PCM®"
+    },
+    "text": {
+     "es": "Professional Certified Marketer, AMA",
+     "en": "Professional Certified Marketer, AMA"
+    }
+   }
+  ]
+ }
+}

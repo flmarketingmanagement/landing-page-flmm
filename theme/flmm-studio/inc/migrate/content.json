@@ -1,0 +1,2769 @@
+{
+ "services": [
+  {
+   "slug": "consulting",
+   "n": "01",
+   "name": {
+    "es": "Estrategia de marketing",
+    "en": "Marketing strategy"
+   },
+   "title": {
+    "es": "Consultoría y estrategia de marketing digital | FL Marketing",
+    "en": "Digital Marketing Strategy & Consulting | FL Marketing"
+   },
+   "desc": {
+    "es": "Consultoría de marketing digital para definir objetivos, canales y presupuesto con metas medibles. Estrategia senior para marcas en EE. UU. y Latinoamérica.",
+    "en": "Digital marketing consulting to define goals, channels and budget with measurable targets. Senior strategy for growing brands in the US and Latin America."
+   },
+   "h1": {
+    "es": "Estrategia y consultoría de marketing digital",
+    "en": "Digital marketing strategy &amp; consulting"
+   },
+   "lead": {
+    "es": "La consultoría de marketing digital define qué hacer, en qué canales y con qué presupuesto para que tu marca crezca de forma medible. Analizamos tu situación actual, detectamos oportunidades y construimos un plan con metas claras por etapa, que tu equipo o el nuestro puede ejecutar.",
+    "en": "Digital marketing consulting defines what to do, on which channels and with what budget so your brand grows in a measurable way. We analyze your current situation, find opportunities and build a plan with clear targets for each stage, ready for your team or ours to execute."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "Diagnóstico de marketing",
+      "en": "Marketing audit"
+     },
+     "text": {
+      "es": "Revisión de cuentas, canales, datos y competencia.",
+      "en": "Review of accounts, channels, data and competitors."
+     }
+    },
+    {
+     "title": {
+      "es": "Plan estratégico",
+      "en": "Strategic plan"
+     },
+     "text": {
+      "es": "Objetivos, canales, mensajes y presupuesto por etapa.",
+      "en": "Goals, channels, messaging and budget by stage."
+     }
+    },
+    {
+     "title": {
+      "es": "Definición de KPIs",
+      "en": "KPI framework"
+     },
+     "text": {
+      "es": "Métricas conectadas a ventas, no a vanidad.",
+      "en": "Metrics tied to revenue, not vanity."
+     }
+    },
+    {
+     "title": {
+      "es": "Acompañamiento",
+      "en": "Ongoing advisory"
+     },
+     "text": {
+      "es": "Sesiones periódicas para revisar avances y ajustar.",
+      "en": "Regular sessions to review progress and adjust."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Marcas que invierten en marketing sin una estrategia clara.",
+     "en": "Brands investing in marketing without a clear strategy."
+    },
+    {
+     "es": "Equipos internos que necesitan dirección senior.",
+     "en": "In-house teams that need senior direction."
+    },
+    {
+     "es": "Empresas que entran a un nuevo mercado o canal.",
+     "en": "Companies entering a new market or channel."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Qué incluye una consultoría de marketing digital?",
+      "en": "What does digital marketing consulting include?"
+     },
+     "a": {
+      "es": "Incluye un diagnóstico de tus canales, datos y competencia; un plan estratégico con objetivos, canales, mensajes y presupuesto; la definición de KPIs conectados a ventas y sesiones de seguimiento. El resultado es una hoja de ruta concreta que tu equipo puede ejecutar o que podemos ejecutar nosotros.",
+      "en": "It includes an audit of your channels, data and competitors; a strategic plan with goals, channels, messaging and budget; a KPI framework tied to revenue; and follow-up sessions. The result is a concrete roadmap that your team can execute, or that we can execute for you from start to finish."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cuánto dura una consultoría?",
+      "en": "How long does a consulting engagement take?"
+     },
+     "a": {
+      "es": "El diagnóstico y el plan inicial suelen tomar entre dos y cuatro semanas, según el tamaño de la cuenta y la cantidad de canales. Después, el acompañamiento puede ser mensual o por proyecto, dependiendo de la madurez de tu equipo y de los objetivos del negocio.",
+      "en": "The audit and initial plan usually take two to four weeks, depending on account size and the number of channels involved. After that, advisory can be monthly or per project, depending on your team’s maturity and your business goals for the following months."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Trabajan con equipos internos?",
+      "en": "Do you work with in-house teams?"
+     },
+     "a": {
+      "es": "Sí. Podemos liderar la estrategia y dejar la ejecución a tu equipo, trabajar en conjunto o hacernos cargo de todo. En cualquier caso, documentamos las decisiones y compartimos el conocimiento para que tu equipo gane claridad y autonomía, no dependencia de la agencia.",
+      "en": "Yes. We can lead strategy and leave execution to your team, work side by side, or take care of everything. In every case, we document decisions and share knowledge so your team gains clarity and autonomy instead of becoming dependent on the agency."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cuándo conviene contratar una consultoría?",
+      "en": "When should I hire a marketing consultant?"
+     },
+     "a": {
+      "es": "Conviene cuando inviertes en marketing pero no sabes qué canales generan ventas, cuando vas a entrar a un nuevo mercado o canal, o cuando tu equipo necesita dirección senior. Un diagnóstico externo suele revelar oportunidades y gastos innecesarios que desde dentro cuesta ver.",
+      "en": "It makes sense when you invest in marketing but don’t know which channels drive sales, when you are entering a new market or channel, or when your team needs senior direction. An outside audit usually reveals opportunities and wasted spend that are hard to see from the inside."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "¿Consultoría o agencia de ejecución?",
+     "en": "Consulting or execution agency?"
+    },
+    "col1": {
+     "es": "Consultoría",
+     "en": "Consulting"
+    },
+    "col2": {
+     "es": "Agencia de ejecución",
+     "en": "Execution agency"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Qué entrega",
+       "en": "What you get"
+      },
+      "c1": {
+       "es": "Diagnóstico, plan y dirección estratégica",
+       "en": "Audit, plan and strategic direction"
+      },
+      "c2": {
+       "es": "Campañas y piezas en funcionamiento",
+       "en": "Live campaigns and assets"
+      }
+     },
+     {
+      "label": {
+       "es": "Quién ejecuta",
+       "en": "Who executes"
+      },
+      "c1": {
+       "es": "Tu equipo, con nuestro acompañamiento",
+       "en": "Your team, with our guidance"
+      },
+      "c2": {
+       "es": "La agencia",
+       "en": "The agency"
+      }
+     },
+     {
+      "label": {
+       "es": "Ideal para",
+       "en": "Best for"
+      },
+      "c1": {
+       "es": "Equipos internos que necesitan dirección",
+       "en": "In-house teams that need direction"
+      },
+      "c2": {
+       "es": "Empresas sin equipo de marketing",
+       "en": "Companies without a marketing team"
+      }
+     },
+     {
+      "label": {
+       "es": "Duración",
+       "en": "Duration"
+      },
+      "c1": {
+       "es": "Semanas o acompañamiento mensual",
+       "en": "Weeks or monthly advisory"
+      },
+      "c2": {
+       "es": "Contrato continuo",
+       "en": "Ongoing contract"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "Plan de marketing",
+      "en": "Marketing plan"
+     },
+     "def": {
+      "es": "Documento que define objetivos, audiencias, canales, mensajes y presupuesto para un período concreto.",
+      "en": "A document that sets goals, audiences, channels, messaging and budget for a specific period."
+     }
+    },
+    {
+     "term": {
+      "es": "KPI",
+      "en": "KPI"
+     },
+     "def": {
+      "es": "Indicador clave de desempeño: la métrica que muestra si una estrategia cumple su objetivo, como ventas o costo por cliente.",
+      "en": "Key performance indicator: the metric that shows whether a strategy meets its goal, such as sales or cost per customer."
+     }
+    },
+    {
+     "term": {
+      "es": "Mix de canales",
+      "en": "Channel mix"
+     },
+     "def": {
+      "es": "Combinación de canales (buscadores, redes, email, contenido) y el peso de cada uno en el presupuesto.",
+      "en": "The combination of channels (search, social, email, content) and the share of budget each one receives."
+     }
+    }
+   ],
+   "ref": null,
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de estrategia de marketing?",
+     "en": "What’s included in our marketing strategy service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de estrategia de marketing",
+     "en": "Marketing strategy: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de estrategia de marketing?",
+     "en": "How does our marketing strategy process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de estrategia de marketing?",
+     "en": "Who is our marketing strategy service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para estrategia de marketing?",
+     "en": "Why choose us for marketing strategy?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre estrategia de marketing",
+     "en": "Marketing strategy FAQ"
+    }
+   },
+   "testi": "carol",
+   "team": [
+    "Alejandro Lovera",
+    "Nicole Arancibia",
+    "Felipe Ríos Barraza"
+   ],
+   "rel": [
+    "performance-marketing",
+    "analytics",
+    "growth-hacking"
+   ]
+  },
+  {
+   "slug": "performance-marketing",
+   "n": "02",
+   "name": {
+    "es": "Performance Marketing",
+    "en": "Performance Marketing"
+   },
+   "title": {
+    "es": "Agencia de performance marketing | FL Marketing Management",
+    "en": "Performance Marketing Agency | FL Marketing Management"
+   },
+   "desc": {
+    "es": "Agencia de performance marketing: campañas en Google, Meta, TikTok y LinkedIn optimizadas por ROAS, CPA y ventas reales. Estrategia senior y reportes claros.",
+    "en": "Performance marketing agency running Google, Meta, TikTok and LinkedIn campaigns optimized for ROAS, CPA and real revenue. Senior strategy, clear reporting."
+   },
+   "h1": {
+    "es": "Performance marketing enfocado en ventas",
+    "en": "Performance marketing built around revenue"
+   },
+   "lead": {
+    "es": "El performance marketing es publicidad digital que se paga y se optimiza según resultados: ventas, leads o retorno sobre la inversión. Diseñamos, ejecutamos y optimizamos campañas en Google, Meta, TikTok y LinkedIn con objetivos claros, datos limpios y pruebas constantes para escalar lo que funciona.",
+    "en": "Performance marketing is digital advertising that is paid for and optimized based on results: sales, leads or return on ad spend. We design, run and optimize campaigns on Google, Meta, TikTok and LinkedIn with clear goals, clean data and constant testing to scale what works."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "Estrategia de medios",
+      "en": "Media strategy"
+     },
+     "text": {
+      "es": "Canales, audiencias y presupuesto según tus objetivos.",
+      "en": "Channels, audiences and budget based on your goals."
+     }
+    },
+    {
+     "title": {
+      "es": "Gestión de campañas",
+      "en": "Campaign management"
+     },
+     "text": {
+      "es": "Google Ads, Meta, TikTok, LinkedIn y YouTube.",
+      "en": "Google Ads, Meta, TikTok, LinkedIn and YouTube."
+     }
+    },
+    {
+     "title": {
+      "es": "Testeo creativo",
+      "en": "Creative testing"
+     },
+     "text": {
+      "es": "Pruebas continuas de anuncios, mensajes y formatos.",
+      "en": "Ongoing tests of ads, messaging and formats."
+     }
+    },
+    {
+     "title": {
+      "es": "Optimización y reportes",
+      "en": "Optimization &amp; reporting"
+     },
+     "text": {
+      "es": "Ajustes semanales y reportes claros de ROAS y CPA.",
+      "en": "Weekly adjustments and clear ROAS and CPA reports."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Marcas que quieren escalar la adquisición de forma rentable.",
+     "en": "Brands that want to scale acquisition profitably."
+    },
+    {
+     "es": "Equipos que necesitan orden y claridad en sus cuentas.",
+     "en": "Teams that need structure and clarity in their ad accounts."
+    },
+    {
+     "es": "E-commerce y B2B enfocados en resultados, no en likes.",
+     "en": "E-commerce and B2B businesses focused on results, not likes."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Qué es el performance marketing?",
+      "en": "What is performance marketing?"
+     },
+     "a": {
+      "es": "Es un modelo de publicidad digital donde cada decisión se toma según resultados medibles, como ventas, leads o ROAS. Las campañas se optimizan de forma continua con datos, pruebas creativas y ajustes de presupuesto para mejorar el retorno de cada peso invertido, en lugar de pagar solo por visibilidad.",
+      "en": "It is a digital advertising model where every decision is based on measurable results, such as sales, leads or ROAS. Campaigns are continuously optimized with data, creative testing and budget adjustments to improve the return on every dollar spent, instead of paying only for visibility."
+     }
+    },
+    {
+     "q": {
+      "es": "¿En qué plataformas trabajan?",
+      "en": "Which platforms do you work with?"
+     },
+     "a": {
+      "es": "Gestionamos campañas en Google Ads, Meta (Facebook e Instagram), TikTok, LinkedIn y YouTube. Elegimos la combinación según tu público, tu producto, tu ticket promedio y tu objetivo de negocio, y la ajustamos con datos a medida que vemos qué canal genera mejores resultados.",
+      "en": "We manage campaigns on Google Ads, Meta (Facebook and Instagram), TikTok, LinkedIn and YouTube. We choose the mix based on your audience, product, average order value and business goal, and we adjust it with data as we learn which channel delivers the best results."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cuándo se ven resultados?",
+      "en": "When will I see results?"
+     },
+     "a": {
+      "es": "Las primeras señales aparecen en las primeras semanas, pero una cuenta suele estabilizarse entre uno y tres meses, cuando los algoritmos aprenden y las pruebas muestran qué funciona. Desde el primer día reportamos avances con métricas claras, como CPA, ROAS y tasa de conversión.",
+      "en": "Early signals appear within the first weeks, but an account usually stabilizes within one to three months, once algorithms learn and tests show what works. From day one, we report progress with clear metrics such as CPA, ROAS and conversion rate."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cómo miden el éxito de una campaña?",
+      "en": "How do you measure campaign success?"
+     },
+     "a": {
+      "es": "Medimos el éxito con métricas conectadas a tu negocio: ventas, leads calificados, CPA, ROAS y, cuando hay datos, costo de adquisición de cliente. Antes de lanzar, revisamos que la medición esté bien configurada, porque sin datos confiables no es posible optimizar con precisión.",
+      "en": "We measure success with metrics tied to your business: sales, qualified leads, CPA, ROAS and, when data allows, customer acquisition cost. Before launching, we make sure tracking is set up correctly, because without reliable data it is impossible to optimize accurately."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "Performance marketing vs. marketing de marca",
+     "en": "Performance marketing vs. brand marketing"
+    },
+    "col1": {
+     "es": "Performance marketing",
+     "en": "Performance marketing"
+    },
+    "col2": {
+     "es": "Marketing de marca",
+     "en": "Brand marketing"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Objetivo",
+       "en": "Goal"
+      },
+      "c1": {
+       "es": "Ventas, leads y retorno medible",
+       "en": "Sales, leads and measurable return"
+      },
+      "c2": {
+       "es": "Recordación y percepción de marca",
+       "en": "Awareness and brand perception"
+      }
+     },
+     {
+      "label": {
+       "es": "Métricas",
+       "en": "Metrics"
+      },
+      "c1": {
+       "es": "ROAS, CPA, tasa de conversión",
+       "en": "ROAS, CPA, conversion rate"
+      },
+      "c2": {
+       "es": "Alcance, frecuencia, recordación",
+       "en": "Reach, frequency, recall"
+      }
+     },
+     {
+      "label": {
+       "es": "Plazo",
+       "en": "Timeframe"
+      },
+      "c1": {
+       "es": "Resultados en semanas",
+       "en": "Results in weeks"
+      },
+      "c2": {
+       "es": "Resultados en meses o años",
+       "en": "Results in months or years"
+      }
+     },
+     {
+      "label": {
+       "es": "Optimización",
+       "en": "Optimization"
+      },
+      "c1": {
+       "es": "Continua, según datos",
+       "en": "Continuous, data-driven"
+      },
+      "c2": {
+       "es": "Por campaña o temporada",
+       "en": "Per campaign or season"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "ROAS",
+      "en": "ROAS"
+     },
+     "def": {
+      "es": "Retorno sobre la inversión publicitaria: ingresos generados por cada peso invertido en anuncios. Un ROAS de 4 significa 4 de ingreso por cada 1 invertido.",
+      "en": "Return on ad spend: revenue generated for every dollar spent on ads. A ROAS of 4 means 4 in revenue for every 1 spent."
+     }
+    },
+    {
+     "term": {
+      "es": "CPA",
+      "en": "CPA"
+     },
+     "def": {
+      "es": "Costo por adquisición: lo que cuesta, en promedio, conseguir una venta o un lead con publicidad.",
+      "en": "Cost per acquisition: the average ad cost to get one sale or lead."
+     }
+    },
+    {
+     "term": {
+      "es": "Tasa de conversión",
+      "en": "Conversion rate"
+     },
+     "def": {
+      "es": "Porcentaje de personas que realizan la acción deseada, como comprar o dejar sus datos, después de hacer clic en un anuncio.",
+      "en": "The percentage of people who complete the desired action, such as buying or submitting a form, after clicking an ad."
+     }
+    },
+    {
+     "term": {
+      "es": "CAC",
+      "en": "CAC"
+     },
+     "def": {
+      "es": "Costo de adquisición de cliente: inversión total en marketing y ventas dividida por los clientes nuevos obtenidos.",
+      "en": "Customer acquisition cost: total marketing and sales spend divided by the number of new customers acquired."
+     }
+    }
+   ],
+   "ref": {
+    "label": {
+     "es": "Definición de tasa de conversión, Ayuda de Google Ads",
+     "en": "Conversion rate definition, Google Ads Help"
+    },
+    "url": "https://support.google.com/google-ads/answer/2684489"
+   },
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de Performance Marketing?",
+     "en": "What’s included in our Performance Marketing service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de Performance Marketing",
+     "en": "Performance Marketing: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de Performance Marketing?",
+     "en": "How does our Performance Marketing process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de Performance Marketing?",
+     "en": "Who is our Performance Marketing service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para Performance Marketing?",
+     "en": "Why choose us for Performance Marketing?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre Performance Marketing",
+     "en": "Performance Marketing FAQ"
+    }
+   },
+   "testi": "leo",
+   "team": [
+    "Lusry Montilla",
+    "Alejandro Lovera",
+    "María Silvia Andueza"
+   ],
+   "rel": [
+    "analytics",
+    "seo-aeo",
+    "growth-hacking"
+   ]
+  },
+  {
+   "slug": "seo-aeo",
+   "n": "03",
+   "name": {
+    "es": "SEO + AEO",
+    "en": "SEO + AEO"
+   },
+   "title": {
+    "es": "Servicios de SEO y AEO para Google y la IA | FL Marketing",
+    "en": "SEO &amp; AEO Services for Google and AI Search | FL Marketing"
+   },
+   "desc": {
+    "es": "Servicios de SEO y AEO: SEO técnico y de contenido para posicionar en Google y aparecer en respuestas de ChatGPT, Gemini y Perplexity. Visibilidad medible.",
+    "en": "SEO and AEO services: technical and content SEO to rank on Google and appear in answers from ChatGPT, Gemini and Perplexity. Measurable visibility growth."
+   },
+   "h1": {
+    "es": "SEO y AEO: visibilidad en Google y en la IA",
+    "en": "SEO &amp; AEO: visibility on Google and in AI search"
+   },
+   "lead": {
+    "es": "El SEO mejora tu posicionamiento en buscadores como Google; el AEO (Answer Engine Optimization) prepara tu contenido para que asistentes de IA como ChatGPT, Gemini y Perplexity lo entiendan, lo citen y lo recomienden. Trabajamos ambos juntos para que tu marca sea encontrada y elegida.",
+    "en": "SEO improves your ranking on search engines like Google; AEO (Answer Engine Optimization) prepares your content so AI assistants like ChatGPT, Gemini and Perplexity can understand, cite and recommend it. We work on both together so your brand gets found and chosen."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "SEO técnico",
+      "en": "Technical SEO"
+     },
+     "text": {
+      "es": "Velocidad, indexación, estructura y datos estructurados.",
+      "en": "Speed, indexing, site structure and structured data."
+     }
+    },
+    {
+     "title": {
+      "es": "Investigación de palabras clave",
+      "en": "Keyword research"
+     },
+     "text": {
+      "es": "Búsquedas reales según intención de compra.",
+      "en": "Real searches mapped to buying intent."
+     }
+    },
+    {
+     "title": {
+      "es": "Optimización on-page",
+      "en": "On-page optimization"
+     },
+     "text": {
+      "es": "Títulos, contenido y enlaces internos.",
+      "en": "Titles, content and internal linking."
+     }
+    },
+    {
+     "title": {
+      "es": "Optimización para IA",
+      "en": "AI search optimization"
+     },
+     "text": {
+      "es": "Contenido pensado para ser citado por LLMs.",
+      "en": "Content built to be cited by LLMs."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Empresas B2B y B2C con productos o servicios complejos.",
+     "en": "B2B and B2C companies with complex products or services."
+    },
+    {
+     "es": "Marcas que dependen demasiado de la publicidad pagada.",
+     "en": "Brands that rely too heavily on paid ads."
+    },
+    {
+     "es": "Negocios que quieren aparecer en respuestas de IA.",
+     "en": "Businesses that want to appear in AI answers."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Qué diferencia hay entre SEO y AEO?",
+      "en": "What is the difference between SEO and AEO?"
+     },
+     "a": {
+      "es": "El SEO busca que tu sitio aparezca en los resultados de Google y otros buscadores. El AEO busca que asistentes de IA como ChatGPT o Gemini usen tu contenido como fuente en sus respuestas. Se complementan: el SEO atrae tráfico calificado y el AEO construye autoridad y presencia en la búsqueda con IA.",
+      "en": "SEO aims to get your site into Google and other search results. AEO aims to get AI assistants like ChatGPT or Gemini to use your content as a source in their answers. They complement each other: SEO drives qualified traffic, while AEO builds authority and presence in AI-powered search."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cuánto tarda el SEO en dar resultados?",
+      "en": "How long does SEO take to work?"
+     },
+     "a": {
+      "es": "Las mejoras técnicas pueden notarse en semanas, pero el posicionamiento orgánico sólido suele tomar entre tres y seis meses, según la competencia y el estado inicial del sitio. Es una inversión acumulativa: el contenido y la autoridad que se construyen siguen generando tráfico durante mucho tiempo.",
+      "en": "Technical fixes can show impact within weeks, but solid organic rankings usually take three to six months, depending on competition and the site’s starting point. It is a compounding investment: the content and authority you build keep generating traffic long after the work is done."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cómo se mide la visibilidad en la IA?",
+      "en": "How do you measure AI visibility?"
+     },
+     "a": {
+      "es": "Revisamos con qué frecuencia los principales modelos de IA mencionan tu marca frente a la competencia en preguntas relevantes de tu industria. Con esos datos priorizamos qué contenido crear o mejorar, y seguimos la evolución de las menciones mes a mes para medir el avance.",
+      "en": "We track how often major AI models mention your brand versus competitors for relevant questions in your industry. With that data, we prioritize which content to create or improve, and we follow how mentions evolve month by month to measure progress."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Necesito SEO si ya invierto en publicidad?",
+      "en": "Do I need SEO if I already run ads?"
+     },
+     "a": {
+      "es": "Sí. La publicidad genera tráfico mientras pagas; el SEO construye un canal propio que sigue funcionando sin costo por clic. Además, un buen SEO mejora la calidad de las páginas a las que llegan los anuncios, lo que suele reducir costos y aumentar la conversión.",
+      "en": "Yes. Ads bring traffic only while you pay; SEO builds an owned channel that keeps working without a cost per click. Good SEO also improves the quality of the pages your ads send people to, which usually lowers costs and increases conversion."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "SEO vs. AEO",
+     "en": "SEO vs. AEO"
+    },
+    "col1": {
+     "es": "SEO",
+     "en": "SEO"
+    },
+    "col2": {
+     "es": "AEO",
+     "en": "AEO"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Dónde aparece",
+       "en": "Where you appear"
+      },
+      "c1": {
+       "es": "Resultados de Google y otros buscadores",
+       "en": "Google and other search results"
+      },
+      "c2": {
+       "es": "Respuestas de ChatGPT, Gemini, Perplexity",
+       "en": "Answers from ChatGPT, Gemini, Perplexity"
+      }
+     },
+     {
+      "label": {
+       "es": "Objetivo",
+       "en": "Goal"
+      },
+      "c1": {
+       "es": "Tráfico orgánico calificado",
+       "en": "Qualified organic traffic"
+      },
+      "c2": {
+       "es": "Ser citado y recomendado por la IA",
+       "en": "Being cited and recommended by AI"
+      }
+     },
+     {
+      "label": {
+       "es": "Qué optimiza",
+       "en": "What it optimizes"
+      },
+      "c1": {
+       "es": "Palabras clave, técnica, enlaces",
+       "en": "Keywords, technical health, links"
+      },
+      "c2": {
+       "es": "Respuestas directas, entidades, datos",
+       "en": "Direct answers, entities, facts"
+      }
+     },
+     {
+      "label": {
+       "es": "Cómo se mide",
+       "en": "How it’s measured"
+      },
+      "c1": {
+       "es": "Posiciones, clics, tráfico",
+       "en": "Rankings, clicks, traffic"
+      },
+      "c2": {
+       "es": "Menciones y citas en respuestas de IA",
+       "en": "Mentions and citations in AI answers"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "SEO",
+      "en": "SEO"
+     },
+     "def": {
+      "es": "Search Engine Optimization: prácticas técnicas y de contenido para mejorar la posición de un sitio en buscadores como Google.",
+      "en": "Search Engine Optimization: technical and content practices that improve a site’s position on search engines like Google."
+     }
+    },
+    {
+     "term": {
+      "es": "AEO",
+      "en": "AEO"
+     },
+     "def": {
+      "es": "Answer Engine Optimization: optimización del contenido para que asistentes de IA lo entiendan, lo citen y lo recomienden en sus respuestas.",
+      "en": "Answer Engine Optimization: optimizing content so AI assistants understand it, cite it and recommend it in their answers."
+     }
+    },
+    {
+     "term": {
+      "es": "Intención de búsqueda",
+      "en": "Search intent"
+     },
+     "def": {
+      "es": "El objetivo real detrás de una búsqueda: informarse, comparar o comprar.",
+      "en": "The real goal behind a search: learning, comparing or buying."
+     }
+    },
+    {
+     "term": {
+      "es": "Datos estructurados",
+      "en": "Structured data"
+     },
+     "def": {
+      "es": "Código (schema.org) que describe el contenido de una página para que buscadores e IA lo interpreten mejor.",
+      "en": "Code (schema.org) that describes a page’s content so search engines and AI can interpret it better."
+     }
+    }
+   ],
+   "ref": {
+    "label": {
+     "es": "Documentación de Google Search Central",
+     "en": "Google Search Central documentation"
+    },
+    "url": "https://developers.google.com/search/docs"
+   },
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de SEO + AEO?",
+     "en": "What’s included in our SEO + AEO service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de SEO + AEO",
+     "en": "SEO + AEO: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de SEO + AEO?",
+     "en": "How does our SEO + AEO process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de SEO + AEO?",
+     "en": "Who is our SEO + AEO service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para SEO + AEO?",
+     "en": "Why choose us for SEO + AEO?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre SEO + AEO",
+     "en": "SEO + AEO FAQ"
+    }
+   },
+   "testi": "leo",
+   "team": [
+    "Antonio Araya",
+    "Daniel Mansutti",
+    "Felipe Ríos Barraza"
+   ],
+   "rel": [
+    "aeo-content",
+    "analytics",
+    "website"
+   ]
+  },
+  {
+   "slug": "aeo-content",
+   "n": "04",
+   "name": {
+    "es": "Contenido AEO",
+    "en": "AEO content"
+   },
+   "title": {
+    "es": "Contenido AEO para búsqueda con IA y LLMs | FL Marketing",
+    "en": "AEO Content for AI Search &amp; LLM Visibility | FL Marketing"
+   },
+   "desc": {
+    "es": "Contenido AEO para búsqueda con IA: páginas, guías y FAQ estructuradas para que ChatGPT, Gemini y Perplexity entiendan, citen y recomienden tu marca.",
+    "en": "AEO content for AI search: pages, guides and FAQs structured so ChatGPT, Gemini and Perplexity understand, cite and recommend your brand to customers."
+   },
+   "h1": {
+    "es": "Contenido AEO para aparecer en respuestas de IA",
+    "en": "AEO content that gets cited by AI"
+   },
+   "lead": {
+    "es": "El contenido AEO es contenido estructurado para que los motores de respuesta basados en IA puedan entenderlo, resumirlo y recomendar tu marca. Creamos páginas, guías y preguntas frecuentes con definiciones claras, respuestas directas y datos verificables, pensadas tanto para personas como para modelos de lenguaje.",
+    "en": "AEO content is content structured so AI-powered answer engines can understand it, summarize it and recommend your brand. We create pages, guides and FAQs with clear definitions, direct answers and verifiable facts, written for both people and language models."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "Estrategia de temas",
+      "en": "Topic strategy"
+     },
+     "text": {
+      "es": "Preguntas reales que hace tu público a la IA.",
+      "en": "Real questions your audience asks AI tools."
+     }
+    },
+    {
+     "title": {
+      "es": "Contenido estructurado",
+      "en": "Structured content"
+     },
+     "text": {
+      "es": "Respuestas directas, definiciones y listas claras.",
+      "en": "Direct answers, definitions and clear lists."
+     }
+    },
+    {
+     "title": {
+      "es": "Optimización semántica",
+      "en": "Semantic optimization"
+     },
+     "text": {
+      "es": "Entidades y contexto que la IA puede asociar a tu marca.",
+      "en": "Entities and context AI can link to your brand."
+     }
+    },
+    {
+     "title": {
+      "es": "Señales de autoridad",
+      "en": "Authority signals"
+     },
+     "text": {
+      "es": "Autoría, fuentes y consistencia (E-E-A-T).",
+      "en": "Authorship, sources and consistency (E-E-A-T)."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Marcas que quieren presencia en respuestas generadas por IA.",
+     "en": "Brands that want presence in AI-generated answers."
+    },
+    {
+     "es": "Empresas que apuestan por relevancia en búsqueda a largo plazo.",
+     "en": "Companies investing in long-term search relevance."
+    },
+    {
+     "es": "Negocios en mercados digitales muy competidos.",
+     "en": "Businesses in highly competitive digital markets."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Qué es el contenido AEO?",
+      "en": "What is AEO content?"
+     },
+     "a": {
+      "es": "Es contenido escrito y estructurado para que asistentes de IA como ChatGPT, Gemini o Perplexity lo entiendan y lo usen como fuente. Usa respuestas directas, definiciones claras, datos verificables y una estructura lógica que facilita que los modelos lo citen con precisión y asocien tu marca al tema.",
+      "en": "It is content written and structured so AI assistants like ChatGPT, Gemini or Perplexity can understand it and use it as a source. It relies on direct answers, clear definitions, verifiable facts and a logical structure that helps models cite it accurately and connect your brand to the topic."
+     }
+    },
+    {
+     "q": {
+      "es": "¿El contenido AEO reemplaza al SEO?",
+      "en": "Does AEO content replace SEO?"
+     },
+     "a": {
+      "es": "No. El contenido AEO se apoya en las bases del SEO, como una buena estructura, velocidad de carga, datos estructurados y enlaces internos. Lo ideal es trabajarlos juntos para tener visibilidad tanto en los resultados de Google como en las respuestas generadas por la IA.",
+      "en": "No. AEO content builds on SEO foundations such as good structure, fast load times, structured data and internal linking. Ideally, both are worked together so your brand gains visibility in Google results and in AI-generated answers at the same time."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Dónde se aplica el contenido AEO?",
+      "en": "Where is AEO content used?"
+     },
+     "a": {
+      "es": "En páginas de servicio, guías educativas, secciones de preguntas frecuentes, comparativas y artículos explicativos. Cada pieza responde preguntas reales que tu público hace en buscadores y en herramientas de IA, con un formato fácil de citar para los modelos de lenguaje.",
+      "en": "On service pages, educational guides, FAQ sections, comparisons and explainer articles. Each piece answers real questions your audience asks in search engines and AI tools, in a format that language models can easily quote and attribute to your brand."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cómo saben qué preguntas responder?",
+      "en": "How do you choose which questions to answer?"
+     },
+     "a": {
+      "es": "Analizamos las búsquedas de tu industria, las preguntas frecuentes de tus clientes y las respuestas que hoy dan los modelos de IA sobre tu categoría. Así detectamos temas donde tu marca no aparece y priorizamos el contenido con más potencial de ser citado.",
+      "en": "We analyze searches in your industry, your customers’ frequent questions and the answers AI models currently give about your category. That shows us topics where your brand is missing, and we prioritize the content with the highest potential to be cited."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "Contenido AEO vs. contenido SEO tradicional",
+     "en": "AEO content vs. traditional SEO content"
+    },
+    "col1": {
+     "es": "Contenido AEO",
+     "en": "AEO content"
+    },
+    "col2": {
+     "es": "SEO tradicional",
+     "en": "Traditional SEO"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Pensado para",
+       "en": "Written for"
+      },
+      "c1": {
+       "es": "Personas y modelos de lenguaje",
+       "en": "People and language models"
+      },
+      "c2": {
+       "es": "Personas y buscadores",
+       "en": "People and search engines"
+      }
+     },
+     {
+      "label": {
+       "es": "Estructura",
+       "en": "Structure"
+      },
+      "c1": {
+       "es": "Respuestas directas y bloques autónomos",
+       "en": "Direct answers and self-contained blocks"
+      },
+      "c2": {
+       "es": "Artículos largos por palabra clave",
+       "en": "Long articles by keyword"
+      }
+     },
+     {
+      "label": {
+       "es": "Éxito",
+       "en": "Success"
+      },
+      "c1": {
+       "es": "Ser citado en respuestas de IA",
+       "en": "Being cited in AI answers"
+      },
+      "c2": {
+       "es": "Posicionar en Google",
+       "en": "Ranking on Google"
+      }
+     },
+     {
+      "label": {
+       "es": "Clave",
+       "en": "Key factor"
+      },
+      "c1": {
+       "es": "Claridad, datos verificables, autoría",
+       "en": "Clarity, verifiable facts, authorship"
+      },
+      "c2": {
+       "es": "Palabras clave y enlaces",
+       "en": "Keywords and links"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "LLM",
+      "en": "LLM"
+     },
+     "def": {
+      "es": "Modelo de lenguaje de gran tamaño, como los que usan ChatGPT, Gemini o Claude para generar respuestas.",
+      "en": "Large language model, like those behind ChatGPT, Gemini or Claude, used to generate answers."
+     }
+    },
+    {
+     "term": {
+      "es": "Bloque de respuesta",
+      "en": "Answer block"
+     },
+     "def": {
+      "es": "Párrafo breve, de unas 40 a 60 palabras, que responde una pregunta de forma directa y sin depender del resto de la página.",
+      "en": "A short paragraph, around 40 to 60 words, that answers a question directly without relying on the rest of the page."
+     }
+    },
+    {
+     "term": {
+      "es": "Entidad",
+      "en": "Entity"
+     },
+     "def": {
+      "es": "Persona, marca, lugar o concepto que buscadores e IA reconocen de forma única y relacionan con otros temas.",
+      "en": "A person, brand, place or concept that search engines and AI recognize uniquely and connect to other topics."
+     }
+    },
+    {
+     "term": {
+      "es": "E-E-A-T",
+      "en": "E-E-A-T"
+     },
+     "def": {
+      "es": "Experiencia, pericia, autoridad y confianza: señales que ayudan a buscadores e IA a decidir en qué contenido confiar.",
+      "en": "Experience, expertise, authoritativeness and trust: signals that help search engines and AI decide which content to rely on."
+     }
+    }
+   ],
+   "ref": {
+    "label": {
+     "es": "Funciones de IA y tu sitio web, Google Search Central",
+     "en": "AI features and your website, Google Search Central"
+    },
+    "url": "https://developers.google.com/search/docs/appearance/ai-features"
+   },
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de contenido AEO?",
+     "en": "What’s included in our AEO content service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de contenido AEO",
+     "en": "AEO content: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de contenido AEO?",
+     "en": "How does our AEO content process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de contenido AEO?",
+     "en": "Who is our AEO content service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para contenido AEO?",
+     "en": "Why choose us for AEO content?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre contenido AEO",
+     "en": "AEO content FAQ"
+    }
+   },
+   "testi": "leo",
+   "team": [
+    "Antonio Araya",
+    "Daniel Mansutti",
+    "Luz Muñoz Pereira"
+   ],
+   "rel": [
+    "seo-aeo",
+    "design-branding",
+    "consulting"
+   ]
+  },
+  {
+   "slug": "design-branding",
+   "n": "05",
+   "name": {
+    "es": "Contenido creativo y multimedia",
+    "en": "Creative &amp; multimedia content"
+   },
+   "title": {
+    "es": "Diseño gráfico, branding y contenido creativo | FL Marketing",
+    "en": "Graphic Design, Branding &amp; Creative Content | FL Marketing"
+   },
+   "desc": {
+    "es": "Branding, diseño gráfico y contenido creativo para redes, anuncios y video, en alianza con Vero Design: más de 200 marcas creadas en más de 7 países.",
+    "en": "Branding, graphic design and creative content for social, ads and video, in partnership with Vero Design: 200+ brands created across 7+ countries worldwide."
+   },
+   "h1": {
+    "es": "Branding, diseño y contenido creativo",
+    "en": "Branding, design &amp; creative content"
+   },
+   "lead": {
+    "es": "El contenido creativo y el branding le dan a tu marca una identidad visual coherente y piezas que comunican con claridad en cada canal. En alianza con Vero Design, con más de 200 marcas creadas en más de 7 países, creamos identidades, piezas para redes, anuncios y video con criterio estratégico.",
+    "en": "Creative content and branding give your brand a consistent visual identity and assets that communicate clearly on every channel. In partnership with Vero Design, with 200+ brands created across 7+ countries, we create identities, social content, ads and video with a strategic approach."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "Identidad visual",
+      "en": "Visual identity"
+     },
+     "text": {
+      "es": "Logo, paleta, tipografías y sistema de marca.",
+      "en": "Logo, palette, typography and brand system."
+     }
+    },
+    {
+     "title": {
+      "es": "Contenido para redes",
+      "en": "Social content"
+     },
+     "text": {
+      "es": "Piezas y calendarios para redes sociales.",
+      "en": "Assets and calendars for social media."
+     }
+    },
+    {
+     "title": {
+      "es": "Creatividades para anuncios",
+      "en": "Ad creatives"
+     },
+     "text": {
+      "es": "Formatos pensados para performance.",
+      "en": "Formats built for performance."
+     }
+    },
+    {
+     "title": {
+      "es": "Video y multimedia",
+      "en": "Video &amp; multimedia"
+     },
+     "text": {
+      "es": "Piezas en movimiento para campañas y marca.",
+      "en": "Motion assets for campaigns and brand."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Marcas nuevas que necesitan una identidad sólida.",
+     "en": "New brands that need a solid identity."
+    },
+    {
+     "es": "Empresas con una imagen inconsistente entre canales.",
+     "en": "Companies with an inconsistent image across channels."
+    },
+    {
+     "es": "Equipos de performance que necesitan creatividades para testear.",
+     "en": "Performance teams that need creatives to test."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Qué incluye un servicio de branding?",
+      "en": "What does a branding service include?"
+     },
+     "a": {
+      "es": "Incluye la definición de la identidad visual: logo, paleta de colores, tipografías y reglas de uso reunidas en un manual de marca, además de aplicaciones para redes, web y materiales comerciales. El objetivo es que tu marca se vea coherente y reconocible en todos los canales.",
+      "en": "It includes defining the visual identity: logo, color palette, typography and usage rules gathered in brand guidelines, plus applications for social media, web and sales materials. The goal is for your brand to look consistent and recognizable on every channel where customers find it."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Crean contenido para anuncios?",
+      "en": "Do you create content for ads?"
+     },
+     "a": {
+      "es": "Sí. Diseñamos creatividades pensadas para performance, con variaciones de mensaje, imagen y formato para testear en Meta, Google, TikTok y otras plataformas. Así el equipo de medios puede identificar rápido qué funciona y escalar las piezas con mejores resultados.",
+      "en": "Yes. We design creatives built for performance, with variations in message, image and format to test on Meta, Google, TikTok and other platforms. That way the media team can quickly identify what works and scale the assets that deliver the best results."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Quién hace el diseño?",
+      "en": "Who does the design work?"
+     },
+     "a": {
+      "es": "El diseño se desarrolla en alianza con Vero Design, un estudio especializado en identidad visual con más de 200 marcas creadas en más de 7 países. Su trabajo se integra con nuestra estrategia de marketing para que cada pieza, además de verse bien, cumpla un objetivo.",
+      "en": "Design is developed in partnership with Vero Design, a studio specialized in visual identity with 200+ brands created across 7+ countries. Their work is integrated with our marketing strategy, so every asset not only looks good but also serves a clear business goal."
+     }
+    },
+    {
+     "q": {
+      "es": "¿También producen video?",
+      "en": "Do you also produce video?"
+     },
+     "a": {
+      "es": "Sí. Producimos y editamos video para redes, anuncios y contenido de marca, con foco en storytelling. Adaptamos cada pieza a su formato, como reels, historias o anuncios horizontales, para que funcione en la plataforma donde se va a publicar.",
+      "en": "Yes. We produce and edit video for social media, ads and branded content, with a focus on storytelling. We adapt each piece to its format, such as reels, stories or horizontal ads, so it performs well on the platform where it will be published."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "Branding vs. diseño gráfico",
+     "en": "Branding vs. graphic design"
+    },
+    "col1": {
+     "es": "Branding",
+     "en": "Branding"
+    },
+    "col2": {
+     "es": "Diseño gráfico",
+     "en": "Graphic design"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Qué es",
+       "en": "What it is"
+      },
+      "c1": {
+       "es": "La identidad y percepción de tu marca",
+       "en": "Your brand’s identity and perception"
+      },
+      "c2": {
+       "es": "Las piezas visuales que la comunican",
+       "en": "The visual assets that communicate it"
+      }
+     },
+     {
+      "label": {
+       "es": "Entregables",
+       "en": "Deliverables"
+      },
+      "c1": {
+       "es": "Logo, paleta, tipografías, manual",
+       "en": "Logo, palette, typography, guidelines"
+      },
+      "c2": {
+       "es": "Posts, anuncios, presentaciones, video",
+       "en": "Posts, ads, decks, video"
+      }
+     },
+     {
+      "label": {
+       "es": "Frecuencia",
+       "en": "Frequency"
+      },
+      "c1": {
+       "es": "Se define una vez y evoluciona",
+       "en": "Defined once, evolves over time"
+      },
+      "c2": {
+       "es": "Continua, según campañas",
+       "en": "Ongoing, per campaign"
+      }
+     },
+     {
+      "label": {
+       "es": "Impacto",
+       "en": "Impact"
+      },
+      "c1": {
+       "es": "Diferencia a la marca de la competencia",
+       "en": "Sets the brand apart from competitors"
+      },
+      "c2": {
+       "es": "Mantiene la marca activa en cada canal",
+       "en": "Keeps the brand active on every channel"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "Identidad visual",
+      "en": "Visual identity"
+     },
+     "def": {
+      "es": "Conjunto de elementos gráficos (logo, colores, tipografías, estilo) que hacen reconocible a una marca.",
+      "en": "The set of graphic elements (logo, colors, typography, style) that make a brand recognizable."
+     }
+    },
+    {
+     "term": {
+      "es": "Manual de marca",
+      "en": "Brand guidelines"
+     },
+     "def": {
+      "es": "Documento con las reglas de uso de la identidad visual para mantener la coherencia en todos los canales.",
+      "en": "A document with the rules for using the visual identity to keep it consistent across channels."
+     }
+    },
+    {
+     "term": {
+      "es": "Creatividad de performance",
+      "en": "Performance creative"
+     },
+     "def": {
+      "es": "Pieza publicitaria diseñada para testear y mejorar resultados medibles, como clics o ventas.",
+      "en": "An ad asset designed to be tested and to improve measurable results, such as clicks or sales."
+     }
+    }
+   ],
+   "ref": null,
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de contenido creativo y multimedia?",
+     "en": "What’s included in our creative & multimedia content service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de contenido creativo y multimedia",
+     "en": "Creative & multimedia content: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de contenido creativo y multimedia?",
+     "en": "How does our creative & multimedia content process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de contenido creativo y multimedia?",
+     "en": "Who is our creative & multimedia content service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para contenido creativo y multimedia?",
+     "en": "Why choose us for creative & multimedia content?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre contenido creativo y multimedia",
+     "en": "Creative & multimedia content FAQ"
+    }
+   },
+   "testi": "manuel",
+   "team": [
+    "Veronica Guadagno",
+    "Nicolás González",
+    "Paul Guzmán"
+   ],
+   "rel": [
+    "performance-marketing",
+    "aeo-content",
+    "website"
+   ]
+  },
+  {
+   "slug": "website",
+   "n": "06",
+   "name": {
+    "es": "E-commerce y sitios web",
+    "en": "E-commerce &amp; websites"
+   },
+   "title": {
+    "es": "Desarrollo de e-commerce y sitios web | FL Marketing",
+    "en": "E-commerce &amp; Website Development | FL Marketing"
+   },
+   "desc": {
+    "es": "Desarrollo de e-commerce y sitios web en Shopify, WordPress y Wix: rápidos, optimizados para SEO, con medición integrada y diseñados para convertir.",
+    "en": "E-commerce and website development on Shopify, WordPress and Wix: fast, SEO-ready, with built-in tracking and designed to turn visitors into customers."
+   },
+   "h1": {
+    "es": "E-commerce y sitios web que venden",
+    "en": "E-commerce stores and websites that sell"
+   },
+   "lead": {
+    "es": "Un buen sitio web o e-commerce no es solo diseño: debe ser rápido, fácil de usar, estar optimizado para SEO y estar pensado para convertir visitas en clientes. Desarrollamos tiendas y sitios en Shopify, Wix y WordPress conectados a tu estrategia de marketing y a tu medición.",
+    "en": "A good website or online store is more than design: it must be fast, easy to use, SEO-ready and built to turn visitors into customers. We build stores and websites on Shopify, Wix and WordPress, connected to your marketing strategy and measurement."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "Diseño y UX",
+      "en": "Design &amp; UX"
+     },
+     "text": {
+      "es": "Estructura clara del descubrimiento a la compra.",
+      "en": "Clear structure from discovery to purchase."
+     }
+    },
+    {
+     "title": {
+      "es": "Desarrollo a medida",
+      "en": "Custom development"
+     },
+     "text": {
+      "es": "Temas y funcionalidades según tu negocio.",
+      "en": "Themes and features built for your business."
+     }
+    },
+    {
+     "title": {
+      "es": "Bases de SEO",
+      "en": "SEO foundations"
+     },
+     "text": {
+      "es": "Arquitectura, velocidad y datos estructurados.",
+      "en": "Architecture, speed and structured data."
+     }
+    },
+    {
+     "title": {
+      "es": "Medición integrada",
+      "en": "Built-in tracking"
+     },
+     "text": {
+      "es": "GA4, píxeles y conversiones desde el día uno.",
+      "en": "GA4, pixels and conversions from day one."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Marcas que lanzan su primera tienda online.",
+     "en": "Brands launching their first online store."
+    },
+    {
+     "es": "Negocios que migran desde otra plataforma.",
+     "en": "Businesses migrating from another platform."
+    },
+    {
+     "es": "Empresas con un sitio lento o que no convierte.",
+     "en": "Companies with a slow site or one that doesn’t convert."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Qué plataforma me conviene para mi e-commerce?",
+      "en": "Which platform is best for my online store?"
+     },
+     "a": {
+      "es": "Depende de tu catálogo, tu presupuesto y tu equipo. Shopify suele ser la mejor opción para vender online con rapidez y estabilidad; WordPress con WooCommerce da más flexibilidad de contenido y Wix funciona bien para sitios simples. Te recomendamos la que mejor se adapte a tu caso.",
+      "en": "It depends on your catalog, budget and team. Shopify is usually the best choice for selling online quickly and reliably; WordPress with WooCommerce offers more content flexibility, and Wix works well for simpler sites. We recommend the platform that best fits your case."
+     }
+    },
+    {
+     "q": {
+      "es": "¿El sitio queda optimizado para SEO?",
+      "en": "Is the site SEO-ready?"
+     },
+     "a": {
+      "es": "Sí. Cada proyecto incluye una arquitectura limpia, buena velocidad de carga, metadatos, datos estructurados y enlaces internos, además de una base preparada para posicionar en Google y aparecer en respuestas de IA desde el lanzamiento. También entregamos el sitio con Google Search Console y la medición configuradas.",
+      "en": "Yes. Every project includes clean architecture, fast load times, metadata, structured data and internal linking, plus a foundation ready to rank on Google and appear in AI-generated answers from the day the site launches. We also hand over the site with Google Search Console and tracking fully configured."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Pueden migrar mi tienda actual?",
+      "en": "Can you migrate my current store?"
+     },
+     "a": {
+      "es": "Sí. Migramos productos, clientes y contenido desde otras plataformas, y configuramos redirecciones 301 para no perder el posicionamiento que ya tienes en buscadores. Antes del cambio revisamos todo en un entorno de prueba para evitar caídas en las ventas.",
+      "en": "Yes. We migrate products, customers and content from other platforms, and set up 301 redirects so you keep the search rankings you already have. Before switching, we test everything in a staging environment to avoid any drop in sales."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Qué hace que un e-commerce convierta más?",
+      "en": "What makes an online store convert better?"
+     },
+     "a": {
+      "es": "Una tienda convierte más cuando carga rápido, se usa bien en el celular, muestra información clara del producto, genera confianza con reseñas y políticas visibles y tiene un checkout simple. Medimos cada paso del proceso de compra para detectar dónde se pierden clientes.",
+      "en": "A store converts better when it loads fast, works well on mobile, shows clear product information, builds trust with visible reviews and policies, and has a simple checkout. We measure every step of the purchase process to find where customers drop off."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "Shopify vs. WordPress",
+     "en": "Shopify vs. WordPress"
+    },
+    "col1": {
+     "es": "Shopify",
+     "en": "Shopify"
+    },
+    "col2": {
+     "es": "WordPress",
+     "en": "WordPress"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Ideal para",
+       "en": "Best for"
+      },
+      "c1": {
+       "es": "Tiendas online que quieren vender rápido",
+       "en": "Online stores that want to sell fast"
+      },
+      "c2": {
+       "es": "Sitios con mucho contenido y flexibilidad",
+       "en": "Content-heavy, flexible sites"
+      }
+     },
+     {
+      "label": {
+       "es": "E-commerce",
+       "en": "E-commerce"
+      },
+      "c1": {
+       "es": "Nativo y muy estable",
+       "en": "Native and very stable"
+      },
+      "c2": {
+       "es": "Con WooCommerce",
+       "en": "With WooCommerce"
+      }
+     },
+     {
+      "label": {
+       "es": "Mantenimiento",
+       "en": "Maintenance"
+      },
+      "c1": {
+       "es": "Bajo, la plataforma lo gestiona",
+       "en": "Low, the platform handles it"
+      },
+      "c2": {
+       "es": "Medio, requiere actualizaciones",
+       "en": "Medium, needs updates"
+      }
+     },
+     {
+      "label": {
+       "es": "SEO",
+       "en": "SEO"
+      },
+      "c1": {
+       "es": "Sólido de base, con apps de apoyo",
+       "en": "Solid out of the box, plus apps"
+      },
+      "c2": {
+       "es": "Muy flexible con plugins",
+       "en": "Highly flexible with plugins"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "Tasa de conversión",
+      "en": "Conversion rate"
+     },
+     "def": {
+      "es": "Porcentaje de visitas que terminan en una compra o en la acción deseada.",
+      "en": "The percentage of visits that end in a purchase or the desired action."
+     }
+    },
+    {
+     "term": {
+      "es": "Core Web Vitals",
+      "en": "Core Web Vitals"
+     },
+     "def": {
+      "es": "Métricas de Google que miden la velocidad de carga, la respuesta y la estabilidad visual de una página.",
+      "en": "Google metrics that measure a page’s loading speed, responsiveness and visual stability."
+     }
+    },
+    {
+     "term": {
+      "es": "Redirección 301",
+      "en": "301 redirect"
+     },
+     "def": {
+      "es": "Indicación permanente de que una página cambió de URL; conserva el posicionamiento al migrar un sitio.",
+      "en": "A permanent signal that a page moved to a new URL; it preserves rankings during a site migration."
+     }
+    }
+   ],
+   "ref": {
+    "label": {
+     "es": "Core Web Vitals, web.dev (Google)",
+     "en": "Core Web Vitals, web.dev (Google)"
+    },
+    "url": "https://web.dev/articles/vitals"
+   },
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de E-commerce y sitios web?",
+     "en": "What’s included in our E-commerce & websites service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de E-commerce y sitios web",
+     "en": "E-commerce & websites: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de E-commerce y sitios web?",
+     "en": "How does our E-commerce & websites process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de E-commerce y sitios web?",
+     "en": "Who is our E-commerce & websites service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para E-commerce y sitios web?",
+     "en": "Why choose us for E-commerce & websites?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre E-commerce y sitios web",
+     "en": "E-commerce & websites FAQ"
+    }
+   },
+   "testi": "leo",
+   "team": [
+    "Juan Jorquera",
+    "Veronica Guadagno",
+    "Alejandro Lovera"
+   ],
+   "rel": [
+    "seo-aeo",
+    "analytics",
+    "performance-marketing"
+   ]
+  },
+  {
+   "slug": "growth-hacking",
+   "n": "07",
+   "name": {
+    "es": "Growth Hacking",
+    "en": "Growth Hacking"
+   },
+   "title": {
+    "es": "Growth hacking: adquisición y retención con datos | FL Marketing",
+    "en": "Growth Hacking: Data-Driven Acquisition &amp; Retention | FL Marketing"
+   },
+   "desc": {
+    "es": "Growth hacking para captar y retener clientes: experimentos A/B, análisis del funnel y retención con datos. Crecimiento más rápido y medible para tu negocio.",
+    "en": "Growth hacking to acquire and retain customers: A/B experiments, funnel analysis and data-driven retention. Faster, measurable growth for your business."
+   },
+   "h1": {
+    "es": "Growth hacking con datos y experimentación",
+    "en": "Growth hacking powered by data and experimentation"
+   },
+   "lead": {
+    "es": "El growth hacking es un método para crecer más rápido probando ideas de adquisición, activación y retención de forma sistemática. Diseñamos experimentos, medimos su impacto y escalamos solo lo que demuestra resultados, combinando marketing, producto y datos en un mismo proceso.",
+    "en": "Growth hacking is a method to grow faster by systematically testing acquisition, activation and retention ideas. We design experiments, measure their impact and scale only what proves results, combining marketing, product and data in a single process."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "Mapa del funnel",
+      "en": "Funnel mapping"
+     },
+     "text": {
+      "es": "Dónde se pierden clientes y por qué.",
+      "en": "Where customers drop off and why."
+     }
+    },
+    {
+     "title": {
+      "es": "Backlog de experimentos",
+      "en": "Experiment backlog"
+     },
+     "text": {
+      "es": "Ideas priorizadas por impacto y esfuerzo.",
+      "en": "Ideas prioritized by impact and effort."
+     }
+    },
+    {
+     "title": {
+      "es": "Pruebas A/B",
+      "en": "A/B testing"
+     },
+     "text": {
+      "es": "Landings, mensajes, ofertas y flujos.",
+      "en": "Landing pages, messaging, offers and flows."
+     }
+    },
+    {
+     "title": {
+      "es": "Retención",
+      "en": "Retention"
+     },
+     "text": {
+      "es": "Onboarding, email y reactivación de clientes.",
+      "en": "Onboarding, email and customer reactivation."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Startups y empresas digitales en etapa de crecimiento.",
+     "en": "Startups and digital companies in growth stage."
+    },
+    {
+     "es": "Negocios con tráfico pero baja conversión.",
+     "en": "Businesses with traffic but low conversion."
+    },
+    {
+     "es": "Marcas que quieren mejorar la retención de clientes.",
+     "en": "Brands that want to improve customer retention."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Qué es el growth hacking?",
+      "en": "What is growth hacking?"
+     },
+     "a": {
+      "es": "Es un enfoque de crecimiento basado en experimentos rápidos y medibles a lo largo de todo el funnel: adquisición, activación, retención y recomendación. En lugar de apostar todo a una sola campaña, se prueban muchas ideas pequeñas, se miden con datos y se escalan solo las que funcionan.",
+      "en": "It is a growth approach based on fast, measurable experiments across the whole funnel: acquisition, activation, retention and referral. Instead of betting everything on one campaign, many small ideas are tested, measured with data, and only the winners are scaled."
+     }
+    },
+    {
+     "q": {
+      "es": "¿En qué se diferencia del marketing tradicional?",
+      "en": "How is it different from traditional marketing?"
+     },
+     "a": {
+      "es": "El marketing tradicional suele planificar campañas largas con un presupuesto fijo. El growth hacking trabaja en ciclos cortos de prueba y aprendizaje, usa datos para decidir dónde invertir y abarca también el producto, el onboarding y la retención, no solo la publicidad.",
+      "en": "Traditional marketing usually plans long campaigns with a fixed budget. Growth hacking works in short test-and-learn cycles, uses data to decide where to invest, and also covers product, onboarding and retention, not just advertising. The goal is sustainable growth, not a one-time spike in traffic."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cuántos experimentos se hacen al mes?",
+      "en": "How many experiments run per month?"
+     },
+     "a": {
+      "es": "Depende del tráfico y de los recursos disponibles. Lo importante no es la cantidad, sino que cada experimento tenga una hipótesis clara, una métrica de éxito definida y suficiente volumen de datos para sacar conclusiones confiables antes de escalar. Documentamos cada resultado para que el aprendizaje quede en tu equipo.",
+      "en": "It depends on traffic and available resources. What matters is not volume, but that each experiment has a clear hypothesis, a defined success metric and enough data to draw reliable conclusions before anything is scaled. We document every result so the learning stays with your team, even when a test fails."
+     }
+    },
+    {
+     "q": {
+      "es": "¿El growth hacking sirve para empresas B2B?",
+      "en": "Does growth hacking work for B2B companies?"
+     },
+     "a": {
+      "es": "Sí. En B2B los experimentos suelen enfocarse en la generación de leads calificados, la conversión de demos, el onboarding y la retención de cuentas. Los ciclos son más largos, por eso ajustamos las métricas y el volumen de cada prueba a la realidad del negocio.",
+      "en": "Yes. In B2B, experiments usually focus on qualified lead generation, demo conversion, onboarding and account retention. Sales cycles are longer, so we adjust metrics and test volume to fit the reality of the business and focus on the metrics that predict revenue."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "Growth hacking vs. marketing tradicional",
+     "en": "Growth hacking vs. traditional marketing"
+    },
+    "col1": {
+     "es": "Growth hacking",
+     "en": "Growth hacking"
+    },
+    "col2": {
+     "es": "Marketing tradicional",
+     "en": "Traditional marketing"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Enfoque",
+       "en": "Approach"
+      },
+      "c1": {
+       "es": "Experimentos cortos y medibles",
+       "en": "Short, measurable experiments"
+      },
+      "c2": {
+       "es": "Campañas largas planificadas",
+       "en": "Long, pre-planned campaigns"
+      }
+     },
+     {
+      "label": {
+       "es": "Alcance",
+       "en": "Scope"
+      },
+      "c1": {
+       "es": "Todo el funnel, incluido producto",
+       "en": "The whole funnel, including product"
+      },
+      "c2": {
+       "es": "Principalmente adquisición",
+       "en": "Mainly acquisition"
+      }
+     },
+     {
+      "label": {
+       "es": "Decisiones",
+       "en": "Decisions"
+      },
+      "c1": {
+       "es": "Basadas en datos de cada prueba",
+       "en": "Based on data from each test"
+      },
+      "c2": {
+       "es": "Basadas en planificación previa",
+       "en": "Based on upfront planning"
+      }
+     },
+     {
+      "label": {
+       "es": "Presupuesto",
+       "en": "Budget"
+      },
+      "c1": {
+       "es": "Se mueve hacia lo que funciona",
+       "en": "Shifts toward what works"
+      },
+      "c2": {
+       "es": "Fijo por campaña",
+       "en": "Fixed per campaign"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "Funnel",
+      "en": "Funnel"
+     },
+     "def": {
+      "es": "Recorrido del cliente desde que conoce la marca hasta que compra y vuelve a comprar.",
+      "en": "The customer journey from first discovering a brand to buying and buying again."
+     }
+    },
+    {
+     "term": {
+      "es": "Prueba A/B",
+      "en": "A/B test"
+     },
+     "def": {
+      "es": "Experimento que compara dos versiones de una página, mensaje u oferta para ver cuál funciona mejor.",
+      "en": "An experiment that compares two versions of a page, message or offer to see which performs better."
+     }
+    },
+    {
+     "term": {
+      "es": "Retención",
+      "en": "Retention"
+     },
+     "def": {
+      "es": "Capacidad de un negocio de mantener a sus clientes activos y comprando en el tiempo.",
+      "en": "A business’s ability to keep customers active and buying over time."
+     }
+    },
+    {
+     "term": {
+      "es": "North Star Metric",
+      "en": "North Star Metric"
+     },
+     "def": {
+      "es": "Métrica principal que mejor refleja el valor que el cliente recibe y guía todas las decisiones de crecimiento.",
+      "en": "The main metric that best reflects the value customers receive and guides every growth decision."
+     }
+    }
+   ],
+   "ref": null,
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de Growth Hacking?",
+     "en": "What’s included in our Growth Hacking service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de Growth Hacking",
+     "en": "Growth Hacking: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de Growth Hacking?",
+     "en": "How does our Growth Hacking process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de Growth Hacking?",
+     "en": "Who is our Growth Hacking service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para Growth Hacking?",
+     "en": "Why choose us for Growth Hacking?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre Growth Hacking",
+     "en": "Growth Hacking FAQ"
+    }
+   },
+   "testi": "carol",
+   "team": [
+    "Felipe Ríos Barraza",
+    "Nicole Arancibia",
+    "Gever Salazar"
+   ],
+   "rel": [
+    "analytics",
+    "performance-marketing",
+    "marketing-automation"
+   ]
+  },
+  {
+   "slug": "analytics",
+   "n": "08",
+   "name": {
+    "es": "Analítica e insights",
+    "en": "Analytics &amp; insights"
+   },
+   "title": {
+    "es": "Analítica de marketing y dashboards | FL Marketing",
+    "en": "Marketing Analytics &amp; Dashboards | FL Marketing"
+   },
+   "desc": {
+    "es": "Analítica de marketing con GA4 y Google Tag Manager: tracking confiable, dashboards claros e insights accionables para invertir mejor en cada canal.",
+    "en": "Marketing analytics with GA4 and Google Tag Manager: reliable tracking, clear dashboards and actionable insights to invest smarter in every channel."
+   },
+   "h1": {
+    "es": "Analítica de marketing para decidir con datos",
+    "en": "Marketing analytics to make data-driven decisions"
+   },
+   "lead": {
+    "es": "La analítica de marketing mide el impacto real de cada canal y cada campaña para que tomes decisiones con datos confiables. Configuramos la medición con GA4 y Google Tag Manager, construimos dashboards claros y convertimos los números en recomendaciones concretas para crecer.",
+    "en": "Marketing analytics measures the real impact of every channel and campaign so you can make decisions with reliable data. We set up tracking with GA4 and Google Tag Manager, build clear dashboards and turn numbers into concrete recommendations for growth."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "Implementación de tracking",
+      "en": "Tracking setup"
+     },
+     "text": {
+      "es": "GA4, GTM, píxeles y conversiones.",
+      "en": "GA4, GTM, pixels and conversions."
+     }
+    },
+    {
+     "title": {
+      "es": "Auditoría de datos",
+      "en": "Data audit"
+     },
+     "text": {
+      "es": "Detectamos errores, duplicados y vacíos.",
+      "en": "We find errors, duplicates and gaps."
+     }
+    },
+    {
+     "title": {
+      "es": "Dashboards",
+      "en": "Dashboards"
+     },
+     "text": {
+      "es": "Reportes automáticos y fáciles de leer.",
+      "en": "Automated, easy-to-read reports."
+     }
+    },
+    {
+     "title": {
+      "es": "Insights accionables",
+      "en": "Actionable insights"
+     },
+     "text": {
+      "es": "Qué hacer con los datos, no solo qué pasó.",
+      "en": "What to do with the data, not just what happened."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Empresas que no confían en sus datos actuales.",
+     "en": "Companies that don’t trust their current data."
+    },
+    {
+     "es": "Equipos que invierten en medios sin saber qué funciona.",
+     "en": "Teams spending on media without knowing what works."
+    },
+    {
+     "es": "Directivos que necesitan reportes claros.",
+     "en": "Leaders who need clear reporting."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Por qué es importante la analítica de marketing?",
+      "en": "Why does marketing analytics matter?"
+     },
+     "a": {
+      "es": "Sin datos confiables es imposible saber qué canales generan ventas y cuáles solo consumen presupuesto. La analítica permite invertir mejor, detectar oportunidades, corregir a tiempo y demostrar el retorno del marketing con números claros, en lugar de decidir por intuición.",
+      "en": "Without reliable data, it is impossible to know which channels drive sales and which only consume budget. Analytics lets you invest better, spot opportunities, correct course in time and prove marketing’s return with clear numbers, instead of deciding on gut feeling."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Qué herramientas usan?",
+      "en": "Which tools do you use?"
+     },
+     "a": {
+      "es": "Trabajamos principalmente con Google Analytics 4, Google Tag Manager, píxeles de plataformas publicitarias y herramientas de dashboards como Looker Studio. Elegimos el stack según tu negocio, tus sistemas actuales y las preguntas que necesitas responder con los datos.",
+      "en": "We mainly work with Google Analytics 4, Google Tag Manager, ad platform pixels and dashboard tools such as Looker Studio. We choose the stack based on your business, your existing systems and the questions you need your data to answer."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Pueden revisar mi medición actual?",
+      "en": "Can you review my current tracking?"
+     },
+     "a": {
+      "es": "Sí. Hacemos una auditoría de tu medición para detectar conversiones duplicadas, eventos rotos, datos faltantes o configuraciones incorrectas, y te entregamos un plan de corrección priorizado según el impacto que cada problema tiene en tus decisiones. Si lo necesitas, también implementamos las correcciones.",
+      "en": "Yes. We audit your tracking to find duplicate conversions, broken events, missing data or incorrect settings, and deliver a fix plan prioritized by the impact each issue has on your business decisions. If needed, we also implement the fixes and validate that every event records correctly."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Por qué los números de GA4 no coinciden con los de Meta o Google Ads?",
+      "en": "Why don’t GA4 numbers match Meta or Google Ads?"
+     },
+     "a": {
+      "es": "Cada herramienta usa su propio modelo de atribución, ventanas de conversión y métodos de conteo, por eso los números casi nunca coinciden. No significa que uno esté mal: hay que entender qué mide cada uno y cruzarlos para tomar decisiones con una visión real.",
+      "en": "Each tool uses its own attribution model, conversion windows and counting methods, so the numbers rarely match. That doesn’t mean one is wrong: you need to understand what each one measures and combine them to make decisions with a true picture."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "GA4 vs. datos de las plataformas publicitarias",
+     "en": "GA4 vs. ad platform data"
+    },
+    "col1": {
+     "es": "Google Analytics 4",
+     "en": "Google Analytics 4"
+    },
+    "col2": {
+     "es": "Plataformas publicitarias",
+     "en": "Ad platforms"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Visión",
+       "en": "View"
+      },
+      "c1": {
+       "es": "Todos los canales en un solo lugar",
+       "en": "All channels in one place"
+      },
+      "c2": {
+       "es": "Solo su propio canal",
+       "en": "Only their own channel"
+      }
+     },
+     {
+      "label": {
+       "es": "Atribución",
+       "en": "Attribution"
+      },
+      "c1": {
+       "es": "Modelo común para comparar canales",
+       "en": "A common model to compare channels"
+      },
+      "c2": {
+       "es": "Tiende a atribuirse más ventas",
+       "en": "Tends to claim more sales"
+      }
+     },
+     {
+      "label": {
+       "es": "Uso ideal",
+       "en": "Best use"
+      },
+      "c1": {
+       "es": "Decidir inversión entre canales",
+       "en": "Deciding budget across channels"
+      },
+      "c2": {
+       "es": "Optimizar dentro de cada plataforma",
+       "en": "Optimizing inside each platform"
+      }
+     },
+     {
+      "label": {
+       "es": "Precisión",
+       "en": "Accuracy"
+      },
+      "c1": {
+       "es": "Depende de la configuración de eventos",
+       "en": "Depends on event setup"
+      },
+      "c2": {
+       "es": "Condicionada por sus propias ventanas de conversión",
+       "en": "Shaped by their own conversion windows"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "GA4",
+      "en": "GA4"
+     },
+     "def": {
+      "es": "Google Analytics 4: la herramienta de Google para medir el comportamiento de los usuarios en sitios web y apps mediante eventos.",
+      "en": "Google Analytics 4: Google’s tool for measuring user behavior on websites and apps through events."
+     }
+    },
+    {
+     "term": {
+      "es": "Google Tag Manager",
+      "en": "Google Tag Manager"
+     },
+     "def": {
+      "es": "Herramienta que permite gestionar las etiquetas de medición de un sitio sin modificar su código cada vez.",
+      "en": "A tool to manage a site’s tracking tags without changing its code every time."
+     }
+    },
+    {
+     "term": {
+      "es": "Atribución",
+      "en": "Attribution"
+     },
+     "def": {
+      "es": "Método para asignar el mérito de una venta a los canales y puntos de contacto que participaron en ella.",
+      "en": "A method to assign credit for a sale to the channels and touchpoints involved."
+     }
+    },
+    {
+     "term": {
+      "es": "Evento",
+      "en": "Event"
+     },
+     "def": {
+      "es": "Cada acción que se mide en un sitio, como una visita, un clic, un formulario enviado o una compra.",
+      "en": "Each action measured on a site, such as a page view, click, form submission or purchase."
+     }
+    }
+   ],
+   "ref": {
+    "label": {
+     "es": "Presentación de Google Analytics 4, Ayuda de Analytics",
+     "en": "Introducing Google Analytics 4, Analytics Help"
+    },
+    "url": "https://support.google.com/analytics/answer/10089681"
+   },
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de analítica e insights?",
+     "en": "What’s included in our analytics & insights service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de analítica e insights",
+     "en": "Analytics & insights: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de analítica e insights?",
+     "en": "How does our analytics & insights process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de analítica e insights?",
+     "en": "Who is our analytics & insights service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para analítica e insights?",
+     "en": "Why choose us for analytics & insights?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre analítica e insights",
+     "en": "Analytics & insights FAQ"
+    }
+   },
+   "testi": "leo",
+   "team": [
+    "Gever Salazar",
+    "Alejandro Lovera",
+    "Antonio Araya"
+   ],
+   "rel": [
+    "performance-marketing",
+    "growth-hacking",
+    "consulting"
+   ]
+  },
+  {
+   "slug": "ai-assistants",
+   "n": "09",
+   "name": {
+    "es": "Asistentes de IA",
+    "en": "AI assistants"
+   },
+   "title": {
+    "es": "Asistentes de IA a medida para empresas | FL Marketing",
+    "en": "Custom AI Assistants for Business | FL Marketing"
+   },
+   "desc": {
+    "es": "Asistentes de IA a medida para empresas: automatizan tareas, responden consultas y conectan tus herramientas como CRM, Slack y WhatsApp, con control total.",
+    "en": "Custom AI assistants for business: they automate tasks, answer questions and connect your tools such as CRM, Slack and WhatsApp, with full control."
+   },
+   "h1": {
+    "es": "Asistentes de IA a medida para tu negocio",
+    "en": "Custom AI assistants for your business"
+   },
+   "lead": {
+    "es": "Un asistente de IA es un sistema que realiza tareas repetitivas, procesa información y apoya a tu equipo usando modelos de inteligencia artificial conectados a tus herramientas. Diseñamos asistentes a medida para marketing, ventas, soporte y operaciones, con lógica clara y control total.",
+    "en": "An AI assistant is a system that handles repetitive tasks, processes information and supports your team using AI models connected to your tools. We design custom assistants for marketing, sales, support and operations, with clear logic and full control."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "Asistentes a medida",
+      "en": "Custom assistants"
+     },
+     "text": {
+      "es": "Diseñados según tus procesos y reglas de negocio.",
+      "en": "Designed around your processes and business rules."
+     }
+    },
+    {
+     "title": {
+      "es": "Integraciones",
+      "en": "Integrations"
+     },
+     "text": {
+      "es": "CRM, Slack, WhatsApp, Google Workspace y más.",
+      "en": "CRM, Slack, WhatsApp, Google Workspace and more."
+     }
+    },
+    {
+     "title": {
+      "es": "Procesamiento de datos",
+      "en": "Data processing"
+     },
+     "text": {
+      "es": "Clasificación, resúmenes y enriquecimiento.",
+      "en": "Classification, summaries and enrichment."
+     }
+    },
+    {
+     "title": {
+      "es": "Monitoreo",
+      "en": "Monitoring"
+     },
+     "text": {
+      "es": "Documentación y mejoras continuas.",
+      "en": "Documentation and continuous improvement."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Equipos que quieren automatizar sin perder control.",
+     "en": "Teams that want to automate without losing control."
+    },
+    {
+     "es": "Negocios con alto volumen de consultas u operaciones.",
+     "en": "Businesses with high inquiry or operational volume."
+    },
+    {
+     "es": "Empresas que buscan eficiencia sin sumar personal.",
+     "en": "Companies seeking efficiency without adding headcount."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Qué puede hacer un asistente de IA en mi empresa?",
+      "en": "What can an AI assistant do for my company?"
+     },
+     "a": {
+      "es": "Puede responder consultas frecuentes, clasificar y resumir información, preparar reportes, mover datos entre herramientas y apoyar a tu equipo en tareas repetitivas de marketing, ventas, soporte u operaciones. Así las personas se enfocan en el trabajo que realmente requiere criterio humano.",
+      "en": "It can answer frequent questions, classify and summarize information, prepare reports, move data between tools and support your team with repetitive tasks in marketing, sales, support or operations. That frees people to focus on the work that truly requires human judgment."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Se conecta con mis herramientas actuales?",
+      "en": "Does it connect to my current tools?"
+     },
+     "a": {
+      "es": "Sí. Integramos los asistentes con herramientas como tu CRM, Slack, WhatsApp, Google Workspace y plataformas de analítica, para que trabajen con tus datos reales y en tiempo real, dentro de los flujos que tu equipo ya usa todos los días.",
+      "en": "Yes. We integrate assistants with tools such as your CRM, Slack, WhatsApp, Google Workspace and analytics platforms, so they work with your real data in real time, inside the workflows your team already uses every day, without forcing anyone to change tools or learn a new platform."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Mis datos están seguros?",
+      "en": "Is my data safe?"
+     },
+     "a": {
+      "es": "Diseñamos cada asistente con permisos definidos, acceso limitado solo a la información necesaria y proveedores que no entrenan modelos con tus datos. Además, documentamos la lógica del sistema para que siempre sepas qué hace, con qué información y bajo qué reglas.",
+      "en": "We design each assistant with defined permissions, access limited to only the information it needs and providers that don’t train models on your data. We also document the system’s logic so you always know what it does, with which data and under which rules."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cuánto tarda en implementarse un asistente?",
+      "en": "How long does it take to implement an assistant?"
+     },
+     "a": {
+      "es": "Un primer asistente con un caso de uso concreto puede estar funcionando en pocas semanas. Empezamos por una tarea de alto impacto, medimos el ahorro de tiempo y, con esos resultados, ampliamos a nuevos procesos de forma gradual y controlada.",
+      "en": "A first assistant with a specific use case can be running within a few weeks. We start with one high-impact task, measure the time saved and, based on those results, expand to new processes gradually and in a controlled way."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "Asistente de IA vs. chatbot tradicional",
+     "en": "AI assistant vs. traditional chatbot"
+    },
+    "col1": {
+     "es": "Asistente de IA",
+     "en": "AI assistant"
+    },
+    "col2": {
+     "es": "Chatbot tradicional",
+     "en": "Traditional chatbot"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Cómo responde",
+       "en": "How it responds"
+      },
+      "c1": {
+       "es": "Entiende lenguaje natural y contexto",
+       "en": "Understands natural language and context"
+      },
+      "c2": {
+       "es": "Sigue reglas y menús fijos",
+       "en": "Follows fixed rules and menus"
+      }
+     },
+     {
+      "label": {
+       "es": "Qué puede hacer",
+       "en": "What it can do"
+      },
+      "c1": {
+       "es": "Consultar datos, resumir, actuar en herramientas",
+       "en": "Query data, summarize, act in tools"
+      },
+      "c2": {
+       "es": "Responder preguntas predefinidas",
+       "en": "Answer predefined questions"
+      }
+     },
+     {
+      "label": {
+       "es": "Integraciones",
+       "en": "Integrations"
+      },
+      "c1": {
+       "es": "CRM, Slack, WhatsApp, Google Workspace",
+       "en": "CRM, Slack, WhatsApp, Google Workspace"
+      },
+      "c2": {
+       "es": "Limitadas",
+       "en": "Limited"
+      }
+     },
+     {
+      "label": {
+       "es": "Mejora",
+       "en": "Improvement"
+      },
+      "c1": {
+       "es": "Se ajusta con uso y documentación",
+       "en": "Improves with use and documentation"
+      },
+      "c2": {
+       "es": "Requiere reprogramar reglas",
+       "en": "Requires rewriting rules"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "Asistente de IA",
+      "en": "AI assistant"
+     },
+     "def": {
+      "es": "Sistema que usa modelos de lenguaje para entender instrucciones, procesar información y ejecutar tareas dentro de tus herramientas.",
+      "en": "A system that uses language models to understand instructions, process information and carry out tasks in your tools."
+     }
+    },
+    {
+     "term": {
+      "es": "Integración (API)",
+      "en": "Integration (API)"
+     },
+     "def": {
+      "es": "Conexión que permite al asistente leer y escribir datos en otras plataformas, como un CRM o una hoja de cálculo.",
+      "en": "A connection that lets the assistant read and write data in other platforms, such as a CRM or spreadsheet."
+     }
+    },
+    {
+     "term": {
+      "es": "Automatización de flujos",
+      "en": "Workflow automation"
+     },
+     "def": {
+      "es": "Secuencia de acciones que se ejecuta sola cuando ocurre un evento, como un formulario nuevo o un mensaje entrante.",
+      "en": "A sequence of actions that runs automatically when an event happens, such as a new form or an incoming message."
+     }
+    }
+   ],
+   "ref": null,
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de asistentes de IA?",
+     "en": "What’s included in our AI assistants service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de asistentes de IA",
+     "en": "AI assistants: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de asistentes de IA?",
+     "en": "How does our AI assistants process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de asistentes de IA?",
+     "en": "Who is our AI assistants service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para asistentes de IA?",
+     "en": "Why choose us for AI assistants?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre asistentes de IA",
+     "en": "AI assistants FAQ"
+    }
+   },
+   "testi": "manuel",
+   "team": [
+    "Juan Jorquera",
+    "Alejandro Lovera",
+    "Antonio Araya"
+   ],
+   "rel": [
+    "marketing-automation",
+    "analytics",
+    "aeo-content"
+   ]
+  },
+  {
+   "slug": "marketing-automation",
+   "n": "10",
+   "name": {
+    "es": "Automatización y Martech",
+    "en": "Automation &amp; Martech"
+   },
+   "title": {
+    "es": "Automatización de marketing e implementación Martech | FL Marketing",
+    "en": "Marketing Automation &amp; Martech Implementation | FL Marketing"
+   },
+   "desc": {
+    "es": "Automatización de marketing e implementación Martech: CRM, email marketing y flujos automáticos para gestionar contactos, nutrir leads y fidelizar clientes.",
+    "en": "Marketing automation and Martech implementation: CRM, email marketing and automated flows to manage contacts, nurture leads and retain customers longer."
+   },
+   "h1": {
+    "es": "Automatización de marketing e implementación Martech",
+    "en": "Marketing automation &amp; Martech implementation"
+   },
+   "lead": {
+    "es": "La automatización de marketing usa plataformas como CRM y email marketing para gestionar contactos, nutrir leads y fidelizar clientes sin tareas manuales. Elegimos, implementamos y conectamos las herramientas Martech que tu negocio necesita, con flujos automáticos que mejoran la eficiencia y la experiencia del cliente.",
+    "en": "Marketing automation uses platforms such as CRM and email marketing to manage contacts, nurture leads and retain customers without manual work. We select, implement and connect the Martech tools your business needs, with automated flows that improve efficiency and customer experience."
+   },
+   "inc": [
+    {
+     "title": {
+      "es": "Implementación de CRM",
+      "en": "CRM implementation"
+     },
+     "text": {
+      "es": "Configuración, pipeline y migración de datos.",
+      "en": "Setup, pipeline and data migration."
+     }
+    },
+    {
+     "title": {
+      "es": "Email marketing",
+      "en": "Email marketing"
+     },
+     "text": {
+      "es": "Flujos de bienvenida, carrito abandonado y más.",
+      "en": "Welcome, abandoned cart and more flows."
+     }
+    },
+    {
+     "title": {
+      "es": "Automatizaciones",
+      "en": "Automations"
+     },
+     "text": {
+      "es": "Procesos conectados entre tus herramientas.",
+      "en": "Connected processes across your tools."
+     }
+    },
+    {
+     "title": {
+      "es": "Segmentación",
+      "en": "Segmentation"
+     },
+     "text": {
+      "es": "Mensajes según comportamiento y etapa.",
+      "en": "Messages based on behavior and stage."
+     }
+    }
+   ],
+   "who": [
+    {
+     "es": "Empresas que gestionan contactos en planillas.",
+     "en": "Companies managing contacts in spreadsheets."
+    },
+    {
+     "es": "E-commerce que quiere aumentar la recompra.",
+     "en": "E-commerce brands that want more repeat purchases."
+    },
+    {
+     "es": "Equipos comerciales que necesitan leads más calificados.",
+     "en": "Sales teams that need better-qualified leads."
+    }
+   ],
+   "faq": [
+    {
+     "q": {
+      "es": "¿Qué es la automatización de marketing?",
+      "en": "What is marketing automation?"
+     },
+     "a": {
+      "es": "Es el uso de plataformas para ejecutar acciones de marketing de forma automática según el comportamiento de cada contacto, como enviar un email de bienvenida, recordar un carrito abandonado o asignar un lead al equipo comercial. Ahorra tiempo, reduce errores y mejora la relación con el cliente.",
+      "en": "It is the use of platforms to run marketing actions automatically based on each contact’s behavior, such as sending a welcome email, reminding an abandoned cart or assigning a lead to sales. It saves time, reduces errors and improves customer relationships."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Qué herramientas implementan?",
+      "en": "Which tools do you implement?"
+     },
+     "a": {
+      "es": "Trabajamos con CRM y plataformas de email y automatización como Klaviyo, además de herramientas de integración como n8n, entre otras. Recomendamos el stack según el tamaño de tu empresa, tu presupuesto, tus procesos actuales y las herramientas que tu equipo ya usa.",
+      "en": "We work with CRMs and email and automation platforms such as Klaviyo, plus integration tools like n8n, among others. We recommend the stack based on your company size, budget, current processes and the tools your team already uses."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cuánto tarda una implementación?",
+      "en": "How long does an implementation take?"
+     },
+     "a": {
+      "es": "Una implementación básica de CRM o email marketing puede estar lista en pocas semanas. Los proyectos con más integraciones o migraciones de datos toman más tiempo, y siempre se entregan por etapas para que empieces a ver resultados desde el principio.",
+      "en": "A basic CRM or email marketing setup can be ready in a few weeks. Projects with more integrations or data migrations take longer, and they are always delivered in stages so you start seeing results from the very beginning."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Qué flujos automáticos conviene tener primero?",
+      "en": "Which automated flows should I set up first?"
+     },
+     "a": {
+      "es": "Para un e-commerce, los primeros suelen ser bienvenida, carrito abandonado, post compra y reactivación de clientes inactivos. En B2B, la calificación y asignación de leads y el nurturing por email. Son los que más impacto tienen con menos esfuerzo.",
+      "en": "For e-commerce, the first ones are usually welcome, abandoned cart, post-purchase and win-back for inactive customers. In B2B, lead scoring and routing plus email nurturing. These deliver the most impact for the least effort, and they create a solid base for more advanced automations later."
+     }
+    }
+   ],
+   "cmp": {
+    "title": {
+     "es": "Gestión automatizada vs. gestión manual",
+     "en": "Automated vs. manual management"
+    },
+    "col1": {
+     "es": "Con automatización",
+     "en": "With automation"
+    },
+    "col2": {
+     "es": "Gestión manual",
+     "en": "Manual management"
+    },
+    "rows": [
+     {
+      "label": {
+       "es": "Seguimiento de leads",
+       "en": "Lead follow-up"
+      },
+      "c1": {
+       "es": "Inmediato y constante",
+       "en": "Immediate and consistent"
+      },
+      "c2": {
+       "es": "Depende de la disponibilidad del equipo",
+       "en": "Depends on team availability"
+      }
+     },
+     {
+      "label": {
+       "es": "Personalización",
+       "en": "Personalization"
+      },
+      "c1": {
+       "es": "Según comportamiento y etapa",
+       "en": "Based on behavior and stage"
+      },
+      "c2": {
+       "es": "Genérica o limitada",
+       "en": "Generic or limited"
+      }
+     },
+     {
+      "label": {
+       "es": "Datos",
+       "en": "Data"
+      },
+      "c1": {
+       "es": "Centralizados en un CRM",
+       "en": "Centralized in a CRM"
+      },
+      "c2": {
+       "es": "Dispersos en planillas y correos",
+       "en": "Scattered in spreadsheets and inboxes"
+      }
+     },
+     {
+      "label": {
+       "es": "Escalabilidad",
+       "en": "Scalability"
+      },
+      "c1": {
+       "es": "Crece sin sumar tareas manuales",
+       "en": "Scales without extra manual work"
+      },
+      "c2": {
+       "es": "Requiere más personas",
+       "en": "Requires more people"
+      }
+     }
+    ]
+   },
+   "defs": [
+    {
+     "term": {
+      "es": "CRM",
+      "en": "CRM"
+     },
+     "def": {
+      "es": "Plataforma que centraliza los datos de contactos y clientes, y el historial de cada interacción comercial.",
+      "en": "A platform that centralizes contact and customer data and the history of every sales interaction."
+     }
+    },
+    {
+     "term": {
+      "es": "Lead nurturing",
+      "en": "Lead nurturing"
+     },
+     "def": {
+      "es": "Serie de mensajes que acompaña a un posible cliente con información útil hasta que está listo para comprar.",
+      "en": "A series of messages that guides a potential customer with useful information until they are ready to buy."
+     }
+    },
+    {
+     "term": {
+      "es": "Flujo automatizado",
+      "en": "Automated flow"
+     },
+     "def": {
+      "es": "Secuencia de emails o acciones que se activa sola según el comportamiento de cada contacto.",
+      "en": "A sequence of emails or actions triggered automatically by each contact’s behavior."
+     }
+    },
+    {
+     "term": {
+      "es": "Segmentación",
+      "en": "Segmentation"
+     },
+     "def": {
+      "es": "División de la base de contactos en grupos con características o comportamientos similares.",
+      "en": "Dividing a contact list into groups with similar characteristics or behaviors."
+     }
+    }
+   ],
+   "ref": null,
+   "headings": {
+    "inc": {
+     "es": "¿Qué incluye nuestro servicio de automatización y Martech?",
+     "en": "What’s included in our automation & Martech service?"
+    },
+    "defs": {
+     "es": "Conceptos clave de automatización y Martech",
+     "en": "Automation & Martech: key concepts"
+    },
+    "method": {
+     "es": "¿Cómo funciona nuestro proceso de automatización y Martech?",
+     "en": "How does our automation & Martech process work?"
+    },
+    "who": {
+     "es": "¿Para quién es el servicio de automatización y Martech?",
+     "en": "Who is our automation & Martech service for?"
+    },
+    "why": {
+     "es": "¿Por qué elegirnos para automatización y Martech?",
+     "en": "Why choose us for automation & Martech?"
+    },
+    "faq": {
+     "es": "Preguntas frecuentes sobre automatización y Martech",
+     "en": "Automation & Martech FAQ"
+    }
+   },
+   "testi": "manuel",
+   "team": [
+    "Juan Jorquera",
+    "María Silvia Andueza",
+    "Antonio Araya"
+   ],
+   "rel": [
+    "ai-assistants",
+    "growth-hacking",
+    "analytics"
+   ]
+  }
+ ],
+ "testimonials": {
+  "leo": {
+   "quote": {
+    "es": "«Trabajar con FL Marketing Management ha sido fantástico para nuestra startup. En los últimos 4 años, nuestro e-commerce ha crecido significativamente gracias a sus estrategias efectivas y su profundo conocimiento de marketing.»",
+    "en": "“Working with FL Marketing Management has been fantastic for our startup. Over the past 4 years, our eCommerce has grown significantly thanks to their effective strategies and deep marketing knowledge.”"
+   },
+   "name": "Leonardo Rangel",
+   "role": {
+    "es": "CEO y fundador, RMPartes.cl",
+    "en": "CEO &amp; Founder, RMPartes.cl"
+   }
+  },
+  "carol": {
+   "quote": {
+    "es": "«Trabajar con ustedes ha tenido un impacto real en nuestra agencia. Su enfoque estratégico y su apoyo constante mejoraron significativamente cómo gestionamos marcas de vino en cinco países.»",
+    "en": "“Working with you has been truly impactful for our agency. Your strategic approach and consistent support have significantly improved how we manage wine brands across five countries.”"
+   },
+   "name": "Carol Sánchez",
+   "role": {
+    "es": "Directora general, Gig",
+    "en": "Managing Director, Gig"
+   }
+  },
+  "manuel": {
+   "quote": {
+    "es": "«Desde que empezamos a trabajar juntos, hemos vivido una transformación significativa en nuestro marketing. Sus estrategias innovadoras y su apoyo cercano llevaron a mejoras notables en nuestros resultados.»",
+    "en": "“Since we started working together, we’ve experienced a significant transformation in our marketing efforts. Your innovative strategies and hands-on support have led to remarkable improvements in our results.”"
+   },
+   "name": "Manuel Trigo",
+   "role": {
+    "es": "CEO y fundador, PolariGlass",
+    "en": "CEO &amp; Founder, PolariGlass"
+   }
+  }
+ }
+}
