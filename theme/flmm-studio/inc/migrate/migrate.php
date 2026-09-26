@@ -433,8 +433,8 @@ function flmm_mig_step_company() {
 		$es   = flmm_mig_company_page( $slug, 'es' );
 		$pair = flmm_mig_page_pair(
 			$slug,
-			array( 'post_title' => $en['title'], 'post_content' => $en['content'], 'page_template' => '', 'comment_status' => 'closed' ),
-			array( 'post_title' => $es['title'], 'post_content' => $es['content'], 'page_template' => '', 'comment_status' => 'closed' )
+			array( 'post_title' => $en['title'], 'post_content' => $en['content'], 'page_template' => isset( $en['template'] ) ? $en['template'] : '', 'comment_status' => 'closed' ),
+			array( 'post_title' => $es['title'], 'post_content' => $es['content'], 'page_template' => isset( $es['template'] ) ? $es['template'] : '', 'comment_status' => 'closed' )
 		);
 		if ( 'privacy-policy' === $slug ) {
 			foreach ( $pair as $lang => $id ) {

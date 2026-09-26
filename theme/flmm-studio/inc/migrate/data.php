@@ -232,52 +232,10 @@ function flmm_mig_company_page( $slug, $lang ) {
 	$email = flmm_option( 'email' );
 	switch ( $slug ) {
 		case 'about':
-			$photo = wp_get_attachment_url( 208 );
-			$img   = $photo ? flmm_bo( 'image', array( 'id' => 208, 'width' => '220px', 'sizeSlug' => 'full', 'linkDestination' => 'none', 'className' => 'flmm-about-photo' ) )
-				. '<figure class="wp-block-image size-full is-resized flmm-about-photo"><img src="' . esc_url( $photo ) . '" alt="' . esc_attr( $es ? 'Alejandro Lovera, fundador de FL Marketing Management' : 'Alejandro Lovera, founder of FL Marketing Management' ) . '" class="wp-image-208" style="width:220px"/></figure><!-- /wp:image -->' : '';
-			if ( $es ) {
-				return array(
-					'title'   => 'Sobre FL Marketing Management',
-					'content' => flmm_p( '<strong>FL Marketing Management</strong> es una consultora digital boutique con base en Florida que ayuda a las empresas a crecer con performance marketing, automatización con IA y estrategia basada en datos. Construimos sistemas digitales escalables que mejoran la eficiencia, reducen costos e impulsan un crecimiento medible, con ejecución clara y sin tácticas genéricas.' )
-						. $img
-						. flmm_h( 2, 'Qué hacemos' )
-						. flmm_p( 'Trabajamos con empresas que quieren modernizar su operación digital y convertir el marketing en un motor de crecimiento predecible. Nuestras especialidades:' )
-						. flmm_mig_list( array( '<strong>Performance marketing</strong> (Google, Meta, Reddit, TikTok y LinkedIn)', '<strong>Asistentes de IA y automatización de flujos</strong> (n8n, APIs y LLMs)', '<strong>Analítica y medición avanzada</strong> (GA4, BigQuery y dashboards)', '<strong>SEO con IA y AEO</strong> (visibilidad en Google y en buscadores con IA)', '<strong>Sitios web y embudos orientados a la conversión</strong>' ) )
-						. flmm_p( 'Cada solución se diseña pensando en la eficiencia, la escalabilidad y el impacto real en el negocio.' )
-						. flmm_h( 2, 'Cómo trabajamos' )
-						. flmm_p( 'Operamos como una extensión senior de tu equipo. Eso significa:' )
-						. flmm_mig_list( array( 'Primero la estrategia, después la ejecución', 'Datos antes que suposiciones', 'Automatización antes que trabajo manual', 'Sistemas de largo plazo, no atajos de corto plazo' ) )
-						. flmm_p( 'Diseñamos e implementamos soluciones que reducen la fricción operativa, mejoran la toma de decisiones y permiten escalar sin sumar personas al equipo.' )
-						. flmm_h( 2, 'Con quién trabajamos' )
-						. flmm_p( 'Colaboramos con startups, pymes y empresas en crecimiento de EE. UU. y otros mercados que necesitan:' )
-						. flmm_mig_list( array( 'Mejor rendimiento de sus medios pagados', 'Analítica clara y confiable', 'Un uso más inteligente de la IA y la automatización', 'Bases digitales más sólidas para crecer' ) )
-						. flmm_h( 2, 'Nuestra forma de pensar' )
-						. flmm_p( 'El marketing no se trata solo de visibilidad: se trata de <strong>eficiencia, claridad y apalancamiento</strong>. Nuestro objetivo es ayudar a las empresas a:' )
-						. flmm_mig_list( array( 'Invertir mejor', 'Avanzar más rápido', 'Tomar mejores decisiones', 'Construir sistemas digitales que rinden más con el tiempo' ) )
-						. flmm_h( 2, 'Ubicación' )
-						. flmm_p( 'Con base en <strong>Florida, EE. UU.</strong> Trabajamos de forma remota con equipos de todo el mundo.' ),
-				);
-			}
 			return array(
-				'title'   => 'About FL Marketing Management',
-				'content' => flmm_p( '<strong>FL Marketing Management</strong> is a Florida-based boutique digital consultancy that helps businesses grow through performance marketing, AI automation and data-driven strategy. We build scalable digital systems that improve efficiency, reduce costs and drive measurable growth, with clear execution instead of buzzwords or generic tactics.' )
-					. $img
-					. flmm_h( 2, 'What we do' )
-					. flmm_p( 'We partner with companies that want to modernize their digital operations and turn marketing into a predictable growth engine. Our core expertise includes:' )
-					. flmm_mig_list( array( '<strong>Performance marketing</strong> (Google, Meta, Reddit, TikTok and LinkedIn)', '<strong>AI assistants and workflow automation</strong> (n8n, APIs and LLMs)', '<strong>Analytics and advanced tracking</strong> (GA4, BigQuery and dashboards)', '<strong>AI SEO and AEO</strong> (visibility in Google and AI search engines)', '<strong>Conversion-focused websites and funnels</strong>' ) )
-					. flmm_p( 'Every solution is built with efficiency, scalability and real business impact in mind.' )
-					. flmm_h( 2, 'How we work' )
-					. flmm_p( 'We operate as a senior extension of your team. That means:' )
-					. flmm_mig_list( array( 'Strategy first, execution second', 'Data over assumptions', 'Automation over manual work', 'Long-term systems, not short-term hacks' ) )
-					. flmm_p( 'We design and implement solutions that reduce operational friction, improve decision-making and allow teams to scale without increasing headcount.' )
-					. flmm_h( 2, 'Who we work with' )
-					. flmm_p( 'We collaborate with startups, SMBs and growing companies across the US and international markets that need:' )
-					. flmm_mig_list( array( 'Better performance from paid media', 'Clear and reliable analytics', 'Smarter use of AI and automation', 'Stronger digital foundations for growth' ) )
-					. flmm_h( 2, 'Our mindset' )
-					. flmm_p( 'Marketing is not just about visibility: it is about <strong>efficiency, clarity and leverage</strong>. Our goal is to help companies:' )
-					. flmm_mig_list( array( 'Spend smarter', 'Move faster', 'Make better decisions', 'Build digital systems that compound over time' ) )
-					. flmm_h( 2, 'Location' )
-					. flmm_p( 'Based in <strong>Florida, USA</strong>. Working remotely with teams worldwide.' ),
+				'title'    => $es ? 'Sobre FL Marketing Management' : 'About FL Marketing Management',
+				'content'  => flmm_mig_about_page( $lang ),
+				'template' => 'page-landing',
 			);
 
 		case 'digitales-sin-fronteras':
@@ -419,4 +377,123 @@ function flmm_mig_company_page( $slug, $lang ) {
 			);
 	}
 	return array( 'title' => '', 'content' => '' );
+}
+
+/**
+ * Página About con las secciones del diseño (hero, tarjetas, lista, equipo y trayectoria).
+ *
+ * @param string $lang Idioma.
+ * @return string
+ */
+function flmm_mig_about_page( $lang ) {
+	$es   = 'es' === $lang;
+	$t    = static function ( $en, $es_text ) use ( $es ) {
+		return $es ? $es_text : $en;
+	};
+	$home = flmm_pattern_data( 'home' );
+	$card = static function ( $i, $title, $text ) {
+		return flmm_group(
+			flmm_p( sprintf( '%02d', $i ), 'flmm-n' ) . flmm_h( 3, $title ) . flmm_p( $text ),
+			array( 'className' => 'flmm-inc__item flmm-rv', 'layout' => array( 'type' => 'default' ) )
+		);
+	};
+	$cards = static function ( $items ) use ( $card ) {
+		$html = '';
+		foreach ( $items as $i => $item ) {
+			$html .= $card( $i + 1, $item[0], $item[1] );
+		}
+		return flmm_group( $html, array( 'className' => 'flmm-inc', 'layout' => array( 'type' => 'default' ) ) );
+	};
+
+	// Hero.
+	$hero = flmm_bo( 'flmm/breadcrumbs', array(), true )
+		. flmm_group(
+			flmm_p( $t( 'About us', 'Sobre nosotros' ), 'is-style-label' )
+			. flmm_h( 1, $t( 'About FL Marketing Management', 'Sobre FL Marketing Management' ), 'flmm-sv-hero__title flmm-rv' )
+			. flmm_p(
+				$t(
+					'<strong>FL Marketing Management</strong> is a Florida-based boutique digital consultancy that helps businesses grow through performance marketing, AI automation and data-driven strategy. We build scalable digital systems that improve efficiency, reduce costs and drive measurable growth, with clear execution instead of buzzwords or generic tactics.',
+					'<strong>FL Marketing Management</strong> es una consultora digital boutique con base en Florida que ayuda a las empresas a crecer con performance marketing, automatización con IA y estrategia basada en datos. Construimos sistemas digitales escalables que mejoran la eficiencia, reducen costos e impulsan un crecimiento medible, con ejecución clara y sin tácticas genéricas.'
+				),
+				'flmm-sv-hero__lead flmm-rv'
+			)
+			. flmm_buttons(
+				array(
+					array( $t( 'Get in touch', 'Escríbenos' ) . ' <span class="flmm-arr">→</span>', '#contact' ),
+					array( $t( 'See services', 'Ver servicios' ), home_url( $es ? '/es/#services' : '/#services' ), 'ghost' ),
+				),
+				'flmm-ctas flmm-rv'
+			),
+			array( 'className' => 'flmm-sv-hero', 'layout' => array( 'type' => 'default' ) )
+		);
+	$html = flmm_group( $hero, array( 'align' => 'full', 'className' => 'flmm-sv-top flmm-about-top', 'layout' => array( 'type' => 'constrained' ) ) );
+
+	// Qué hacemos.
+	$html .= flmm_section(
+		flmm_sec_head( $t( 'What we do', 'Qué hacemos' ), $t( 'Marketing as a predictable growth engine.', 'El marketing como un motor de crecimiento predecible.' ), $t( 'We partner with companies that want to modernize their digital operations. Every solution is built for efficiency, scalability and real business impact.', 'Trabajamos con empresas que quieren modernizar su operación digital. Cada solución se diseña para la eficiencia, la escalabilidad y el impacto real en el negocio.' ) )
+		. $cards(
+			array(
+				array( $t( 'Performance marketing', 'Performance marketing' ), $t( 'Google, Meta, Reddit, TikTok and LinkedIn.', 'Google, Meta, Reddit, TikTok y LinkedIn.' ) ),
+				array( $t( 'AI assistants and automation', 'Asistentes de IA y automatización' ), $t( 'Workflows with n8n, APIs and LLMs.', 'Flujos con n8n, APIs y LLMs.' ) ),
+				array( $t( 'Analytics and tracking', 'Analítica y medición' ), $t( 'GA4, BigQuery and dashboards.', 'GA4, BigQuery y dashboards.' ) ),
+				array( $t( 'AI SEO and AEO', 'SEO con IA y AEO' ), $t( 'Visibility in Google and AI search engines.', 'Visibilidad en Google y en buscadores con IA.' ) ),
+				array( $t( 'Websites and funnels', 'Sitios web y embudos' ), $t( 'Built for conversion from the first visit.', 'Pensados para convertir desde la primera visita.' ) ),
+			)
+		),
+		'',
+		'what-we-do'
+	);
+
+	// Cómo trabajamos.
+	$html .= flmm_section(
+		flmm_sec_head( $t( 'How we work', 'Cómo trabajamos' ), $t( 'A senior extension of your team.', 'Una extensión senior de tu equipo.' ), $t( 'We design and implement solutions that reduce operational friction, improve decision-making and let teams scale without increasing headcount.', 'Diseñamos e implementamos soluciones que reducen la fricción operativa, mejoran la toma de decisiones y permiten escalar sin sumar personas al equipo.' ) )
+		. $cards(
+			array(
+				array( $t( 'Strategy first', 'Primero la estrategia' ), $t( 'Execution comes second, with clear goals.', 'La ejecución viene después, con metas claras.' ) ),
+				array( $t( 'Data over assumptions', 'Datos antes que suposiciones' ), $t( 'Decisions backed by reliable measurement.', 'Decisiones respaldadas por una medición confiable.' ) ),
+				array( $t( 'Automation over manual work', 'Automatización antes que trabajo manual' ), $t( 'Less repetitive work, more time for what matters.', 'Menos trabajo repetitivo y más tiempo para lo importante.' ) ),
+				array( $t( 'Long-term systems', 'Sistemas de largo plazo' ), $t( 'Not short-term hacks.', 'No atajos de corto plazo.' ) ),
+			)
+		),
+		'is-surface'
+	);
+
+	// Con quién trabajamos.
+	$who = '';
+	foreach ( array(
+		array( 'Better performance from paid media', 'Mejor rendimiento de sus medios pagados' ),
+		array( 'Clear and reliable analytics', 'Analítica clara y confiable' ),
+		array( 'Smarter use of AI and automation', 'Un uso más inteligente de la IA y la automatización' ),
+		array( 'Stronger digital foundations for growth', 'Bases digitales más sólidas para crecer' ),
+	) as $item ) {
+		$who .= flmm_bo( 'list-item' ) . '<li>' . $t( $item[0], $item[1] ) . '</li><!-- /wp:list-item -->';
+	}
+	$html .= flmm_section(
+		flmm_sec_head( $t( 'Who we work with', 'Con quién trabajamos' ), $t( 'Startups, SMBs and growing companies.', 'Startups, pymes y empresas en crecimiento.' ), $t( 'Across the US and international markets, for teams that need:', 'En EE. UU. y otros mercados, para equipos que necesitan:' ) )
+		. flmm_bo( 'list', array( 'className' => 'is-style-dots flmm-who' ) ) . '<ul class="wp-block-list is-style-dots flmm-who">' . $who . '</ul><!-- /wp:list -->'
+	);
+
+	// Forma de pensar.
+	$html .= flmm_section(
+		flmm_sec_head( $t( 'Our mindset', 'Nuestra forma de pensar' ), $t( 'Efficiency, clarity and leverage.', 'Eficiencia, claridad y apalancamiento.' ), $t( 'Marketing is not just about visibility. Our goal is to help companies build digital systems that compound over time.', 'El marketing no se trata solo de visibilidad. Nuestro objetivo es ayudar a las empresas a construir sistemas digitales que rinden más con el tiempo.' ) )
+		. $cards(
+			array(
+				array( $t( 'Spend smarter', 'Invertir mejor' ), $t( 'Budget where it moves revenue.', 'Presupuesto donde mueve los ingresos.' ) ),
+				array( $t( 'Move faster', 'Avanzar más rápido' ), $t( 'Short cycles of testing and learning.', 'Ciclos cortos de prueba y aprendizaje.' ) ),
+				array( $t( 'Decide better', 'Decidir mejor' ), $t( 'Fewer, cleaner signals.', 'Menos señales y más limpias.' ) ),
+				array( $t( 'Compound over time', 'Rendir con el tiempo' ), $t( 'Systems that keep improving.', 'Sistemas que siguen mejorando.' ) ),
+			)
+		),
+		'is-surface'
+	);
+
+	// Equipo y trayectoria (mismos datos del home).
+	$html .= flmm_pattern_team( $lang, $home['team'] );
+	$results         = $home['results'];
+	$results['text'] = array(
+		'en' => flmm_tx( $results['text'], 'en' ) . ' Based in Florida, USA, working remotely with teams worldwide.',
+		'es' => flmm_tx( $results['text'], 'es' ) . ' Con base en Florida, EE. UU., y trabajo remoto con equipos de todo el mundo.',
+	);
+	$html .= flmm_pattern_results( $lang, $results );
+	return $html;
 }

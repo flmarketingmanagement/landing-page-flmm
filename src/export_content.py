@@ -57,7 +57,7 @@ home = {
              'cta1': {'es': 'Escríbenos', 'en': 'Get in touch'}, 'cta2': t('t8')},
     'services': {'label': t('t9'), 'title': t('t10'), 'text': t('t11'), 'items': [
         {'slug': 'consulting', 'name': t('t12'), 'text': t('t13'), 'tags': [t('t29'), t('t30')]},
-        {'slug': 'performance-marketing', 'name': same('Performance Marketing'), 'text': t('t14'), 'tags': [same('Google'), same('Meta'), same('TikTok'), same('LinkedIn')]},
+        {'slug': 'performance-marketing', 'name': same('Performance Marketing'), 'text': t('t14'), 'tags': [same('Google'), same('Meta'), same('TikTok'), same('LinkedIn'), same('ChatGPT Ads'), {'es': 'y más', 'en': 'and more'}]},
         {'slug': 'seo-aeo', 'name': same('SEO + AEO'), 'text': t('t15'), 'tags': [t('t31'), t('t32')]},
         {'slug': 'aeo-content', 'name': t('t16'), 'text': t('t17'), 'tags': [same('ChatGPT'), same('Gemini'), same('Perplexity')]},
         {'slug': 'design-branding', 'name': t('t18'), 'text': t('t19'), 'tags': [t('t33'), same('Video'), t('t34')]},

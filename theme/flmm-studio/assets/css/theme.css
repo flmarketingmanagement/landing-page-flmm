@@ -347,7 +347,7 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 .flmm-contact .flmm-btn--ghost { border-color: var(--field-line); color: var(--on-dark); }
 .flmm-contact .flmm-btn--ghost:hover { border-color: var(--on-dark); }
 .flmm-contact__alt { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; }
-.flmm-contact__or { font-size: 14px; color: var(--on-dark-2); margin: 0 .25rem 0 .5rem; }
+.flmm-contact__or { font-size: 14px; color: var(--on-dark-2); margin: 0 .25rem 0 0; }
 
 /* Formulario (diseño y Jetpack Forms). */
 .flmm-form { margin-top: 2.75rem; max-width: 640px; }
@@ -386,8 +386,18 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 .flmm-form--jetpack .wp-block-jetpack-button .wp-block-button__link:hover,
 .flmm-form--jetpack button[type="submit"]:hover { background: var(--pink) !important; }
 .flmm-form--jetpack .flmm-contact__alt { margin-top: 1.25rem; }
-.flmm-form--jetpack .contact-form-submission { color: var(--on-dark); border: 1px solid var(--dark-line); border-radius: var(--r-sm); padding: 1.25rem 1.5rem; }
-.flmm-form--jetpack .contact-form-submission h4 { color: var(--on-dark); }
+/* Botón de envío: separado del mensaje y alineado a la izquierda. */
+.flmm-form--jetpack .contact-submit { margin: 1.75rem 0 0 !important; padding: 0 !important; display: flex; }
+/* Confirmación del envío con la tipografía y los colores del sitio. */
+.flmm-form--jetpack .contact-form-submission,
+.flmm-form--jetpack .contact-form-submission * { font-family: var(--sans) !important; }
+.flmm-form--jetpack .contact-form-submission { color: var(--on-dark-2); background: transparent !important; border: 0 !important; border-top: 1px solid var(--dark-line) !important; border-radius: 0 !important; padding: 1.75rem 0 0 !important; margin: 0 !important; box-shadow: none !important; }
+.flmm-form--jetpack .contact-form-submission h4,
+.flmm-form--jetpack .contact-form-submission h3 { color: var(--on-dark); font-size: clamp(1.4rem, 2.4vw, 1.8rem) !important; font-weight: 500 !important; letter-spacing: -.02em; line-height: 1.2; margin: 0 0 .75rem !important; }
+.flmm-form--jetpack .contact-form-submission p { color: var(--on-dark-2); font-size: 16px !important; margin: 0 0 .5rem !important; }
+.flmm-form--jetpack .contact-form-submission .go-back-message { order: 3; margin-top: 1rem !important; }
+.flmm-form--jetpack .contact-form-submission .go-back-message a { font: 500 12px var(--mono) !important; letter-spacing: .06em; text-transform: uppercase; color: var(--on-dark-2); }
+.flmm-form--jetpack .contact-form-submission .go-back-message a:hover { color: var(--pink); }
 @media (max-width: 860px) {
 	.flmm-contact__grid { grid-template-columns: 1fr; }
 	.flmm-form--mailto { grid-template-columns: 1fr; gap: 1.25rem; max-width: none; }
@@ -401,9 +411,9 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 .flmm-footer { padding: 0 0 2rem; }
 .flmm-foot { display: grid; grid-template-columns: 1.3fr 1fr 1.3fr 1fr .8fr; gap: 2rem; padding: 3rem 0; border-top: 1px solid var(--dark-line); }
 .flmm-foot__title { margin: 0 0 1rem; font: 500 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--on-dark-2); }
-.flmm-foot a { display: block; margin: 0 0 .5rem; color: var(--on-dark); font-size: 15px; overflow-wrap: anywhere; }
+.flmm-foot a:not(.flmm-brand) { display: block; margin: 0 0 .5rem; color: var(--on-dark); font-size: 15px; overflow-wrap: anywhere; }
 .flmm-foot a:hover { color: var(--pink); }
-.flmm-footer .flmm-brand { color: var(--on-dark); }
+.flmm-footer .flmm-brand { color: var(--on-dark); display: flex; flex-direction: row; align-items: center; gap: .8rem; margin: 0; }
 .flmm-footer .flmm-brand small { color: var(--on-dark-2); }
 .flmm-footer .flmm-mark { background: var(--on-dark); color: var(--dark); }
 .flmm-footer .flmm-brand:hover .flmm-mark { background: var(--pink); color: var(--dark); }
@@ -432,6 +442,12 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 
 /* ---------- Página de servicio ---------- */
 .wp-site-blocks .flmm-sv-top { padding-top: 2rem; }
+.wp-site-blocks .flmm-about-top { padding-top: clamp(3.5rem, 8vw, 6.5rem); }
+.wp-site-blocks .flmm-about-top .flmm-crumbs { margin-bottom: 2rem; }
+.flmm-sv-hero .is-style-label { margin-bottom: 1.5rem !important; }
+.wp-site-blocks .flmm-inc:has(> :nth-child(5):last-child) { grid-template-columns: repeat(5, 1fr); }
+@media (max-width: 1100px) { .wp-site-blocks .flmm-inc:has(> :nth-child(5):last-child) { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) { .wp-site-blocks .flmm-inc:has(> :nth-child(5):last-child) { grid-template-columns: 1fr; } }
 .wp-site-blocks .flmm-sv-hero { padding-bottom: clamp(3rem, 6vw, 4.5rem); }
 .wp-site-blocks .flmm-sv-hero > * { margin: 0; }
 .flmm-sv-hero__title { font-size: clamp(2.4rem, 5.6vw, 4.8rem); max-width: 16ch; }
