@@ -64,6 +64,9 @@ function flmm_mig_media() {
 		'ai-assistants'         => array( 'AI assistant: scattered messages processed into organized, actionable outputs', 'Asistente de IA: mensajes dispersos procesados en resultados ordenados y accionables' ),
 		'marketing-automation'  => array( 'Marketing automation: tools like Google, Meta, Slack and Shopify connected through one hub', 'Automatización de marketing: herramientas como Google, Meta, Slack y Shopify conectadas en un solo centro' ),
 		'privacy-policy'        => array( 'Privacy policy: a shield protecting personal data', 'Política de privacidad: un escudo que protege los datos personales' ),
+		'post-metrics'          => array( 'B2B performance marketing metrics: a count to start measuring what matters, beyond CPC', 'Métricas de performance marketing B2B: un conteo para empezar a medir lo que importa, más allá del CPC' ),
+		'post-dictionary'       => array( 'AI marketing glossary: loose letters connected to organized terms and definitions', 'Glosario de marketing con IA: letras sueltas conectadas a términos y definiciones ordenadas' ),
+		'post-entropy'          => array( 'Shannon entropy in marketing: many audience segments connected into one clear signal', 'Entropía de Shannon en marketing: muchos segmentos de audiencia conectados en una señal clara' ),
 	);
 }
 
@@ -119,17 +122,20 @@ function flmm_mig_home_lead() {
 function flmm_mig_posts() {
 	return array(
 		array(
-			'cat' => 'performance',
+			'cat'   => 'performance',
+			'image' => 'post-metrics',
 			'en'  => array( 'id' => 1591, 'slug' => 'performance-marketing-metrics', 'seo' => array( 'B2B Performance Marketing Metrics Beyond CPC (2026)', 'Which B2B performance marketing metrics drive growth in 2026 beyond CPC and CTR: a three-layer hierarchy that connects ad spend with pipeline and revenue.', 'B2B performance marketing metrics' ) ),
 			'es'  => array( 'id' => 1844, 'slug' => 'metricas-de-performance-marketing-b2b-mas-alla-del-cpc', 'seo' => array( 'Métricas de performance marketing B2B más allá del CPC', 'El CPC y el CTR ya no explican el performance B2B. Conoce la jerarquía de métricas 2026 que conecta la inversión con los ingresos y alimenta a la IA.', 'métricas de performance marketing B2B' ) ),
 		),
 		array(
-			'cat' => 'aeo',
+			'cat'   => 'aeo',
+			'image' => 'post-dictionary',
 			'en'  => array( 'id' => 1597, 'slug' => 'marketing-dictionary-ai-aeo-llm', 'seo' => array( 'AI Marketing Terms 2026: AEO, LLM & SEO Glossary', 'A practical 2026 glossary of AI marketing terms for B2B leaders: AEO, LLM share of voice, marketing entropy, signal-based marketing and AI attribution.', 'AI marketing terms' ) ),
 			'es'  => array( 'id' => 1835, 'slug' => 'terminos-marketing-ia-2026', 'seo' => array( 'Términos de marketing con IA 2026: AEO, LLM y SEO', 'Los términos de marketing con IA que todo líder B2B necesita en 2026: AEO, LLM Share of Voice, entropía y atribución con IA. Definiciones claras y directas.', 'términos de marketing con IA' ) ),
 		),
 		array(
-			'cat' => 'ai',
+			'cat'   => 'ai',
+			'image' => 'post-entropy',
 			'en'  => array( 'id' => 1568, 'slug' => 'ai-shannon-entropy', 'seo' => array( 'AI & Shannon Entropy in B2B Performance Marketing', 'How AI and Shannon entropy reduce noise in B2B performance marketing, so teams and algorithms decide with cleaner signals, faster learning and higher ROI.', 'Shannon entropy marketing' ) ),
 			'es'  => array( 'id' => 1838, 'slug' => 'ia-y-entropia-de-shannon-en-performance-marketing-b2b', 'seo' => array( 'IA y entropía de Shannon en performance marketing B2B', 'La entropía de Shannon explica por qué más datos dañan el marketing B2B. Descubre cómo la IA reduce el ruido, afina las señales y mejora el ROI.', 'entropía de Shannon en marketing' ) ),
 		),

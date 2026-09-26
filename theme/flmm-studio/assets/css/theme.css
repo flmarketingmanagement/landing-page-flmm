@@ -747,9 +747,14 @@ body:not(.paged) .flmm-posts > li:first-child .flmm-card__excerpt { font-size: 1
 }
 
 /* ---------- 404 ---------- */
-.flmm-404 { padding: clamp(4rem, 10vw, 8rem) 0 var(--section); }
-.flmm-404 h1 { font-size: clamp(2.8rem, 6.5vw, 5.6rem); margin: 1.5rem 0 0; }
-.flmm-404 .flmm-ctas { margin-top: 2.25rem; }
+.flmm-404 { padding: clamp(2rem, 5vw, 4rem) 0 var(--section); }
+.flmm-404__art { display: block; max-width: 1160px; margin: 0 auto; }
+.flmm-404__art img { display: block; width: 100%; height: auto; border-radius: var(--radius, 16px); }
+/* En modo claro, el fondo hueso de la ilustración se funde con el de la página. */
+:root:not([data-theme="dark"]) .flmm-404__art img { mix-blend-mode: multiply; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .flmm-404__art img { mix-blend-mode: normal; } }
+.flmm-404 .flmm-ctas { margin-top: 1.5rem; justify-content: center; }
+.flmm-404 .flmm-search { margin-left: auto; margin-right: auto; }
 
 /* ---------- Aparición al hacer scroll (solo con JS y sin reducción de movimiento) ---------- */
 /* El script marca primero lo visible al cargar; solo lo que está más abajo se oculta y aparece. */
