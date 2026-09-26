@@ -1,5 +1,9 @@
 # Fase 8: lanzamiento (requiere aprobación explícita)
 
+**Estado: lanzado el 2026-09-26.** Producción con FLMM Studio 1.1.2, Polylang y la migración completa. QA en vivo: 46 URLs sin errores, 15 redirecciones 301, hreflang recíproco en 40 páginas, sin schema duplicado, robots.txt con bots de IA, sitemap y llms.txt. Formulario probado (llegó a la bandeja de entrada).
+
+Lecciones: activar Polylang antes de ejecutar la migración (la 1.0.8 ahora se detiene con un aviso) y, si `/es/` muestra el blog, editar el idioma Español y guardar (la 1.0.9 limpia la caché sola).
+
 Nada de esta lista se ejecuta sin la aprobación del dueño del sitio.
 
 ## Método recomendado

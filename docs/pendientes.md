@@ -17,14 +17,15 @@ Datos o decisiones que no se inventaron y hay que confirmar.
 
 ## Decisiones
 
-11. **Bot de Telegram:** decidido. Se quita el botón flotante (desactivar el fragmento 1656 de WPCode en staging y producción) y se enlaza "Marky Digital (Agent)" en la columna Contacto del footer. Enlace: https://t.me/marky_digital_bot?start=web. También reemplaza a Telegram junto al formulario de contacto. Fragmento desactivado en staging; falta desactivarlo en producción.
+11. **Bot de Telegram:** decidido. Se quita el botón flotante (desactivar el fragmento 1656 de WPCode en staging y producción) y se enlaza "Marky Digital (Agent)" en la columna Contacto del footer. Enlace: https://t.me/marky_digital_bot?start=web. También reemplaza a Telegram junto al formulario de contacto. Fragmento desactivado en staging y en producción.
 12. **Copia del formulario:** el formulario anterior enviaba copia a un Gmail personal. El nuevo solo envía a hello@flmarketingmanagement.com. Confirmar si se agrega la copia.
-13. **Idea Flow y plugins viejos:** confirmar la limpieza de la fase 8 (Elementor, Superb Addons, Layout Grid).
-14. **Correos del formulario en spam:** en staging salen desde un dominio de pruebas (wpcomstaging.com), lo que suele mandarlos a spam. Revisar de nuevo en producción; si siguen llegando a spam, revisar los registros SPF y DKIM del dominio con el proveedor de correo.
+13. **Plugins viejos:** borrar Elementor, Superb Addons y Layout Grid (ya no los usa ninguna página). Idea Flow puede quedar instalado como respaldo.
+14. ~~**Correos del formulario en spam**~~ en producción llegan a la bandeja de entrada.
 
 ## Accesos
 
 15. ~~**GitHub Actions**~~ activo.
-16. **GitHub Deployments:** staging conectado (rama `staging`); falta producción (rama `main`, manual).
+16. ~~**GitHub Deployments**~~ staging (rama `staging`) y producción (rama `main`, despliegue automático al fusionar).
 17. ~~**Acceso de red**~~ activo para staging y producción.
-18. **Search Console:** acceso para enviar el sitemap y pedir la indexación.
+18. **Search Console:** enviar https://flmarketingmanagement.com/sitemap_index.xml.
+19. **Herramienta de migración:** quitar `inc/migrate/` del theme cuando ya no se necesite.
