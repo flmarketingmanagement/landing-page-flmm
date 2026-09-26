@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.0.1 =
+* Migración bilingüe, formulario de Jetpack, SEO y correcciones de QA.
 
 = 1.0.0 =
 * Primera versión.
