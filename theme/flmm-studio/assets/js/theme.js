@@ -44,6 +44,13 @@
 
 	/* Aparición suave de secciones. */
 	var rv = document.querySelectorAll( '.flmm-rv' );
+	// Lo que ya está en pantalla al cargar se muestra sin animación (no retrasa el LCP).
+	rv.forEach( function ( el ) {
+		if ( el.getBoundingClientRect().top < window.innerHeight ) {
+			el.classList.add( 'is-in' );
+		}
+	} );
+	document.documentElement.classList.add( 'flmm-rv-ready' );
 	if ( ! reduce && 'IntersectionObserver' in window ) {
 		var io = new IntersectionObserver( function ( entries ) {
 			entries.forEach( function ( entry ) {

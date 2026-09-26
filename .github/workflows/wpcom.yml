@@ -2,8 +2,8 @@
 #
 # WordPress.com ejecuta este workflow y despliega el artefacto "wpcom" en el directorio
 # configurado en la conexión: /wp-content/themes/flmm-studio
-#   - Staging: despliegue automático al hacer push a main.
-#   - Producción: despliegue manual desde el panel de WordPress.com.
+#   - Staging: despliegue automático al hacer push a la rama staging.
+#   - Producción: despliegue manual desde el panel de WordPress.com (rama main).
 # Solo se sube theme/flmm-studio. Si alguna validación falla, no hay artefacto y no se despliega nada.
 name: Publicar theme en WordPress.com
 
@@ -11,6 +11,7 @@ on:
   push:
     branches:
       - main
+      - staging
     paths:
       - 'theme/flmm-studio/**'
       - '.github/workflows/wpcom.yml'

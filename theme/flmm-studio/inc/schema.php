@@ -86,6 +86,42 @@ function flmm_faq_from_content( $content ) {
 			$stack = array_merge( $block['innerBlocks'], $stack );
 		}
 	}
+	if ( $faq ) {
+		return $faq;
+	}
+	// Artículos: sección "Preguntas frecuentes" con preguntas en H3 y respuestas en párrafos.
+	$in_faq   = false;
+	$question = '';
+	$answer   = '';
+	foreach ( parse_blocks( $content ) as $block ) {
+		if ( 'core/heading' === $block['blockName'] ) {
+			$text  = trim( wp_strip_all_tags( $block['innerHTML'] ) );
+			$level = isset( $block['attrs']['level'] ) ? (int) $block['attrs']['level'] : 2;
+			if ( 2 === $level ) {
+				if ( $in_faq && $question && $answer ) {
+					$faq[] = array( $question, trim( $answer ) );
+				}
+				$in_faq   = (bool) preg_match( '/^(frequently asked questions|faq|preguntas frecuentes)/i', $text );
+				$question = '';
+				$answer   = '';
+				continue;
+			}
+			if ( $in_faq && 3 === $level ) {
+				if ( $question && $answer ) {
+					$faq[] = array( $question, trim( $answer ) );
+				}
+				$question = $text;
+				$answer   = '';
+				continue;
+			}
+		}
+		if ( $in_faq && $question && 'core/paragraph' === $block['blockName'] ) {
+			$answer .= ' ' . trim( wp_strip_all_tags( $block['innerHTML'] ) );
+		}
+	}
+	if ( $in_faq && $question && $answer ) {
+		$faq[] = array( $question, trim( $answer ) );
+	}
 	return $faq;
 }
 
@@ -244,3 +280,16 @@ function flmm_print_schema() {
 	echo '<script type="application/ld+json" class="flmm-schema">' . wp_json_encode( array( '@context' => 'https://schema.org', '@graph' => $graph ), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . "</script>\n";
 }
 add_action( 'wp_head', 'flmm_print_schema', 30 );
+
+/**
+ * Con Rank Math: pide que agregue Organization, WebSite y WebPage también en páginas sin tipo
+ * de schema propio, para que el Service y el FAQPage del theme apunten a una organización
+ * definida en la misma página.
+ *
+ * @param bool $add Valor de Rank Math.
+ * @return bool
+ */
+function flmm_rank_math_global_entities( $add ) {
+	return is_singular() ? true : $add;
+}
+add_filter( 'rank_math/schema/add_global_entities', 'flmm_rank_math_global_entities' );

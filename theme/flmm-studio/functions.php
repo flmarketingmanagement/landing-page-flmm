@@ -20,3 +20,8 @@ require_once FLMM_DIR . '/inc/patterns.php';
 require_once FLMM_DIR . '/inc/user-fields.php';
 require_once FLMM_DIR . '/inc/gtm.php';
 require_once FLMM_DIR . '/inc/schema.php';
+require_once FLMM_DIR . '/inc/seo.php';
+
+if ( is_admin() ) {
+	require_once FLMM_DIR . '/inc/migrate/migrate.php';
+}

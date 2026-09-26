@@ -70,6 +70,7 @@ function flmm_strings() {
 		'Please fill in all three fields.'   => 'Completa los tres campos, por favor.',
 		'Opening your email…'                => 'Abriendo tu correo…',
 		'Website inquiry: '                  => 'Contacto web: ',
+		'Message sent'                       => 'Mensaje enviado',
 		'Thanks! We received your message and will reply soon.' => '¡Gracias! Recibimos tu mensaje y te responderemos pronto.',
 		// Servicios.
 		'Updated: %s'                        => 'Actualizado: %s',

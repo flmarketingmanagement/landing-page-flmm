@@ -30,27 +30,33 @@ $flmm_actions = sprintf(
 			<?php if ( $flmm_jetpack ) : ?>
 				<div class="flmm-form flmm-form--jetpack flmm-rv">
 					<?php
-					$flmm_form = sprintf(
-						'<!-- wp:jetpack/contact-form %1$s --><div class="wp-block-jetpack-contact-form">'
-						. '<!-- wp:jetpack/field-name %2$s /-->'
-						. '<!-- wp:jetpack/field-email %3$s /-->'
-						. '<!-- wp:jetpack/field-textarea %4$s /-->'
-						. '<!-- wp:jetpack/button %5$s /-->'
-						. '</div><!-- /wp:jetpack/contact-form -->',
-						wp_json_encode(
-							array(
-								'to'                    => $flmm_email,
-								'subject'               => flmm__( 'Website inquiry: ' ) . get_bloginfo( 'name' ),
-								'customThankyou'        => 'message',
-								'customThankyouMessage' => flmm__( 'Thanks! We received your message and will reply soon.' ),
-								'className'             => 'flmm-jetpack-form',
-							)
-						),
-						wp_json_encode( array( 'label' => flmm__( 'Name' ), 'required' => true, 'width' => 50 ) ),
-						wp_json_encode( array( 'label' => flmm__( 'Email' ), 'required' => true, 'width' => 50 ) ),
-						wp_json_encode( array( 'label' => flmm__( 'How can we help?' ), 'required' => true ) ),
-						wp_json_encode( array( 'element' => 'button', 'text' => flmm__( 'Send' ) . ' →', 'className' => 'flmm-form__submit' ) )
-					);
+					$flmm_req  = 'es' === flmm_lang() ? '(Obligatorio)' : '(Required)';
+					$flmm_json = static function ( $data ) {
+						return wp_json_encode( $data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
+					};
+					$flmm_field = static function ( $type, $label, $input = array(), $attrs = array() ) use ( $flmm_json, $flmm_req ) {
+						return '<!-- wp:jetpack/field-' . $type . ' ' . $flmm_json( array_merge( array( 'required' => true ), $attrs ) ) . ' --><div>'
+							. '<!-- wp:jetpack/label ' . $flmm_json( array( 'label' => $label, 'requiredText' => $flmm_req ) ) . ' /-->'
+							. '<!-- wp:jetpack/input' . ( $input ? ' ' . $flmm_json( $input ) : '' ) . ' /-->'
+							. '</div><!-- /wp:jetpack/field-' . $type . ' -->';
+					};
+					$flmm_form = '<!-- wp:jetpack/contact-form ' . $flmm_json(
+						array(
+							'to'                    => $flmm_email,
+							'subject'               => flmm__( 'Website inquiry: ' ) . get_bloginfo( 'name' ),
+							'confirmationType'      => 'text',
+							'customThankyou'        => 'message',
+							'customThankyouHeading' => flmm__( 'Message sent' ),
+							'customThankyouMessage' => flmm__( 'Thanks! We received your message and will reply soon.' ),
+							'jetpackCRM'            => false,
+							'submitButtonText'      => flmm__( 'Send' ) . ' →',
+							'className'             => 'flmm-jetpack-form',
+						)
+					) . ' --><div class="wp-block-jetpack-contact-form">'
+						. $flmm_field( 'name', flmm__( 'Name' ), array(), array( 'width' => 50 ) )
+						. $flmm_field( 'email', flmm__( 'Email' ), array( 'type' => 'email' ), array( 'width' => 50 ) )
+						. $flmm_field( 'textarea', flmm__( 'How can we help?' ), array( 'type' => 'textarea' ) )
+						. '</div><!-- /wp:jetpack/contact-form -->';
 					echo do_blocks( apply_filters( 'flmm_contact_form_markup', $flmm_form ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					echo $flmm_actions; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					?>
