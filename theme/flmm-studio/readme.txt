@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.2.4 =
+* Consent Mode v2: listeners de Complianz para la plantilla de GTM cuando GTM lo carga GTM4WP (el consentimiento se actualiza al aceptar o rechazar).
 
 = 1.2.3 =
 * Banner de cookies (Complianz): textos EN/ES cargados en Polylang, política de cookies en español y enlace en el footer.

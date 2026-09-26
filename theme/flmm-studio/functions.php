@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FLMM_VERSION', '1.2.3' );
+define( 'FLMM_VERSION', '1.2.4' );
 define( 'FLMM_DIR', get_template_directory() );
 define( 'FLMM_URI', get_template_directory_uri() );
 
@@ -19,6 +19,7 @@ require_once FLMM_DIR . '/inc/blocks.php';
 require_once FLMM_DIR . '/inc/patterns.php';
 require_once FLMM_DIR . '/inc/user-fields.php';
 require_once FLMM_DIR . '/inc/gtm.php';
+require_once FLMM_DIR . '/inc/consent.php';
 require_once FLMM_DIR . '/inc/schema.php';
 require_once FLMM_DIR . '/inc/seo.php';
 
