@@ -603,6 +603,10 @@ function flmm_mig_step_posts() {
 			if ( ! empty( $cat[ $lang ] ) ) {
 				wp_set_post_categories( $post->ID, array( $cat[ $lang ] ), false );
 			}
+			$img = ! empty( $pair['image'] ) ? flmm_mig_image( $pair['image'], $lang ) : false;
+			if ( $img ) {
+				set_post_thumbnail( $post->ID, $img['id'] );
+			}
 			$ids[ $lang ] = $post->ID;
 		}
 		if ( count( $ids ) === 2 ) {

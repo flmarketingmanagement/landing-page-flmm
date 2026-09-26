@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FLMM_VERSION', '1.0.9' );
+define( 'FLMM_VERSION', '1.1.0' );
 define( 'FLMM_DIR', get_template_directory() );
 define( 'FLMM_URI', get_template_directory_uri() );
 

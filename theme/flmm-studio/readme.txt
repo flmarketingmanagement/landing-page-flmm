@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,10 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.1.0 =
+* Página 404 con ilustración propia en EN y ES.
+* Migración: imagen destacada de los 3 artículos del blog en EN y ES (pasos 3 y 7).
 
 = 1.0.9 =
 * Migración: vuelve a limpiar la caché de idiomas de Polylang en la petición siguiente (portada en español en /es/).
