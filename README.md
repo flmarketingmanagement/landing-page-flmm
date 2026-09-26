@@ -73,9 +73,37 @@ Decisiones:
 Se usó WordPress 6.8 con SQLite, `php -S` y Playwright (Chromium en `/opt/pw-browsers`).
 Capturas comparativas diseño vs theme (1440 y 390 px) en `docs/fase-1/`.
 
+## Despliegue (GitHub Deployments de WordPress.com)
+
+El workflow `.github/workflows/wpcom.yml` valida el theme (sintaxis PHP, JSON, archivos obligatorios y rayas largas) y sube **solo** `theme/flmm-studio` como artefacto `wpcom`. WordPress.com lo copia en `/wp-content/themes/flmm-studio`.
+
+| Entorno | Sitio | Rama | Despliegue |
+|---|---|---|---|
+| Staging | staging-a94a-flmarketingmanagement.wpcomstaging.com | `main` | Automático en cada push que cambie el theme |
+| Producción | flmarketingmanagement.com | `main` | Manual, solo con aprobación |
+
+### Conectar el repositorio (una vez por sitio)
+
+1. En wordpress.com/sites abre el sitio (primero **staging**) y entra en **Configuración del servidor** o **Alojamiento** > **GitHub Deployments** (Despliegues de GitHub).
+2. Haz clic en **Conectar repositorio** y autoriza la app de WordPress.com en GitHub para `flmarketingmanagement/landing-page-flmm`.
+3. Completa:
+   - **Rama:** `main`
+   - **Directorio de destino:** `/wp-content/themes/flmm-studio`
+   - **Despliegues automáticos:** activado en staging, desactivado en producción
+   - **Modo de despliegue:** Avanzado, con el workflow `.github/workflows/wpcom.yml`
+4. Guarda y lanza el primer despliegue con **Desplegar ahora**.
+5. Repite en producción con despliegues automáticos **desactivados** (fase 8).
+
+### Flujo de trabajo
+
+1. Los cambios se hacen en una rama (`feature/...`) y se revisan en un pull request.
+2. Al fusionar en `main`, GitHub Actions valida el theme y WordPress.com lo despliega en staging.
+3. Tras revisar staging, el despliegue a producción se lanza a mano desde GitHub Deployments en el sitio de producción.
+
+Si una validación falla, el workflow no genera el artefacto y no se despliega nada. El historial queda en la pestaña Actions de GitHub y en el registro de despliegues de WordPress.com.
+
 ## Próximos pasos
 
-1. Fase 2: despliegue con GitHub Deployments de WordPress.com (solo `theme/flmm-studio`).
-2. Fase 3: activar el theme y Polylang en staging (`staging-a94a-flmarketingmanagement.wpcomstaging.com`).
+1. Fase 3: activar el theme y Polylang en staging (`staging-a94a-flmarketingmanagement.wpcomstaging.com`).
 
 El contenido de las páginas vive en WordPress (base de datos); el repositorio guarda el código del theme y el diseño.
