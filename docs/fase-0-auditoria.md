@@ -92,7 +92,7 @@ Todas son del autor Alejandro Lovera. Categorías actuales: AI Performance Marke
 8. **/website/:** el slug es genérico pero el contenido habla solo de ecommerce y Shopify.
 9. **1563:** repite dos veces todas sus secciones.
 10. **/digitales-sin-fronteras/:** presenta a Felipe Ríos Barraza como co-host. Según CLAUDE.md figura como advisor. **PENDIENTE:** confirmar el rol correcto en esta página.
-11. **Rayas largas (—):** en /about/, /website/, /design-branding/, /podcast/ y 1563.
+11. **Rayas largas:** en /about/, /website/, /design-branding/, /podcast/ y 1563.
 12. **Posts ES con enlaces internos rotos:**
     - En 1835 y 1838: /blog/metricas-performance-marketing-b2b/
     - En 1835 y 1844: /blog/ia-entropia-shannon-marketing/
