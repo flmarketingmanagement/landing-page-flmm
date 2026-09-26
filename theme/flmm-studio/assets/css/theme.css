@@ -214,6 +214,12 @@ a:hover .flmm-mark { background: var(--pink); color: var(--ink); }
 /* ---------- Hero ---------- */
 .wp-site-blocks .flmm-hero { padding-top: clamp(4rem, 10vw, 8.5rem); padding-bottom: clamp(3rem, 6vw, 5rem); }
 .flmm-hero__title { font-size: clamp(2.75rem, 7.2vw, 6.4rem); max-width: 13ch; margin: 0; }
+/* Título y entrada con ancho máximo: alineados a la izquierda del contenido, no centrados. */
+.wp-site-blocks .flmm-hero > .flmm-hero__title,
+.wp-site-blocks .flmm-hero > .flmm-hero__lead {
+	margin-left: max(0px, calc((100% - var(--wp--style--global--content-size)) / 2)) !important;
+	margin-right: auto !important;
+}
 .flmm-hero__title mark { color: var(--muted); background: none; }
 .flmm-hero__lead { margin-top: 2rem; font-size: clamp(1.05rem, 1.5vw, 1.25rem); color: var(--ink-2); max-width: 56ch; }
 .wp-site-blocks .flmm-hero .flmm-ctas { margin-top: clamp(2.5rem, 5vw, 3.5rem); }
