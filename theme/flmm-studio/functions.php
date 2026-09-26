@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'FLMM_VERSION', '1.2.0' );
+define( 'FLMM_VERSION', '1.2.1' );
 define( 'FLMM_DIR', get_template_directory() );
 define( 'FLMM_URI', get_template_directory_uri() );
 
@@ -22,6 +22,7 @@ require_once FLMM_DIR . '/inc/gtm.php';
 require_once FLMM_DIR . '/inc/schema.php';
 require_once FLMM_DIR . '/inc/seo.php';
 
+require_once FLMM_DIR . '/inc/migrate/auto.php';
 if ( is_admin() ) {
 	require_once FLMM_DIR . '/inc/migrate/migrate.php';
 }

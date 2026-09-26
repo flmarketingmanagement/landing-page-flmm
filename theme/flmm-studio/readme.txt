@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.2.1 =
+* Migración automática: al desplegar una versión nueva, WP-Cron ejecuta todos los pasos. Estado y registro en Herramientas > Migración FLMM.
 
 = 1.2.0 =
 * Páginas locales en EN y ES: agencia de performance marketing en Florida y SEO y marketing digital en Lakeland (schema Service con areaServed, FAQ y enlaces en el footer).
