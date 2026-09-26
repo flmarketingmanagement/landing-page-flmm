@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.1.2
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,12 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.2.0 =
+* Páginas locales en EN y ES: agencia de performance marketing en Florida y SEO y marketing digital en Lakeland (schema Service con areaServed, FAQ y enlaces en el footer).
+* SEO + AEO: enfoque en "AEO and SEO services" (title, H1, entrada, descripción y 3 preguntas nuevas).
+* Home: title con "Marketing Agency".
+* llms.txt: sección Locations.
 
 = 1.1.2 =
 * About: ilustración actualizada (about-team-illustration.webp).

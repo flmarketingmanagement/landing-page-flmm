@@ -15,6 +15,8 @@ Datos o decisiones que no se inventaron y hay que confirmar.
 9. **Política de privacidad:** se agregó una sección de cookies y analítica (GTM). Conviene una revisión legal.
 10. **Entradas de servicio:** 3 párrafos de entrada tienen entre 37 y 39 palabras (AEO content, Growth hacking, AI assistants). La regla pide de 40 a 60.
 
+11b. **Clientes de Florida:** las páginas de Florida y Lakeland listan arthouseboca.com, habiaunavezunafoto.com y hart.live solo por su dominio, sin descripción ni resultados. Si hay autorización, se pueden agregar el nombre, el servicio y un resultado confirmado.
+
 ## Decisiones
 
 11. **Bot de Telegram:** decidido. Se quita el botón flotante (desactivar el fragmento 1656 de WPCode en staging y producción) y se enlaza "Marky Digital (Agent)" en la columna Contacto del footer. Enlace: https://t.me/marky_digital_bot?start=web. También reemplaza a Telegram junto al formulario de contacto. Fragmento desactivado en staging y en producción.

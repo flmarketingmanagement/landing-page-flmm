@@ -189,7 +189,8 @@ function flmm_schema_graph() {
 		$post = get_queried_object();
 		$url  = get_permalink( $post );
 
-		if ( in_array( 'Service', $types, true ) && 'page-service' === get_page_template_slug( $post ) ) {
+		$area = json_decode( (string) get_post_meta( $post->ID, '_flmm_area_served', true ), true );
+		if ( in_array( 'Service', $types, true ) && ( 'page-service' === get_page_template_slug( $post ) || $area ) ) {
 			$description = has_excerpt( $post ) ? get_the_excerpt( $post ) : wp_trim_words( wp_strip_all_tags( $post->post_content ), 40, '' );
 			$graph[]     = array(
 				'@type'             => 'Service',
@@ -199,7 +200,7 @@ function flmm_schema_graph() {
 				'url'               => $url,
 				'description'       => $description,
 				'provider'          => array( '@id' => flmm_org_id() ),
-				'areaServed'        => array( 'US', 'CL', 'CO', 'MX', 'CR' ),
+				'areaServed'        => $area ? $area : array( 'US', 'CL', 'CO', 'MX', 'CR' ),
 				'availableLanguage' => array( 'en', 'es' ),
 				'inLanguage'        => $lang,
 			);
