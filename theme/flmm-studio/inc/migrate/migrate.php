@@ -11,6 +11,7 @@
 defined( 'ABSPATH' ) || exit;
 
 require_once __DIR__ . '/data.php';
+require_once __DIR__ . '/local.php';
 
 /**
  * Pasos disponibles: clave => array( título, función ).
@@ -21,7 +22,7 @@ function flmm_mig_steps() {
 		'assign'    => array( '2. Asignar inglés al contenido existente', 'flmm_mig_step_assign' ),
 		'media'     => array( '3. Subir ilustraciones con texto alternativo EN y ES', 'flmm_mig_step_media' ),
 		'services'  => array( '4. Servicios (10 páginas EN y ES con plantilla Servicio)', 'flmm_mig_step_services' ),
-		'company'   => array( '5. Páginas de empresa (About, podcasts, privacidad, contacto)', 'flmm_mig_step_company' ),
+		'company'   => array( '5. Páginas de empresa (Florida, Lakeland, About, podcasts, privacidad, contacto)', 'flmm_mig_step_company' ),
 		'home'      => array( '6. Home y blog (portada, página de entradas)', 'flmm_mig_step_home' ),
 		'posts'     => array( '7. Blog: idiomas, pares EN/ES, categorías y correcciones', 'flmm_mig_step_posts' ),
 		'author'    => array( '8. Autor: biografía EN y ES', 'flmm_mig_step_author' ),
@@ -428,14 +429,24 @@ function flmm_mig_step_company() {
 		return;
 	}
 	$ids = array();
-	foreach ( array( 'about', 'digitales-sin-fronteras', 'podcast', 'privacy-policy', 'contact-us' ) as $slug ) {
+	$local = array_keys( flmm_mig_local_slugs() );
+	foreach ( array_merge( $local, array( 'about', 'digitales-sin-fronteras', 'podcast', 'privacy-policy', 'contact-us' ) ) as $slug ) {
 		$en   = flmm_mig_company_page( $slug, 'en' );
 		$es   = flmm_mig_company_page( $slug, 'es' );
 		$pair = flmm_mig_page_pair(
 			$slug,
-			array( 'post_title' => $en['title'], 'post_content' => $en['content'], 'page_template' => isset( $en['template'] ) ? $en['template'] : '', 'comment_status' => 'closed' ),
-			array( 'post_title' => $es['title'], 'post_content' => $es['content'], 'page_template' => isset( $es['template'] ) ? $es['template'] : '', 'comment_status' => 'closed' )
+			array( 'post_title' => $en['title'], 'post_content' => $en['content'], 'page_template' => isset( $en['template'] ) ? $en['template'] : '', 'post_excerpt' => isset( $en['excerpt'] ) ? $en['excerpt'] : '', 'comment_status' => 'closed' ),
+			array( 'post_title' => $es['title'], 'post_content' => $es['content'], 'page_template' => isset( $es['template'] ) ? $es['template'] : '', 'post_excerpt' => isset( $es['excerpt'] ) ? $es['excerpt'] : '', 'comment_status' => 'closed' )
 		);
+		if ( in_array( $slug, $local, true ) ) {
+			foreach ( $pair as $lang => $id ) {
+				update_post_meta( $id, '_flmm_area_served', wp_slash( wp_json_encode( flmm_mig_local_area( $slug ) ) ) );
+				$img = flmm_mig_image( flmm_mig_local_image_key( $slug ), $lang );
+				if ( $img ) {
+					set_post_thumbnail( $id, $img['id'] );
+				}
+			}
+		}
 		if ( 'privacy-policy' === $slug || 'about' === $slug ) {
 			foreach ( $pair as $lang => $id ) {
 				$img = flmm_mig_image( 'about' === $slug ? 'about-team' : $slug, $lang );
@@ -699,7 +710,7 @@ function flmm_mig_step_menus() {
 		};
 		$locations['primary'][ $lang ]        = flmm_mig_menu( 'Header (' . strtoupper( $lang ) . ')', array( array( $l[0], $base . '#services' ), array( $l[1], $base . '#platforms' ), array( $l[3], $base . '#team' ), array( $l[4], $blog ), array( $l[5], '#contact' ) ) );
 		$locations['footer-nav'][ $lang ]     = flmm_mig_menu( 'Footer navegación (' . strtoupper( $lang ) . ')', array( array( $l[0], $base . '#services' ), array( $l[1], $base . '#platforms' ), array( $l[2], $base . '#method' ), array( $l[3], $base . '#team' ), array( $l[4], $blog ) ) );
-		$locations['footer-company'][ $lang ] = flmm_mig_menu( 'Footer empresa (' . strtoupper( $lang ) . ')', array( array( $l[6], $page( 'about' ) ), array( 'Digitales Sin Fronteras', $page( 'digitales-sin-fronteras' ) ), array( 'Marketing Today Podcast', $page( 'podcast' ) ), array( $l[7], $page( 'privacy-policy' ) ) ) );
+		$locations['footer-company'][ $lang ] = flmm_mig_menu( 'Footer empresa (' . strtoupper( $lang ) . ')', array( array( $l[6], $page( 'about' ) ), array( 'Digitales Sin Fronteras', $page( 'digitales-sin-fronteras' ) ), array( 'Marketing Today Podcast', $page( 'podcast' ) ), array( $l[7], $page( 'privacy-policy' ) ), array( 'es' === $lang ? 'Marketing en Florida' : 'Marketing in Florida', $page( 'marketing-agency-florida' ) ), array( 'Lakeland', $page( 'digital-marketing-lakeland' ) ) ) );
 	}
 	$nav_menus                      = (array) flmm_mig_pll_get( 'nav_menus' );
 	$nav_menus[ get_stylesheet() ] = $locations;

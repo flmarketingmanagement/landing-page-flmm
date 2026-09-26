@@ -30,7 +30,7 @@ function flmm_mig_es_slugs() {
 		'podcast'                 => 'podcast-marketing-today',
 		'privacy-policy'          => 'politica-de-privacidad',
 		'contact-us'              => 'contacto',
-	);
+	) + ( function_exists( 'flmm_mig_local_slugs' ) ? flmm_mig_local_slugs() : array() );
 }
 
 /**
@@ -77,12 +77,20 @@ function flmm_mig_media() {
 function flmm_mig_page_seo() {
 	return array(
 		'home'                    => array(
-			'en' => array( 'FL Marketing Management | Performance & AI Marketing', 'Boutique digital marketing agency for the US and Latin America: performance, SEO + AEO, e-commerce, analytics and AI automation with measurable results.', 'digital marketing agency' ),
+			'en' => array( 'FL Marketing Management | Performance & AI Marketing Agency', 'Boutique digital marketing agency for the US and Latin America: performance, SEO + AEO, e-commerce, analytics and AI automation with measurable results.', 'digital marketing agency' ),
 			'es' => array( 'FL Marketing Management | Agencia de marketing digital', 'Agencia boutique de marketing digital para EE. UU. y Latinoamérica: performance, SEO + AEO, e-commerce, analítica y automatización con IA medibles.', 'agencia de marketing digital' ),
 		),
 		'blog'                    => array(
 			'en' => array( 'Digital Marketing, SEO, AEO & AI Blog | FL Marketing', 'Articles on performance marketing, SEO, AEO and artificial intelligence for B2B and e-commerce brands, written by the FL Marketing Management team.', 'digital marketing blog' ),
 			'es' => array( 'Blog de marketing digital, SEO, AEO e IA | FL Marketing', 'Artículos sobre performance marketing, SEO, AEO e inteligencia artificial para marcas B2B y e-commerce, escritos por el equipo de FL Marketing Management.', 'blog de marketing digital' ),
+		),
+		'marketing-agency-florida' => array(
+			'en' => array( 'Performance Marketing Agency in Florida | FL Marketing', 'Florida performance marketing agency: Google, Meta, TikTok and LinkedIn Ads, SEO + AEO and analytics for Florida businesses, in English and Spanish.', 'florida performance marketing agency' ),
+			'es' => array( 'Agencia de performance marketing en Florida | FL Marketing', 'Agencia de performance marketing en Florida: Google, Meta, TikTok y LinkedIn Ads, SEO + AEO y analítica para empresas de Florida, en inglés y español.', 'agencia de performance marketing en Florida' ),
+		),
+		'digital-marketing-lakeland' => array(
+			'en' => array( 'SEO Marketing Services in Lakeland, FL | FL Marketing', 'SEO marketing services in Lakeland, FL: local SEO, Google Business Profile, AEO, Google and Meta Ads and websites for local businesses, in English and Spanish.', 'seo marketing services lakeland' ),
+			'es' => array( 'SEO y marketing digital en Lakeland, Florida | FL Marketing', 'Servicios de SEO y marketing digital en Lakeland, Florida: SEO local, Perfil de Empresa de Google, AEO, Google y Meta Ads y sitios web, en inglés y español.', 'SEO y marketing digital en Lakeland' ),
 		),
 		'about'                   => array(
 			'en' => array( 'About FL Marketing Management | Digital Marketing Agency', 'Meet FL Marketing Management, a Florida-based boutique consultancy for performance marketing, AI automation, analytics and SEO + AEO that builds growth systems.', 'FL Marketing Management' ),
@@ -257,6 +265,9 @@ function flmm_mig_youtube( $url ) {
 function flmm_mig_company_page( $slug, $lang ) {
 	$es    = 'es' === $lang;
 	$email = flmm_option( 'email' );
+	if ( function_exists( 'flmm_mig_local_slugs' ) && isset( flmm_mig_local_slugs()[ $slug ] ) ) {
+		return flmm_mig_local_page( $slug, $lang );
+	}
 	switch ( $slug ) {
 		case 'about':
 			return array(

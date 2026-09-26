@@ -70,6 +70,7 @@ function flmm_llms_txt() {
 	$sections = array(
 		'Services'  => array( 'post_type' => 'page', 'meta_key' => '_wp_page_template', 'meta_value' => 'page-service' ),
 		'Company'   => array( 'post_type' => 'page', 'post_name__in' => array( 'about', 'digitales-sin-fronteras', 'podcast', 'contact-us', 'privacy-policy' ) ),
+		'Locations' => array( 'post_type' => 'page', 'post_name__in' => array( 'marketing-agency-florida', 'digital-marketing-lakeland' ) ),
 		'Articles'  => array( 'post_type' => 'post' ),
 	);
 	foreach ( $sections as $title => $args ) {
@@ -84,7 +85,7 @@ function flmm_llms_txt() {
 			if ( ! $desc ) {
 				$desc = has_excerpt( $post ) ? get_the_excerpt( $post ) : '';
 			}
-			$line = '- [' . wp_strip_all_tags( get_the_title( $post ) ) . '](' . get_permalink( $post ) . ')' . ( $desc ? ': ' . wp_strip_all_tags( $desc ) : '' );
+			$line = '- [' . html_entity_decode( wp_strip_all_tags( get_the_title( $post ) ), ENT_QUOTES ) . '](' . get_permalink( $post ) . ')' . ( $desc ? ': ' . wp_strip_all_tags( $desc ) : '' );
 			if ( function_exists( 'pll_get_post' ) ) {
 				$es = pll_get_post( $post->ID, 'es' );
 				if ( $es && 'publish' === get_post_status( $es ) ) {

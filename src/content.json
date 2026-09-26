@@ -552,20 +552,20 @@
     "en": "SEO + AEO"
    },
    "title": {
-    "es": "Servicios de SEO y AEO para Google y la IA | FL Marketing",
-    "en": "SEO &amp; AEO Services for Google and AI Search | FL Marketing"
+    "es": "Servicios de AEO y SEO para Google y la IA | FL Marketing",
+    "en": "AEO &amp; SEO Services for Google and AI Search | FL Marketing"
    },
    "desc": {
-    "es": "Servicios de SEO y AEO: SEO técnico y de contenido para posicionar en Google y aparecer en respuestas de ChatGPT, Gemini y Perplexity. Visibilidad medible.",
-    "en": "SEO and AEO services: technical and content SEO to rank on Google and appear in answers from ChatGPT, Gemini and Perplexity. Measurable visibility growth."
+    "es": "Servicios de AEO y SEO para posicionar en Google y ser citado por ChatGPT, Gemini, Perplexity y AI Overviews: SEO técnico, contenido y optimización para IA.",
+    "en": "AEO and SEO services to rank on Google and get cited by ChatGPT, Gemini, Perplexity and AI Overviews: technical SEO, content and AI answer optimization."
    },
    "h1": {
-    "es": "SEO y AEO: visibilidad en Google y en la IA",
-    "en": "SEO &amp; AEO: visibility on Google and in AI search"
+    "es": "Servicios de AEO y SEO: visibilidad en Google y en la IA",
+    "en": "AEO and SEO services: visibility on Google and in AI search"
    },
    "lead": {
-    "es": "El SEO mejora tu posicionamiento en buscadores como Google; el AEO (Answer Engine Optimization) prepara tu contenido para que asistentes de IA como ChatGPT, Gemini y Perplexity lo entiendan, lo citen y lo recomienden. Trabajamos ambos juntos para que tu marca sea encontrada y elegida.",
-    "en": "SEO improves your ranking on search engines like Google; AEO (Answer Engine Optimization) prepares your content so AI assistants like ChatGPT, Gemini and Perplexity can understand, cite and recommend it. We work on both together so your brand gets found and chosen."
+    "es": "Nuestros servicios de AEO y SEO hacen que tu marca aparezca en Google y sea citada en las respuestas de la IA. El SEO mejora tu posición en buscadores; el AEO (Answer Engine Optimization) estructura tu contenido para que ChatGPT, Gemini, Perplexity y los AI Overviews lo entiendan, lo citen y lo recomienden. Trabajamos ambos como una sola estrategia.",
+    "en": "Our AEO and SEO services get your brand found on Google and cited in AI answers. SEO improves your ranking on search engines; AEO (Answer Engine Optimization) structures your content so ChatGPT, Gemini, Perplexity and Google AI Overviews can understand, cite and recommend it. We run both together as one strategy."
    },
    "inc": [
     {
@@ -624,6 +624,36 @@
     }
    ],
    "faq": [
+    {
+     "q": {
+      "es": "¿Qué incluyen los servicios de AEO?",
+      "en": "What do AEO services include?"
+     },
+     "a": {
+      "es": "Los servicios de AEO incluyen revisar cómo describen hoy tu marca los asistentes de IA, identificar las preguntas que hacen tus compradores, reestructurar páginas con respuestas directas, preguntas frecuentes y datos estructurados, reforzar las señales de entidad en la web y medir mes a mes las menciones en ChatGPT, Gemini, Perplexity y AI Overviews.",
+      "en": "AEO services include auditing how AI assistants describe your brand today, finding the questions your buyers ask, restructuring pages with direct answers, FAQs and structured data, strengthening entity signals across the web, and tracking mentions in ChatGPT, Gemini, Perplexity and Google AI Overviews month by month to guide the next round of content."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Cómo optimizan para Gemini y los AI Overviews de Google?",
+      "en": "How do you optimize for Gemini and Google AI Overviews?"
+     },
+     "a": {
+      "es": "Gemini y los AI Overviews se apoyan en el índice de Google, por eso un SEO técnico sólido es la base. Sobre eso escribimos respuestas concisas a preguntas específicas, agregamos datos estructurados, mantenemos los datos de tu marca coherentes en el sitio y en tus perfiles, y creamos páginas que cubren un tema completo.",
+      "en": "Gemini and AI Overviews draw on Google’s index, so strong technical SEO is the base. On top of that, we write concise answers to specific questions, add structured data, keep your brand facts consistent across your site and profiles, and build pages that cover a topic completely, which makes your content easier to select and cite."
+     }
+    },
+    {
+     "q": {
+      "es": "¿Ofrecen AEO para empresas SaaS y B2B?",
+      "en": "Do you offer AEO for SaaS and B2B companies?"
+     },
+     "a": {
+      "es": "Sí. Los compradores de SaaS y B2B usan cada vez más asistentes de IA para comparar herramientas y armar su lista de proveedores antes de hablar con ventas. Identificamos esas preguntas de comparación y de uso, hacemos que tus páginas de producto, documentación y comparativas las respondan con claridad y medimos si la IA menciona tu marca.",
+      "en": "Yes. SaaS and B2B buyers increasingly ask AI assistants to compare tools and shortlist vendors before they talk to sales. We map those comparison and use-case questions, make sure your product pages, docs and comparisons answer them clearly, and track whether AI assistants mention your brand when buyers research your category."
+     }
+    },
     {
      "q": {
       "es": "¿Qué diferencia hay entre SEO y AEO?",
