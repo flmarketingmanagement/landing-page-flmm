@@ -28,6 +28,7 @@ $flmm_company = flmm_menu_links(
 );
 $flmm_email    = flmm_option( 'email' );
 $flmm_telegram = flmm_option( 'telegram' );
+$flmm_agent    = flmm_option( 'agent_url' );
 $flmm_social   = array_filter(
 	array(
 		'LinkedIn'  => flmm_option( 'linkedin' ),
@@ -52,6 +53,9 @@ $flmm_social   = array_filter(
 				<a href="<?php echo esc_url( 'mailto:' . $flmm_email ); ?>"><?php flmm_e( 'Send me an email' ); ?></a>
 				<?php if ( $flmm_telegram ) : ?>
 					<a href="<?php echo esc_url( $flmm_telegram ); ?>" target="_blank" rel="noopener">Telegram</a>
+				<?php endif; ?>
+				<?php if ( $flmm_agent ) : ?>
+					<a href="<?php echo esc_url( $flmm_agent ); ?>" target="_blank" rel="noopener">Marky Digital (Agent)</a>
 				<?php endif; ?>
 			</div>
 			<div>

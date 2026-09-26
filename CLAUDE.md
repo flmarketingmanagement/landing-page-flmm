@@ -20,7 +20,8 @@
 
 ## Decisiones tomadas
 - Hero: "Marketing changed. So did we." / "El marketing cambió. Nosotros también."
-- Contacto: formulario corto + "Envíame un mail" + Telegram (t.me/aleloveeee). Email: hello@flmarketingmanagement.com.
+- Contacto: formulario corto + "Envíame un mail" + Marky Digital (agente, t.me/marky_digital_bot?start=web). Telegram personal (t.me/aleloveeee) queda en el footer. Email: hello@flmarketingmanagement.com.
+- El chat de n8n que se inyecta en el sitio lo agregó el dueño: se mantiene.
 - Equipo en carrusel. Felipe Ríos Barraza figura como advisor.
 - Las URLs de servicios existentes se mantienen para no perder posicionamiento.
 

@@ -214,6 +214,12 @@ a:hover .flmm-mark { background: var(--pink); color: var(--ink); }
 /* ---------- Hero ---------- */
 .wp-site-blocks .flmm-hero { padding-top: clamp(4rem, 10vw, 8.5rem); padding-bottom: clamp(3rem, 6vw, 5rem); }
 .flmm-hero__title { font-size: clamp(2.75rem, 7.2vw, 6.4rem); max-width: 13ch; margin: 0; }
+/* Título y entrada con ancho máximo: alineados a la izquierda del contenido, no centrados. */
+.wp-site-blocks .flmm-hero > .flmm-hero__title,
+.wp-site-blocks .flmm-hero > .flmm-hero__lead {
+	margin-left: max(0px, calc((100% - var(--wp--style--global--content-size)) / 2)) !important;
+	margin-right: auto !important;
+}
 .flmm-hero__title mark { color: var(--muted); background: none; }
 .flmm-hero__lead { margin-top: 2rem; font-size: clamp(1.05rem, 1.5vw, 1.25rem); color: var(--ink-2); max-width: 56ch; }
 .wp-site-blocks .flmm-hero .flmm-ctas { margin-top: clamp(2.5rem, 5vw, 3.5rem); }
@@ -347,7 +353,8 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 .flmm-contact .flmm-btn--ghost { border-color: var(--field-line); color: var(--on-dark); }
 .flmm-contact .flmm-btn--ghost:hover { border-color: var(--on-dark); }
 .flmm-contact__alt { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; }
-.flmm-contact__or { font-size: 14px; color: var(--on-dark-2); margin: 0 .25rem 0 .5rem; }
+.flmm-contact__or { font-size: 14px; color: var(--on-dark-2); margin: 0 .25rem 0 0; }
+.flmm-contact__agent { font-size: 14px; color: var(--on-dark-2); margin: .75rem 0 0; }
 
 /* Formulario (diseño y Jetpack Forms). */
 .flmm-form { margin-top: 2.75rem; max-width: 640px; }
@@ -386,8 +393,45 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 .flmm-form--jetpack .wp-block-jetpack-button .wp-block-button__link:hover,
 .flmm-form--jetpack button[type="submit"]:hover { background: var(--pink) !important; }
 .flmm-form--jetpack .flmm-contact__alt { margin-top: 1.25rem; }
-.flmm-form--jetpack .contact-form-submission { color: var(--on-dark); border: 1px solid var(--dark-line); border-radius: var(--r-sm); padding: 1.25rem 1.5rem; }
-.flmm-form--jetpack .contact-form-submission h4 { color: var(--on-dark); }
+/* Servicios: desplegable de selección múltiple. */
+.flmm-form--jetpack .flmm-services-field-wrap { position: relative; }
+.flmm-form--jetpack .flmm-services-field-wrap fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+.flmm-form--jetpack .flmm-services-field-wrap legend { padding: 0; margin-bottom: .4rem; }
+.flmm-select {
+	width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+	background: transparent; border: 0; border-bottom: 1px solid var(--field-line); padding: .5rem 0; cursor: pointer;
+	font: 400 16px/1.5 var(--sans); color: var(--on-dark-2); text-align: left;
+}
+.flmm-select.has-value { color: var(--on-dark); }
+.flmm-select:focus-visible { outline: 2px solid var(--pink); outline-offset: 2px; }
+.flmm-select__value { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.flmm-select__chev { width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg) translateY(-3px); flex: none; transition: transform .2s; }
+.flmm-services-field-wrap.is-open .flmm-select { border-color: var(--pink); }
+.flmm-services-field-wrap.is-open .flmm-select__chev { transform: rotate(-135deg) translateY(-2px); }
+.flmm-form--jetpack .flmm-services-field-wrap.is-enhanced .grunion-checkbox-multiple-options {
+	display: none; position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + .35rem);
+	max-height: 18rem; overflow-y: auto; padding: .5rem; margin: 0;
+	background: var(--dark-2); border: 1px solid var(--dark-line); border-radius: var(--r-sm); box-shadow: 0 18px 40px rgba(0,0,0,.35);
+}
+.flmm-form--jetpack .flmm-services-field-wrap.is-open .grunion-checkbox-multiple-options { display: grid; gap: 0; }
+.flmm-form--jetpack .flmm-services-field-wrap .wp-block-jetpack-option { text-transform: none !important; letter-spacing: 0 !important; display: flex !important; align-items: center; gap: .7rem; margin: 0 !important; padding: .55rem .6rem; border-radius: 8px; cursor: pointer; color: var(--on-dark); font: 400 15px/1.35 var(--sans) !important; }
+.flmm-form--jetpack .flmm-services-field-wrap .wp-block-jetpack-option:hover { background: rgba(255,255,255,.06); }
+.flmm-form--jetpack .flmm-services-field-wrap input[type=checkbox] { accent-color: var(--pink); width: 16px; height: 16px; margin: 0; flex: none; }
+.flmm-form--jetpack .flmm-services-field-wrap .grunion-checkbox-multiple-label,
+.flmm-form--jetpack .flmm-services-field-wrap .grunion-field-text { font: inherit !important; color: inherit !important; }
+
+/* Botón de envío: separado del mensaje y alineado a la izquierda. */
+.flmm-form--jetpack .contact-submit { margin: 1.75rem 0 0 !important; padding: 0 !important; display: flex; }
+/* Confirmación del envío con la tipografía y los colores del sitio. */
+.flmm-form--jetpack .contact-form-submission,
+.flmm-form--jetpack .contact-form-submission * { font-family: var(--sans) !important; }
+.flmm-form--jetpack .contact-form-submission { color: var(--on-dark-2); background: transparent !important; border: 0 !important; border-top: 1px solid var(--dark-line) !important; border-radius: 0 !important; padding: 1.75rem 0 0 !important; margin: 0 !important; box-shadow: none !important; }
+.flmm-form--jetpack .contact-form-submission h4,
+.flmm-form--jetpack .contact-form-submission h3 { color: var(--on-dark); font-size: clamp(1.4rem, 2.4vw, 1.8rem) !important; font-weight: 500 !important; letter-spacing: -.02em; line-height: 1.2; margin: 0 0 .75rem !important; }
+.flmm-form--jetpack .contact-form-submission p { color: var(--on-dark-2); font-size: 16px !important; margin: 0 0 .5rem !important; }
+.flmm-form--jetpack .contact-form-submission .go-back-message { order: 3; margin-top: 1rem !important; }
+.flmm-form--jetpack .contact-form-submission .go-back-message a { font: 500 12px var(--mono) !important; letter-spacing: .06em; text-transform: uppercase; color: var(--on-dark-2); }
+.flmm-form--jetpack .contact-form-submission .go-back-message a:hover { color: var(--pink); }
 @media (max-width: 860px) {
 	.flmm-contact__grid { grid-template-columns: 1fr; }
 	.flmm-form--mailto { grid-template-columns: 1fr; gap: 1.25rem; max-width: none; }
@@ -401,9 +445,9 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 .flmm-footer { padding: 0 0 2rem; }
 .flmm-foot { display: grid; grid-template-columns: 1.3fr 1fr 1.3fr 1fr .8fr; gap: 2rem; padding: 3rem 0; border-top: 1px solid var(--dark-line); }
 .flmm-foot__title { margin: 0 0 1rem; font: 500 12px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--on-dark-2); }
-.flmm-foot a { display: block; margin: 0 0 .5rem; color: var(--on-dark); font-size: 15px; overflow-wrap: anywhere; }
+.flmm-foot a:not(.flmm-brand) { display: block; margin: 0 0 .5rem; color: var(--on-dark); font-size: 15px; overflow-wrap: anywhere; }
 .flmm-foot a:hover { color: var(--pink); }
-.flmm-footer .flmm-brand { color: var(--on-dark); }
+.flmm-footer .flmm-brand { color: var(--on-dark); display: flex; flex-direction: row; align-items: center; gap: .8rem; margin: 0; }
 .flmm-footer .flmm-brand small { color: var(--on-dark-2); }
 .flmm-footer .flmm-mark { background: var(--on-dark); color: var(--dark); }
 .flmm-footer .flmm-brand:hover .flmm-mark { background: var(--pink); color: var(--dark); }
@@ -432,6 +476,12 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 
 /* ---------- Página de servicio ---------- */
 .wp-site-blocks .flmm-sv-top { padding-top: 2rem; }
+.wp-site-blocks .flmm-about-top { padding-top: clamp(3.5rem, 8vw, 6.5rem); }
+.wp-site-blocks .flmm-about-top .flmm-crumbs { margin-bottom: 2rem; }
+.flmm-sv-hero .is-style-label { margin-bottom: 1.5rem !important; }
+.wp-site-blocks .flmm-inc:has(> :nth-child(5):last-child) { grid-template-columns: repeat(5, 1fr); }
+@media (max-width: 1100px) { .wp-site-blocks .flmm-inc:has(> :nth-child(5):last-child) { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) { .wp-site-blocks .flmm-inc:has(> :nth-child(5):last-child) { grid-template-columns: 1fr; } }
 .wp-site-blocks .flmm-sv-hero { padding-bottom: clamp(3rem, 6vw, 4.5rem); }
 .wp-site-blocks .flmm-sv-hero > * { margin: 0; }
 .flmm-sv-hero__title { font-size: clamp(2.4rem, 5.6vw, 4.8rem); max-width: 16ch; }

@@ -93,3 +93,26 @@ Correcciones aplicadas durante la QA: título duplicado con Rank Math, alineaci�
 3. Activar el theme FLMM Studio en staging.
 4. Ejecutar Herramientas > Migración FLMM > Ejecutar todos los pasos.
 5. Dar acceso de red a este entorno para staging y producción, para repetir la QA sobre el sitio real (capturas, Lighthouse, Rich Results).
+
+## QA en staging (2026-09-26, theme 1.0.6)
+
+| Revisión | Resultado |
+|---|---|
+| Sitemap | 46 URLs, todas responden 200 |
+| Enlaces internos | 63 revisados, 0 rotos |
+| Redirecciones | Las 15 responden 301 al destino correcto (200) |
+| Títulos y descripciones | 1 `<title>` por página, hasta 60 caracteres; descripciones de 140 a 160 |
+| H1 | Uno por página |
+| hreflang | 40 páginas con EN, ES y x-default recíprocos |
+| Canonical | Correcto en todas |
+| Schema | Sin tipos duplicados; Service y FAQPage en servicios, BlogPosting y FAQPage en artículos |
+| Desborde horizontal | Ninguno en 1440 y 390 px |
+| Lighthouse mobile | Home 96/100/96, Servicio 94/100/96, Artículo 94/100/96, Contacto ES 98/100/96 (rendimiento, accesibilidad, buenas prácticas). SEO 61 a 69 solo porque staging está en noindex |
+| robots.txt | `Disallow: /` en staging (esperado); en producción se agregan los bots de IA |
+| /llms.txt | Responde 200 con servicios en EN y ES |
+
+Observaciones:
+- Las 6 páginas de categoría no tenían meta description: se agregaron en la migración (paso 10, theme 1.0.7).
+- Los artículos muestran los botones de compartir y "Me gusta" de Jetpack: se mantienen.
+- En la página se inyecta un chat de n8n (cdn.jsdelivr.net/npm/@n8n/chat) que no viene del theme; probablemente de GTM o de un fragmento. Lo agregó el dueño: se mantiene.
+- Los errores de consola vistos en la QA venían del límite de peticiones de WP.com (429) durante las pruebas, no del sitio.

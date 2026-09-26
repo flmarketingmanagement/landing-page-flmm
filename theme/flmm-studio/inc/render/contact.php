@@ -1,6 +1,6 @@
 <?php
 /**
- * Sección de contacto: formulario corto + "Envíame un mail" + Telegram.
+ * Sección de contacto: formulario corto + "Envíame un mail" + Marky Digital (agente).
  *
  * Usa Jetpack Forms si está activo (envío por el servidor, antispam con Akismet).
  * Si no, muestra el formulario del diseño, que abre el correo del visitante.
@@ -11,15 +11,16 @@
 defined( 'ABSPATH' ) || exit;
 
 $flmm_email    = flmm_option( 'email' );
-$flmm_telegram = flmm_option( 'telegram' );
+$flmm_agent    = flmm_option( 'agent_url' );
 $flmm_jetpack  = WP_Block_Type_Registry::get_instance()->is_registered( 'jetpack/contact-form' );
 
 $flmm_actions = sprintf(
-	'<div class="flmm-contact__alt"><span class="flmm-contact__or">%1$s</span><a class="flmm-btn flmm-btn--ghost" href="%2$s">%3$s</a>%4$s</div>',
+	'<div class="flmm-contact__alt"><span class="flmm-contact__or">%1$s</span><a class="flmm-btn flmm-btn--ghost" href="%2$s">%3$s</a>%4$s</div>%5$s',
 	esc_html( flmm__( 'or reach me by' ) ),
 	esc_url( 'mailto:' . $flmm_email ),
 	esc_html( flmm__( 'Mail' ) ),
-	$flmm_telegram ? sprintf( '<a class="flmm-btn flmm-btn--ghost" href="%s" target="_blank" rel="noopener">Telegram</a>', esc_url( $flmm_telegram ) ) : ''
+	$flmm_agent ? sprintf( '<a class="flmm-btn flmm-btn--ghost" href="%s" target="_blank" rel="noopener">Marky Digital</a>', esc_url( $flmm_agent ) ) : '',
+	$flmm_agent ? '<p class="flmm-contact__agent">' . esc_html( flmm__( 'Talk to our agent, Marky Digital, to learn more about what we do.' ) ) . '</p>' : ''
 );
 ?>
 <div class="flmm-contact" id="contact">
@@ -55,6 +56,7 @@ $flmm_actions = sprintf(
 					) . ' --><div class="wp-block-jetpack-contact-form">'
 						. $flmm_field( 'name', flmm__( 'Name' ), array(), array( 'width' => 50 ) )
 						. $flmm_field( 'email', flmm__( 'Email' ), array( 'type' => 'email' ), array( 'width' => 50 ) )
+						. flmm_contact_services_field()
 						. $flmm_field( 'textarea', flmm__( 'How can we help?' ), array( 'type' => 'textarea' ) )
 						. '</div><!-- /wp:jetpack/contact-form -->';
 					echo do_blocks( apply_filters( 'flmm_contact_form_markup', $flmm_form ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped

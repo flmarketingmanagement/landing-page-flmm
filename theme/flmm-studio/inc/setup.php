@@ -46,6 +46,7 @@ function flmm_enqueue_assets() {
 			'fill'    => flmm__( 'Please fill in all three fields.' ),
 			'opening' => flmm__( 'Opening your email…' ),
 			'subject' => flmm__( 'Website inquiry: ' ),
+			'servicesPlaceholder' => flmm__( 'Select one or more services' ),
 		)
 	);
 }

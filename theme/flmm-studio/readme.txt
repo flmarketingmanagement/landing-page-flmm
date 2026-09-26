@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,24 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.0.7 =
+* Migración: descripción de las categorías del blog en EN y ES (archivo y meta description).
+
+= 1.0.6 =
+* Contacto: Marky Digital reemplaza a Telegram junto al formulario, con una línea sobre el agente.
+
+= 1.0.5 =
+* Hero: título y entrada alineados a la izquierda.
+
+= 1.0.4 =
+* Enlace de Marky Digital (Agent) por defecto.
+
+= 1.0.3 =
+* Equipo en orden aleatorio por sesión, 17+ países, servicios en el formulario (selección múltiple) y enlace a Marky Digital (Agent).
+
+= 1.0.2 =
+* About rediseñado, botón y confirmación del formulario, logo del footer en línea, tags de Performance Marketing.
 
 = 1.0.1 =
 * Migración bilingüe, formulario de Jetpack, SEO y correcciones de QA.

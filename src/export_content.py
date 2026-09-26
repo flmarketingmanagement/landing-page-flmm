@@ -57,7 +57,7 @@ home = {
              'cta1': {'es': 'Escríbenos', 'en': 'Get in touch'}, 'cta2': t('t8')},
     'services': {'label': t('t9'), 'title': t('t10'), 'text': t('t11'), 'items': [
         {'slug': 'consulting', 'name': t('t12'), 'text': t('t13'), 'tags': [t('t29'), t('t30')]},
-        {'slug': 'performance-marketing', 'name': same('Performance Marketing'), 'text': t('t14'), 'tags': [same('Google'), same('Meta'), same('TikTok'), same('LinkedIn')]},
+        {'slug': 'performance-marketing', 'name': same('Performance Marketing'), 'text': t('t14'), 'tags': [same('Google'), same('Meta'), same('TikTok'), same('LinkedIn'), same('ChatGPT Ads'), {'es': 'y más', 'en': 'and more'}]},
         {'slug': 'seo-aeo', 'name': same('SEO + AEO'), 'text': t('t15'), 'tags': [t('t31'), t('t32')]},
         {'slug': 'aeo-content', 'name': t('t16'), 'text': t('t17'), 'tags': [same('ChatGPT'), same('Gemini'), same('Perplexity')]},
         {'slug': 'design-branding', 'name': t('t18'), 'text': t('t19'), 'tags': [t('t33'), same('Video'), t('t34')]},
@@ -76,7 +76,7 @@ home = {
         {'title': t('t55'), 'text': t('t56')}, {'title': t('t57'), 'text': t('t58')}, {'title': t('t59'), 'text': t('t60')}]},
     'team': {'label': t('t102'), 'title': t('t103'), 'text': t('t104')},
     'results': {'label': t('t61'), 'title': t('t62'), 'text': t('t63'), 'stats': [
-        {'value': same('14+'), 'text': t('t64')}, {'value': same('5'), 'text': t('t65')},
+        {'value': same('14+'), 'text': t('t64')}, {'value': same('17+'), 'text': t('t65')},
         {'value': same('Effie'), 'text': t('t66')}, {'value': same('PCM®'), 'text': same('Professional Certified Marketer, AMA')}]},
 }
 # Equipo: nombre, rol y tags desde el HTML del diseño.

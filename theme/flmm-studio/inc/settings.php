@@ -17,6 +17,7 @@ function flmm_default_options() {
 		'schema_mode' => 'auto',
 		'email'       => 'hello@flmarketingmanagement.com',
 		'telegram'    => 'https://t.me/aleloveeee',
+		'agent_url'   => 'https://t.me/marky_digital_bot?start=web',
 		'linkedin'    => 'https://www.linkedin.com/company/fl-marketing-management/',
 		'instagram'   => 'https://www.instagram.com/flmarketingmanagement/',
 	);
@@ -52,7 +53,7 @@ function flmm_sanitize_options( $input ) {
 	$clean['schema_mode'] = isset( $input['schema_mode'] ) && in_array( $input['schema_mode'], array( 'auto', 'all', 'off' ), true ) ? $input['schema_mode'] : $defaults['schema_mode'];
 	$clean['email']       = isset( $input['email'] ) && is_email( $input['email'] ) ? sanitize_email( $input['email'] ) : $defaults['email'];
 
-	foreach ( array( 'telegram', 'linkedin', 'instagram' ) as $key ) {
+	foreach ( array( 'telegram', 'agent_url', 'linkedin', 'instagram' ) as $key ) {
 		$clean[ $key ] = isset( $input[ $key ] ) ? esc_url_raw( trim( $input[ $key ] ) ) : $defaults[ $key ];
 	}
 	return $clean;
@@ -132,6 +133,7 @@ function flmm_render_settings_page() {
 			<table class="form-table" role="presentation">
 				<tr><th scope="row"><label for="flmm-email">Email</label></th><td><input id="flmm-email" class="regular-text" name="flmm_options[email]" value="<?php echo esc_attr( $o['email'] ); ?>"></td></tr>
 				<tr><th scope="row"><label for="flmm-telegram">Telegram</label></th><td><input id="flmm-telegram" class="regular-text" name="flmm_options[telegram]" value="<?php echo esc_attr( $o['telegram'] ); ?>"></td></tr>
+				<tr><th scope="row"><label for="flmm-agent">Marky Digital (Agent)</label></th><td><input id="flmm-agent" class="regular-text" name="flmm_options[agent_url]" value="<?php echo esc_attr( $o['agent_url'] ); ?>" placeholder="https://t.me/..."><p class="description">Enlace del agente. Se muestra en la columna Contacto del footer cuando tiene valor.</p></td></tr>
 				<tr><th scope="row"><label for="flmm-linkedin">LinkedIn</label></th><td><input id="flmm-linkedin" class="regular-text" name="flmm_options[linkedin]" value="<?php echo esc_attr( $o['linkedin'] ); ?>"></td></tr>
 				<tr><th scope="row"><label for="flmm-instagram">Instagram</label></th><td><input id="flmm-instagram" class="regular-text" name="flmm_options[instagram]" value="<?php echo esc_attr( $o['instagram'] ); ?>"></td></tr>
 			</table>

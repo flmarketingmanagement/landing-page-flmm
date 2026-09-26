@@ -69,6 +69,44 @@
 		} );
 	}
 
+	/* Equipo en orden aleatorio: se mezcla una vez por sesión del navegador y se mantiene durante la visita. */
+	document.querySelectorAll( '.flmm-team' ).forEach( function ( track ) {
+		var members = Array.prototype.slice.call( track.querySelectorAll( ':scope > .flmm-member' ) );
+		if ( members.length < 2 ) {
+			return;
+		}
+		var nameOf = function ( el ) {
+			var h = el.querySelector( 'h3' );
+			return h ? h.textContent.trim() : '';
+		};
+		var order = null;
+		try {
+			order = JSON.parse( window.sessionStorage.getItem( 'flmm-team-order' ) || 'null' );
+		} catch ( e ) {}
+		var names = members.map( nameOf );
+		var valid = Array.isArray( order ) && order.length === names.length && names.every( function ( n ) {
+			return order.indexOf( n ) !== -1;
+		} );
+		if ( ! valid ) {
+			order = names.slice();
+			for ( var i = order.length - 1; i > 0; i-- ) {
+				var j = Math.floor( Math.random() * ( i + 1 ) );
+				var tmp = order[ i ];
+				order[ i ] = order[ j ];
+				order[ j ] = tmp;
+			}
+			try {
+				window.sessionStorage.setItem( 'flmm-team-order', JSON.stringify( order ) );
+			} catch ( e ) {}
+		}
+		order.forEach( function ( name ) {
+			var el = members[ names.indexOf( name ) ];
+			if ( el ) {
+				track.appendChild( el );
+			}
+		} );
+	} );
+
 	/* Carrusel del equipo: botones anterior y siguiente. */
 	document.querySelectorAll( '.flmm-team' ).forEach( function ( track ) {
 		var isEs = cfg.lang === 'es';
@@ -160,6 +198,64 @@
 			}
 		}
 	}
+
+	/* Servicios del formulario: casillas de Jetpack mostradas como desplegable de selección múltiple. */
+	document.querySelectorAll( '.flmm-services-field-wrap' ).forEach( function ( wrap, idx ) {
+		var list = wrap.querySelector( '.grunion-checkbox-multiple-options' );
+		var fieldset = wrap.querySelector( 'fieldset' );
+		if ( ! list || ! fieldset ) {
+			return;
+		}
+		var boxes = Array.prototype.slice.call( list.querySelectorAll( 'input[type=checkbox]' ) );
+		var placeholder = cfg.servicesPlaceholder || 'Select one or more services';
+		var btn = document.createElement( 'button' );
+		btn.type = 'button';
+		btn.className = 'flmm-select';
+		btn.setAttribute( 'aria-haspopup', 'true' );
+		btn.setAttribute( 'aria-expanded', 'false' );
+		list.id = list.id || 'flmm-services-list-' + idx;
+		btn.setAttribute( 'aria-controls', list.id );
+		btn.innerHTML = '<span class="flmm-select__value"></span><span class="flmm-select__chev" aria-hidden="true"></span>';
+		fieldset.insertBefore( btn, list );
+		wrap.classList.add( 'is-enhanced' );
+		var value = btn.querySelector( '.flmm-select__value' );
+		var render = function () {
+			var chosen = boxes.filter( function ( b ) {
+				return b.checked;
+			} ).map( function ( b ) {
+				return b.value;
+			} );
+			value.textContent = chosen.length ? chosen.join( ', ' ) : placeholder;
+			btn.classList.toggle( 'has-value', chosen.length > 0 );
+		};
+		var setOpen = function ( open ) {
+			wrap.classList.toggle( 'is-open', open );
+			btn.setAttribute( 'aria-expanded', open ? 'true' : 'false' );
+		};
+		btn.addEventListener( 'click', function () {
+			setOpen( ! wrap.classList.contains( 'is-open' ) );
+		} );
+		boxes.forEach( function ( b ) {
+			b.addEventListener( 'change', render );
+		} );
+		document.addEventListener( 'click', function ( e ) {
+			if ( ! wrap.contains( e.target ) ) {
+				setOpen( false );
+			}
+		} );
+		wrap.addEventListener( 'keydown', function ( e ) {
+			if ( e.key === 'Escape' && wrap.classList.contains( 'is-open' ) ) {
+				setOpen( false );
+				btn.focus();
+			}
+		} );
+		wrap.addEventListener( 'focusout', function ( e ) {
+			if ( e.relatedTarget && ! wrap.contains( e.relatedTarget ) ) {
+				setOpen( false );
+			}
+		} );
+		render();
+	} );
 
 	/* Copiar enlace. */
 	document.querySelectorAll( '[data-flmm-copy]' ).forEach( function ( btn ) {
