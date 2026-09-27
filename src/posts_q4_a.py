@@ -8,7 +8,7 @@ POSTS = [
         'key': 'aeo-measure',
         'publish_gmt': '2026-10-27 13:00:00',
         'cat': 'aeo',
-        'image': 'analytics',
+        'image': 'post-aeo-measure',
         'en': {
             'slug': 'how-to-measure-aeo',
             'title': 'How to Measure AEO: AI Citations, Brand Mentions and AI Referral Traffic',
@@ -132,7 +132,7 @@ POSTS = [
         'key': 'aeo-checklist',
         'publish_gmt': '2026-11-10 13:00:00',
         'cat': 'aeo',
-        'image': 'aeo-content',
+        'image': 'post-aeo-checklist',
         'en': {
             'slug': 'aeo-checklist',
             'title': 'AEO Checklist: Steps to Get Cited by ChatGPT, Perplexity and Gemini',
@@ -276,7 +276,7 @@ POSTS = [
         'key': 'aeo-schema',
         'publish_gmt': '2026-11-24 13:00:00',
         'cat': 'aeo',
-        'image': 'seo-aeo',
+        'image': 'post-aeo-schema',
         'en': {
             'slug': 'schema-for-aeo',
             'title': 'Schema for AEO: The Structured Data AI Engines Read',

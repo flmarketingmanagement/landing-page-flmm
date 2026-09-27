@@ -8,7 +8,7 @@ POSTS = [
         'key': 'lakeland-agency',
         'publish_gmt': '2026-11-03 13:00:00',
         'cat': 'local',
-        'image': 'consulting',
+        'image': 'post-lakeland-agency',
         'en': {
             'slug': 'choose-digital-marketing-agency-lakeland',
             'title': 'Digital Marketing Agency in Lakeland: How to Choose the Right One',
@@ -134,7 +134,7 @@ POSTS = [
         'key': 'florida-agency',
         'publish_gmt': '2026-11-17 13:00:00',
         'cat': 'local',
-        'image': 'performance-marketing',
+        'image': 'post-florida-agency',
         'en': {
             'slug': 'how-to-choose-marketing-agency-florida',
             'title': 'How to Choose a Marketing Agency in Florida',

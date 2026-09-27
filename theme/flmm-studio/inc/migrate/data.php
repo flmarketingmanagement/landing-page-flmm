@@ -74,6 +74,11 @@ function flmm_mig_media() {
 		'post-aeo-services'     => array( 'AEO services: a question connected to a clear, structured answer', 'Servicios de AEO: una pregunta conectada a una respuesta clara y estructurada' ),
 		'post-gemini-overviews' => array( 'Gemini and AI Overviews: an AI summary citing one web page as its source', 'Gemini y AI Overviews: un resumen de IA que cita una página web como fuente' ),
 		'post-aeo-saas'         => array( 'AEO for SaaS: a software dashboard connected to an AI answer that compares products', 'AEO para SaaS: un panel de software conectado a una respuesta de IA que compara productos' ),
+		'post-aeo-measure'      => array( 'How to measure AEO: AI answers, one of them cited, connected to a growing analytics chart', 'Cómo medir el AEO: respuestas de IA, una de ellas citada, conectadas a un gráfico de analítica en crecimiento' ),
+		'post-lakeland-agency'  => array( 'Digital marketing in Lakeland: a local store, a phone and a checklist connected to a pin on a city map with a lake', 'Marketing digital en Lakeland: una tienda local, un celular y una lista conectados a un punto en el mapa de una ciudad con un lago' ),
+		'post-aeo-checklist'    => array( 'AEO checklist: completed steps leading to an AI answer', 'Checklist de AEO: pasos completados que llevan a una respuesta de IA' ),
+		'post-florida-agency'   => array( 'Choosing a marketing agency in Florida: the state map connected to three agency proposals', 'Cómo elegir una agencia de marketing en Florida: el mapa del estado conectado a tres propuestas de agencias' ),
+		'post-aeo-schema'       => array( 'Schema for AEO: structured data under a web page connected to an AI answer', 'Schema para AEO: datos estructurados debajo de una página web conectados a una respuesta de IA' ),
 	);
 }
 
