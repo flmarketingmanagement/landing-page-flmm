@@ -14,6 +14,14 @@ $flmm_email    = flmm_option( 'email' );
 $flmm_agent    = flmm_option( 'agent_url' );
 $flmm_jetpack  = WP_Block_Type_Registry::get_instance()->is_registered( 'jetpack/contact-form' );
 
+// Aviso de privacidad en el momento de la recolección (GDPR art. 13, CCPA "notice at collection").
+$flmm_privacy = sprintf(
+	'<p class="flmm-contact__privacy">%1$s <a href="%2$s">%3$s</a>.</p>',
+	esc_html( flmm__( 'We use your details only to reply to your message. See our' ) ),
+	esc_url( home_url( 'es' === flmm_lang() ? '/es/politica-de-privacidad/' : '/privacy-policy/' ) ),
+	esc_html( flmm__( 'privacy policy' ) )
+);
+
 $flmm_actions = sprintf(
 	'<div class="flmm-contact__alt"><span class="flmm-contact__or">%1$s</span><a class="flmm-btn flmm-btn--ghost" href="%2$s">%3$s</a>%4$s</div>%5$s',
 	esc_html( flmm__( 'or reach me by' ) ),
@@ -60,6 +68,7 @@ $flmm_actions = sprintf(
 						. $flmm_field( 'textarea', flmm__( 'How can we help?' ), array( 'type' => 'textarea' ) )
 						. '</div><!-- /wp:jetpack/contact-form -->';
 					echo do_blocks( apply_filters( 'flmm_contact_form_markup', $flmm_form ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+					echo $flmm_privacy; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					echo $flmm_actions; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					?>
 				</div>
@@ -73,6 +82,7 @@ $flmm_actions = sprintf(
 						<?php echo $flmm_actions; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 					</div>
 					<p class="flmm-form__msg flmm-form__full" role="status" aria-live="polite"></p>
+					<div class="flmm-form__full"><?php echo $flmm_privacy; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 				</form>
 			<?php endif; ?>
 		</div>

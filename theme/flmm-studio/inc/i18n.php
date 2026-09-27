@@ -65,6 +65,8 @@ function flmm_strings() {
 		'How can we help?'                   => '¿En qué te ayudamos?',
 		'Send'                               => 'Enviar',
 		'or reach me by'                     => 'o escríbeme por',
+		'We use your details only to reply to your message. See our' => 'Usamos tus datos solo para responder tu mensaje. Revisa nuestra',
+		'privacy policy' => 'política de privacidad',
 		'Talk to our agent, Marky Digital, to learn more about what we do.' => 'Habla con nuestro agente, Marky Digital, para conocer más a fondo lo que hacemos.',
 		'Mail'                               => 'Mail',
 		'Telegram'                           => 'Telegram',
