@@ -32,6 +32,7 @@
 - Informes: docs/fase-0-auditoria.md, docs/fases-3-7.md, docs/fase-8-lanzamiento.md. Pendientes: docs/pendientes.md.
 - Ramas: `staging` despliega solo al sitio de staging; `main` despliega solo a producción al fusionar un PR. Trabajar en ramas y abrir PR a `main`.
 - Migración automática: cada versión nueva del theme (subir `Version` en style.css y `FLMM_VERSION`) ejecuta todos los pasos por WP-Cron al desplegar. El contenido de las páginas que crea la migración se reescribe desde el código: editarlo en el repo, no en WordPress. Se desactiva con el filtro `flmm_auto_migrate`.
+- Artículos nuevos del blog: se escriben en `src/blog_posts.py` (valida largos y raya larga) y se exportan a `inc/migrate/blog-posts.json`. La migración los crea en EN y ES y los programa según `publish_gmt`; los ya publicados conservan estado y fecha.
 - Imágenes de la migración: si se reemplaza una, usar un nombre de archivo nuevo (la migración no vuelve a subir un archivo con el mismo nombre).
 
 ## Theme flmm-studio

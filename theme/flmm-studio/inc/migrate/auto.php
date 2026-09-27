@@ -67,3 +67,28 @@ function flmm_auto_migrate_clean() {
 	flmm_mig_deferred_clean();
 }
 add_action( 'flmm_auto_migrate_clean', 'flmm_auto_migrate_clean' );
+
+/**
+ * Cuando se publica un artículo programado, se regeneran los artículos nuevos para activar
+ * los enlaces internos que apuntaban a él.
+ *
+ * @param int $post_id Artículo publicado.
+ */
+function flmm_auto_refresh_new_posts( $post_id ) {
+	if ( 'post' !== get_post_type( $post_id ) || ! function_exists( 'PLL' ) ) {
+		return;
+	}
+	require_once FLMM_DIR . '/inc/migrate/migrate.php';
+	$slugs = array();
+	foreach ( flmm_mig_new_posts() as $p ) {
+		$slugs[] = $p['en']['slug'];
+		$slugs[] = $p['es']['slug'];
+	}
+	if ( ! in_array( get_post_field( 'post_name', $post_id ), $slugs, true ) ) {
+		return;
+	}
+	remove_action( 'publish_future_post', 'flmm_auto_refresh_new_posts', 20 );
+	kses_remove_filters();
+	flmm_mig_step_newposts();
+}
+add_action( 'publish_future_post', 'flmm_auto_refresh_new_posts', 20 );
