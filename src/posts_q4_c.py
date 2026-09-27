@@ -6,7 +6,7 @@ POSTS = [
     # -----------------------------------------------------------------------
     {
         'key': 'lakeland-agency',
-        'publish_gmt': '2026-11-03 13:00:00',
+        'publish_gmt': '2026-11-03 14:00:00',
         'cat': 'local',
         'image': 'post-lakeland-agency',
         'en': {
@@ -132,7 +132,7 @@ POSTS = [
     # -----------------------------------------------------------------------
     {
         'key': 'florida-agency',
-        'publish_gmt': '2026-11-17 13:00:00',
+        'publish_gmt': '2026-11-17 14:00:00',
         'cat': 'local',
         'image': 'post-florida-agency',
         'en': {
@@ -278,7 +278,7 @@ POSTS = [
     # -----------------------------------------------------------------------
     {
         'key': 'lakeland-local-seo',
-        'publish_gmt': '2026-12-08 13:00:00',
+        'publish_gmt': '2026-12-08 14:00:00',
         'cat': 'local',
         'image': 'post-lakeland-local-seo',
         'en': {

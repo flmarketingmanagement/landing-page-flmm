@@ -3,6 +3,8 @@
 Bloques: ["p", html], ["h2", texto], ["h3", texto], ["ul", [items]], ["ol", [items]].
 Enlaces internos con marcadores que el migrador reemplaza por la URL del idioma:
 {seo-aeo}, {florida}, {lakeland}, {service:slug}, {post:clave}.
+
+publish_gmt: 9:00 hora de Florida todo el año (13:00 UTC con horario de verano, 14:00 UTC desde noviembre hasta marzo).
 """
 import json, os, re
 
