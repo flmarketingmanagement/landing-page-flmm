@@ -12,7 +12,7 @@
     "SEO vs AEO vs GEO explained: what each one optimizes, how they overlap and how to apply them in SaaS, e-commerce, local services and professional firms.",
     "seo vs aeo vs geo"
    ],
-   "tldr": "SEO gets you ranked on Google, AEO gets your content quoted as a direct answer and GEO gets your brand mentioned by generative AI. They share one foundation: useful content, a clean technical structure and a trustworthy brand. What changes by industry is where you put the effort first.",
+   "tldr": "In SEO vs AEO vs GEO, SEO gets you ranked on Google, AEO gets your content quoted as a direct answer and GEO gets your brand mentioned by generative AI. They share one foundation: useful content, a clean technical structure and a trustworthy brand. What changes by industry is where you put the effort first.",
    "intro": "SEO vs AEO vs GEO compares three ways to be found online. SEO (Search Engine Optimization) improves your ranking in search results. AEO (Answer Engine Optimization) structures content so assistants can quote it as an answer. GEO (Generative Engine Optimization) works on how AI models perceive and mention your brand when they write a response.",
    "body": [
     [
@@ -33,7 +33,7 @@
     ],
     [
      "h2",
-     "How they fit together"
+     "SEO vs AEO vs GEO: how they fit together"
     ],
     [
      "p",
@@ -41,7 +41,7 @@
     ],
     [
      "p",
-     "That is why we do not treat them as separate projects. The same research tells you which questions your buyers ask, which pages should answer them and which external sources shape how your category is described."
+     "That is why we do not treat SEO vs AEO vs GEO as a choice between separate projects. The same research tells you which questions your buyers ask, which pages should answer them and which external sources shape how your category is described."
     ],
     [
      "h2",
@@ -98,7 +98,11 @@
      "If you want a team to run this for you, our <a href=\"{seo-aeo}\">AEO and SEO services</a> cover the full process. For Florida businesses, see our <a href=\"{florida}\">performance marketing agency in Florida</a>."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about SEO vs AEO vs GEO",
+   "ref": [
+    "Google Search Central: SEO Starter Guide",
+    "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+   ],
    "faq": [
     [
      "Is GEO replacing SEO?",
@@ -117,7 +121,7 @@
     "SEO is the foundation: without it, AEO and GEO have little to work with.",
     "AEO turns your pages into clear answers that assistants can quote.",
     "GEO works on how AI models describe and recommend your brand beyond your site.",
-    "The right order depends on your industry and on how your buyers search."
+    "In SEO vs AEO vs GEO, the right order depends on your industry and on how your buyers search."
    ]
   },
   "es": {
@@ -128,7 +132,7 @@
     "SEO vs AEO vs GEO explicados: qué optimiza cada uno, en qué se cruzan y cómo aplicarlos en SaaS, e-commerce, servicios locales y servicios profesionales.",
     "SEO vs AEO vs GEO"
    ],
-   "tldr": "El SEO te posiciona en Google, el AEO hace que tu contenido sea citado como respuesta directa y el GEO logra que la IA generativa mencione tu marca. Comparten una misma base: contenido útil, una estructura técnica limpia y una marca confiable. Lo que cambia según la industria es por dónde empezar.",
+   "tldr": "En la comparación SEO vs AEO vs GEO, el SEO te posiciona en Google, el AEO hace que tu contenido sea citado como respuesta directa y el GEO logra que la IA generativa mencione tu marca. Comparten una misma base: contenido útil, una estructura técnica limpia y una marca confiable. Lo que cambia según la industria es por dónde empezar.",
    "intro": "SEO vs AEO vs GEO compara tres formas de ser encontrado en internet. El SEO (Search Engine Optimization) mejora tu posición en los resultados de búsqueda. El AEO (Answer Engine Optimization) estructura el contenido para que los asistentes lo citen como respuesta. El GEO (Generative Engine Optimization) trabaja en cómo los modelos de IA perciben y mencionan tu marca.",
    "body": [
     [
@@ -149,7 +153,7 @@
     ],
     [
      "h2",
-     "Cómo se complementan"
+     "SEO vs AEO vs GEO: cómo se complementan"
     ],
     [
      "p",
@@ -157,7 +161,7 @@
     ],
     [
      "p",
-     "Por eso no los trabajamos como proyectos separados. La misma investigación te dice qué preguntas hacen tus compradores, qué páginas deben responderlas y qué fuentes externas definen cómo se describe tu categoría."
+     "Por eso no tratamos SEO vs AEO vs GEO como una elección entre proyectos separados. La misma investigación te dice qué preguntas hacen tus compradores, qué páginas deben responderlas y qué fuentes externas definen cómo se describe tu categoría."
     ],
     [
      "h2",
@@ -214,7 +218,11 @@
      "Si quieres que un equipo lo haga por ti, nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a> cubren todo el proceso. Si tu empresa está en Florida, revisa nuestra <a href=\"{florida}\">agencia de performance marketing en Florida</a>."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre SEO vs AEO vs GEO",
+   "ref": [
+    "Google Search Central: guía de introducción al SEO",
+    "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+   ],
    "faq": [
     [
      "¿El GEO reemplaza al SEO?",
@@ -233,7 +241,7 @@
     "El SEO es la base: sin él, el AEO y el GEO tienen poco con qué trabajar.",
     "El AEO convierte tus páginas en respuestas claras que los asistentes pueden citar.",
     "El GEO trabaja cómo los modelos de IA describen y recomiendan tu marca fuera de tu sitio.",
-    "El orden correcto depende de tu industria y de cómo buscan tus compradores."
+    "En SEO vs AEO vs GEO, el orden correcto depende de tu industria y de cómo buscan tus compradores."
    ]
   }
  },
@@ -307,7 +315,11 @@
      "If you are comparing providers, see how we approach it in our <a href=\"{seo-aeo}\">AEO and SEO services</a>."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about AEO services",
+   "ref": [
+    "Google Search Central: AI features and your website",
+    "https://developers.google.com/search/docs/appearance/ai-features"
+   ],
    "faq": [
     [
      "How long do AEO services take to show results?",
@@ -394,7 +406,11 @@
      "Si estás comparando proveedores, mira cómo lo trabajamos en nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre los servicios de AEO",
+   "ref": [
+    "Google Search Central: funciones de IA y tu sitio web",
+    "https://developers.google.com/search/docs/appearance/ai-features"
+   ],
    "faq": [
     [
      "¿Cuánto tardan los servicios de AEO en dar resultados?",
@@ -430,7 +446,7 @@
     "How to show up in Gemini and Google AI Overviews: how they choose sources and the steps to make your content eligible, from SEO to trust signals.",
     "show up in Gemini"
    ],
-   "tldr": "Gemini and AI Overviews build on Google Search. There is no special tag or form to get in: you need a site Google can read, pages that answer questions directly, clear structure and signals that your brand is trustworthy.",
+   "tldr": "Gemini and AI Overviews build on Google Search. There is no special tag or form to show up in Gemini or AI Overviews: you need a site Google can read, pages that answer questions directly, clear structure and signals that your brand is trustworthy.",
    "intro": "To show up in Gemini and Google AI Overviews, your content must be selected as a source when Google’s AI writes an answer. Both draw on Google’s index, so the base is solid SEO. On top of that you need direct answers, clear structure, structured data and consistent signals that your brand is trustworthy.",
    "body": [
     [
@@ -443,7 +459,7 @@
     ],
     [
      "p",
-     "There is no extra markup or submission that guarantees inclusion. The work is the same good SEO, with more attention to answering specific questions clearly."
+     "There is no extra markup or submission that guarantees you show up in Gemini. The work is the same good SEO, with more attention to answering specific questions clearly."
     ],
     [
      "h2",
@@ -492,7 +508,11 @@
      "Search Console includes traffic from AI features inside the standard Web performance report, so watch the queries and pages that gain impressions. Complement it by checking your key questions in Gemini and AI Overviews every month and noting which sources appear. If you want a team to handle it, see our <a href=\"{seo-aeo}\">AEO and SEO services</a> and our guide on <a href=\"{post:aeo-services}\">what AEO services include</a>."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions on how to show up in Gemini",
+   "ref": [
+    "Google Search Central: AI features and your website",
+    "https://developers.google.com/search/docs/appearance/ai-features"
+   ],
    "faq": [
     [
      "Can I pay to appear in AI Overviews?",
@@ -508,7 +528,7 @@
     ]
    ],
    "takeaways": [
-    "Gemini and AI Overviews build on Google’s index: SEO comes first.",
+    "To show up in Gemini, SEO comes first: Gemini and AI Overviews build on Google’s index.",
     "Answer each question in the first lines, then add detail.",
     "Structured data and author information add clarity, not guarantees.",
     "Track AI visibility in Search Console and with monthly checks."
@@ -522,7 +542,7 @@
     "Cómo aparecer en Gemini y en los AI Overviews de Google: cómo eligen sus fuentes y los pasos para que tu contenido califique, del SEO a la confianza.",
     "aparecer en Gemini"
    ],
-   "tldr": "Gemini y los AI Overviews se apoyan en la Búsqueda de Google. No existe una etiqueta ni un formulario especial para entrar: necesitas un sitio que Google pueda leer, páginas que respondan de forma directa, una estructura clara y señales de que tu marca es confiable.",
+   "tldr": "Gemini y los AI Overviews se apoyan en la Búsqueda de Google. No existe una etiqueta ni un formulario especial para aparecer en Gemini o en los AI Overviews: necesitas un sitio que Google pueda leer, páginas que respondan de forma directa, una estructura clara y señales de que tu marca es confiable.",
    "intro": "Aparecer en Gemini y en los AI Overviews de Google significa que tu contenido sea elegido como fuente cuando la IA de Google escribe una respuesta. Ambos usan el índice de Google, así que la base es un SEO sólido. Además necesitas respuestas directas, una estructura clara, datos estructurados y señales coherentes de que tu marca es confiable.",
    "body": [
     [
@@ -535,7 +555,7 @@
     ],
     [
      "p",
-     "No hay un marcado extra ni un envío que garantice la inclusión. El trabajo es el mismo buen SEO, con más atención a responder preguntas concretas con claridad."
+     "No hay un marcado extra ni un envío que garantice aparecer en Gemini. El trabajo es el mismo buen SEO, con más atención a responder preguntas concretas con claridad."
     ],
     [
      "h2",
@@ -584,7 +604,11 @@
      "Search Console incluye el tráfico de las funciones de IA dentro del informe de rendimiento web, así que revisa qué consultas y páginas ganan impresiones. Compleméntalo revisando cada mes tus preguntas clave en Gemini y en los AI Overviews y anotando qué fuentes aparecen. Si quieres que un equipo lo haga, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a> y nuestra guía sobre <a href=\"{post:aeo-services}\">qué incluyen los servicios de AEO</a>."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre cómo aparecer en Gemini",
+   "ref": [
+    "Google Search Central: funciones de IA y tu sitio web",
+    "https://developers.google.com/search/docs/appearance/ai-features"
+   ],
    "faq": [
     [
      "¿Puedo pagar para aparecer en los AI Overviews?",
@@ -600,7 +624,7 @@
     ]
    ],
    "takeaways": [
-    "Gemini y los AI Overviews se apoyan en el índice de Google: el SEO va primero.",
+    "Para aparecer en Gemini, el SEO va primero: Gemini y los AI Overviews se apoyan en el índice de Google.",
     "Responde cada pregunta en las primeras líneas y luego suma el detalle.",
     "Los datos estructurados y la información del autor suman claridad, no garantías.",
     "Mide tu visibilidad en la IA con Search Console y revisiones mensuales."
@@ -671,7 +695,7 @@
     ],
     [
      "h2",
-     "How to measure progress"
+     "How to measure progress in AEO for SaaS"
     ],
     [
      "ul",
@@ -687,7 +711,11 @@
      "For the bigger picture, read <a href=\"{post:seo-aeo-geo}\">SEO vs AEO vs GEO</a>. If you want a team to run it, see our <a href=\"{seo-aeo}\">AEO and SEO services</a>."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about AEO for SaaS",
+   "ref": [
+    "Schema.org: SoftwareApplication",
+    "https://schema.org/SoftwareApplication"
+   ],
    "faq": [
     [
      "Should SaaS companies block AI crawlers?",
@@ -704,7 +732,7 @@
    ],
    "takeaways": [
     "SaaS buyers use AI assistants to shortlist and compare tools.",
-    "Comparison, alternatives, use-case and integration pages give assistants material to cite.",
+    "In AEO for SaaS, comparison, alternatives, use-case and integration pages give assistants material to cite.",
     "Keep product facts consistent on your site, docs and review platforms.",
     "Track your mentions monthly with a fixed set of prompts."
    ]
@@ -768,7 +796,7 @@
     ],
     [
      "h2",
-     "Cómo medir el avance"
+     "Cómo medir el avance del AEO para SaaS"
     ],
     [
      "ul",
@@ -784,7 +812,11 @@
      "Para ver el panorama completo, lee <a href=\"{post:seo-aeo-geo}\">SEO vs AEO vs GEO</a>. Si quieres que un equipo lo haga, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre AEO para SaaS",
+   "ref": [
+    "Schema.org: SoftwareApplication",
+    "https://schema.org/SoftwareApplication"
+   ],
    "faq": [
     [
      "¿Las empresas SaaS deberían bloquear los rastreadores de IA?",
@@ -801,7 +833,7 @@
    ],
    "takeaways": [
     "Los compradores de SaaS usan asistentes de IA para armar su lista y comparar herramientas.",
-    "Las páginas comparativas, de alternativas, por caso de uso y de integraciones le dan material a la IA.",
+    "En el AEO para SaaS, las páginas comparativas, de alternativas, por caso de uso y de integraciones le dan material a la IA.",
     "Mantén los datos del producto coherentes en tu sitio, documentación y reseñas.",
     "Mide tus menciones cada mes con una lista fija de prompts."
    ]
@@ -837,7 +869,7 @@
     ],
     [
      "h2",
-     "Track a fixed list of key questions"
+     "To measure AEO, track a fixed list of key questions"
     ],
     [
      "p",
@@ -898,7 +930,7 @@
     ],
     [
      "h2",
-     "Build a simple AEO dashboard"
+     "Build a simple dashboard to measure AEO"
     ],
     [
      "ol",
@@ -915,14 +947,18 @@
      "Review it monthly and read the trend, not individual answers. AI tools change models and sources often, so a single check can mislead. If you are still setting up the basics, start with our <a href=\"{post:aeo-checklist}\">AEO checklist</a>. If you want a team to run the whole process, see our <a href=\"{seo-aeo}\">AEO and SEO services</a>."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions on how to measure AEO",
+   "ref": [
+    "Google Analytics Help: introducing GA4",
+    "https://support.google.com/analytics/answer/10089681"
+   ],
    "faq": [
     [
      "Can you measure AEO precisely?",
      "Not with the precision of classic rankings. AI answers vary by user, location, wording and model version, and some visits arrive without a referrer. What you can do is sample the same questions on a fixed schedule, combine them with analytics and lead data, and focus on the direction of the trend over several months."
     ],
     [
-     "Which tools help with AEO tracking?",
+     "Which tools help you measure AEO?",
      "GA4 and Search Console cover traffic and search signals at no cost. For the answers themselves, a spreadsheet with your question list and monthly manual checks is a solid start. Several SEO platforms and dedicated AI visibility tools now automate prompt tracking; they save time, but their results are samples too and should be read as trends."
     ],
     [
@@ -932,9 +968,9 @@
    ],
    "takeaways": [
     "Rank tracking alone does not show whether AI assistants use your content.",
-    "A fixed list of questions, checked on a schedule, is the core of AEO tracking.",
+    "A fixed list of questions, checked on a schedule, is the core of any effort to measure AEO.",
     "A custom channel group in GA4 makes AI referral traffic visible.",
-    "Measurement is imperfect: combine sources and read the trend."
+    "Every way to measure AEO is imperfect: combine sources and read the trend."
    ]
   },
   "es": {
@@ -962,7 +998,7 @@
     ],
     [
      "h2",
-     "Sigue una lista fija de preguntas clave"
+     "Para medir el AEO, sigue una lista fija de preguntas clave"
     ],
     [
      "p",
@@ -1023,7 +1059,7 @@
     ],
     [
      "h2",
-     "Arma un tablero de AEO simple"
+     "Arma un tablero simple para medir el AEO"
     ],
     [
      "ol",
@@ -1040,7 +1076,11 @@
      "Revísalo cada mes y lee la tendencia, no las respuestas sueltas. Las herramientas de IA cambian de modelos y fuentes con frecuencia, así que una sola revisión puede confundir. Si todavía estás armando lo básico, empieza por nuestro <a href=\"{post:aeo-checklist}\">checklist de AEO</a>. Si quieres que un equipo lleve todo el proceso, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre cómo medir el AEO",
+   "ref": [
+    "Ayuda de Google Analytics: presentación de GA4",
+    "https://support.google.com/analytics/answer/10089681"
+   ],
    "faq": [
     [
      "¿Se puede medir el AEO con precisión?",
@@ -1057,9 +1097,9 @@
    ],
    "takeaways": [
     "Las posiciones por sí solas no muestran si los asistentes de IA usan tu contenido.",
-    "Una lista fija de preguntas, revisada con regularidad, es la base de la medición del AEO.",
+    "Una lista fija de preguntas, revisada con regularidad, es la base para medir el AEO.",
     "Un grupo de canales personalizado en GA4 hace visible el tráfico que llega desde la IA.",
-    "La medición es imperfecta: combina fuentes y lee la tendencia."
+    "Medir el AEO siempre es imperfecto: combina fuentes y lee la tendencia."
    ]
   }
  },
@@ -1118,7 +1158,7 @@
     ],
     [
      "h2",
-     "Red flags to watch for"
+     "Red flags in a digital marketing agency in Lakeland"
     ],
     [
      "ul",
@@ -1144,7 +1184,7 @@
     ],
     [
      "h2",
-     "How to think about budget"
+     "How to budget for a digital marketing agency in Lakeland"
     ],
     [
      "p",
@@ -1160,10 +1200,14 @@
     ],
     [
      "p",
-     "If you want to see what this looks like in practice, visit our <a href=\"{lakeland}\">SEO and digital marketing services in Lakeland</a> or our <a href=\"{seo-aeo}\">AEO and SEO services</a>. We are happy to review your current setup and tell you where we would start."
+     "If you want to see how a digital marketing agency in Lakeland works in practice, visit our <a href=\"{lakeland}\">SEO and digital marketing services in Lakeland</a> or our <a href=\"{seo-aeo}\">AEO and SEO services</a>. We are happy to review your current setup and tell you where we would start."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about choosing a digital marketing agency in Lakeland",
+   "ref": [
+    "Google Business Profile Help",
+    "https://support.google.com/business/"
+   ],
    "faq": [
     [
      "How long does it take to see results from a digital marketing agency in Lakeland?",
@@ -1179,7 +1223,7 @@
     ]
    ],
    "takeaways": [
-    "Expect local SEO, Google Business Profile, ads, website and analytics working together.",
+    "A digital marketing agency in Lakeland should bring local SEO, Google Business Profile, ads, website and analytics together.",
     "Ask who does the work, how results are reported and who owns your accounts and data.",
     "Avoid guaranteed rankings, vanity metrics and contracts that lock you in.",
     "Choose by fit and transparency, whether the agency is local or remote."
@@ -1235,7 +1279,7 @@
     ],
     [
      "h2",
-     "Señales de alerta"
+     "Señales de alerta en una agencia de marketing digital en Lakeland"
     ],
     [
      "ul",
@@ -1261,7 +1305,7 @@
     ],
     [
      "h2",
-     "Cómo pensar el presupuesto"
+     "Cómo pensar el presupuesto de una agencia de marketing digital en Lakeland"
     ],
     [
      "p",
@@ -1277,10 +1321,14 @@
     ],
     [
      "p",
-     "Si quieres ver cómo se ve esto en la práctica, visita nuestros <a href=\"{lakeland}\">servicios de SEO y marketing digital en Lakeland</a> o nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>. Con gusto revisamos lo que tienes hoy y te decimos por dónde empezaríamos."
+     "Si quieres ver cómo trabaja una agencia de marketing digital en Lakeland en la práctica, visita nuestros <a href=\"{lakeland}\">servicios de SEO y marketing digital en Lakeland</a> o nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>. Con gusto revisamos lo que tienes hoy y te decimos por dónde empezaríamos."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre cómo elegir una agencia de marketing digital en Lakeland",
+   "ref": [
+    "Ayuda del Perfil de Empresa de Google",
+    "https://support.google.com/business/"
+   ],
    "faq": [
     [
      "¿Cuánto tarda una agencia de marketing digital en Lakeland en dar resultados?",
@@ -1296,7 +1344,7 @@
     ]
    ],
    "takeaways": [
-    "Espera SEO local, Perfil de Empresa de Google, anuncios, sitio web y analítica trabajando juntos.",
+    "Una agencia de marketing digital en Lakeland debería integrar SEO local, Perfil de Empresa de Google, anuncios, sitio web y analítica.",
     "Pregunta quién hace el trabajo, cómo se reportan los resultados y de quién son tus cuentas y datos.",
     "Evita las posiciones garantizadas, las métricas de vanidad y los contratos que te atan.",
     "Elige por encaje y transparencia, sea la agencia local o remota."
@@ -1316,7 +1364,7 @@
     "An AEO checklist to get cited by ChatGPT, Perplexity and Gemini: technical access for AI crawlers, answer-first content, structured data and measurement.",
     "aeo checklist"
    ],
-   "tldr": "Getting cited by AI assistants starts with basics you can check: AI crawlers can reach your pages, each page answers a question in its first lines, structured data describes who you are, your brand is consistent across the web and you measure the results every month. No checklist guarantees a citation, but skipping these steps makes one unlikely.",
+   "tldr": "Getting cited by AI assistants starts with basics you can check: AI crawlers can reach your pages, each page answers a question in its first lines, structured data describes who you are, your brand is consistent across the web and you measure the results every month. No AEO checklist guarantees a citation, but skipping these steps makes one unlikely.",
    "intro": "An AEO checklist is a step-by-step list of what a website needs so AI assistants such as ChatGPT, Perplexity and Gemini can find, understand and cite it. It covers technical access for AI crawlers, content written as direct answers, structured data, brand signals across the web and a simple way to measure results.",
    "body": [
     [
@@ -1369,7 +1417,7 @@
     ],
     [
      "p",
-     "We explain which types matter and why in our guide to <a href=\"{post:aeo-schema}\">schema for AEO</a>."
+     "For the structured data step of this AEO checklist, we explain which types matter and why in our guide to <a href=\"{post:aeo-schema}\">schema for AEO</a>."
     ],
     [
      "h2",
@@ -1406,10 +1454,14 @@
     ],
     [
      "p",
-     "No checklist guarantees a citation. AI tools decide what to show, and their answers change with models, sources and wording. What a checklist does is remove the obstacles that keep good content out of those answers. If you want a team to work through it with you, see our <a href=\"{seo-aeo}\">AEO and SEO services</a>."
+     "No checklist guarantees a citation. AI tools decide what to show, and their answers change with models, sources and wording. What an AEO checklist does is remove the obstacles that keep good content out of those answers. If you want a team to work through it with you, see our <a href=\"{seo-aeo}\">AEO and SEO services</a>."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about the AEO checklist",
+   "ref": [
+    "OpenAI: overview of OpenAI crawlers",
+    "https://platform.openai.com/docs/bots"
+   ],
    "faq": [
     [
      "How do I get cited by ChatGPT?",
@@ -1425,10 +1477,10 @@
     ]
    ],
    "takeaways": [
-    "Technical access comes first: AI crawlers must be able to reach and read your pages.",
+    "Technical access comes first in any AEO checklist: AI crawlers must be able to reach and read your pages.",
     "Answer each question in the first lines, with clear headings and a short FAQ.",
     "Structured data and consistent brand signals remove doubt about who you are.",
-    "Measure every month, because no checklist guarantees a citation."
+    "Measure every month, because no AEO checklist guarantees a citation."
    ]
   },
   "es": {
@@ -1439,7 +1491,7 @@
     "Checklist de AEO para que ChatGPT, Perplexity y Gemini te citen: acceso para rastreadores de IA, contenido con respuestas directas, schema y medición.",
     "checklist de AEO"
    ],
-   "tldr": "Que los asistentes de IA te citen empieza con aspectos básicos que puedes revisar: que los rastreadores de IA lleguen a tus páginas, que cada página responda una pregunta en sus primeras líneas, que los datos estructurados describan quién eres, que tu marca sea coherente en la web y que midas los resultados cada mes. Ningún checklist garantiza una cita, pero saltarte estos pasos la vuelve poco probable.",
+   "tldr": "Que los asistentes de IA te citen empieza con aspectos básicos que puedes revisar: que los rastreadores de IA lleguen a tus páginas, que cada página responda una pregunta en sus primeras líneas, que los datos estructurados describan quién eres, que tu marca sea coherente en la web y que midas los resultados cada mes. Ningún checklist de AEO garantiza una cita, pero saltarte estos pasos la vuelve poco probable.",
    "intro": "Un checklist de AEO es una lista paso a paso de lo que necesita un sitio web para que asistentes de IA como ChatGPT, Perplexity y Gemini puedan encontrarlo, entenderlo y citarlo. Cubre el acceso técnico para los rastreadores de IA, contenido escrito como respuestas directas, datos estructurados, señales de marca en la web y una forma simple de medir.",
    "body": [
     [
@@ -1492,7 +1544,7 @@
     ],
     [
      "p",
-     "Explicamos qué tipos importan y por qué en nuestra guía de <a href=\"{post:aeo-schema}\">schema para AEO</a>."
+     "Para el paso de datos estructurados de este checklist de AEO, explicamos qué tipos importan y por qué en nuestra guía de <a href=\"{post:aeo-schema}\">schema para AEO</a>."
     ],
     [
      "h2",
@@ -1529,10 +1581,14 @@
     ],
     [
      "p",
-     "Ningún checklist garantiza una cita. Las herramientas de IA deciden qué mostrar, y sus respuestas cambian según el modelo, las fuentes y la forma de preguntar. Lo que sí hace un checklist es quitar los obstáculos que dejan al buen contenido fuera de esas respuestas. Si quieres que un equipo lo trabaje contigo, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>."
+     "Ningún checklist garantiza una cita. Las herramientas de IA deciden qué mostrar, y sus respuestas cambian según el modelo, las fuentes y la forma de preguntar. Lo que sí hace un checklist de AEO es quitar los obstáculos que dejan al buen contenido fuera de esas respuestas. Si quieres que un equipo lo trabaje contigo, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre el checklist de AEO",
+   "ref": [
+    "OpenAI: rastreadores de OpenAI",
+    "https://platform.openai.com/docs/bots"
+   ],
    "faq": [
     [
      "¿Cómo logro que ChatGPT me cite?",
@@ -1548,10 +1604,10 @@
     ]
    ],
    "takeaways": [
-    "El acceso técnico va primero: los rastreadores de IA deben poder llegar a tus páginas y leerlas.",
+    "En todo checklist de AEO, el acceso técnico va primero: los rastreadores de IA deben poder llegar a tus páginas y leerlas.",
     "Responde cada pregunta en las primeras líneas, con títulos claros y preguntas frecuentes.",
     "Los datos estructurados y las señales de marca coherentes eliminan dudas sobre quién eres.",
-    "Mide cada mes, porque ningún checklist garantiza una cita."
+    "Mide cada mes, porque ningún checklist de AEO garantiza una cita."
    ]
   }
  },
@@ -1640,7 +1696,7 @@
     ],
     [
      "h2",
-     "How to evaluate proposals"
+     "How to evaluate proposals from a marketing agency in Florida"
     ],
     [
      "p",
@@ -1664,7 +1720,7 @@
     ],
     [
      "h2",
-     "Red flags"
+     "Red flags in a marketing agency in Florida"
     ],
     [
      "ul",
@@ -1689,7 +1745,11 @@
      "To see how we plan and measure campaigns across the state, visit our <a href=\"{florida}\">performance marketing agency in Florida</a> page. We can review your current marketing and share where we would start."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about choosing a marketing agency in Florida",
+   "ref": [
+    "Google Ads Help",
+    "https://support.google.com/google-ads/"
+   ],
    "faq": [
     [
      "Do I need a marketing agency based in Florida?",
@@ -1707,7 +1767,7 @@
    "takeaways": [
     "Define your goals and constraints before comparing agencies.",
     "Choose a specialist or a full-service team based on how your channels depend on each other.",
-    "In Florida, bilingual planning and reporting can be a real advantage.",
+    "For a marketing agency in Florida, bilingual planning and reporting can be a real advantage.",
     "Judge proposals by measurement, ownership, contract terms and the first 90 days plan."
    ]
   },
@@ -1791,7 +1851,7 @@
     ],
     [
      "h2",
-     "Cómo evaluar las propuestas"
+     "Cómo evaluar las propuestas de una agencia de marketing en Florida"
     ],
     [
      "p",
@@ -1799,7 +1859,7 @@
     ],
     [
      "h2",
-     "Usa los primeros 90 días como prueba"
+     "Usa los primeros 90 días con una agencia de marketing en Florida como prueba"
     ],
     [
      "p",
@@ -1815,7 +1875,7 @@
     ],
     [
      "h2",
-     "Señales de alerta"
+     "Señales de alerta en una agencia de marketing en Florida"
     ],
     [
      "ul",
@@ -1840,7 +1900,11 @@
      "Para ver cómo planificamos y medimos campañas en todo el estado, visita nuestra página de <a href=\"{florida}\">agencia de performance marketing en Florida</a>. Podemos revisar tu marketing actual y contarte por dónde empezaríamos."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre cómo elegir una agencia de marketing en Florida",
+   "ref": [
+    "Ayuda de Google Ads",
+    "https://support.google.com/google-ads/"
+   ],
    "faq": [
     [
      "¿Necesito una agencia de marketing con base en Florida?",
@@ -1858,7 +1922,7 @@
    "takeaways": [
     "Define tus objetivos y tus límites antes de comparar agencias.",
     "Elige un especialista o un equipo integral según cuánto dependen entre sí tus canales.",
-    "En Florida, planificar y reportar en dos idiomas puede ser una ventaja real.",
+    "Para una agencia de marketing en Florida, planificar y reportar en dos idiomas puede ser una ventaja real.",
     "Evalúa las propuestas por medición, propiedad de las cuentas, contrato y plan de 90 días."
    ]
   }
@@ -1876,7 +1940,7 @@
     "Schema for AEO: which structured data types AI engines read, how to implement them in JSON-LD, keep them consistent with your content and validate them.",
     "schema for aeo"
    ],
-   "tldr": "Schema markup tells search engines and AI tools, in a format they read without guessing, who you are, what you offer and who wrote your content. For AEO the key types are Organization, WebSite, Service, LocalBusiness, BlogPosting, Person, FAQPage, BreadcrumbList and, for stores, Product. Schema adds clarity, not guarantees.",
+   "tldr": "Schema markup tells search engines and AI tools, in a format they read without guessing, who you are, what you offer and who wrote your content. In schema for AEO, the key types are Organization, WebSite, Service, LocalBusiness, BlogPosting, Person, FAQPage, BreadcrumbList and, for stores, Product. Schema adds clarity, not guarantees.",
    "intro": "Schema for AEO is the structured data, usually written in JSON-LD, that describes your organization, services, articles, authors and FAQs in a format machines can read without guessing. It helps search engines and AI assistants understand what each page is about and who is behind it, which supports being cited, although it never guarantees it.",
    "body": [
     [
@@ -1953,7 +2017,7 @@
     ],
     [
      "h2",
-     "Keep schema consistent with visible content"
+     "Keep schema for AEO consistent with visible content"
     ],
     [
      "ul",
@@ -1979,13 +2043,17 @@
     ],
     [
      "p",
-     "Schema is one layer of a broader AEO plan that also covers content, technical access and brand signals; see the full <a href=\"{post:aeo-checklist}\">AEO checklist</a>. If you want a team to audit and implement it, see our <a href=\"{seo-aeo}\">AEO and SEO services</a> or our <a href=\"{service:website}\">website development service</a>."
+     "Schema for AEO is one layer of a broader plan that also covers content, technical access and brand signals; see the full <a href=\"{post:aeo-checklist}\">AEO checklist</a>. If you want a team to audit and implement it, see our <a href=\"{seo-aeo}\">AEO and SEO services</a> or our <a href=\"{service:website}\">website development service</a>."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about schema for AEO",
+   "ref": [
+    "Google Search Central: introduction to structured data",
+    "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+   ],
    "faq": [
     [
-     "Does schema help you get cited by AI?",
+     "Does schema for AEO help you get cited by AI?",
      "It can help, but it does not guarantee citations. Schema makes facts about your brand, content and authors explicit, which helps search engines and the AI features built on them understand your pages. Whether an assistant cites you still depends on the quality of the content, its relevance and your authority on the topic."
     ],
     [
@@ -2001,7 +2069,7 @@
     "Schema states facts explicitly, which helps machines understand your pages.",
     "JSON-LD is the recommended format and the easiest to maintain.",
     "Markup must match the visible content, or it loses its value.",
-    "Schema supports AEO, but it does not guarantee citations."
+    "Schema for AEO adds clarity, but it does not guarantee citations."
    ]
   },
   "es": {
@@ -2012,7 +2080,7 @@
     "Schema para AEO: qué datos estructurados leen los motores de IA, cómo implementarlos en JSON-LD, mantenerlos coherentes con tu contenido y validarlos.",
     "schema para AEO"
    ],
-   "tldr": "El marcado schema le dice a los buscadores y a las herramientas de IA, en un formato que leen sin adivinar, quién eres, qué ofreces y quién escribió tu contenido. Para el AEO, los tipos clave son Organization, WebSite, Service, LocalBusiness, BlogPosting, Person, FAQPage, BreadcrumbList y, en tiendas, Product. El schema suma claridad, no garantías.",
+   "tldr": "El marcado schema le dice a los buscadores y a las herramientas de IA, en un formato que leen sin adivinar, quién eres, qué ofreces y quién escribió tu contenido. En el schema para AEO, los tipos clave son Organization, WebSite, Service, LocalBusiness, BlogPosting, Person, FAQPage, BreadcrumbList y, en tiendas, Product. El schema suma claridad, no garantías.",
    "intro": "El schema para AEO son los datos estructurados, casi siempre en JSON-LD, que describen tu organización, servicios, artículos, autores y preguntas frecuentes en un formato que las máquinas leen sin adivinar. Ayuda a que los buscadores y los asistentes de IA entiendan de qué trata cada página y quién está detrás, lo que favorece las citas sin garantizarlas.",
    "body": [
     [
@@ -2089,7 +2157,7 @@
     ],
     [
      "h2",
-     "Mantén el schema coherente con el contenido visible"
+     "Mantén el schema para AEO coherente con el contenido visible"
     ],
     [
      "ul",
@@ -2115,13 +2183,17 @@
     ],
     [
      "p",
-     "El schema es una capa de un plan de AEO más amplio que también cubre contenido, acceso técnico y señales de marca; revisa el <a href=\"{post:aeo-checklist}\">checklist de AEO</a> completo. Si quieres que un equipo lo audite e implemente, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a> o nuestro <a href=\"{service:website}\">servicio de desarrollo web</a>."
+     "El schema para AEO es una capa de un plan más amplio que también cubre contenido, acceso técnico y señales de marca; revisa el <a href=\"{post:aeo-checklist}\">checklist de AEO</a> completo. Si quieres que un equipo lo audite e implemente, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a> o nuestro <a href=\"{service:website}\">servicio de desarrollo web</a>."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre schema para AEO",
+   "ref": [
+    "Google Search Central: introducción a los datos estructurados",
+    "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+   ],
    "faq": [
     [
-     "¿El schema ayuda a que la IA te cite?",
+     "¿El schema para AEO ayuda a que la IA te cite?",
      "Puede ayudar, pero no garantiza citas. El schema hace explícitos los datos de tu marca, tu contenido y tus autores, lo que ayuda a los buscadores y a las funciones de IA construidas sobre ellos a entender tus páginas. Que un asistente te cite sigue dependiendo de la calidad del contenido, su relevancia y tu autoridad en el tema."
     ],
     [
@@ -2137,7 +2209,7 @@
     "El schema declara datos de forma explícita, lo que ayuda a las máquinas a entender tus páginas.",
     "JSON-LD es el formato recomendado y el más fácil de mantener.",
     "El marcado debe coincidir con el contenido visible o pierde su valor.",
-    "El schema apoya el AEO, pero no garantiza citas."
+    "El schema para AEO suma claridad, pero no garantiza citas."
    ]
   }
  },
@@ -2213,7 +2285,7 @@
     ],
     [
      "p",
-     "Assistants look beyond your store. Reviews on your site and on review platforms, mentions in comparison articles, gift guides, forums and creator content all shape which brands get suggested. Ask customers for reviews after delivery, answer questions publicly and pursue coverage in the publications your buyers read. Keep the facts about your products the same everywhere you appear."
+     "Assistants look beyond your store. Reviews on your site and on review platforms, mentions in comparison articles, gift guides, forums and creator content all shape which brands get suggested. Ask customers for reviews after delivery, answer questions publicly and pursue coverage in the publications your buyers read. Keep the facts about your products the same everywhere you appear: consistency across sources is a core part of AEO for ecommerce."
     ],
     [
      "h2",
@@ -2225,7 +2297,7 @@
     ],
     [
      "h2",
-     "Shopify specifics"
+     "AEO for ecommerce on Shopify"
     ],
     [
      "ul",
@@ -2247,10 +2319,14 @@
     ],
     [
      "p",
-     "If your store needs a technical base that supports all of this, see our <a href=\"{service:website}\">websites and e-commerce services</a>. For the content and visibility side, our <a href=\"{seo-aeo}\">AEO and SEO services</a> can help your products become the answer."
+     "If your store needs a technical base for AEO for ecommerce, see our <a href=\"{service:website}\">websites and e-commerce services</a>. For the content and visibility side, our <a href=\"{seo-aeo}\">AEO and SEO services</a> can help your products become the answer."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about AEO for ecommerce",
+   "ref": [
+    "Google Merchant Center Help",
+    "https://support.google.com/merchants/"
+   ],
    "faq": [
     [
      "Does AEO for ecommerce replace product SEO?",
@@ -2268,7 +2344,7 @@
    "takeaways": [
     "Shoppers ask AI assistants what to buy, so your product facts need to be easy to read.",
     "Keep titles, specs, prices and availability consistent on your site, feed and marketplaces.",
-    "Product and Offer structured data, buying guides and category FAQs give assistants material to cite.",
+    "In AEO for ecommerce, Product and Offer structured data, buying guides and category FAQs give assistants material to cite.",
     "On Shopify, use collections, the blog and Merchant Center, and audit apps carefully."
    ]
   },
@@ -2339,7 +2415,7 @@
     ],
     [
      "p",
-     "Los asistentes miran más allá de tu tienda. Las reseñas en tu sitio y en plataformas de opiniones, las menciones en artículos comparativos, guías de regalos, foros y contenido de creadores influyen en qué marcas se sugieren. Pide reseñas después de la entrega, responde preguntas en público y busca presencia en los medios que leen tus compradores. Mantén los datos de tus productos iguales en todos los lugares donde apareces."
+     "Los asistentes miran más allá de tu tienda. Las reseñas en tu sitio y en plataformas de opiniones, las menciones en artículos comparativos, guías de regalos, foros y contenido de creadores influyen en qué marcas se sugieren. Pide reseñas después de la entrega, responde preguntas en público y busca presencia en los medios que leen tus compradores. Mantén los datos de tus productos iguales en todos los lugares donde apareces: esa coherencia es una parte central del AEO para ecommerce."
     ],
     [
      "h2",
@@ -2351,7 +2427,7 @@
     ],
     [
      "h2",
-     "Lo específico de Shopify"
+     "AEO para ecommerce en Shopify"
     ],
     [
      "ul",
@@ -2373,10 +2449,14 @@
     ],
     [
      "p",
-     "Si tu tienda necesita una base técnica que sostenga todo esto, mira nuestros <a href=\"{service:website}\">servicios de sitios web y e-commerce</a>. Para el contenido y la visibilidad, nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a> pueden ayudar a que tus productos sean la respuesta."
+     "Si tu tienda necesita una base técnica que sostenga el AEO para ecommerce, mira nuestros <a href=\"{service:website}\">servicios de sitios web y e-commerce</a>. Para el contenido y la visibilidad, nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a> pueden ayudar a que tus productos sean la respuesta."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre AEO para ecommerce",
+   "ref": [
+    "Ayuda de Google Merchant Center",
+    "https://support.google.com/merchants/"
+   ],
    "faq": [
     [
      "¿El AEO para ecommerce reemplaza al SEO de productos?",
@@ -2394,7 +2474,7 @@
    "takeaways": [
     "Los compradores preguntan a la IA qué comprar, así que tus datos de producto deben ser fáciles de leer.",
     "Mantén títulos, especificaciones, precios y disponibilidad iguales en tu sitio, tu feed y los marketplaces.",
-    "Los datos estructurados, las guías de compra y las preguntas por categoría le dan material a la IA.",
+    "En el AEO para ecommerce, los datos estructurados, las guías de compra y las preguntas por categoría le dan material a la IA.",
     "En Shopify, aprovecha colecciones, blog y Merchant Center, y revisa las apps con cuidado."
    ]
   }
@@ -2417,7 +2497,7 @@
    "body": [
     [
      "h2",
-     "Set up and optimize your Google Business Profile"
+     "Local SEO in Lakeland starts with your Google Business Profile"
     ],
     [
      "p",
@@ -2491,7 +2571,7 @@
     ],
     [
      "p",
-     "These links matter less for their number than for what they say: that your business is real, active and part of the Lakeland community."
+     "For local SEO in Lakeland, these links matter less for their number than for what they say: that your business is real, active and part of the Lakeland community."
     ],
     [
      "h2",
@@ -2499,7 +2579,7 @@
     ],
     [
      "p",
-     "When someone asks an AI assistant or Google for \"the best\" provider near Lakeland, the answer is built from the same kind of signals: your Google Business Profile, reviews, consistent business data, clear website pages and mentions on other sites. Google AI Overviews draw on Google’s index, so local SEO is also the base for appearing there."
+     "When someone asks an AI assistant or Google for \"the best\" provider near Lakeland, the answer is built from the same kind of signals: your Google Business Profile, reviews, consistent business data, clear website pages and mentions on other sites. Google AI Overviews draw on Google’s index, so local SEO in Lakeland is also the base for appearing there."
     ],
     [
      "p",
@@ -2507,7 +2587,7 @@
     ],
     [
      "h2",
-     "Measure what matters"
+     "Measure the results of local SEO in Lakeland"
     ],
     [
      "ul",
@@ -2520,10 +2600,14 @@
     ],
     [
      "p",
-     "If you want a team to handle this for you, see our <a href=\"{lakeland}\">SEO and digital marketing services in Lakeland</a> and our <a href=\"{seo-aeo}\">AEO and SEO services</a>. We can review your profile and website and tell you what to fix first."
+     "If you want a team to handle local SEO in Lakeland for you, see our <a href=\"{lakeland}\">SEO and digital marketing services in Lakeland</a> and our <a href=\"{seo-aeo}\">AEO and SEO services</a>. We can review your profile and website and tell you what to fix first."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about local SEO in Lakeland",
+   "ref": [
+    "Google Business Profile Help",
+    "https://support.google.com/business/"
+   ],
    "faq": [
     [
      "How long does local SEO in Lakeland take to work?",
@@ -2542,7 +2626,7 @@
     "Manage your Google Business Profile every week: categories, services, photos, posts and hours.",
     "Ask for reviews consistently and reply to every one of them.",
     "Keep name, address and phone identical everywhere and build real local links.",
-    "The same local signals help you appear in Google Maps, search results and AI answers."
+    "Local SEO in Lakeland helps you appear in Google Maps, search results and AI answers with the same signals."
    ]
   },
   "es": {
@@ -2558,7 +2642,7 @@
    "body": [
     [
      "h2",
-     "Configura y optimiza tu Perfil de Empresa de Google"
+     "El SEO local en Lakeland empieza por tu Perfil de Empresa de Google"
     ],
     [
      "p",
@@ -2632,7 +2716,7 @@
     ],
     [
      "p",
-     "Estos enlaces valen menos por su cantidad que por lo que dicen: que tu negocio es real, está activo y forma parte de la comunidad de Lakeland."
+     "En el SEO local en Lakeland, estos enlaces valen menos por su cantidad que por lo que dicen: que tu negocio es real, está activo y forma parte de la comunidad de Lakeland."
     ],
     [
      "h2",
@@ -2640,7 +2724,7 @@
     ],
     [
      "p",
-     "Cuando alguien le pide a un asistente de IA o a Google \"el mejor\" proveedor cerca de Lakeland, la respuesta se arma con el mismo tipo de señales: tu Perfil de Empresa de Google, las reseñas, los datos coherentes del negocio, páginas claras en tu sitio y menciones en otros sitios. Los AI Overviews de Google se apoyan en su índice, así que el SEO local también es la base para aparecer allí."
+     "Cuando alguien le pide a un asistente de IA o a Google \"el mejor\" proveedor cerca de Lakeland, la respuesta se arma con el mismo tipo de señales: tu Perfil de Empresa de Google, las reseñas, los datos coherentes del negocio, páginas claras en tu sitio y menciones en otros sitios. Los AI Overviews de Google se apoyan en su índice, así que el SEO local en Lakeland también es la base para aparecer allí."
     ],
     [
      "p",
@@ -2648,7 +2732,7 @@
     ],
     [
      "h2",
-     "Mide lo que importa"
+     "Mide los resultados del SEO local en Lakeland"
     ],
     [
      "ul",
@@ -2661,10 +2745,14 @@
     ],
     [
      "p",
-     "Si quieres que un equipo se encargue, mira nuestros <a href=\"{lakeland}\">servicios de SEO y marketing digital en Lakeland</a> y nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>. Podemos revisar tu perfil y tu sitio y decirte qué corregir primero."
+     "Si quieres que un equipo se encargue del SEO local en Lakeland, mira nuestros <a href=\"{lakeland}\">servicios de SEO y marketing digital en Lakeland</a> y nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>. Podemos revisar tu perfil y tu sitio y decirte qué corregir primero."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre el SEO local en Lakeland",
+   "ref": [
+    "Ayuda del Perfil de Empresa de Google",
+    "https://support.google.com/business/"
+   ],
    "faq": [
     [
      "¿Cuánto tarda en funcionar el SEO local en Lakeland?",
@@ -2683,7 +2771,7 @@
     "Administra tu Perfil de Empresa de Google cada semana: categorías, servicios, fotos, publicaciones y horarios.",
     "Pide reseñas de forma constante y responde cada una.",
     "Mantén nombre, dirección y teléfono iguales en todos lados y consigue enlaces locales reales.",
-    "Las mismas señales locales te ayudan en Google Maps, en los resultados y en las respuestas de la IA."
+    "El SEO local en Lakeland te ayuda a aparecer en Google Maps, en los resultados y en las respuestas de la IA con las mismas señales."
    ]
   }
  },
@@ -2700,7 +2788,7 @@
     "AEO in Florida for local businesses: how to get recommended by AI assistants in Tampa, Orlando or Lakeland with a strong Google profile and reviews.",
     "AEO in Florida"
    ],
-   "tldr": "People in Florida ask AI assistants for the best local provider, and the answers draw on your Google Business Profile, reviews, directories and website. Local AEO makes those signals complete and consistent, adds service and city pages with direct answers and serves both English and Spanish speakers.",
+   "tldr": "People in Florida ask AI assistants for the best local provider, and the answers draw on your Google Business Profile, reviews, directories and website. AEO in Florida makes those signals complete and consistent, adds service and city pages with direct answers and serves both English and Spanish speakers.",
    "intro": "AEO in Florida for local businesses (local Answer Engine Optimization) is the work of making a local company easy for AI assistants to recommend when people ask for the best provider in their city. It combines a complete Google Business Profile, reviews, consistent business data, service and city pages with direct answers and bilingual content.",
    "body": [
     [
@@ -2721,7 +2809,7 @@
     ],
     [
      "p",
-     "For local questions, your Google Business Profile is often the first source. Fill in every field that applies:"
+     "For AEO in Florida, your Google Business Profile is often the first source for local questions. Fill in every field that applies:"
     ],
     [
      "ul",
@@ -2759,7 +2847,7 @@
     ],
     [
      "h2",
-     "Bilingual content for Florida customers"
+     "Bilingual content for AEO in Florida"
     ],
     [
      "p",
@@ -2793,10 +2881,14 @@
     ],
     [
      "p",
-     "We explain the local SEO base in <a href=\"{post:lakeland-local-seo}\">our guide to local SEO in Lakeland</a>. If you want a team to handle it, see our <a href=\"{seo-aeo}\">AEO and SEO services</a>, our <a href=\"{lakeland}\">SEO and digital marketing services in Lakeland</a> or our <a href=\"{florida}\">performance marketing agency in Florida</a>."
+     "AEO in Florida rests on local SEO, which we explain in <a href=\"{post:lakeland-local-seo}\">our guide to local SEO in Lakeland</a>. If you want a team to handle it, see our <a href=\"{seo-aeo}\">AEO and SEO services</a>, our <a href=\"{lakeland}\">SEO and digital marketing services in Lakeland</a> or our <a href=\"{florida}\">performance marketing agency in Florida</a>."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about AEO in Florida",
+   "ref": [
+    "Schema.org: LocalBusiness",
+    "https://schema.org/LocalBusiness"
+   ],
    "faq": [
     [
      "Is local AEO different from local SEO?",
@@ -2815,7 +2907,7 @@
     "People ask AI assistants for the best local provider, and your local signals shape the answer.",
     "A complete Google Business Profile, genuine reviews and consistent NAP are the base.",
     "Service and city pages with direct answers and local FAQs give assistants material to cite.",
-    "Bilingual content and local mentions help Florida businesses stand out."
+    "For AEO in Florida, bilingual content and local mentions help businesses stand out."
    ]
   },
   "es": {
@@ -2826,7 +2918,7 @@
     "AEO en Florida para negocios locales: cómo lograr que la IA te recomiende en Tampa, Orlando o Lakeland con un buen perfil de Google y reseñas.",
     "AEO en Florida"
    ],
-   "tldr": "En Florida la gente pregunta a los asistentes de IA por el mejor proveedor local, y las respuestas se apoyan en tu Perfil de Empresa de Google, tus reseñas, los directorios y tu sitio. El AEO local hace que esas señales estén completas y sean coherentes, suma páginas por servicio y ciudad con respuestas directas y atiende a clientes en inglés y en español.",
+   "tldr": "En Florida la gente pregunta a los asistentes de IA por el mejor proveedor local, y las respuestas se apoyan en tu Perfil de Empresa de Google, tus reseñas, los directorios y tu sitio. El AEO en Florida hace que esas señales estén completas y sean coherentes, suma páginas por servicio y ciudad con respuestas directas y atiende a clientes en inglés y en español.",
    "intro": "El AEO en Florida para negocios locales (Answer Engine Optimization local) es el trabajo de lograr que los asistentes de IA recomienden a una empresa local cuando alguien pregunta por el mejor proveedor de su ciudad. Combina un Perfil de Empresa de Google completo, reseñas, datos coherentes, páginas por servicio y ciudad con respuestas directas y contenido bilingüe.",
    "body": [
     [
@@ -2847,7 +2939,7 @@
     ],
     [
      "p",
-     "Para las preguntas locales, tu Perfil de Empresa de Google suele ser la primera fuente. Completa todos los campos que apliquen:"
+     "Para el AEO en Florida, tu Perfil de Empresa de Google suele ser la primera fuente en las preguntas locales. Completa todos los campos que apliquen:"
     ],
     [
      "ul",
@@ -2885,7 +2977,7 @@
     ],
     [
      "h2",
-     "Contenido bilingüe para clientes en Florida"
+     "Contenido bilingüe para el AEO en Florida"
     ],
     [
      "p",
@@ -2915,14 +3007,18 @@
     ],
     [
      "p",
-     "Suma datos estructurados LocalBusiness (o un tipo más específico, como Dentist o Plumber) con tu nombre, dirección, teléfono, horarios, zona de servicio y enlaces a tus perfiles, idénticos a tu Perfil de Empresa de Google. Después construye menciones locales: cámaras de comercio, medios locales, patrocinios comunitarios, asociaciones empresariales y socios que puedan enlazarte. Son las fuentes que ayudan a la IA a verte como parte real de tu comunidad."
+     "Suma datos estructurados LocalBusiness (o un tipo más específico, como Dentist o Plumber) con tu nombre, dirección, teléfono, horarios, zona de servicio y enlaces a tus perfiles, idénticos a tu Perfil de Empresa de Google. Después construye menciones locales: cámaras de comercio, medios locales, patrocinios comunitarios, asociaciones empresariales y socios que puedan enlazarte. Son las fuentes que ayudan a la IA a verte como parte real de tu comunidad, y un paso clave del AEO en Florida."
     ],
     [
      "p",
-     "Explicamos la base del SEO local en <a href=\"{post:lakeland-local-seo}\">nuestra guía de SEO local en Lakeland</a>. Si quieres que un equipo lo haga, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>, nuestros <a href=\"{lakeland}\">servicios de SEO y marketing digital en Lakeland</a> o nuestra <a href=\"{florida}\">agencia de performance marketing en Florida</a>."
+     "El AEO en Florida se apoya en el SEO local, que explicamos en <a href=\"{post:lakeland-local-seo}\">nuestra guía de SEO local en Lakeland</a>. Si quieres que un equipo lo haga, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>, nuestros <a href=\"{lakeland}\">servicios de SEO y marketing digital en Lakeland</a> o nuestra <a href=\"{florida}\">agencia de performance marketing en Florida</a>."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre el AEO en Florida",
+   "ref": [
+    "Schema.org: LocalBusiness",
+    "https://schema.org/LocalBusiness"
+   ],
    "faq": [
     [
      "¿El AEO local es distinto del SEO local?",
@@ -2941,7 +3037,7 @@
     "La gente pide a la IA el mejor proveedor local, y tus señales locales definen la respuesta.",
     "Un Perfil de Empresa de Google completo, reseñas reales y un NAP coherente son la base.",
     "Las páginas por servicio y ciudad con respuestas directas y preguntas locales le dan material a la IA.",
-    "El contenido bilingüe y las menciones locales ayudan a destacar en Florida."
+    "En el AEO en Florida, el contenido bilingüe y las menciones locales te ayudan a destacar."
    ]
   }
  },
@@ -2958,7 +3054,7 @@
     "Build your marketing plan 2027: start from revenue goals and unit economics, then split budget across paid search, paid social, SEO and AEO with a test reserve.",
     "marketing plan 2027"
    ],
-   "tldr": "A good marketing plan for 2027 starts from revenue goals and unit economics, not from last year's budget. Audit what worked in 2026, split spend by role (capturing demand, creating demand and compounding channels such as SEO and AEO), keep a reserve for tests, fix measurement first and review every quarter.",
+   "tldr": "Your marketing plan 2027 should start from revenue goals and unit economics, not from last year's budget. Audit what worked in 2026, split spend by role (capturing demand, creating demand and compounding channels such as SEO and AEO), keep a reserve for tests, fix measurement first and review every quarter.",
    "intro": "A marketing plan 2027 is the document that turns next year's revenue goals into channels, budgets and metrics. It defines how much you can pay to acquire a customer, which channels capture and create demand, how much goes to compounding channels such as SEO and AEO, what you will test and how you will measure results.",
    "body": [
     [
@@ -2987,11 +3083,11 @@
     ],
     [
      "p",
-     "Look at the last twelve months channel by channel. For each one, list spend, conversions, cost per conversion, revenue or pipeline influenced and what you learned. Separate what worked, what did not and what you could not measure. Be honest about the last group: a channel you cannot measure is not necessarily a bad channel, but it is one you should not scale blindly."
+     "Before writing your marketing plan 2027, look at the last twelve months channel by channel. For each one, list spend, conversions, cost per conversion, revenue or pipeline influenced and what you learned. Separate what worked, what did not and what you could not measure. Be honest about the last group: a channel you cannot measure is not necessarily a bad channel, but it is one you should not scale blindly."
     ],
     [
      "h2",
-     "A framework to split budget by stage"
+     "A framework to split your marketing plan 2027 budget by stage"
     ],
     [
      "p",
@@ -3047,7 +3143,7 @@
     ],
     [
      "h2",
-     "Build the measurement plan before spending"
+     "Build measurement into your marketing plan 2027 before spending"
     ],
     [
      "ul",
@@ -3069,10 +3165,14 @@
     ],
     [
      "p",
-     "If you want help building your 2027 plan, our <a href=\"{service:consulting}\">marketing strategy consulting</a> starts from your numbers, and our <a href=\"{service:performance-marketing}\">performance marketing services</a> can run the paid media side."
+     "If you want help building your marketing plan 2027, our <a href=\"{service:consulting}\">marketing strategy consulting</a> starts from your numbers, and our <a href=\"{service:performance-marketing}\">performance marketing services</a> can run the paid media side."
     ]
    ],
-   "faq_title": "Frequently asked questions",
+   "faq_title": "Frequently asked questions about your marketing plan 2027",
+   "ref": [
+    "Google Analytics Help: introducing GA4",
+    "https://support.google.com/analytics/answer/10089681"
+   ],
    "faq": [
     [
      "How much should I spend on marketing in 2027?",
@@ -3088,7 +3188,7 @@
     ]
    ],
    "takeaways": [
-    "Build the 2027 plan from revenue goals, CAC, LTV and payback, not from last year's budget.",
+    "Build your marketing plan 2027 from revenue goals, CAC, LTV and payback, not from last year's budget.",
     "Split budget by role: demand capture, demand creation and compounding channels such as SEO and AEO.",
     "Keep a test reserve and fix measurement, including offline conversions, before scaling.",
     "Treat example splits as starting points and review the mix every quarter."
@@ -3102,7 +3202,7 @@
     "Arma tu plan de marketing 2027: parte de tus metas de ingresos y tu economía unitaria y reparte el presupuesto entre búsqueda paga, redes, SEO y AEO.",
     "plan de marketing 2027"
    ],
-   "tldr": "Un buen plan de marketing para 2027 parte de las metas de ingresos y de la economía unitaria, no del presupuesto del año anterior. Revisa qué funcionó en 2026, reparte la inversión según el rol de cada canal (captar demanda, crear demanda y canales que se acumulan, como SEO y AEO), guarda una reserva para pruebas, ordena la medición primero y revisa cada trimestre.",
+   "tldr": "Un buen plan de marketing 2027 parte de las metas de ingresos y de la economía unitaria, no del presupuesto del año anterior. Revisa qué funcionó en 2026, reparte la inversión según el rol de cada canal (captar demanda, crear demanda y canales que se acumulan, como SEO y AEO), guarda una reserva para pruebas, ordena la medición primero y revisa cada trimestre.",
    "intro": "Un plan de marketing 2027 es el documento que convierte las metas de ingresos del próximo año en canales, presupuestos y métricas. Define cuánto puedes pagar por conseguir un cliente, qué canales captan y crean demanda, cuánto va a canales que se acumulan, como SEO y AEO, qué vas a probar y cómo medirás los resultados.",
    "body": [
     [
@@ -3131,11 +3231,11 @@
     ],
     [
      "p",
-     "Mira los últimos doce meses canal por canal. Para cada uno, anota inversión, conversiones, costo por conversión, ingresos o pipeline influido y lo que aprendiste. Separa lo que funcionó, lo que no y lo que no pudiste medir. Sé honesto con ese último grupo: un canal que no puedes medir no es necesariamente malo, pero no conviene escalarlo a ciegas."
+     "Antes de escribir tu plan de marketing 2027, mira los últimos doce meses canal por canal. Para cada uno, anota inversión, conversiones, costo por conversión, ingresos o pipeline influido y lo que aprendiste. Separa lo que funcionó, lo que no y lo que no pudiste medir. Sé honesto con ese último grupo: un canal que no puedes medir no es necesariamente malo, pero no conviene escalarlo a ciegas."
     ],
     [
      "h2",
-     "Un marco para repartir el presupuesto por etapa"
+     "Un marco para repartir el presupuesto del plan de marketing 2027 por etapa"
     ],
     [
      "p",
@@ -3191,7 +3291,7 @@
     ],
     [
      "h2",
-     "Arma el plan de medición antes de invertir"
+     "Integra la medición en tu plan de marketing 2027 antes de invertir"
     ],
     [
      "ul",
@@ -3213,10 +3313,14 @@
     ],
     [
      "p",
-     "Si quieres ayuda para armar tu plan 2027, nuestra <a href=\"{service:consulting}\">consultoría de estrategia de marketing</a> parte de tus números, y nuestros <a href=\"{service:performance-marketing}\">servicios de performance marketing</a> pueden gestionar los medios pagados."
+     "Si quieres ayuda para armar tu plan de marketing 2027, nuestra <a href=\"{service:consulting}\">consultoría de estrategia de marketing</a> parte de tus números, y nuestros <a href=\"{service:performance-marketing}\">servicios de performance marketing</a> pueden gestionar los medios pagados."
     ]
    ],
-   "faq_title": "Preguntas frecuentes",
+   "faq_title": "Preguntas frecuentes sobre el plan de marketing 2027",
+   "ref": [
+    "Ayuda de Google Analytics: presentación de GA4",
+    "https://support.google.com/analytics/answer/10089681"
+   ],
    "faq": [
     [
      "¿Cuánto debería invertir en marketing en 2027?",
@@ -3232,7 +3336,7 @@
     ]
    ],
    "takeaways": [
-    "Arma el plan 2027 desde las metas de ingresos, el CAC, el LTV y el payback, no desde el presupuesto anterior.",
+    "Arma tu plan de marketing 2027 desde las metas de ingresos, el CAC, el LTV y el payback, no desde el presupuesto anterior.",
     "Reparte el presupuesto por rol: captar demanda, crear demanda y canales que se acumulan, como SEO y AEO.",
     "Guarda una reserva para pruebas y ordena la medición, incluidas las conversiones offline, antes de escalar.",
     "Toma los repartos de ejemplo como puntos de partida y revisa la mezcla cada trimestre."
