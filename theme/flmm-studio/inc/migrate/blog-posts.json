@@ -806,5 +806,2437 @@
     "Mide tus menciones cada mes con una lista fija de prompts."
    ]
   }
+ },
+ {
+  "key": "aeo-measure",
+  "publish_gmt": "2026-10-27 13:00:00",
+  "cat": "aeo",
+  "image": "analytics",
+  "en": {
+   "slug": "how-to-measure-aeo",
+   "title": "How to Measure AEO: AI Citations, Brand Mentions and AI Referral Traffic",
+   "seo": [
+    "How to Measure AEO: Citations, Mentions and AI Traffic",
+    "How to measure AEO: track AI citations and brand mentions in ChatGPT, Gemini and Perplexity, AI referral traffic in GA4 and your Search Console signals.",
+    "measure aeo"
+   ],
+   "tldr": "Rank tracking alone cannot tell you whether AI assistants use your content. To measure AEO, combine a fixed list of questions checked across ChatGPT, Gemini, Perplexity and AI Overviews, AI referral traffic in GA4, Search Console data, brand search and what your leads tell you. No single metric is perfect, so read the trend.",
+   "intro": "To measure AEO (Answer Engine Optimization) is to track whether AI assistants mention, cite and link your brand when people ask the questions that matter to your business. There is no single report for it, so you combine a fixed list of questions checked across AI tools, AI referral traffic in GA4, Search Console data and lead feedback.",
+   "body": [
+    [
+     "h2",
+     "Why rank tracking is not enough for AEO"
+    ],
+    [
+     "p",
+     "Classic SEO reports show positions and clicks for keywords. AI answers work differently: the same question can produce a different answer each time, the answer may mention your brand without linking to you, and many users never click. A page can rank well and still be missing from the answer the buyer actually reads."
+    ],
+    [
+     "p",
+     "That does not make rankings useless. Assistants and AI Overviews draw on web content, so organic visibility is still a useful leading signal. It just needs to be complemented with metrics that look at the answers themselves and at the business they generate."
+    ],
+    [
+     "h2",
+     "Track a fixed list of key questions"
+    ],
+    [
+     "p",
+     "The core of AEO tracking is a list of the questions your buyers really ask, taken from sales calls, support tickets, search data and your own FAQs. You check the same list on a regular schedule and log what the AI tools answer."
+    ],
+    [
+     "ul",
+     [
+      "Mix question types: category questions (\"best ... for ...\"), comparisons, problems your service solves and questions about your brand by name.",
+      "Check them in ChatGPT, Gemini, Perplexity and Google AI Overviews, ideally from a clean session without your personal history.",
+      "Record for each answer whether your brand is mentioned, whether your site is cited or linked, how you are described and which competitors appear.",
+      "Repeat on the same schedule and keep the wording identical, so the comparison between months is fair."
+     ]
+    ],
+    [
+     "p",
+     "From that log you can calculate a simple share of answers: the portion of questions where your brand appears, and the portion where your site is cited as a source. Track both separately, because being mentioned and being linked are different wins."
+    ],
+    [
+     "p",
+     "Manual sampling is slow but transparent. Tools that automate these checks can help at scale; treat their numbers as samples too, since they query the same variable systems you do."
+    ],
+    [
+     "h2",
+     "Measure AI referral traffic in GA4"
+    ],
+    [
+     "p",
+     "When an assistant links to your site and the user clicks, the visit often arrives as a referral. In GA4, open the Traffic acquisition report by session source and look for domains such as chatgpt.com, perplexity.ai, gemini.google.com, copilot.microsoft.com and claude.ai."
+    ],
+    [
+     "p",
+     "To see it every month without filtering by hand, create a custom channel group with an \"AI assistants\" channel that matches those sources with a regular expression, and place it above the default Referral channel. Then compare engagement and conversions for that channel with organic search."
+    ],
+    [
+     "p",
+     "Keep in mind that not every AI visit is labeled: some apps do not pass a referrer, so part of this traffic lands in Direct. AI referral numbers are a floor, not the full picture. If you need help with the setup, our <a href=\"{service:analytics}\">analytics service</a> covers it."
+    ],
+    [
+     "h2",
+     "Use Search Console and brand search signals"
+    ],
+    [
+     "ul",
+     [
+      "Search Console counts clicks and impressions from AI features such as AI Overviews inside the standard Web performance report. Watch the pages that gain impressions for question-style queries.",
+      "Longer, conversational queries showing up in Search Console suggest your pages match the way people ask AI tools.",
+      "Brand search trends in Search Console and Google Trends show whether more people look for you by name, which can reflect being recommended in AI answers."
+     ]
+    ],
+    [
+     "h2",
+     "Ask your leads"
+    ],
+    [
+     "p",
+     "Add an option such as \"AI assistant (ChatGPT, Gemini, Perplexity)\" to the \"How did you hear about us?\" field in your forms, and ask the same question in sales calls. Self-reported attribution is imperfect, but it captures influence that analytics cannot see, like a buyer who read an answer and then typed your URL."
+    ],
+    [
+     "h2",
+     "Build a simple AEO dashboard"
+    ],
+    [
+     "ol",
+     [
+      "Share of answers: mentions and citations across your question list.",
+      "AI referral sessions and conversions from the custom channel group.",
+      "Search Console impressions and clicks for question-style queries.",
+      "Brand search trend over time.",
+      "Leads that mention AI assistants as a source."
+     ]
+    ],
+    [
+     "p",
+     "Review it monthly and read the trend, not individual answers. AI tools change models and sources often, so a single check can mislead. If you are still setting up the basics, start with our <a href=\"{post:aeo-checklist}\">AEO checklist</a>. If you want a team to run the whole process, see our <a href=\"{seo-aeo}\">AEO and SEO services</a>."
+    ]
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    [
+     "Can you measure AEO precisely?",
+     "Not with the precision of classic rankings. AI answers vary by user, location, wording and model version, and some visits arrive without a referrer. What you can do is sample the same questions on a fixed schedule, combine them with analytics and lead data, and focus on the direction of the trend over several months."
+    ],
+    [
+     "Which tools help with AEO tracking?",
+     "GA4 and Search Console cover traffic and search signals at no cost. For the answers themselves, a spreadsheet with your question list and monthly manual checks is a solid start. Several SEO platforms and dedicated AI visibility tools now automate prompt tracking; they save time, but their results are samples too and should be read as trends."
+    ],
+    [
+     "How often should I check AI answers?",
+     "Monthly works for most brands, because it smooths out day-to-day variation without losing track of real changes. Check more often after launching important pages or during a campaign. Keep the same questions, tools and wording each time, and note the date and model when possible, so comparisons between months stay meaningful."
+    ]
+   ],
+   "takeaways": [
+    "Rank tracking alone does not show whether AI assistants use your content.",
+    "A fixed list of questions, checked on a schedule, is the core of AEO tracking.",
+    "A custom channel group in GA4 makes AI referral traffic visible.",
+    "Measurement is imperfect: combine sources and read the trend."
+   ]
+  },
+  "es": {
+   "slug": "como-medir-el-aeo",
+   "title": "Cómo medir el AEO: citas en la IA, menciones de marca y tráfico de IA",
+   "seo": [
+    "Cómo medir el AEO: citas, menciones y tráfico de IA",
+    "Cómo medir el AEO: seguimiento de citas y menciones en ChatGPT, Gemini y Perplexity, tráfico de referencia de IA en GA4 y señales de Search Console.",
+    "medir el AEO"
+   ],
+   "tldr": "Las posiciones por sí solas no te dicen si los asistentes de IA usan tu contenido. Para medir el AEO, combina una lista fija de preguntas revisadas en ChatGPT, Gemini, Perplexity y los AI Overviews, el tráfico de referencia de IA en GA4, los datos de Search Console, las búsquedas de marca y lo que te cuentan tus leads. Ninguna métrica es perfecta: mira la tendencia.",
+   "intro": "Medir el AEO (Answer Engine Optimization) es comprobar si los asistentes de IA mencionan, citan y enlazan tu marca cuando alguien hace las preguntas que importan para tu negocio. No existe un informe único para esto, así que combinas una lista fija de preguntas revisadas en varias herramientas, el tráfico de IA en GA4, Search Console y lo que dicen tus leads.",
+   "body": [
+    [
+     "h2",
+     "Por qué seguir posiciones no alcanza para el AEO"
+    ],
+    [
+     "p",
+     "Los informes clásicos de SEO muestran posiciones y clics por palabra clave. Las respuestas de la IA funcionan distinto: la misma pregunta puede dar una respuesta diferente cada vez, la respuesta puede mencionar tu marca sin enlazarte y muchos usuarios nunca hacen clic. Una página puede posicionar bien y aun así faltar en la respuesta que lee el comprador."
+    ],
+    [
+     "p",
+     "Eso no vuelve inútiles a las posiciones. Los asistentes y los AI Overviews se apoyan en contenido web, así que la visibilidad orgánica sigue siendo una buena señal anticipada. Solo hay que complementarla con métricas que miren las respuestas en sí y el negocio que generan."
+    ],
+    [
+     "h2",
+     "Sigue una lista fija de preguntas clave"
+    ],
+    [
+     "p",
+     "La base de la medición del AEO es una lista con las preguntas que tus compradores hacen de verdad, tomadas de llamadas de venta, tickets de soporte, datos de búsqueda y tus propias preguntas frecuentes. Revisas la misma lista con una frecuencia fija y anotas lo que responden las herramientas de IA."
+    ],
+    [
+     "ul",
+     [
+      "Combina tipos de preguntas: de categoría (\"mejor ... para ...\"), comparaciones, problemas que resuelve tu servicio y preguntas sobre tu marca por su nombre.",
+      "Revísalas en ChatGPT, Gemini, Perplexity y los AI Overviews de Google, idealmente desde una sesión limpia, sin tu historial personal.",
+      "Anota en cada respuesta si mencionan tu marca, si citan o enlazan tu sitio, cómo te describen y qué competidores aparecen.",
+      "Repite con la misma frecuencia y con las mismas palabras, para que la comparación entre meses sea justa."
+     ]
+    ],
+    [
+     "p",
+     "Con ese registro puedes calcular una participación en respuestas simple: la proporción de preguntas en las que aparece tu marca y la proporción en las que tu sitio se cita como fuente. Mide ambas por separado, porque ser mencionado y ser enlazado son logros distintos."
+    ],
+    [
+     "p",
+     "El muestreo manual es lento pero transparente. Las herramientas que automatizan estas revisiones ayudan cuando la lista crece; toma sus números también como muestras, porque consultan los mismos sistemas variables que tú."
+    ],
+    [
+     "h2",
+     "Mide el tráfico de referencia de IA en GA4"
+    ],
+    [
+     "p",
+     "Cuando un asistente enlaza tu sitio y el usuario hace clic, la visita suele llegar como referencia. En GA4, abre el informe de adquisición de tráfico por fuente de la sesión y busca dominios como chatgpt.com, perplexity.ai, gemini.google.com, copilot.microsoft.com y claude.ai."
+    ],
+    [
+     "p",
+     "Para verlo cada mes sin filtrar a mano, crea un grupo de canales personalizado con un canal \"Asistentes de IA\" que agrupe esas fuentes con una expresión regular, y ubícalo por encima del canal de referencia predeterminado. Luego compara la interacción y las conversiones de ese canal con las de la búsqueda orgánica."
+    ],
+    [
+     "p",
+     "Ten en cuenta que no todas las visitas desde la IA quedan identificadas: algunas aplicaciones no envían la referencia, así que parte de ese tráfico cae en Directo. Las cifras de referencia de IA son un piso, no el panorama completo. Si necesitas ayuda con la configuración, nuestro <a href=\"{service:analytics}\">servicio de analítica</a> lo cubre."
+    ],
+    [
+     "h2",
+     "Usa Search Console y las búsquedas de marca"
+    ],
+    [
+     "ul",
+     [
+      "Search Console cuenta los clics e impresiones de funciones de IA como los AI Overviews dentro del informe de rendimiento web. Revisa qué páginas ganan impresiones en consultas con forma de pregunta.",
+      "Las consultas más largas y conversacionales que aparecen en Search Console indican que tus páginas coinciden con la forma en que la gente le pregunta a la IA.",
+      "La tendencia de búsquedas de tu marca en Search Console y Google Trends muestra si más personas te buscan por tu nombre, algo que puede reflejar recomendaciones en respuestas de la IA."
+     ]
+    ],
+    [
+     "h2",
+     "Pregúntales a tus leads"
+    ],
+    [
+     "p",
+     "Suma una opción como \"Asistente de IA (ChatGPT, Gemini, Perplexity)\" al campo \"¿Cómo nos conociste?\" de tus formularios y haz la misma pregunta en las llamadas de venta. La atribución declarada no es perfecta, pero capta una influencia que la analítica no ve, como la de un comprador que leyó una respuesta y luego escribió tu URL."
+    ],
+    [
+     "h2",
+     "Arma un tablero de AEO simple"
+    ],
+    [
+     "ol",
+     [
+      "Participación en respuestas: menciones y citas en tu lista de preguntas.",
+      "Sesiones y conversiones del canal de asistentes de IA.",
+      "Impresiones y clics de Search Console en consultas con forma de pregunta.",
+      "Tendencia de búsquedas de marca en el tiempo.",
+      "Leads que mencionan a un asistente de IA como origen."
+     ]
+    ],
+    [
+     "p",
+     "Revísalo cada mes y lee la tendencia, no las respuestas sueltas. Las herramientas de IA cambian de modelos y fuentes con frecuencia, así que una sola revisión puede confundir. Si todavía estás armando lo básico, empieza por nuestro <a href=\"{post:aeo-checklist}\">checklist de AEO</a>. Si quieres que un equipo lleve todo el proceso, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>."
+    ]
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿Se puede medir el AEO con precisión?",
+     "No con la precisión de las posiciones clásicas. Las respuestas de la IA cambian según el usuario, la ubicación, la redacción y la versión del modelo, y algunas visitas llegan sin referencia. Lo que sí puedes hacer es revisar las mismas preguntas con una frecuencia fija, cruzarlas con analítica y datos de leads, y mirar la tendencia durante varios meses."
+    ],
+    [
+     "¿Qué herramientas sirven para medir el AEO?",
+     "GA4 y Search Console cubren el tráfico y las señales de búsqueda sin costo. Para las respuestas, una hoja de cálculo con tu lista de preguntas y revisiones manuales mensuales es un buen comienzo. Varias plataformas de SEO y herramientas de visibilidad en IA ya automatizan el seguimiento de prompts; ahorran tiempo, pero sus resultados también son muestras."
+    ],
+    [
+     "¿Cada cuánto debo revisar las respuestas de la IA?",
+     "Una vez al mes funciona para la mayoría de las marcas, porque suaviza la variación diaria sin perder de vista los cambios reales. Revisa con más frecuencia después de lanzar páginas importantes o durante una campaña. Usa siempre las mismas preguntas, herramientas y palabras, y anota la fecha y el modelo cuando puedas."
+    ]
+   ],
+   "takeaways": [
+    "Las posiciones por sí solas no muestran si los asistentes de IA usan tu contenido.",
+    "Una lista fija de preguntas, revisada con regularidad, es la base de la medición del AEO.",
+    "Un grupo de canales personalizado en GA4 hace visible el tráfico que llega desde la IA.",
+    "La medición es imperfecta: combina fuentes y lee la tendencia."
+   ]
+  }
+ },
+ {
+  "key": "lakeland-agency",
+  "publish_gmt": "2026-11-03 13:00:00",
+  "cat": "local",
+  "image": "consulting",
+  "en": {
+   "slug": "choose-digital-marketing-agency-lakeland",
+   "title": "Digital Marketing Agency in Lakeland: How to Choose the Right One",
+   "seo": [
+    "Digital Marketing Agency in Lakeland: How to Choose",
+    "How to choose a digital marketing agency in Lakeland: what to expect, the questions to ask, the red flags to avoid and how to compare local and remote teams.",
+    "digital marketing agency lakeland"
+   ],
+   "tldr": "A good digital marketing agency in Lakeland covers local SEO, your Google Business Profile, Google and Meta Ads, your website and analytics, and reports on leads and sales. Before you sign, ask who does the work, who owns your accounts and data, and how the contract ends.",
+   "intro": "To choose a digital marketing agency in Lakeland, look for a team that covers local SEO, Google Business Profile, Google and Meta Ads, your website and analytics, and that reports on leads and sales instead of vanity metrics. Before signing, ask who does the work, who owns your accounts and how the contract ends.",
+   "body": [
+    [
+     "h2",
+     "What a Lakeland business should expect from an agency"
+    ],
+    [
+     "p",
+     "Most customers in Lakeland and Polk County find local businesses the same way: they search on Google, check Google Maps, read reviews, ask an AI assistant and compare two or three websites on their phone. Digital marketing in Lakeland is about showing up clearly at each of those steps and turning the visit into a call, a form or a sale."
+    ],
+    [
+     "ul",
+     [
+      "<strong>Local SEO</strong>: service and location pages, technical health and content for the searches people make in Lakeland and nearby areas.",
+      "<strong>Google Business Profile</strong>: complete information, the right categories, photos, posts and a steady flow of reviews with replies.",
+      "<strong>Google Ads and Meta Ads</strong>: campaigns aimed at calls, forms and sales, with budgets and locations that match where your customers are.",
+      "<strong>Website</strong>: fast pages that explain what you do, where you work and how to contact you, with clear calls to action.",
+      "<strong>Analytics</strong>: GA4, call tracking and conversion tracking, so you know which channel brings each customer."
+     ]
+    ],
+    [
+     "p",
+     "You do not need every channel from day one. A good agency helps you decide what to do first based on your goals, your budget and how your customers buy."
+    ],
+    [
+     "h2",
+     "Questions to ask before hiring a digital marketing agency in Lakeland"
+    ],
+    [
+     "ol",
+     [
+      "<strong>Who will actually do the work?</strong> Ask whether the people in the sales meeting are the ones who will run your account, or whether it is passed to junior staff or outsourced.",
+      "<strong>How will you report results?</strong> Reports should connect spend and activity with leads, calls and sales, not only impressions, clicks or followers.",
+      "<strong>What are the contract terms?</strong> Ask about minimum length, notice period and what happens to your campaigns and content if you leave.",
+      "<strong>Who owns the ad accounts, website and data?</strong> Your Google Ads, Meta, Google Business Profile, GA4 and domain should be in your name, with the agency added as a user.",
+      "<strong>Have you worked with local businesses?</strong> Local marketing has its own details, such as service areas, reviews, call tracking and seasonality.",
+      "<strong>What will you do in the first 90 days?</strong> A clear plan shows how they think and gives you a way to evaluate progress."
+     ]
+    ],
+    [
+     "h2",
+     "Red flags to watch for"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Guaranteed rankings</strong>: no one controls Google or AI answers. Promises of first place are a warning sign.",
+      "<strong>Vanity metrics</strong>: reports full of impressions, reach and likes, with no mention of leads or revenue.",
+      "<strong>Locked contracts</strong>: long commitments with heavy penalties and no clear performance review.",
+      "<strong>No access to your accounts</strong>: if the agency owns your ad accounts or will not give you admin access, you lose your history when you leave.",
+      "<strong>Vague answers</strong>: if they cannot explain in plain language what they will change and why, it will be hard to hold them accountable."
+     ]
+    ],
+    [
+     "h2",
+     "Local agency or remote agency?"
+    ],
+    [
+     "p",
+     "A team based in Lakeland knows the area and can meet in person. A remote team can bring specialists you may not find locally. What matters most is not the address but the fit: they should understand your market, know how local search works, answer quickly and give you direct access to the people running your account."
+    ],
+    [
+     "p",
+     "Many Florida agencies work remotely with clients across the state. If you go that route, ask how often you will meet, which tools they use to share progress and how they learn about your customers and your area. Our page on <a href=\"{florida}\">performance marketing in Florida</a> explains how we work with businesses across the state."
+    ],
+    [
+     "h2",
+     "How to think about budget"
+    ],
+    [
+     "p",
+     "Budget has two parts: the agency fee and the media spend that goes to Google, Meta or other platforms. Ask for both to be shown separately, and ask how the fee is calculated: fixed monthly, project based or a percentage of spend. Each model has pros and cons, so what matters is that it is clear."
+    ],
+    [
+     "p",
+     "Start with the goal, not the number. How many new customers do you need, what is each one worth and how quickly do you need results? SEO and Google Business Profile work tend to build over months, while ads can bring leads sooner. Many local businesses combine both and adjust the mix once they see which channel performs better."
+    ],
+    [
+     "h2",
+     "Next step"
+    ],
+    [
+     "p",
+     "If you want to see what this looks like in practice, visit our <a href=\"{lakeland}\">SEO and digital marketing services in Lakeland</a> or our <a href=\"{seo-aeo}\">AEO and SEO services</a>. We are happy to review your current setup and tell you where we would start."
+    ]
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    [
+     "How long does it take to see results from a digital marketing agency in Lakeland?",
+     "It depends on the channel. Google Ads and Meta Ads can bring leads within the first weeks once tracking is in place. Local SEO and Google Business Profile improvements usually build over several months, depending on your website, your reviews and your competitors. A good agency shares a timeline and reports progress every month."
+    ],
+    [
+     "Should my business own its ad accounts and website?",
+     "Yes. Your Google Ads, Meta, Google Business Profile, GA4 accounts and domain should be registered in your name, with the agency added as a user or partner. That way you keep your data, history and campaigns if you change providers, and you can always see what is happening in your accounts."
+    ],
+    [
+     "Is a local Lakeland agency better than a remote one?",
+     "Not necessarily. A local team knows the area and can meet in person, while a remote team may offer more specialized skills. Focus on fit: experience with local businesses, clear reporting tied to leads and sales, direct access to the people doing the work and fair contract terms, wherever the agency is based."
+    ]
+   ],
+   "takeaways": [
+    "Expect local SEO, Google Business Profile, ads, website and analytics working together.",
+    "Ask who does the work, how results are reported and who owns your accounts and data.",
+    "Avoid guaranteed rankings, vanity metrics and contracts that lock you in.",
+    "Choose by fit and transparency, whether the agency is local or remote."
+   ]
+  },
+  "es": {
+   "slug": "como-elegir-agencia-marketing-digital-lakeland",
+   "title": "Agencia de marketing digital en Lakeland: cómo elegir la correcta",
+   "seo": [
+    "Agencia de marketing digital en Lakeland: cómo elegirla",
+    "Cómo elegir una agencia de marketing digital en Lakeland: qué esperar, qué preguntar, qué señales de alerta evitar y cómo comparar equipos locales y remotos.",
+    "agencia de marketing digital en Lakeland"
+   ],
+   "tldr": "Una buena agencia de marketing digital en Lakeland trabaja el SEO local, tu Perfil de Empresa de Google, Google Ads y Meta Ads, tu sitio web y la analítica, y reporta leads y ventas. Antes de firmar, pregunta quién hace el trabajo, de quién son tus cuentas y tus datos, y cómo termina el contrato.",
+   "intro": "Para elegir una agencia de marketing digital en Lakeland, busca un equipo que cubra SEO local, Perfil de Empresa de Google, Google Ads y Meta Ads, tu sitio web y analítica, y que reporte leads y ventas, no métricas de vanidad. Antes de firmar, pregunta quién hace el trabajo, de quién son tus cuentas y cómo termina el contrato.",
+   "body": [
+    [
+     "h2",
+     "Qué debería esperar una empresa de Lakeland de su agencia"
+    ],
+    [
+     "p",
+     "La mayoría de los clientes en Lakeland y el condado de Polk encuentra negocios locales de la misma forma: busca en Google, revisa Google Maps, lee reseñas, le pregunta a un asistente de IA y compara dos o tres sitios desde el celular. El marketing digital en Lakeland consiste en aparecer con claridad en cada uno de esos pasos y convertir la visita en una llamada, un formulario o una venta."
+    ],
+    [
+     "ul",
+     [
+      "<strong>SEO local</strong>: páginas de servicios y de ubicación, salud técnica y contenido para las búsquedas que se hacen en Lakeland y sus alrededores.",
+      "<strong>Perfil de Empresa de Google</strong>: información completa, las categorías correctas, fotos, publicaciones y un flujo constante de reseñas con respuesta.",
+      "<strong>Google Ads y Meta Ads</strong>: campañas orientadas a llamadas, formularios y ventas, con presupuestos y ubicaciones que coinciden con dónde están tus clientes.",
+      "<strong>Sitio web</strong>: páginas rápidas que explican qué haces, dónde trabajas y cómo contactarte, con llamados a la acción claros.",
+      "<strong>Analítica</strong>: GA4, seguimiento de llamadas y de conversiones, para saber qué canal trae cada cliente."
+     ]
+    ],
+    [
+     "p",
+     "No necesitas todos los canales desde el primer día. Una buena agencia te ayuda a decidir por dónde empezar según tus objetivos, tu presupuesto y la forma en que compran tus clientes."
+    ],
+    [
+     "h2",
+     "Qué preguntar antes de contratar una agencia de marketing digital en Lakeland"
+    ],
+    [
+     "ol",
+     [
+      "<strong>¿Quién va a hacer el trabajo?</strong> Pregunta si las personas de la reunión comercial son las que llevarán tu cuenta, o si pasará a un equipo junior o a terceros.",
+      "<strong>¿Cómo van a reportar los resultados?</strong> Los reportes deben conectar la inversión y la actividad con leads, llamadas y ventas, no solo con impresiones, clics o seguidores.",
+      "<strong>¿Cuáles son las condiciones del contrato?</strong> Pregunta por la duración mínima, el plazo de aviso y qué pasa con tus campañas y tu contenido si decides irte.",
+      "<strong>¿De quién son las cuentas publicitarias, el sitio y los datos?</strong> Tu Google Ads, Meta, Perfil de Empresa de Google, GA4 y dominio deben estar a tu nombre, con la agencia como usuario.",
+      "<strong>¿Tienen experiencia con negocios locales?</strong> El marketing local tiene sus propios detalles, como zonas de servicio, reseñas, seguimiento de llamadas y temporadas.",
+      "<strong>¿Qué harán en los primeros 90 días?</strong> Un plan claro muestra cómo piensan y te da una forma de evaluar el avance."
+     ]
+    ],
+    [
+     "h2",
+     "Señales de alerta"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Posiciones garantizadas</strong>: nadie controla a Google ni las respuestas de la IA. Prometer el primer lugar es una mala señal.",
+      "<strong>Métricas de vanidad</strong>: reportes llenos de impresiones, alcance y \"me gusta\", sin mencionar leads ni ingresos.",
+      "<strong>Contratos que te atan</strong>: compromisos largos con penalidades altas y sin una revisión clara del rendimiento.",
+      "<strong>Sin acceso a tus cuentas</strong>: si la agencia es dueña de tus cuentas publicitarias o no te da acceso de administrador, pierdes tu historial al irte.",
+      "<strong>Respuestas vagas</strong>: si no pueden explicar en lenguaje simple qué van a cambiar y por qué, será difícil pedirles cuentas."
+     ]
+    ],
+    [
+     "h2",
+     "¿Agencia local o agencia remota?"
+    ],
+    [
+     "p",
+     "Un equipo con base en Lakeland conoce la zona y puede reunirse en persona. Un equipo remoto puede aportar especialistas que quizás no encuentres cerca. Lo más importante no es la dirección, sino el encaje: deben entender tu mercado, saber cómo funciona la búsqueda local, responder rápido y darte acceso directo a quienes llevan tu cuenta."
+    ],
+    [
+     "p",
+     "Muchas agencias de Florida trabajan de forma remota con clientes de todo el estado. Si eliges esa opción, pregunta cada cuánto se reunirán, qué herramientas usan para mostrar el avance y cómo conocen a tus clientes y tu zona. En nuestra página de <a href=\"{florida}\">performance marketing en Florida</a> explicamos cómo trabajamos con empresas de todo el estado."
+    ],
+    [
+     "h2",
+     "Cómo pensar el presupuesto"
+    ],
+    [
+     "p",
+     "El presupuesto tiene dos partes: el honorario de la agencia y la inversión en medios que va a Google, Meta u otras plataformas. Pide que se muestren por separado y pregunta cómo se calcula el honorario: fijo mensual, por proyecto o como porcentaje de la inversión. Cada modelo tiene ventajas y desventajas; lo importante es que sea claro."
+    ],
+    [
+     "p",
+     "Empieza por el objetivo, no por la cifra. ¿Cuántos clientes nuevos necesitas, cuánto vale cada uno y en qué plazo necesitas resultados? El SEO y el trabajo en el Perfil de Empresa de Google suelen construirse en meses, mientras que los anuncios pueden traer leads antes. Muchos negocios locales combinan ambos y ajustan la mezcla cuando ven qué canal rinde mejor."
+    ],
+    [
+     "h2",
+     "Siguiente paso"
+    ],
+    [
+     "p",
+     "Si quieres ver cómo se ve esto en la práctica, visita nuestros <a href=\"{lakeland}\">servicios de SEO y marketing digital en Lakeland</a> o nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>. Con gusto revisamos lo que tienes hoy y te decimos por dónde empezaríamos."
+    ]
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿Cuánto tarda una agencia de marketing digital en Lakeland en dar resultados?",
+     "Depende del canal. Google Ads y Meta Ads pueden traer leads en las primeras semanas una vez que la medición está lista. El SEO local y las mejoras en el Perfil de Empresa de Google suelen construirse en varios meses, según tu sitio, tus reseñas y tu competencia. Una buena agencia comparte un plazo y reporta el avance cada mes."
+    ],
+    [
+     "¿Mi empresa debe ser dueña de sus cuentas publicitarias y su sitio?",
+     "Sí. Tus cuentas de Google Ads, Meta, Perfil de Empresa de Google y GA4, y tu dominio, deben estar a tu nombre, con la agencia agregada como usuario o socio. Así conservas tus datos, tu historial y tus campañas si cambias de proveedor, y siempre puedes ver qué pasa en tus cuentas."
+    ],
+    [
+     "¿Es mejor una agencia local de Lakeland que una remota?",
+     "No necesariamente. Un equipo local conoce la zona y puede reunirse en persona, mientras que uno remoto puede ofrecer habilidades más especializadas. Fíjate en el encaje: experiencia con negocios locales, reportes claros ligados a leads y ventas, acceso directo a quienes hacen el trabajo y condiciones de contrato justas, sin importar dónde esté la agencia."
+    ]
+   ],
+   "takeaways": [
+    "Espera SEO local, Perfil de Empresa de Google, anuncios, sitio web y analítica trabajando juntos.",
+    "Pregunta quién hace el trabajo, cómo se reportan los resultados y de quién son tus cuentas y datos.",
+    "Evita las posiciones garantizadas, las métricas de vanidad y los contratos que te atan.",
+    "Elige por encaje y transparencia, sea la agencia local o remota."
+   ]
+  }
+ },
+ {
+  "key": "aeo-checklist",
+  "publish_gmt": "2026-11-10 13:00:00",
+  "cat": "aeo",
+  "image": "aeo-content",
+  "en": {
+   "slug": "aeo-checklist",
+   "title": "AEO Checklist: Steps to Get Cited by ChatGPT, Perplexity and Gemini",
+   "seo": [
+    "AEO Checklist: How to Get Cited by ChatGPT and Gemini",
+    "An AEO checklist to get cited by ChatGPT, Perplexity and Gemini: technical access for AI crawlers, answer-first content, structured data and measurement.",
+    "aeo checklist"
+   ],
+   "tldr": "Getting cited by AI assistants starts with basics you can check: AI crawlers can reach your pages, each page answers a question in its first lines, structured data describes who you are, your brand is consistent across the web and you measure the results every month. No checklist guarantees a citation, but skipping these steps makes one unlikely.",
+   "intro": "An AEO checklist is a step-by-step list of what a website needs so AI assistants such as ChatGPT, Perplexity and Gemini can find, understand and cite it. It covers technical access for AI crawlers, content written as direct answers, structured data, brand signals across the web and a simple way to measure results.",
+   "body": [
+    [
+     "h2",
+     "1. Technical access: let AI tools reach your content"
+    ],
+    [
+     "ol",
+     [
+      "Make sure your key pages are indexable: no accidental noindex tags, correct canonical URLs and an XML sitemap submitted to Google Search Console and Bing Webmaster Tools.",
+      "Review robots.txt. Allow the search crawlers of the assistants where you want to appear, such as OAI-SearchBot (ChatGPT search), PerplexityBot, Googlebot and Bingbot, since the Bing index powers Microsoft Copilot.",
+      "Decide on training crawlers separately. GPTBot collects data for OpenAI models, and Google-Extended controls whether your content is used for Gemini models. Blocking Google-Extended does not remove you from Google Search or AI Overviews, which rely on Googlebot.",
+      "Put important information in HTML text. Content that only appears after heavy JavaScript, or lives inside images and PDFs, is harder for some AI crawlers to read.",
+      "Keep pages fast and free of barriers such as forced logins or bot protection that blocks legitimate crawlers.",
+      "Optionally, publish an llms.txt file that points to your most useful pages. It is a proposed convention, not a standard, and support varies, so treat it as a low-cost extra."
+     ]
+    ],
+    [
+     "h2",
+     "2. Content: write answers, not just pages"
+    ],
+    [
+     "ol",
+     [
+      "Answer the main question of each page in the first two or three sentences, then add the detail.",
+      "Use the real questions your customers ask as H2 and H3 headings.",
+      "Add a short FAQ with the follow-up questions buyers ask before deciding.",
+      "Show a visible \"last updated\" date and keep facts current.",
+      "Show who wrote the content and why they are qualified, with a short author bio.",
+      "Use lists, steps and tables where they help, and state specific facts: services, locations, integrations, timelines and how pricing works.",
+      "Cover one main topic per page and link related pages to each other."
+     ]
+    ],
+    [
+     "p",
+     "If you would rather have a team write and restructure this content, our <a href=\"{service:aeo-content}\">AEO content service</a> does exactly that."
+    ],
+    [
+     "h2",
+     "3. Structured data: describe your business for machines"
+    ],
+    [
+     "ol",
+     [
+      "Add Organization and WebSite schema with your name, logo, URL and official profiles.",
+      "Mark up services, articles, FAQs and breadcrumbs with the matching schema types.",
+      "Keep every fact in the markup consistent with the visible content.",
+      "Validate with Google Rich Results Test and the Schema Markup Validator."
+     ]
+    ],
+    [
+     "p",
+     "We explain which types matter and why in our guide to <a href=\"{post:aeo-schema}\">schema for AEO</a>."
+    ],
+    [
+     "h2",
+     "4. Brand signals beyond your site"
+    ],
+    [
+     "ol",
+     [
+      "Keep your company name, description, address and phone consistent across Google Business Profile, directories and social profiles.",
+      "Collect genuine reviews on the platforms that matter in your industry.",
+      "Earn mentions in industry media, partner sites, roundups and communities where your buyers spend time.",
+      "Describe what you do with the same words everywhere, so assistants get a single, clear picture of your brand."
+     ]
+    ],
+    [
+     "h2",
+     "5. Measurement: know whether it is working"
+    ],
+    [
+     "ol",
+     [
+      "Write a fixed list of the questions your buyers ask and check them every month in ChatGPT, Perplexity, Gemini and AI Overviews.",
+      "Track AI referral traffic in GA4 with a custom channel group.",
+      "Add an \"AI assistant\" option to your \"How did you hear about us?\" field."
+     ]
+    ],
+    [
+     "p",
+     "The details are in our guide on <a href=\"{post:aeo-measure}\">how to measure AEO</a>."
+    ],
+    [
+     "h2",
+     "What this checklist cannot do"
+    ],
+    [
+     "p",
+     "No checklist guarantees a citation. AI tools decide what to show, and their answers change with models, sources and wording. What a checklist does is remove the obstacles that keep good content out of those answers. If you want a team to work through it with you, see our <a href=\"{seo-aeo}\">AEO and SEO services</a>."
+    ]
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    [
+     "How do I get cited by ChatGPT?",
+     "Allow OAI-SearchBot in your robots.txt, make sure your pages are indexed and readable as HTML text, and answer specific questions directly in the first lines. Add structured data and keep your brand information consistent across the web. No one can guarantee a citation, but these steps make your content eligible and easy to quote."
+    ],
+    [
+     "Do I need an llms.txt file for AEO?",
+     "It is optional. llms.txt is a proposed convention for pointing AI tools to your most useful content, and support across assistants is limited and uneven. It is quick to create, so it can be a reasonable extra, but it does not replace crawlable pages, clear answers, structured data and a well organized site."
+    ],
+    [
+     "Should I block GPTBot or Google-Extended?",
+     "That is a business decision about how your content is used to build AI models, not about visibility in answers. Search crawlers such as OAI-SearchBot and Googlebot control whether you can appear in ChatGPT search and Google results. Many brands allow search crawlers and review training crawlers with their legal team."
+    ]
+   ],
+   "takeaways": [
+    "Technical access comes first: AI crawlers must be able to reach and read your pages.",
+    "Answer each question in the first lines, with clear headings and a short FAQ.",
+    "Structured data and consistent brand signals remove doubt about who you are.",
+    "Measure every month, because no checklist guarantees a citation."
+   ]
+  },
+  "es": {
+   "slug": "checklist-de-aeo",
+   "title": "Checklist de AEO: pasos para que ChatGPT, Perplexity y Gemini te citen",
+   "seo": [
+    "Checklist de AEO: cómo lograr que ChatGPT y Gemini te citen",
+    "Checklist de AEO para que ChatGPT, Perplexity y Gemini te citen: acceso para rastreadores de IA, contenido con respuestas directas, schema y medición.",
+    "checklist de AEO"
+   ],
+   "tldr": "Que los asistentes de IA te citen empieza con aspectos básicos que puedes revisar: que los rastreadores de IA lleguen a tus páginas, que cada página responda una pregunta en sus primeras líneas, que los datos estructurados describan quién eres, que tu marca sea coherente en la web y que midas los resultados cada mes. Ningún checklist garantiza una cita, pero saltarte estos pasos la vuelve poco probable.",
+   "intro": "Un checklist de AEO es una lista paso a paso de lo que necesita un sitio web para que asistentes de IA como ChatGPT, Perplexity y Gemini puedan encontrarlo, entenderlo y citarlo. Cubre el acceso técnico para los rastreadores de IA, contenido escrito como respuestas directas, datos estructurados, señales de marca en la web y una forma simple de medir.",
+   "body": [
+    [
+     "h2",
+     "1. Acceso técnico: deja que la IA llegue a tu contenido"
+    ],
+    [
+     "ol",
+     [
+      "Asegúrate de que tus páginas clave sean indexables: sin etiquetas noindex por error, con URL canónicas correctas y un sitemap XML enviado a Google Search Console y Bing Webmaster Tools.",
+      "Revisa el robots.txt. Permite los rastreadores de búsqueda de los asistentes en los que quieres aparecer, como OAI-SearchBot (búsqueda de ChatGPT), PerplexityBot, Googlebot y Bingbot, ya que el índice de Bing alimenta a Microsoft Copilot.",
+      "Decide por separado sobre los rastreadores de entrenamiento. GPTBot recopila datos para los modelos de OpenAI y Google-Extended controla si tu contenido se usa para los modelos de Gemini. Bloquear Google-Extended no te saca de la Búsqueda de Google ni de los AI Overviews, que dependen de Googlebot.",
+      "Pon la información importante en texto HTML. El contenido que solo aparece después de mucho JavaScript, o que vive dentro de imágenes y PDF, es más difícil de leer para algunos rastreadores de IA.",
+      "Mantén las páginas rápidas y sin barreras, como inicios de sesión obligatorios o protecciones contra bots que bloquean a los rastreadores legítimos.",
+      "Si quieres, publica un archivo llms.txt que apunte a tus páginas más útiles. Es una convención propuesta, no un estándar, y el soporte varía, así que tómalo como un extra de bajo costo."
+     ]
+    ],
+    [
+     "h2",
+     "2. Contenido: escribe respuestas, no solo páginas"
+    ],
+    [
+     "ol",
+     [
+      "Responde la pregunta principal de cada página en las primeras dos o tres oraciones y luego suma el detalle.",
+      "Usa las preguntas reales de tus clientes como títulos H2 y H3.",
+      "Agrega una sección breve de preguntas frecuentes con lo que los compradores preguntan antes de decidir.",
+      "Muestra una fecha visible de \"última actualización\" y mantén los datos al día.",
+      "Muestra quién escribió el contenido y por qué está calificado, con una breve biografía del autor.",
+      "Usa listas, pasos y tablas cuando ayuden, y da datos concretos: servicios, ubicaciones, integraciones, plazos y cómo funcionan los precios.",
+      "Trata un tema principal por página y enlaza las páginas relacionadas entre sí."
+     ]
+    ],
+    [
+     "p",
+     "Si prefieres que un equipo escriba y reestructure este contenido, nuestro <a href=\"{service:aeo-content}\">servicio de contenido para AEO</a> hace justamente eso."
+    ],
+    [
+     "h2",
+     "3. Datos estructurados: describe tu negocio para las máquinas"
+    ],
+    [
+     "ol",
+     [
+      "Agrega schema Organization y WebSite con tu nombre, logo, URL y perfiles oficiales.",
+      "Marca servicios, artículos, preguntas frecuentes y migas de pan con los tipos de schema que corresponden.",
+      "Mantén cada dato del marcado coherente con el contenido visible.",
+      "Valida con la prueba de resultados enriquecidos de Google y con el Schema Markup Validator."
+     ]
+    ],
+    [
+     "p",
+     "Explicamos qué tipos importan y por qué en nuestra guía de <a href=\"{post:aeo-schema}\">schema para AEO</a>."
+    ],
+    [
+     "h2",
+     "4. Señales de marca fuera de tu sitio"
+    ],
+    [
+     "ol",
+     [
+      "Mantén el mismo nombre, descripción, dirección y teléfono de tu empresa en tu Perfil de Empresa de Google, directorios y redes sociales.",
+      "Junta reseñas reales en las plataformas que importan en tu industria.",
+      "Consigue menciones en medios del sector, sitios de socios, rankings y comunidades donde están tus compradores.",
+      "Describe lo que haces con las mismas palabras en todos lados, para que los asistentes tengan una imagen única y clara de tu marca."
+     ]
+    ],
+    [
+     "h2",
+     "5. Medición: comprueba si está funcionando"
+    ],
+    [
+     "ol",
+     [
+      "Escribe una lista fija de las preguntas que hacen tus compradores y revísalas cada mes en ChatGPT, Perplexity, Gemini y los AI Overviews.",
+      "Mide el tráfico de referencia de IA en GA4 con un grupo de canales personalizado.",
+      "Suma la opción \"Asistente de IA\" al campo \"¿Cómo nos conociste?\"."
+     ]
+    ],
+    [
+     "p",
+     "Los detalles están en nuestra guía sobre <a href=\"{post:aeo-measure}\">cómo medir el AEO</a>."
+    ],
+    [
+     "h2",
+     "Lo que este checklist no puede hacer"
+    ],
+    [
+     "p",
+     "Ningún checklist garantiza una cita. Las herramientas de IA deciden qué mostrar, y sus respuestas cambian según el modelo, las fuentes y la forma de preguntar. Lo que sí hace un checklist es quitar los obstáculos que dejan al buen contenido fuera de esas respuestas. Si quieres que un equipo lo trabaje contigo, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>."
+    ]
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿Cómo logro que ChatGPT me cite?",
+     "Permite OAI-SearchBot en tu robots.txt, asegúrate de que tus páginas estén indexadas y se puedan leer como texto HTML, y responde preguntas concretas en las primeras líneas. Suma datos estructurados y mantén la información de tu marca coherente en la web. Nadie puede garantizar una cita, pero estos pasos hacen que tu contenido califique y sea fácil de citar."
+    ],
+    [
+     "¿Necesito un archivo llms.txt para el AEO?",
+     "Es opcional. El llms.txt es una convención propuesta para señalar a las herramientas de IA tu contenido más útil, y el soporte entre asistentes es limitado y desigual. Se crea rápido, así que puede ser un extra razonable, pero no reemplaza páginas rastreables, respuestas claras, datos estructurados y un sitio bien organizado."
+    ],
+    [
+     "¿Debería bloquear GPTBot o Google-Extended?",
+     "Es una decisión de negocio sobre cómo se usa tu contenido para construir modelos de IA, no sobre tu visibilidad en las respuestas. Los rastreadores de búsqueda como OAI-SearchBot y Googlebot son los que definen si puedes aparecer en la búsqueda de ChatGPT y en Google. Muchas marcas permiten los de búsqueda y revisan los de entrenamiento con su equipo legal."
+    ]
+   ],
+   "takeaways": [
+    "El acceso técnico va primero: los rastreadores de IA deben poder llegar a tus páginas y leerlas.",
+    "Responde cada pregunta en las primeras líneas, con títulos claros y preguntas frecuentes.",
+    "Los datos estructurados y las señales de marca coherentes eliminan dudas sobre quién eres.",
+    "Mide cada mes, porque ningún checklist garantiza una cita."
+   ]
+  }
+ },
+ {
+  "key": "florida-agency",
+  "publish_gmt": "2026-11-17 13:00:00",
+  "cat": "local",
+  "image": "performance-marketing",
+  "en": {
+   "slug": "how-to-choose-marketing-agency-florida",
+   "title": "How to Choose a Marketing Agency in Florida",
+   "seo": [
+    "How to Choose a Marketing Agency in Florida",
+    "How to choose a marketing agency in Florida: define your goals, compare specialists and full-service teams, check bilingual skills and evaluate each proposal.",
+    "marketing agency florida"
+   ],
+   "tldr": "Choosing a marketing agency in Florida starts with your goals, not with the agency. Decide whether you need a specialist or a full-service team, check if they can work in English and Spanish, ask how they measure results and judge each proposal by its first 90 days plan.",
+   "intro": "To choose a marketing agency in Florida, first define what you need: more leads, more online sales or a stronger brand. Then compare agencies on how they measure results, who does the work, whether they can reach English and Spanish speaking customers and how clear their first 90 days plan is, not only on price.",
+   "body": [
+    [
+     "h2",
+     "Start with your goals, not with the agency"
+    ],
+    [
+     "p",
+     "Before you talk to any marketing agency in Florida, write down what success looks like for the next six to twelve months. More qualified leads? More online sales? Entering a new city or a new audience? A clear goal makes it easier to compare proposals, because you can ask each agency how its plan moves that specific number."
+    ],
+    [
+     "p",
+     "Also note your constraints: the budget you can invest, the time your team can dedicate, the tools you already use and what has worked or failed before. Sharing this upfront saves time and leads to more honest proposals."
+    ],
+    [
+     "h2",
+     "Specialist or full-service agency?"
+    ],
+    [
+     "p",
+     "A specialist focuses on one channel, such as Google Ads, SEO or social media. A full-service agency covers strategy, media, content, websites and analytics. Neither is better by default."
+    ],
+    [
+     "ul",
+     [
+      "<strong>Choose a specialist</strong> when you already have a clear strategy and need depth in one channel.",
+      "<strong>Choose a full-service team</strong> when channels depend on each other, for example when ads, landing pages and tracking need to work together, or when you do not want to coordinate several vendors.",
+      "<strong>Check the middle ground</strong>: boutique agencies with a small senior team can cover several channels while keeping the same people on your account."
+     ]
+    ],
+    [
+     "h2",
+     "Bilingual capability in a bilingual state"
+    ],
+    [
+     "p",
+     "Florida has a large Spanish-speaking population, and for many businesses that audience is part of the core market, not a niche. If that applies to you, ask whether the agency can plan, write and measure campaigns in both English and Spanish. Translating English ads word for word rarely works: messages, offers and even the channels people use can change by language."
+    ],
+    [
+     "p",
+     "Ask to see how they would split budgets and reports by language, so you can tell which audience performs better and adjust."
+    ],
+    [
+     "h2",
+     "Performance focus and attribution"
+    ],
+    [
+     "p",
+     "The agency should talk about leads, sales, cost per acquisition and return on ad spend, not only reach and clicks. Ask how they will set up GA4, Google Tag Manager, conversion tracking and call tracking before launching, and how they connect marketing data with what happens in your CRM or your store."
+    ],
+    [
+     "p",
+     "No attribution model is perfect, and a good agency will say so. What you want is a consistent method, clear assumptions and reports that help you decide where to put the next dollar. Our <a href=\"{service:performance-marketing}\">performance marketing services</a> are built around that idea."
+    ],
+    [
+     "h2",
+     "Questions to ask a marketing agency in Florida"
+    ],
+    [
+     "ol",
+     [
+      "Who will work on my account day to day, and how senior are they?",
+      "How will you measure success, and what will the monthly report include?",
+      "Who owns the ad accounts, the website, the content and the data?",
+      "What is the minimum contract length and the notice period?",
+      "Which businesses similar to mine have you worked with?",
+      "What will you do in the first 90 days, and what do you need from us?"
+     ]
+    ],
+    [
+     "h2",
+     "How to evaluate proposals"
+    ],
+    [
+     "p",
+     "Put the proposals side by side and look beyond the price. A strong proposal restates your goal in its own words, explains why each channel was chosen, separates the agency fee from the media budget, lists deliverables and sets checkpoints. Be cautious with proposals that look identical to a template or promise results without asking about your data."
+    ],
+    [
+     "h2",
+     "Use the first 90 days as a trial"
+    ],
+    [
+     "p",
+     "Even with a longer contract, treat the first 90 days as a structured trial. A reasonable plan usually looks like this:"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Month 1</strong>: audit, tracking setup, access to accounts and quick fixes.",
+      "<strong>Month 2</strong>: launch or restructure the priority channels and start testing.",
+      "<strong>Month 3</strong>: review results against the goal, keep what works and adjust the rest."
+     ]
+    ],
+    [
+     "h2",
+     "Red flags"
+    ],
+    [
+     "ul",
+     [
+      "Guaranteed rankings, guaranteed leads or guaranteed returns.",
+      "Reports focused on impressions and followers, with no link to revenue.",
+      "Ad accounts or domains registered in the agency’s name.",
+      "Long contracts with no performance review and heavy exit penalties.",
+      "No clear answer about who is doing the work."
+     ]
+    ],
+    [
+     "h2",
+     "How we work with Florida businesses"
+    ],
+    [
+     "p",
+     "FL Marketing Management is a boutique, bilingual team based in Florida. We have worked with Florida businesses such as Arthouse Boca (arthouseboca.com), Había una vez una foto (habiaunavezunafoto.com) and Hart (hart.live). If you are in Polk County, our guide on <a href=\"{post:lakeland-agency}\">choosing a digital marketing agency in Lakeland</a> goes deeper into local needs, and our <a href=\"{lakeland}\">Lakeland services page</a> shows what we do there."
+    ],
+    [
+     "p",
+     "To see how we plan and measure campaigns across the state, visit our <a href=\"{florida}\">performance marketing agency in Florida</a> page. We can review your current marketing and share where we would start."
+    ]
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    [
+     "Do I need a marketing agency based in Florida?",
+     "It helps, but it is not required. An agency based in Florida is more likely to understand the state’s bilingual market, its seasonality and its local competition. Still, the most important factors are experience with businesses like yours, clear reporting tied to revenue, direct access to senior people and fair contract terms."
+    ],
+    [
+     "Should my marketing agency in Florida work in Spanish?",
+     "If part of your customers prefer Spanish, yes. A bilingual agency can write ads, landing pages and content for each audience instead of translating word for word, and can split budgets and reports by language. That makes it easier to see which audience performs better and where to invest more over time."
+    ],
+    [
+     "How long should I give a new marketing agency?",
+     "Give it at least one structured 90 day period with clear checkpoints. The first month usually goes to audits, tracking and access, the second to launching or restructuring channels and the third to reviewing results. Paid channels can show signals sooner, while SEO and brand work usually take longer to mature."
+    ]
+   ],
+   "takeaways": [
+    "Define your goals and constraints before comparing agencies.",
+    "Choose a specialist or a full-service team based on how your channels depend on each other.",
+    "In Florida, bilingual planning and reporting can be a real advantage.",
+    "Judge proposals by measurement, ownership, contract terms and the first 90 days plan."
+   ]
+  },
+  "es": {
+   "slug": "como-elegir-agencia-de-marketing-en-florida",
+   "title": "Cómo elegir una agencia de marketing en Florida",
+   "seo": [
+    "Cómo elegir una agencia de marketing en Florida",
+    "Cómo elegir una agencia de marketing en Florida: define objetivos, compara especialistas y equipos integrales, revisa el bilingüismo y evalúa cada propuesta.",
+    "agencia de marketing en Florida"
+   ],
+   "tldr": "Elegir una agencia de marketing en Florida empieza por tus objetivos, no por la agencia. Decide si necesitas un especialista o un equipo integral, revisa si pueden trabajar en inglés y en español, pregunta cómo miden los resultados y evalúa cada propuesta por su plan de los primeros 90 días.",
+   "intro": "Para elegir una agencia de marketing en Florida, primero define qué necesitas: más leads, más ventas online o una marca más fuerte. Después compara las agencias por cómo miden los resultados, quién hace el trabajo, si pueden llegar a clientes que hablan inglés y español y qué tan claro es su plan de 90 días, no solo por el precio.",
+   "body": [
+    [
+     "h2",
+     "Empieza por tus objetivos, no por la agencia"
+    ],
+    [
+     "p",
+     "Antes de hablar con cualquier agencia de marketing en Florida, escribe cómo se ve el éxito en los próximos seis a doce meses. ¿Más leads calificados? ¿Más ventas online? ¿Entrar a una ciudad o a un público nuevo? Un objetivo claro facilita comparar propuestas, porque puedes preguntarle a cada agencia cómo su plan mueve ese número en particular."
+    ],
+    [
+     "p",
+     "Anota también tus límites: el presupuesto que puedes invertir, el tiempo que tu equipo puede dedicar, las herramientas que ya usas y lo que funcionó o falló antes. Compartir esto desde el inicio ahorra tiempo y lleva a propuestas más honestas."
+    ],
+    [
+     "h2",
+     "¿Agencia especializada o agencia integral?"
+    ],
+    [
+     "p",
+     "Un especialista se enfoca en un canal, como Google Ads, SEO o redes sociales. Una agencia integral cubre estrategia, medios, contenido, sitios web y analítica. Ninguna es mejor por definición."
+    ],
+    [
+     "ul",
+     [
+      "<strong>Elige un especialista</strong> cuando ya tienes una estrategia clara y necesitas profundidad en un canal.",
+      "<strong>Elige un equipo integral</strong> cuando los canales dependen entre sí, por ejemplo cuando los anuncios, las landing pages y la medición deben funcionar juntos, o cuando no quieres coordinar varios proveedores.",
+      "<strong>Considera el punto medio</strong>: las agencias boutique con un equipo senior pequeño pueden cubrir varios canales y mantener a las mismas personas en tu cuenta."
+     ]
+    ],
+    [
+     "h2",
+     "Capacidad bilingüe en un estado bilingüe"
+    ],
+    [
+     "p",
+     "Florida tiene una gran población hispanohablante y, para muchas empresas, ese público es parte central del mercado, no un nicho. Si es tu caso, pregunta si la agencia puede planificar, escribir y medir campañas en inglés y en español. Traducir palabra por palabra los anuncios en inglés rara vez funciona: los mensajes, las ofertas e incluso los canales que usa la gente pueden cambiar según el idioma."
+    ],
+    [
+     "p",
+     "Pide ver cómo separarían los presupuestos y los reportes por idioma, para saber qué público rinde mejor y ajustar."
+    ],
+    [
+     "h2",
+     "Enfoque en resultados y atribución"
+    ],
+    [
+     "p",
+     "La agencia debería hablar de leads, ventas, costo por adquisición y retorno de la inversión publicitaria, no solo de alcance y clics. Pregunta cómo configurarán GA4, Google Tag Manager, el seguimiento de conversiones y de llamadas antes de lanzar, y cómo conectan los datos de marketing con lo que pasa en tu CRM o tu tienda."
+    ],
+    [
+     "p",
+     "Ningún modelo de atribución es perfecto, y una buena agencia lo dirá. Lo que buscas es un método constante, supuestos claros y reportes que te ayuden a decidir dónde poner el siguiente dólar. Nuestros <a href=\"{service:performance-marketing}\">servicios de performance marketing</a> se construyen sobre esa idea."
+    ],
+    [
+     "h2",
+     "Qué preguntarle a una agencia de marketing en Florida"
+    ],
+    [
+     "ol",
+     [
+      "¿Quién trabajará en mi cuenta día a día y qué nivel de experiencia tiene?",
+      "¿Cómo van a medir el éxito y qué incluirá el reporte mensual?",
+      "¿De quién son las cuentas publicitarias, el sitio web, el contenido y los datos?",
+      "¿Cuál es la duración mínima del contrato y el plazo de aviso?",
+      "¿Con qué empresas parecidas a la mía han trabajado?",
+      "¿Qué harán en los primeros 90 días y qué necesitan de nosotros?"
+     ]
+    ],
+    [
+     "h2",
+     "Cómo evaluar las propuestas"
+    ],
+    [
+     "p",
+     "Pon las propuestas lado a lado y mira más allá del precio. Una propuesta sólida explica tu objetivo con sus propias palabras, justifica cada canal elegido, separa el honorario de la agencia del presupuesto de medios, detalla los entregables y fija puntos de control. Desconfía de las propuestas que parecen una plantilla o prometen resultados sin preguntar por tus datos."
+    ],
+    [
+     "h2",
+     "Usa los primeros 90 días como prueba"
+    ],
+    [
+     "p",
+     "Aunque el contrato sea más largo, trata los primeros 90 días como una prueba con estructura. Un plan razonable suele verse así:"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Mes 1</strong>: auditoría, configuración de la medición, acceso a las cuentas y correcciones rápidas.",
+      "<strong>Mes 2</strong>: lanzar o reestructurar los canales prioritarios y empezar a probar.",
+      "<strong>Mes 3</strong>: revisar los resultados frente al objetivo, mantener lo que funciona y ajustar el resto."
+     ]
+    ],
+    [
+     "h2",
+     "Señales de alerta"
+    ],
+    [
+     "ul",
+     [
+      "Posiciones, leads o retornos garantizados.",
+      "Reportes centrados en impresiones y seguidores, sin relación con los ingresos.",
+      "Cuentas publicitarias o dominios registrados a nombre de la agencia.",
+      "Contratos largos sin revisión del rendimiento y con penalidades altas de salida.",
+      "Ninguna respuesta clara sobre quién hace el trabajo."
+     ]
+    ],
+    [
+     "h2",
+     "Cómo trabajamos con empresas de Florida"
+    ],
+    [
+     "p",
+     "FL Marketing Management es un equipo boutique y bilingüe con base en Florida. Hemos trabajado con empresas de Florida como Arthouse Boca (arthouseboca.com), Había una vez una foto (habiaunavezunafoto.com) y Hart (hart.live). Si estás en el condado de Polk, nuestra guía sobre <a href=\"{post:lakeland-agency}\">cómo elegir una agencia de marketing digital en Lakeland</a> profundiza en las necesidades locales, y nuestra <a href=\"{lakeland}\">página de servicios en Lakeland</a> muestra lo que hacemos allí."
+    ],
+    [
+     "p",
+     "Para ver cómo planificamos y medimos campañas en todo el estado, visita nuestra página de <a href=\"{florida}\">agencia de performance marketing en Florida</a>. Podemos revisar tu marketing actual y contarte por dónde empezaríamos."
+    ]
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿Necesito una agencia de marketing con base en Florida?",
+     "Ayuda, pero no es obligatorio. Una agencia con base en Florida tiene más probabilidades de entender el mercado bilingüe del estado, sus temporadas y su competencia local. Aun así, lo más importante es la experiencia con empresas como la tuya, reportes claros ligados a ingresos, acceso directo a personas senior y condiciones de contrato justas."
+    ],
+    [
+     "¿Mi agencia de marketing en Florida debería trabajar en español?",
+     "Si parte de tus clientes prefiere el español, sí. Una agencia bilingüe puede escribir anuncios, landing pages y contenido para cada público en lugar de traducir palabra por palabra, y separar presupuestos y reportes por idioma. Así es más fácil ver qué público rinde mejor y dónde conviene invertir más con el tiempo."
+    ],
+    [
+     "¿Cuánto tiempo debo darle a una nueva agencia de marketing?",
+     "Dale al menos un periodo de 90 días con estructura y puntos de control claros. El primer mes suele ir a auditorías, medición y accesos, el segundo a lanzar o reestructurar canales y el tercero a revisar resultados. Los canales pagados pueden mostrar señales antes, mientras que el SEO y la marca suelen tardar más."
+    ]
+   ],
+   "takeaways": [
+    "Define tus objetivos y tus límites antes de comparar agencias.",
+    "Elige un especialista o un equipo integral según cuánto dependen entre sí tus canales.",
+    "En Florida, planificar y reportar en dos idiomas puede ser una ventaja real.",
+    "Evalúa las propuestas por medición, propiedad de las cuentas, contrato y plan de 90 días."
+   ]
+  }
+ },
+ {
+  "key": "aeo-schema",
+  "publish_gmt": "2026-11-24 13:00:00",
+  "cat": "aeo",
+  "image": "seo-aeo",
+  "en": {
+   "slug": "schema-for-aeo",
+   "title": "Schema for AEO: The Structured Data AI Engines Read",
+   "seo": [
+    "Schema for AEO: The Structured Data AI Engines Read",
+    "Schema for AEO: which structured data types AI engines read, how to implement them in JSON-LD, keep them consistent with your content and validate them.",
+    "schema for aeo"
+   ],
+   "tldr": "Schema markup tells search engines and AI tools, in a format they read without guessing, who you are, what you offer and who wrote your content. For AEO the key types are Organization, WebSite, Service, LocalBusiness, BlogPosting, Person, FAQPage, BreadcrumbList and, for stores, Product. Schema adds clarity, not guarantees.",
+   "intro": "Schema for AEO is the structured data, usually written in JSON-LD, that describes your organization, services, articles, authors and FAQs in a format machines can read without guessing. It helps search engines and AI assistants understand what each page is about and who is behind it, which supports being cited, although it never guarantees it.",
+   "body": [
+    [
+     "h2",
+     "What schema does for AEO, and what it does not"
+    ],
+    [
+     "p",
+     "Schema.org is a shared vocabulary that the major search engines created to describe entities: a company, a service, an article, a person, a product. When you add it to a page, you state those facts explicitly instead of leaving them to be inferred from the text."
+    ],
+    [
+     "p",
+     "That clarity helps search engines build a reliable picture of your brand, and AI features that draw on search indexes benefit from it. What schema does not do is force an assistant to cite you. It is one signal among many, and it only works when the page itself is useful and the markup matches what users see."
+    ],
+    [
+     "h2",
+     "Why JSON-LD is the format to use"
+    ],
+    [
+     "p",
+     "Google supports JSON-LD, Microdata and RDFa, and recommends JSON-LD because it lives in a single script block, separate from the visible HTML, which makes it easier to write and maintain. Most SEO plugins, including Rank Math and Yoast on WordPress, output JSON-LD by default."
+    ],
+    [
+     "h2",
+     "The schema types that matter for AEO"
+    ],
+    [
+     "h3",
+     "Organization and WebSite"
+    ],
+    [
+     "p",
+     "Organization describes your company: name, logo, URL, contact details and sameAs links to your official profiles. WebSite describes the site itself. Together they connect your site with the same entity mentioned in directories, social networks and articles."
+    ],
+    [
+     "h3",
+     "Service and LocalBusiness"
+    ],
+    [
+     "p",
+     "Service describes what you offer, who provides it and the area served. If you have an office or serve a specific area, LocalBusiness (or a more specific subtype) adds address, opening hours and location data, which should match your Google Business Profile."
+    ],
+    [
+     "h3",
+     "BlogPosting, Article and Person"
+    ],
+    [
+     "p",
+     "BlogPosting or Article marks up the headline, publication and update dates and the author. Link the author to a Person entity with name, job title and profiles, and show the same information in a visible author bio. This supports the experience and trust signals that matter when engines pick sources."
+    ],
+    [
+     "h3",
+     "FAQPage"
+    ],
+    [
+     "p",
+     "FAQPage marks up questions and answers that are visible on the page. Since 2023 Google shows FAQ rich results only for a limited set of well-known government and health sites, so most sites will not see the expanded snippet. The markup still describes question and answer pairs clearly, which is why many teams keep it."
+    ],
+    [
+     "h3",
+     "BreadcrumbList"
+    ],
+    [
+     "p",
+     "BreadcrumbList shows where a page sits in your site structure, which helps engines understand how services, categories and articles relate to each other."
+    ],
+    [
+     "h3",
+     "Product and Review for e-commerce"
+    ],
+    [
+     "p",
+     "Product markup with offers (price, currency and availability) and genuine ratings helps engines read product data accurately. Only mark up reviews that are visible on the page and come from real customers. Google does not show review stars for reviews a business publishes about itself."
+    ],
+    [
+     "h2",
+     "Keep schema consistent with visible content"
+    ],
+    [
+     "ul",
+     [
+      "Every fact in your markup should appear on the page: the same prices, the same questions, the same author.",
+      "Use the same company name, logo and URLs in every schema block and on your external profiles.",
+      "Avoid duplicate or conflicting markup, a common issue when a theme and an SEO plugin both output schema.",
+      "Update the markup when content changes, especially dates, prices and availability."
+     ]
+    ],
+    [
+     "h2",
+     "How to validate your structured data"
+    ],
+    [
+     "ol",
+     [
+      "Test your key templates with the Google Rich Results Test to check eligibility for rich results.",
+      "Use the Schema Markup Validator (validator.schema.org) to check the syntax of every type, including the ones Google does not display.",
+      "Review the enhancement reports in Search Console to catch errors across the whole site.",
+      "Test again after theme, plugin or template changes."
+     ]
+    ],
+    [
+     "p",
+     "Schema is one layer of a broader AEO plan that also covers content, technical access and brand signals; see the full <a href=\"{post:aeo-checklist}\">AEO checklist</a>. If you want a team to audit and implement it, see our <a href=\"{seo-aeo}\">AEO and SEO services</a> or our <a href=\"{service:website}\">website development service</a>."
+    ]
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    [
+     "Does schema help you get cited by AI?",
+     "It can help, but it does not guarantee citations. Schema makes facts about your brand, content and authors explicit, which helps search engines and the AI features built on them understand your pages. Whether an assistant cites you still depends on the quality of the content, its relevance and your authority on the topic."
+    ],
+    [
+     "Is FAQ schema still worth using?",
+     "In most cases, yes. Since 2023 Google limits FAQ rich results to a small group of authoritative sites, so the expanded snippet rarely appears. The markup still describes your questions and answers in a clear, machine readable way. Use it only for FAQs that are visible on the page and written for real users."
+    ],
+    [
+     "Which schema types should a service business start with?",
+     "Start with Organization and WebSite on the home page, Service on each service page and LocalBusiness if you serve a specific area or have an office. Add BreadcrumbList across the site and BlogPosting with a Person author on articles. FAQPage fits pages with a visible FAQ. Validate everything before and after publishing."
+    ]
+   ],
+   "takeaways": [
+    "Schema states facts explicitly, which helps machines understand your pages.",
+    "JSON-LD is the recommended format and the easiest to maintain.",
+    "Markup must match the visible content, or it loses its value.",
+    "Schema supports AEO, but it does not guarantee citations."
+   ]
+  },
+  "es": {
+   "slug": "schema-para-aeo",
+   "title": "Schema para AEO: los datos estructurados que leen los motores de IA",
+   "seo": [
+    "Schema para AEO: los datos estructurados que lee la IA",
+    "Schema para AEO: qué datos estructurados leen los motores de IA, cómo implementarlos en JSON-LD, mantenerlos coherentes con tu contenido y validarlos.",
+    "schema para AEO"
+   ],
+   "tldr": "El marcado schema le dice a los buscadores y a las herramientas de IA, en un formato que leen sin adivinar, quién eres, qué ofreces y quién escribió tu contenido. Para el AEO, los tipos clave son Organization, WebSite, Service, LocalBusiness, BlogPosting, Person, FAQPage, BreadcrumbList y, en tiendas, Product. El schema suma claridad, no garantías.",
+   "intro": "El schema para AEO son los datos estructurados, casi siempre en JSON-LD, que describen tu organización, servicios, artículos, autores y preguntas frecuentes en un formato que las máquinas leen sin adivinar. Ayuda a que los buscadores y los asistentes de IA entiendan de qué trata cada página y quién está detrás, lo que favorece las citas sin garantizarlas.",
+   "body": [
+    [
+     "h2",
+     "Qué hace el schema por el AEO, y qué no hace"
+    ],
+    [
+     "p",
+     "Schema.org es un vocabulario común que crearon los principales buscadores para describir entidades: una empresa, un servicio, un artículo, una persona, un producto. Cuando lo agregas a una página, declaras esos datos de forma explícita en lugar de dejar que se deduzcan del texto."
+    ],
+    [
+     "p",
+     "Esa claridad ayuda a los buscadores a formar una imagen confiable de tu marca, y las funciones de IA que se apoyan en esos índices se benefician. Lo que el schema no hace es obligar a un asistente a citarte. Es una señal entre muchas y solo funciona cuando la página es útil y el marcado coincide con lo que ve el usuario."
+    ],
+    [
+     "h2",
+     "Por qué usar JSON-LD"
+    ],
+    [
+     "p",
+     "Google admite JSON-LD, Microdata y RDFa, y recomienda JSON-LD porque va en un solo bloque de script, separado del HTML visible, lo que lo hace más fácil de escribir y mantener. La mayoría de los plugins de SEO, como Rank Math y Yoast en WordPress, generan JSON-LD por defecto."
+    ],
+    [
+     "h2",
+     "Los tipos de schema que importan para el AEO"
+    ],
+    [
+     "h3",
+     "Organization y WebSite"
+    ],
+    [
+     "p",
+     "Organization describe tu empresa: nombre, logo, URL, datos de contacto y enlaces sameAs a tus perfiles oficiales. WebSite describe el sitio en sí. Juntos conectan tu sitio con la misma entidad que aparece en directorios, redes sociales y artículos."
+    ],
+    [
+     "h3",
+     "Service y LocalBusiness"
+    ],
+    [
+     "p",
+     "Service describe lo que ofreces, quién lo presta y la zona que atiendes. Si tienes una oficina o atiendes un área concreta, LocalBusiness (o un subtipo más específico) suma dirección, horarios y ubicación, que deben coincidir con tu Perfil de Empresa de Google."
+    ],
+    [
+     "h3",
+     "BlogPosting, Article y Person"
+    ],
+    [
+     "p",
+     "BlogPosting o Article marcan el título, las fechas de publicación y actualización y el autor. Vincula al autor con una entidad Person con nombre, cargo y perfiles, y muestra la misma información en una biografía visible. Esto refuerza las señales de experiencia y confianza que pesan cuando los motores eligen fuentes."
+    ],
+    [
+     "h3",
+     "FAQPage"
+    ],
+    [
+     "p",
+     "FAQPage marca las preguntas y respuestas visibles en la página. Desde 2023, Google muestra los resultados enriquecidos de preguntas frecuentes solo para un grupo limitado de sitios gubernamentales y de salud reconocidos, así que la mayoría de los sitios no verá el fragmento ampliado. Aun así, el marcado describe con claridad cada par de pregunta y respuesta, y por eso muchos equipos lo mantienen."
+    ],
+    [
+     "h3",
+     "BreadcrumbList"
+    ],
+    [
+     "p",
+     "BreadcrumbList indica en qué lugar de la estructura del sitio está cada página, lo que ayuda a los motores a entender cómo se relacionan servicios, categorías y artículos."
+    ],
+    [
+     "h3",
+     "Product y Review para e-commerce"
+    ],
+    [
+     "p",
+     "El marcado Product con ofertas (precio, moneda y disponibilidad) y calificaciones reales ayuda a los motores a leer bien los datos del producto. Marca solo reseñas visibles en la página y escritas por clientes reales. Google no muestra estrellas para las reseñas que una empresa publica sobre sí misma."
+    ],
+    [
+     "h2",
+     "Mantén el schema coherente con el contenido visible"
+    ],
+    [
+     "ul",
+     [
+      "Cada dato del marcado debe aparecer en la página: los mismos precios, las mismas preguntas, el mismo autor.",
+      "Usa el mismo nombre de empresa, logo y URL en todos los bloques de schema y en tus perfiles externos.",
+      "Evita marcado duplicado o contradictorio, un problema común cuando el theme y un plugin de SEO generan schema a la vez.",
+      "Actualiza el marcado cuando cambie el contenido, sobre todo fechas, precios y disponibilidad."
+     ]
+    ],
+    [
+     "h2",
+     "Cómo validar tus datos estructurados"
+    ],
+    [
+     "ol",
+     [
+      "Prueba tus plantillas clave con la prueba de resultados enriquecidos de Google para revisar si califican.",
+      "Usa el Schema Markup Validator (validator.schema.org) para revisar la sintaxis de todos los tipos, incluidos los que Google no muestra.",
+      "Revisa los informes de mejoras en Search Console para detectar errores en todo el sitio.",
+      "Vuelve a probar después de cambiar el theme, un plugin o una plantilla."
+     ]
+    ],
+    [
+     "p",
+     "El schema es una capa de un plan de AEO más amplio que también cubre contenido, acceso técnico y señales de marca; revisa el <a href=\"{post:aeo-checklist}\">checklist de AEO</a> completo. Si quieres que un equipo lo audite e implemente, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a> o nuestro <a href=\"{service:website}\">servicio de desarrollo web</a>."
+    ]
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿El schema ayuda a que la IA te cite?",
+     "Puede ayudar, pero no garantiza citas. El schema hace explícitos los datos de tu marca, tu contenido y tus autores, lo que ayuda a los buscadores y a las funciones de IA construidas sobre ellos a entender tus páginas. Que un asistente te cite sigue dependiendo de la calidad del contenido, su relevancia y tu autoridad en el tema."
+    ],
+    [
+     "¿Todavía vale la pena usar el schema de preguntas frecuentes?",
+     "En la mayoría de los casos, sí. Desde 2023 Google limita los resultados enriquecidos de preguntas frecuentes a un grupo pequeño de sitios con autoridad, así que el fragmento ampliado casi no aparece. El marcado sigue describiendo tus preguntas y respuestas de forma clara para las máquinas. Úsalo solo con preguntas visibles y escritas para usuarios reales."
+    ],
+    [
+     "¿Con qué tipos de schema debería empezar una empresa de servicios?",
+     "Empieza con Organization y WebSite en la página de inicio, Service en cada página de servicio y LocalBusiness si atiendes un área concreta o tienes oficina. Suma BreadcrumbList en todo el sitio y BlogPosting con un autor Person en los artículos. FAQPage va en páginas con preguntas frecuentes visibles. Valida todo antes y después de publicar."
+    ]
+   ],
+   "takeaways": [
+    "El schema declara datos de forma explícita, lo que ayuda a las máquinas a entender tus páginas.",
+    "JSON-LD es el formato recomendado y el más fácil de mantener.",
+    "El marcado debe coincidir con el contenido visible o pierde su valor.",
+    "El schema apoya el AEO, pero no garantiza citas."
+   ]
+  }
+ },
+ {
+  "key": "aeo-ecommerce",
+  "publish_gmt": "2026-12-01 13:00:00",
+  "cat": "aeo",
+  "image": "website",
+  "en": {
+   "slug": "aeo-for-ecommerce",
+   "title": "AEO for Ecommerce: How to Get Your Products Recommended by AI",
+   "seo": [
+    "AEO for Ecommerce: Get Your Products Recommended by AI",
+    "AEO for ecommerce and Shopify stores: how to get products recommended by AI assistants with clean product data, structured data, buying guides and reviews.",
+    "aeo for ecommerce"
+   ],
+   "tldr": "Shoppers now ask AI assistants what to buy. AEO for ecommerce makes your products easy to recommend: consistent product data, Product and Offer structured data, a healthy merchant feed, buying guides, category FAQs and genuine reviews. On Shopify, most of this is done with the theme, collections and content you already have.",
+   "intro": "AEO for ecommerce (Answer Engine Optimization) is the practice of making an online store easy for AI assistants to understand, compare and recommend. It combines accurate product data, structured data, merchant feeds, buying guides, category FAQs and reviews, so that when shoppers ask ChatGPT, Gemini or Google which product to buy, your store appears.",
+   "body": [
+    [
+     "h2",
+     "How shoppers use AI assistants to buy"
+    ],
+    [
+     "p",
+     "Product research used to start with a search and ten tabs. Today many shoppers ask an assistant directly: \"best running shoes for flat feet under $150\", \"compare these two espresso machines\" or \"which sunscreen is safe for kids\". The assistant answers with a short list, reasons for each option and, often, links to stores."
+    ],
+    [
+     "p",
+     "To make that list, assistants need facts they can trust: what the product is, who it is for, what it costs, whether it is in stock and what buyers think of it. Stores that publish those facts clearly and consistently are easier to recommend than stores that hide them in images or scripts."
+    ],
+    [
+     "h2",
+     "Start with product data quality"
+    ],
+    [
+     "p",
+     "Product data is the base of AEO for ecommerce. Review each product page with these questions in mind:"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Titles</strong>: descriptive and specific (brand, product type, key attribute), not only a creative name.",
+      "<strong>Attributes and specs</strong>: size, material, dimensions, compatibility and use case written as text, ideally in a simple table.",
+      "<strong>Prices and availability</strong>: the same on the page, in your structured data and in your merchant feed.",
+      "<strong>Descriptions</strong>: who the product is for and what problem it solves, not only adjectives.",
+      "<strong>Policies</strong>: shipping, returns and warranty visible and easy to find."
+     ]
+    ],
+    [
+     "p",
+     "Inconsistent data is a common problem. If the page says one price, the feed says another and a marketplace listing says a third, assistants have a reason to doubt all of them."
+    ],
+    [
+     "h2",
+     "Product, Offer and Review structured data"
+    ],
+    [
+     "p",
+     "Structured data tells machines exactly what each page contains. For a store, the essentials are Product (name, brand, image, description, identifiers such as GTIN or SKU), Offer (price, currency, availability, condition) and AggregateRating or Review when you have genuine reviews on the page. Add BreadcrumbList for navigation and Organization for your brand. Validate the markup with the Rich Results Test and keep it in sync with what users see. We cover the details in <a href=\"{post:aeo-schema}\">our guide to schema for AEO</a>."
+    ],
+    [
+     "h2",
+     "Buying guides and category FAQs"
+    ],
+    [
+     "p",
+     "Product pages answer \"what is this\". Buying guides and category FAQs answer the questions that come before: which type do I need, how do these options compare, what size fits me. These are exactly the questions shoppers ask assistants. Write guides that answer the question in the first lines, compare options honestly and link to the relevant products and collections. Add a short FAQ to each key category page with real questions from customer service, chats and reviews."
+    ],
+    [
+     "h2",
+     "Reviews and third-party mentions"
+    ],
+    [
+     "p",
+     "Assistants look beyond your store. Reviews on your site and on review platforms, mentions in comparison articles, gift guides, forums and creator content all shape which brands get suggested. Ask customers for reviews after delivery, answer questions publicly and pursue coverage in the publications your buyers read. Keep the facts about your products the same everywhere you appear."
+    ],
+    [
+     "h2",
+     "Shopping features in AI assistants and Google"
+    ],
+    [
+     "p",
+     "Google Shopping results, AI Overviews and several AI assistants show product listings with prices and availability. On Google, much of that data comes from Google Merchant Center, so a complete and accurate merchant feed matters for organic listings too, not only for ads. Fix feed errors, use precise product categories and attributes, and make sure your feed prices match your site. Other assistants are adding their own shopping experiences, and the same principle applies: clean, consistent product data."
+    ],
+    [
+     "h2",
+     "Shopify specifics"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Theme structured data</strong>: many Shopify themes include Product markup, but check what yours outputs and fill the gaps (brand, GTIN, reviews) instead of stacking duplicate markup.",
+      "<strong>Collections as category pages</strong>: add a short intro that answers what the collection is and who it is for, plus a brief FAQ below the products.",
+      "<strong>Blog and guides</strong>: use the Shopify blog for buying guides and comparisons, linked from collections and products.",
+      "<strong>Apps, carefully</strong>: review and SEO apps can help, but each one adds scripts and sometimes conflicting markup. Audit what they inject and remove what you do not use.",
+      "<strong>Google and YouTube channel</strong>: connects your catalog to Merchant Center, so keep product data clean at the source."
+     ]
+    ],
+    [
+     "h2",
+     "How to measure AI referral traffic"
+    ],
+    [
+     "p",
+     "In GA4, create a channel group or exploration for sessions from AI tools (for example chatgpt.com, perplexity.ai, gemini.google.com and copilot.microsoft.com) and track their conversions separately. Check Merchant Center for free listing performance. Every month, run a fixed list of shopping prompts in the main assistants and note whether your products appear and how they are described."
+    ],
+    [
+     "p",
+     "If your store needs a technical base that supports all of this, see our <a href=\"{service:website}\">websites and e-commerce services</a>. For the content and visibility side, our <a href=\"{seo-aeo}\">AEO and SEO services</a> can help your products become the answer."
+    ]
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    [
+     "Does AEO for ecommerce replace product SEO?",
+     "No. AEO for ecommerce builds on product SEO. Assistants still rely on pages they can crawl and understand, so indexable product and collection pages, fast load times and clean internal links remain the base. AEO adds consistent product data, structured data, buying guides and review signals that make your products easier to recommend."
+    ],
+    [
+     "Is Shopify good for AEO?",
+     "Yes, Shopify gives you a solid starting point: clean URLs, product markup in many themes, a built-in blog and an easy connection to Google Merchant Center. The work is in the details: complete product data, collection intros and FAQs, useful buying guides and a careful choice of apps so they do not add conflicting markup."
+    ],
+    [
+     "Do I need a Google Merchant Center account if I do not run ads?",
+     "It is worth having one. Merchant Center feeds power free product listings on Google, not only Shopping ads, and they give Google structured product facts such as price and availability. A clean, accurate feed makes it easier for Google surfaces to show your products when shoppers compare options."
+    ]
+   ],
+   "takeaways": [
+    "Shoppers ask AI assistants what to buy, so your product facts need to be easy to read.",
+    "Keep titles, specs, prices and availability consistent on your site, feed and marketplaces.",
+    "Product and Offer structured data, buying guides and category FAQs give assistants material to cite.",
+    "On Shopify, use collections, the blog and Merchant Center, and audit apps carefully."
+   ]
+  },
+  "es": {
+   "slug": "aeo-para-ecommerce",
+   "title": "AEO para ecommerce: cómo lograr que la IA recomiende tus productos",
+   "seo": [
+    "AEO para ecommerce: que la IA recomiende tus productos",
+    "AEO para ecommerce y tiendas Shopify: cómo lograr que los asistentes de IA recomienden tus productos con datos claros, datos estructurados, guías y reseñas.",
+    "AEO para ecommerce"
+   ],
+   "tldr": "Los compradores ya preguntan a los asistentes de IA qué comprar. El AEO para ecommerce hace que tus productos sean fáciles de recomendar: datos de producto coherentes, datos estructurados Product y Offer, un feed de comercio sano, guías de compra, preguntas frecuentes por categoría y reseñas reales. En Shopify, casi todo se trabaja con el tema, las colecciones y el contenido que ya tienes.",
+   "intro": "El AEO para ecommerce (Answer Engine Optimization) es la práctica de lograr que los asistentes de IA entiendan, comparen y recomienden los productos de una tienda en línea. Combina datos de producto precisos, datos estructurados, feeds de comercio, guías de compra, preguntas frecuentes y reseñas, para que tu tienda aparezca cuando alguien pregunta a ChatGPT, Gemini o Google qué comprar.",
+   "body": [
+    [
+     "h2",
+     "Cómo usan los compradores los asistentes de IA"
+    ],
+    [
+     "p",
+     "Antes, investigar un producto empezaba con una búsqueda y diez pestañas abiertas. Hoy muchos compradores le preguntan directo a un asistente: \"mejores tenis para correr con pie plano por menos de 150 dólares\", \"compara estas dos cafeteras\" o \"qué protector solar es seguro para niños\". El asistente responde con una lista corta, razones para cada opción y, muchas veces, enlaces a tiendas."
+    ],
+    [
+     "p",
+     "Para armar esa lista, los asistentes necesitan datos confiables: qué es el producto, para quién es, cuánto cuesta, si hay stock y qué opinan los compradores. Las tiendas que publican esos datos de forma clara y coherente son más fáciles de recomendar que las que los esconden en imágenes o scripts."
+    ],
+    [
+     "h2",
+     "Empieza por la calidad de los datos de producto"
+    ],
+    [
+     "p",
+     "Los datos de producto son la base del AEO para ecommerce. Revisa cada página de producto con estas preguntas en mente:"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Títulos</strong>: claros y específicos (marca, tipo de producto, atributo clave), no solo un nombre creativo.",
+      "<strong>Atributos y especificaciones</strong>: talla, material, medidas, compatibilidad y uso escritos en texto, idealmente en una tabla simple.",
+      "<strong>Precios y disponibilidad</strong>: los mismos en la página, en los datos estructurados y en el feed de comercio.",
+      "<strong>Descripciones</strong>: para quién es el producto y qué problema resuelve, no solo adjetivos.",
+      "<strong>Políticas</strong>: envíos, devoluciones y garantía visibles y fáciles de encontrar."
+     ]
+    ],
+    [
+     "p",
+     "Los datos inconsistentes son un problema común. Si la página dice un precio, el feed otro y un marketplace un tercero, los asistentes tienen razones para dudar de todos."
+    ],
+    [
+     "h2",
+     "Datos estructurados Product, Offer y Review"
+    ],
+    [
+     "p",
+     "Los datos estructurados le dicen a las máquinas qué contiene cada página. En una tienda, lo esencial es Product (nombre, marca, imagen, descripción e identificadores como GTIN o SKU), Offer (precio, moneda, disponibilidad y condición) y AggregateRating o Review cuando tienes reseñas reales en la página. Suma BreadcrumbList para la navegación y Organization para tu marca. Valida el marcado con la prueba de resultados enriquecidos y mantenlo igual a lo que ven los usuarios. Lo explicamos en <a href=\"{post:aeo-schema}\">nuestra guía de schema para AEO</a>."
+    ],
+    [
+     "h2",
+     "Guías de compra y preguntas frecuentes por categoría"
+    ],
+    [
+     "p",
+     "Las páginas de producto responden \"qué es esto\". Las guías de compra y las preguntas frecuentes por categoría responden lo que viene antes: qué tipo necesito, en qué se diferencian estas opciones, qué talla me queda. Son justo las preguntas que los compradores hacen a los asistentes. Escribe guías que respondan en las primeras líneas, comparen opciones con honestidad y enlacen a los productos y colecciones. Suma una sección breve de preguntas frecuentes en cada categoría clave, con preguntas reales de atención al cliente, chats y reseñas."
+    ],
+    [
+     "h2",
+     "Reseñas y menciones externas"
+    ],
+    [
+     "p",
+     "Los asistentes miran más allá de tu tienda. Las reseñas en tu sitio y en plataformas de opiniones, las menciones en artículos comparativos, guías de regalos, foros y contenido de creadores influyen en qué marcas se sugieren. Pide reseñas después de la entrega, responde preguntas en público y busca presencia en los medios que leen tus compradores. Mantén los datos de tus productos iguales en todos los lugares donde apareces."
+    ],
+    [
+     "h2",
+     "Funciones de compra en asistentes de IA y en Google"
+    ],
+    [
+     "p",
+     "Google Shopping, los AI Overviews y varios asistentes de IA muestran fichas de producto con precio y disponibilidad. En Google, buena parte de esos datos viene de Google Merchant Center, así que un feed completo y preciso importa también para las fichas orgánicas, no solo para los anuncios. Corrige los errores del feed, usa categorías y atributos precisos y verifica que los precios coincidan con tu sitio. Otros asistentes están sumando sus propias experiencias de compra, y el principio es el mismo: datos de producto limpios y coherentes."
+    ],
+    [
+     "h2",
+     "Lo específico de Shopify"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Datos estructurados del tema</strong>: muchos temas de Shopify incluyen marcado Product, pero revisa qué genera el tuyo y completa lo que falta (marca, GTIN, reseñas) en lugar de duplicar marcado.",
+      "<strong>Colecciones como páginas de categoría</strong>: suma una introducción corta que explique qué es la colección y para quién es, y una breve sección de preguntas debajo de los productos.",
+      "<strong>Blog y guías</strong>: usa el blog de Shopify para guías de compra y comparativas, enlazadas desde colecciones y productos.",
+      "<strong>Apps, con cuidado</strong>: las apps de reseñas y SEO pueden ayudar, pero cada una suma scripts y a veces marcado que choca con el del tema. Revisa qué insertan y quita las que no uses.",
+      "<strong>Canal de Google y YouTube</strong>: conecta tu catálogo con Merchant Center, así que mantén los datos limpios desde el origen."
+     ]
+    ],
+    [
+     "h2",
+     "Cómo medir el tráfico que llega desde la IA"
+    ],
+    [
+     "p",
+     "En GA4, crea un grupo de canales o una exploración para las sesiones que llegan desde herramientas de IA (por ejemplo chatgpt.com, perplexity.ai, gemini.google.com y copilot.microsoft.com) y mide sus conversiones por separado. Revisa en Merchant Center el rendimiento de las fichas gratuitas. Cada mes, prueba una lista fija de preguntas de compra en los principales asistentes y anota si aparecen tus productos y cómo los describen."
+    ],
+    [
+     "p",
+     "Si tu tienda necesita una base técnica que sostenga todo esto, mira nuestros <a href=\"{service:website}\">servicios de sitios web y e-commerce</a>. Para el contenido y la visibilidad, nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a> pueden ayudar a que tus productos sean la respuesta."
+    ]
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿El AEO para ecommerce reemplaza al SEO de productos?",
+     "No. El AEO para ecommerce se apoya en el SEO de productos. Los asistentes siguen usando páginas que pueden rastrear y entender, así que las páginas de producto y colección indexables, la velocidad y los enlaces internos siguen siendo la base. El AEO suma datos coherentes, datos estructurados, guías de compra y reseñas que facilitan la recomendación."
+    ],
+    [
+     "¿Shopify sirve para hacer AEO?",
+     "Sí, Shopify es un buen punto de partida: URL limpias, marcado de producto en muchos temas, un blog integrado y una conexión sencilla con Google Merchant Center. El trabajo está en los detalles: datos de producto completos, introducciones y preguntas en las colecciones, guías de compra útiles y una elección cuidadosa de apps para evitar marcado duplicado."
+    ],
+    [
+     "¿Necesito Google Merchant Center si no hago anuncios?",
+     "Conviene tenerlo. Los feeds de Merchant Center alimentan las fichas gratuitas de productos en Google, no solo los anuncios de Shopping, y le dan a Google datos estructurados como precio y disponibilidad. Un feed limpio y preciso facilita que Google muestre tus productos cuando los compradores comparan opciones antes de decidir."
+    ]
+   ],
+   "takeaways": [
+    "Los compradores preguntan a la IA qué comprar, así que tus datos de producto deben ser fáciles de leer.",
+    "Mantén títulos, especificaciones, precios y disponibilidad iguales en tu sitio, tu feed y los marketplaces.",
+    "Los datos estructurados, las guías de compra y las preguntas por categoría le dan material a la IA.",
+    "En Shopify, aprovecha colecciones, blog y Merchant Center, y revisa las apps con cuidado."
+   ]
+  }
+ },
+ {
+  "key": "lakeland-local-seo",
+  "publish_gmt": "2026-12-08 13:00:00",
+  "cat": "local",
+  "image": "growth-hacking",
+  "en": {
+   "slug": "local-seo-lakeland",
+   "title": "Local SEO in Lakeland: Google Business Profile and AI Answers",
+   "seo": [
+    "Local SEO in Lakeland: Google Business Profile and AI",
+    "Local SEO in Lakeland step by step: Google Business Profile, reviews, NAP consistency, location pages, local links and how the same signals feed AI answers.",
+    "local seo lakeland"
+   ],
+   "tldr": "Local SEO in Lakeland rests on a complete Google Business Profile, steady reviews with replies, consistent business data, useful location and service pages and real local links. The same signals help Google Maps, classic results and AI answers, including Google AI Overviews.",
+   "intro": "Local SEO in Lakeland is the work of making your business show up when people nearby search for what you offer, on Google, Google Maps and AI assistants. It combines a complete Google Business Profile, reviews, consistent business data, pages for Lakeland and Polk County and local links, measured by calls, visits and forms.",
+   "body": [
+    [
+     "h2",
+     "Set up and optimize your Google Business Profile"
+    ],
+    [
+     "p",
+     "Your Google Business Profile is often the first thing a Lakeland customer sees, sometimes before your website. Treat it as a page you manage every week, not a listing you fill once."
+    ],
+    [
+     "ul",
+     [
+      "<strong>Categories</strong>: choose the primary category that best describes your main service, then add secondary categories only if they are accurate.",
+      "<strong>Services and products</strong>: list each service with a short, plain description that uses the words customers search for.",
+      "<strong>Service area</strong>: if you visit customers, set the areas you really cover, such as Lakeland, Winter Haven, Bartow, Auburndale or Plant City.",
+      "<strong>Hours</strong>: keep regular and holiday hours up to date, so customers do not arrive to a closed door.",
+      "<strong>Photos</strong>: add real photos of your team, your work, your location and your vehicles, and refresh them regularly.",
+      "<strong>Posts</strong>: share updates, offers and events to show that the business is active.",
+      "<strong>Questions and answers</strong>: add the questions customers ask most often and answer them clearly, where your profile offers this option."
+     ]
+    ],
+    [
+     "h2",
+     "Build a steady flow of reviews and reply to all of them"
+    ],
+    [
+     "p",
+     "Reviews influence both where you appear and whether people choose you. Ask every satisfied customer, at the right moment, with a direct link to your review form. A steady flow over time looks more natural and useful than a burst of reviews in one week."
+    ],
+    [
+     "p",
+     "Reply to every review, positive or negative. Thank people by name, mention the service when it fits and, when something went wrong, answer calmly and offer a way to solve it offline. Never buy reviews or offer rewards in exchange for them: it breaks Google’s policies and damages trust."
+    ],
+    [
+     "h2",
+     "Keep your NAP consistent and clean up citations"
+    ],
+    [
+     "p",
+     "NAP stands for name, address and phone. Search engines and AI tools compare this data across your website, your Google Business Profile, Apple Maps, Bing, Yelp, Facebook, industry directories and local listings. When they match, it is easier to trust that the information is correct."
+    ],
+    [
+     "ol",
+     [
+      "Decide the exact format of your business name, address and phone number.",
+      "Update your website footer, contact page and Google Business Profile first.",
+      "Review the main directories and correct old addresses, numbers or duplicate listings.",
+      "Add your business to relevant industry and local directories with the same data."
+     ]
+    ],
+    [
+     "h2",
+     "Create location and service pages for Lakeland and Polk County"
+    ],
+    [
+     "p",
+     "Your website should make it obvious what you do and where. A strong service page for Lakeland explains the service, who it is for, the process, typical questions and how to contact you. If you serve several cities, create pages only where you can add real, specific information, such as the areas you cover, local projects or details about how you work there."
+    ],
+    [
+     "p",
+     "Avoid copying the same text and swapping the city name: thin pages rarely help and can make the whole site look weaker. Add structured data for your organization and services, and link each page from your menu and related content."
+    ],
+    [
+     "h2",
+     "Earn local links and mentions"
+    ],
+    [
+     "ul",
+     [
+      "Join the local chamber of commerce and business associations that list their members online.",
+      "Sponsor local events, schools or sports teams that publish their sponsors.",
+      "Share useful information with local media, such as seasonal tips or community projects.",
+      "Partner with complementary local businesses and mention each other where it is useful for customers."
+     ]
+    ],
+    [
+     "p",
+     "These links matter less for their number than for what they say: that your business is real, active and part of the Lakeland community."
+    ],
+    [
+     "h2",
+     "How the same signals feed AI answers and AI Overviews"
+    ],
+    [
+     "p",
+     "When someone asks an AI assistant or Google for \"the best\" provider near Lakeland, the answer is built from the same kind of signals: your Google Business Profile, reviews, consistent business data, clear website pages and mentions on other sites. Google AI Overviews draw on Google’s index, so local SEO is also the base for appearing there."
+    ],
+    [
+     "p",
+     "To make your business easier to cite, answer common questions in plain language on your pages, keep facts like hours, services and service areas identical everywhere and encourage reviews that mention the specific service. We explain the statewide picture in <a href=\"{post:aeo-local-florida}\">AEO for local businesses in Florida</a>."
+    ],
+    [
+     "h2",
+     "Measure what matters"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Google Business Profile performance</strong>: searches, views, calls, direction requests and website clicks.",
+      "<strong>Search Console</strong>: queries and pages that bring local impressions and clicks.",
+      "<strong>Calls and forms</strong>: track them in GA4 and with call tracking, so you know which channel brings each lead.",
+      "<strong>AI answers</strong>: check your key questions in AI assistants every month and note whether your business appears."
+     ]
+    ],
+    [
+     "p",
+     "If you want a team to handle this for you, see our <a href=\"{lakeland}\">SEO and digital marketing services in Lakeland</a> and our <a href=\"{seo-aeo}\">AEO and SEO services</a>. We can review your profile and website and tell you what to fix first."
+    ]
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    [
+     "How long does local SEO in Lakeland take to work?",
+     "Fixes to your Google Business Profile, business data and key pages can show impact within weeks. Ranking for competitive local searches usually takes several months, depending on your reviews, your website and your competitors. Measure progress monthly with calls, direction requests, website clicks and Search Console data, not only rankings."
+    ],
+    [
+     "Can I rank in nearby cities like Winter Haven or Bartow?",
+     "Yes, but proximity matters in Google Maps, so ranking in the map results far from your address is harder. You can set a service area in your Google Business Profile and create useful pages for nearby cities you really serve, with specific information, reviews and examples that show your work in those areas."
+    ],
+    [
+     "Does local SEO help my business appear in AI answers?",
+     "Yes. AI assistants and Google AI Overviews use many of the same signals as local search: your Google Business Profile, reviews, consistent business data, clear website pages and mentions on other sites. Strengthening those signals improves your chances of being mentioned when someone asks for a provider near Lakeland."
+    ]
+   ],
+   "takeaways": [
+    "Manage your Google Business Profile every week: categories, services, photos, posts and hours.",
+    "Ask for reviews consistently and reply to every one of them.",
+    "Keep name, address and phone identical everywhere and build real local links.",
+    "The same local signals help you appear in Google Maps, search results and AI answers."
+   ]
+  },
+  "es": {
+   "slug": "seo-local-en-lakeland",
+   "title": "SEO local en Lakeland: Perfil de Empresa de Google y respuestas de la IA",
+   "seo": [
+    "SEO local en Lakeland: Perfil de Empresa de Google e IA",
+    "SEO local en Lakeland paso a paso: Perfil de Empresa de Google, reseñas, datos coherentes, páginas locales, enlaces locales y cómo esas señales llegan a la IA.",
+    "SEO local en Lakeland"
+   ],
+   "tldr": "El SEO local en Lakeland se apoya en un Perfil de Empresa de Google completo, reseñas constantes con respuesta, datos del negocio coherentes, páginas útiles por ubicación y servicio, y enlaces locales reales. Esas mismas señales ayudan en Google Maps, en los resultados clásicos y en las respuestas de la IA, incluidos los AI Overviews de Google.",
+   "intro": "El SEO local en Lakeland es el trabajo de lograr que tu negocio aparezca cuando alguien cercano busca lo que ofreces, en Google, Google Maps y los asistentes de IA. Combina un Perfil de Empresa de Google completo, reseñas, datos coherentes, páginas para Lakeland y el condado de Polk y enlaces locales, medidos por llamadas, visitas y formularios.",
+   "body": [
+    [
+     "h2",
+     "Configura y optimiza tu Perfil de Empresa de Google"
+    ],
+    [
+     "p",
+     "Tu Perfil de Empresa de Google suele ser lo primero que ve un cliente de Lakeland, a veces antes que tu sitio web. Trátalo como una página que administras cada semana, no como una ficha que llenas una vez."
+    ],
+    [
+     "ul",
+     [
+      "<strong>Categorías</strong>: elige como principal la que mejor describe tu servicio central y suma categorías secundarias solo si son precisas.",
+      "<strong>Servicios y productos</strong>: agrega cada servicio con una descripción breve y simple que use las palabras que buscan tus clientes.",
+      "<strong>Zona de servicio</strong>: si visitas a tus clientes, define las zonas que de verdad cubres, como Lakeland, Winter Haven, Bartow, Auburndale o Plant City.",
+      "<strong>Horarios</strong>: mantén al día el horario habitual y el de feriados, para que nadie llegue y encuentre cerrado.",
+      "<strong>Fotos</strong>: sube fotos reales de tu equipo, tu trabajo, tu local y tus vehículos, y renuévalas con frecuencia.",
+      "<strong>Publicaciones</strong>: comparte novedades, ofertas y eventos para mostrar que el negocio está activo.",
+      "<strong>Preguntas y respuestas</strong>: agrega las preguntas más frecuentes de tus clientes y respóndelas con claridad, cuando tu perfil tenga esta opción."
+     ]
+    ],
+    [
+     "h2",
+     "Consigue reseñas de forma constante y responde todas"
+    ],
+    [
+     "p",
+     "Las reseñas influyen tanto en dónde apareces como en si la gente te elige. Pide la reseña a cada cliente satisfecho, en el momento adecuado, con un enlace directo al formulario. Un flujo constante en el tiempo se ve más natural y útil que muchas reseñas en una sola semana."
+    ],
+    [
+     "p",
+     "Responde todas las reseñas, positivas o negativas. Agradece por el nombre, menciona el servicio cuando tenga sentido y, si algo salió mal, responde con calma y ofrece resolverlo por otro medio. Nunca compres reseñas ni ofrezcas premios a cambio: va contra las políticas de Google y daña la confianza."
+    ],
+    [
+     "h2",
+     "Mantén tu NAP coherente y ordena tus citas"
+    ],
+    [
+     "p",
+     "NAP significa nombre, dirección y teléfono (por sus siglas en inglés). Los buscadores y las herramientas de IA comparan estos datos entre tu sitio, tu Perfil de Empresa de Google, Apple Maps, Bing, Yelp, Facebook, directorios del sector y listados locales. Cuando coinciden, es más fácil confiar en que la información es correcta."
+    ],
+    [
+     "ol",
+     [
+      "Define el formato exacto del nombre, la dirección y el teléfono de tu negocio.",
+      "Actualiza primero el pie de tu sitio, la página de contacto y tu Perfil de Empresa de Google.",
+      "Revisa los directorios principales y corrige direcciones o números antiguos y fichas duplicadas.",
+      "Suma tu negocio a directorios locales y del sector con los mismos datos."
+     ]
+    ],
+    [
+     "h2",
+     "Crea páginas por ubicación y servicio para Lakeland y el condado de Polk"
+    ],
+    [
+     "p",
+     "Tu sitio debe dejar claro qué haces y dónde. Una buena página de servicio para Lakeland explica el servicio, para quién es, el proceso, las preguntas habituales y cómo contactarte. Si atiendes varias ciudades, crea páginas solo donde puedas aportar información real y específica, como las zonas que cubres, proyectos locales o detalles de cómo trabajas allí."
+    ],
+    [
+     "p",
+     "Evita copiar el mismo texto y cambiar solo el nombre de la ciudad: las páginas vacías rara vez ayudan y pueden debilitar todo el sitio. Agrega datos estructurados de tu organización y tus servicios, y enlaza cada página desde el menú y desde contenido relacionado."
+    ],
+    [
+     "h2",
+     "Consigue enlaces y menciones locales"
+    ],
+    [
+     "ul",
+     [
+      "Únete a la cámara de comercio local y a asociaciones de empresas que publican a sus miembros en línea.",
+      "Patrocina eventos, escuelas o equipos deportivos locales que publican a sus patrocinadores.",
+      "Comparte información útil con medios locales, como consejos de temporada o proyectos comunitarios.",
+      "Haz alianzas con negocios locales complementarios y menciónense cuando sea útil para los clientes."
+     ]
+    ],
+    [
+     "p",
+     "Estos enlaces valen menos por su cantidad que por lo que dicen: que tu negocio es real, está activo y forma parte de la comunidad de Lakeland."
+    ],
+    [
+     "h2",
+     "Cómo esas mismas señales llegan a la IA y a los AI Overviews"
+    ],
+    [
+     "p",
+     "Cuando alguien le pide a un asistente de IA o a Google \"el mejor\" proveedor cerca de Lakeland, la respuesta se arma con el mismo tipo de señales: tu Perfil de Empresa de Google, las reseñas, los datos coherentes del negocio, páginas claras en tu sitio y menciones en otros sitios. Los AI Overviews de Google se apoyan en su índice, así que el SEO local también es la base para aparecer allí."
+    ],
+    [
+     "p",
+     "Para que sea más fácil citar tu negocio, responde en lenguaje simple las preguntas comunes en tus páginas, mantén iguales en todos lados datos como horarios, servicios y zonas de servicio, y pide reseñas que mencionen el servicio concreto. Explicamos el panorama del estado en <a href=\"{post:aeo-local-florida}\">AEO para negocios locales en Florida</a>."
+    ],
+    [
+     "h2",
+     "Mide lo que importa"
+    ],
+    [
+     "ul",
+     [
+      "<strong>Rendimiento del Perfil de Empresa de Google</strong>: búsquedas, vistas, llamadas, solicitudes de indicaciones y clics al sitio.",
+      "<strong>Search Console</strong>: consultas y páginas que traen impresiones y clics locales.",
+      "<strong>Llamadas y formularios</strong>: mídelos en GA4 y con seguimiento de llamadas, para saber qué canal trae cada lead.",
+      "<strong>Respuestas de la IA</strong>: revisa cada mes tus preguntas clave en los asistentes de IA y anota si aparece tu negocio."
+     ]
+    ],
+    [
+     "p",
+     "Si quieres que un equipo se encargue, mira nuestros <a href=\"{lakeland}\">servicios de SEO y marketing digital en Lakeland</a> y nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>. Podemos revisar tu perfil y tu sitio y decirte qué corregir primero."
+    ]
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿Cuánto tarda en funcionar el SEO local en Lakeland?",
+     "Las correcciones en tu Perfil de Empresa de Google, en los datos del negocio y en las páginas clave pueden notarse en semanas. Posicionar búsquedas locales competitivas suele tomar varios meses, según tus reseñas, tu sitio y tu competencia. Mide el avance cada mes con llamadas, indicaciones, clics al sitio y datos de Search Console."
+    ],
+    [
+     "¿Puedo posicionar en ciudades cercanas como Winter Haven o Bartow?",
+     "Sí, pero en Google Maps la cercanía pesa, así que aparecer en el mapa lejos de tu dirección es más difícil. Puedes definir una zona de servicio en tu Perfil de Empresa de Google y crear páginas útiles para las ciudades cercanas que de verdad atiendes, con información específica, reseñas y ejemplos de tu trabajo allí."
+    ],
+    [
+     "¿El SEO local ayuda a que mi negocio aparezca en la IA?",
+     "Sí. Los asistentes de IA y los AI Overviews de Google usan muchas de las mismas señales que la búsqueda local: tu Perfil de Empresa de Google, las reseñas, los datos coherentes del negocio, páginas claras y menciones en otros sitios. Fortalecer esas señales mejora tus posibilidades de ser mencionado cuando alguien busca un proveedor cerca de Lakeland."
+    ]
+   ],
+   "takeaways": [
+    "Administra tu Perfil de Empresa de Google cada semana: categorías, servicios, fotos, publicaciones y horarios.",
+    "Pide reseñas de forma constante y responde cada una.",
+    "Mantén nombre, dirección y teléfono iguales en todos lados y consigue enlaces locales reales.",
+    "Las mismas señales locales te ayudan en Google Maps, en los resultados y en las respuestas de la IA."
+   ]
+  }
+ },
+ {
+  "key": "aeo-local-florida",
+  "publish_gmt": "2026-12-15 13:00:00",
+  "cat": "local",
+  "image": "ai-assistants",
+  "en": {
+   "slug": "aeo-for-local-businesses-florida",
+   "title": "AEO in Florida: How Local Businesses Get Recommended by AI",
+   "seo": [
+    "AEO in Florida: How Local Businesses Get Recommended by AI",
+    "Local AEO for Florida businesses: how to get recommended by AI assistants in Tampa, Orlando or Lakeland with a strong Google profile, reviews and local answers.",
+    "aeo florida"
+   ],
+   "tldr": "People in Florida ask AI assistants for the best local provider, and the answers draw on your Google Business Profile, reviews, directories and website. Local AEO makes those signals complete and consistent, adds service and city pages with direct answers and serves both English and Spanish speakers.",
+   "intro": "AEO in Florida for local businesses (local Answer Engine Optimization) is the work of making a local company easy for AI assistants to recommend when people ask for the best provider in their city. It combines a complete Google Business Profile, reviews, consistent business data, service and city pages with direct answers and bilingual content.",
+   "body": [
+    [
+     "h2",
+     "How people ask AI assistants for local businesses"
+    ],
+    [
+     "p",
+     "Local searches are becoming conversations. Instead of typing \"plumber Tampa\", people ask \"who is the best plumber near me that works on weekends?\", \"which dentist in Orlando speaks Spanish?\" or \"recommend a roofing company in Lakeland with good reviews\". Assistants such as Gemini, ChatGPT and the AI features in Google Search answer with a few names and a reason for each."
+    ],
+    [
+     "p",
+     "Those answers are built from signals you can influence: your Google Business Profile, reviews, directory listings, local mentions and the content on your website. Local AEO works on each of them."
+    ],
+    [
+     "h2",
+     "Complete your Google Business Profile"
+    ],
+    [
+     "p",
+     "For local questions, your Google Business Profile is often the first source. Fill in every field that applies:"
+    ],
+    [
+     "ul",
+     [
+      "Primary and secondary categories that match what you actually do.",
+      "Services and products with short descriptions and, when possible, prices.",
+      "Service areas, hours (including holidays) and attributes such as \"Spanish spoken\" if it is true.",
+      "Recent photos of your team, location and work.",
+      "Questions and answers, plus regular updates about offers or news."
+     ]
+    ],
+    [
+     "h2",
+     "Reviews that describe what you do"
+    ],
+    [
+     "p",
+     "Reviews help assistants decide who to recommend and why. Ask every satisfied customer for a review, make it easy with a direct link and reply to all of them, positive or negative. Reviews that mention the service and the city (\"fixed our AC in Lakeland the same day\") give assistants useful context. Never buy or filter reviews: it breaks platform rules and erodes trust."
+    ],
+    [
+     "h2",
+     "Consistent NAP across directories"
+    ],
+    [
+     "p",
+     "NAP stands for name, address and phone. Keep them identical on your website, Google Business Profile, Apple Business Connect, Bing Places, Yelp, industry directories and social profiles. Small differences, such as an old suite number or a tracking phone, make it harder for AI tools to confirm that all those listings are the same business."
+    ],
+    [
+     "h2",
+     "Service and city pages with direct answers"
+    ],
+    [
+     "p",
+     "Create one page per core service and, where you truly serve them, one page per city or area. Start each page with a two or three sentence answer: what you offer, where and for whom. Then add details that assistants and customers look for: process, typical timelines, what affects the price, areas covered and real photos. Avoid copying the same text across city pages with only the name changed."
+    ],
+    [
+     "h2",
+     "Bilingual content for Florida customers"
+    ],
+    [
+     "p",
+     "Florida has a large Spanish-speaking population, and many people ask assistants in Spanish. If you serve customers in Spanish, publish your key pages in both languages with proper hreflang tags, write natural Spanish rather than machine translation and say clearly on your profile and site that your team speaks Spanish. It is also a trust signal for customers who want to be served in their language."
+    ],
+    [
+     "h2",
+     "Local FAQs that answer before the call"
+    ],
+    [
+     "p",
+     "Collect the questions your team hears every week and answer them on your site in 40 to 60 words each:"
+    ],
+    [
+     "ul",
+     [
+      "How much does it cost, and what changes the price?",
+      "How long does it take, and how soon can you start?",
+      "Which cities and neighborhoods do you serve?",
+      "Do you offer service in Spanish?",
+      "What do I need to prepare before the appointment?"
+     ]
+    ],
+    [
+     "h2",
+     "LocalBusiness schema and local mentions"
+    ],
+    [
+     "p",
+     "Add LocalBusiness structured data (or a more specific type, such as Dentist or Plumber) with your name, address, phone, hours, service area and profile links, matching your Google Business Profile exactly. Then build local mentions: chambers of commerce, local media, community sponsorships, business associations and partners who can link to you. These are the sources that help AI tools see you as a real part of your community."
+    ],
+    [
+     "p",
+     "We explain the local SEO base in <a href=\"{post:lakeland-local-seo}\">our guide to local SEO in Lakeland</a>. If you want a team to handle it, see our <a href=\"{seo-aeo}\">AEO and SEO services</a>, our <a href=\"{lakeland}\">SEO and digital marketing services in Lakeland</a> or our <a href=\"{florida}\">performance marketing agency in Florida</a>."
+    ]
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    [
+     "Is local AEO different from local SEO?",
+     "Local AEO builds on local SEO. Both rely on a complete Google Business Profile, reviews, consistent business data and good local pages. Local AEO adds a focus on direct answers to the questions people ask assistants, bilingual content and local mentions, so AI tools can describe and recommend your business with confidence."
+    ],
+    [
+     "Do I need separate pages for each Florida city?",
+     "Only for the cities you really serve and where you have something specific to say, such as local projects, travel times or area details. A few strong city pages work better than dozens of copies with the city name swapped. Link each one to the relevant services and keep your service areas consistent everywhere."
+    ],
+    [
+     "Should a Florida business publish content in Spanish?",
+     "If you serve Spanish-speaking customers, yes. Many people in Florida search and ask assistants in Spanish, and a well written Spanish page is easier to recommend for those questions than an English page alone. Translate your key service pages and FAQs, use hreflang tags and mention on your profile that you offer service in Spanish."
+    ]
+   ],
+   "takeaways": [
+    "People ask AI assistants for the best local provider, and your local signals shape the answer.",
+    "A complete Google Business Profile, genuine reviews and consistent NAP are the base.",
+    "Service and city pages with direct answers and local FAQs give assistants material to cite.",
+    "Bilingual content and local mentions help Florida businesses stand out."
+   ]
+  },
+  "es": {
+   "slug": "aeo-para-negocios-locales-en-florida",
+   "title": "AEO en Florida: cómo lograr que la IA recomiende tu negocio local",
+   "seo": [
+    "AEO en Florida: que la IA recomiende tu negocio local",
+    "AEO local para negocios en Florida: cómo lograr que la IA te recomiende en Tampa, Orlando o Lakeland con un buen perfil de Google, reseñas y respuestas locales.",
+    "AEO en Florida"
+   ],
+   "tldr": "En Florida la gente pregunta a los asistentes de IA por el mejor proveedor local, y las respuestas se apoyan en tu Perfil de Empresa de Google, tus reseñas, los directorios y tu sitio. El AEO local hace que esas señales estén completas y sean coherentes, suma páginas por servicio y ciudad con respuestas directas y atiende a clientes en inglés y en español.",
+   "intro": "El AEO en Florida para negocios locales (Answer Engine Optimization local) es el trabajo de lograr que los asistentes de IA recomienden a una empresa local cuando alguien pregunta por el mejor proveedor de su ciudad. Combina un Perfil de Empresa de Google completo, reseñas, datos coherentes, páginas por servicio y ciudad con respuestas directas y contenido bilingüe.",
+   "body": [
+    [
+     "h2",
+     "Cómo le piden las personas negocios locales a la IA"
+    ],
+    [
+     "p",
+     "Las búsquedas locales se están volviendo conversaciones. En lugar de escribir \"plomero Tampa\", la gente pregunta \"¿quién es el mejor plomero cerca de mí que trabaje los fines de semana?\", \"¿qué dentista en Orlando habla español?\" o \"recomiéndame una empresa de techos en Lakeland con buenas reseñas\". Asistentes como Gemini, ChatGPT y las funciones de IA de Google responden con pocos nombres y una razón para cada uno."
+    ],
+    [
+     "p",
+     "Esas respuestas se arman con señales en las que puedes influir: tu Perfil de Empresa de Google, las reseñas, los directorios, las menciones locales y el contenido de tu sitio. El AEO local trabaja cada una de ellas."
+    ],
+    [
+     "h2",
+     "Completa tu Perfil de Empresa de Google"
+    ],
+    [
+     "p",
+     "Para las preguntas locales, tu Perfil de Empresa de Google suele ser la primera fuente. Completa todos los campos que apliquen:"
+    ],
+    [
+     "ul",
+     [
+      "Categorías principal y secundarias que coincidan con lo que realmente haces.",
+      "Servicios y productos con descripciones cortas y, cuando se pueda, precios.",
+      "Zonas de servicio, horarios (incluidos feriados) y atributos como \"se habla español\" si es cierto.",
+      "Fotos recientes de tu equipo, tu local y tu trabajo.",
+      "Preguntas y respuestas, además de publicaciones regulares con ofertas o novedades."
+     ]
+    ],
+    [
+     "h2",
+     "Reseñas que describen lo que haces"
+    ],
+    [
+     "p",
+     "Las reseñas ayudan a los asistentes a decidir a quién recomendar y por qué. Pide una reseña a cada cliente satisfecho, facilítalo con un enlace directo y responde todas, positivas o negativas. Las reseñas que mencionan el servicio y la ciudad (\"arreglaron nuestro aire acondicionado en Lakeland el mismo día\") le dan contexto útil a la IA. Nunca compres ni filtres reseñas: rompe las reglas de las plataformas y daña la confianza."
+    ],
+    [
+     "h2",
+     "NAP coherente en todos los directorios"
+    ],
+    [
+     "p",
+     "NAP significa nombre, dirección y teléfono (name, address, phone). Mantenlos idénticos en tu sitio, tu Perfil de Empresa de Google, Apple Business Connect, Bing Places, Yelp, directorios del sector y redes sociales. Las pequeñas diferencias, como un número de oficina antiguo o un teléfono de seguimiento, hacen que a la IA le cueste confirmar que todos esos perfiles son el mismo negocio."
+    ],
+    [
+     "h2",
+     "Páginas por servicio y ciudad con respuestas directas"
+    ],
+    [
+     "p",
+     "Crea una página por cada servicio principal y, donde realmente trabajes, una página por ciudad o zona. Empieza cada página con una respuesta de dos o tres oraciones: qué ofreces, dónde y para quién. Luego suma los detalles que buscan los asistentes y los clientes: proceso, plazos habituales, qué influye en el precio, zonas que cubres y fotos reales. Evita copiar el mismo texto en todas las páginas de ciudad cambiando solo el nombre."
+    ],
+    [
+     "h2",
+     "Contenido bilingüe para clientes en Florida"
+    ],
+    [
+     "p",
+     "Florida tiene una gran población hispanohablante, y mucha gente le pregunta a los asistentes en español. Si atiendes clientes en español, publica tus páginas clave en ambos idiomas con etiquetas hreflang, escribe un español natural en lugar de una traducción automática y deja claro en tu perfil y en tu sitio que tu equipo habla español. También es una señal de confianza para quienes prefieren ser atendidos en su idioma."
+    ],
+    [
+     "h2",
+     "Preguntas frecuentes locales que responden antes de la llamada"
+    ],
+    [
+     "p",
+     "Junta las preguntas que tu equipo escucha cada semana y respóndelas en tu sitio en 40 a 60 palabras cada una:"
+    ],
+    [
+     "ul",
+     [
+      "¿Cuánto cuesta y qué hace variar el precio?",
+      "¿Cuánto tarda y cuándo pueden empezar?",
+      "¿En qué ciudades y barrios trabajan?",
+      "¿Atienden en español?",
+      "¿Qué debo preparar antes de la cita?"
+     ]
+    ],
+    [
+     "h2",
+     "Schema LocalBusiness y menciones locales"
+    ],
+    [
+     "p",
+     "Suma datos estructurados LocalBusiness (o un tipo más específico, como Dentist o Plumber) con tu nombre, dirección, teléfono, horarios, zona de servicio y enlaces a tus perfiles, idénticos a tu Perfil de Empresa de Google. Después construye menciones locales: cámaras de comercio, medios locales, patrocinios comunitarios, asociaciones empresariales y socios que puedan enlazarte. Son las fuentes que ayudan a la IA a verte como parte real de tu comunidad."
+    ],
+    [
+     "p",
+     "Explicamos la base del SEO local en <a href=\"{post:lakeland-local-seo}\">nuestra guía de SEO local en Lakeland</a>. Si quieres que un equipo lo haga, mira nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a>, nuestros <a href=\"{lakeland}\">servicios de SEO y marketing digital en Lakeland</a> o nuestra <a href=\"{florida}\">agencia de performance marketing en Florida</a>."
+    ]
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿El AEO local es distinto del SEO local?",
+     "El AEO local se apoya en el SEO local. Ambos dependen de un Perfil de Empresa de Google completo, reseñas, datos coherentes y buenas páginas locales. El AEO local suma el foco en respuestas directas a las preguntas que la gente hace a los asistentes, el contenido bilingüe y las menciones locales, para que la IA te recomiende con confianza."
+    ],
+    [
+     "¿Necesito una página para cada ciudad de Florida?",
+     "Solo para las ciudades donde realmente trabajas y donde tienes algo específico que decir, como proyectos locales, tiempos de traslado o detalles de la zona. Unas pocas páginas sólidas funcionan mejor que decenas de copias con el nombre de la ciudad cambiado. Enlaza cada una a sus servicios y mantén tus zonas de servicio coherentes."
+    ],
+    [
+     "¿Un negocio en Florida debería publicar contenido en español?",
+     "Si atiendes clientes hispanohablantes, sí. Mucha gente en Florida busca y pregunta a los asistentes en español, y una buena página en español es más fácil de recomendar para esas preguntas que una página solo en inglés. Traduce tus páginas de servicios y preguntas frecuentes, usa hreflang e indica en tu perfil que atiendes en español."
+    ]
+   ],
+   "takeaways": [
+    "La gente pide a la IA el mejor proveedor local, y tus señales locales definen la respuesta.",
+    "Un Perfil de Empresa de Google completo, reseñas reales y un NAP coherente son la base.",
+    "Las páginas por servicio y ciudad con respuestas directas y preguntas locales le dan material a la IA.",
+    "El contenido bilingüe y las menciones locales ayudan a destacar en Florida."
+   ]
+  }
+ },
+ {
+  "key": "plan-2027",
+  "publish_gmt": "2026-12-22 13:00:00",
+  "cat": "performance",
+  "image": "marketing-automation",
+  "en": {
+   "slug": "marketing-plan-2027",
+   "title": "Marketing Plan 2027: How to Split Your Budget Across SEO, AEO and Paid Media",
+   "seo": [
+    "Marketing Plan 2027: Split Budget Across SEO, AEO and Ads",
+    "Build your marketing plan 2027: start from revenue goals and unit economics, then split budget across paid search, paid social, SEO and AEO with a test reserve.",
+    "marketing plan 2027"
+   ],
+   "tldr": "A good marketing plan for 2027 starts from revenue goals and unit economics, not from last year's budget. Audit what worked in 2026, split spend by role (capturing demand, creating demand and compounding channels such as SEO and AEO), keep a reserve for tests, fix measurement first and review every quarter.",
+   "intro": "A marketing plan 2027 is the document that turns next year's revenue goals into channels, budgets and metrics. It defines how much you can pay to acquire a customer, which channels capture and create demand, how much goes to compounding channels such as SEO and AEO, what you will test and how you will measure results.",
+   "body": [
+    [
+     "h2",
+     "Start from revenue goals and unit economics"
+    ],
+    [
+     "p",
+     "Before talking about channels, answer three questions with your own numbers:"
+    ],
+    [
+     "ul",
+     [
+      "<strong>CAC (customer acquisition cost)</strong>: how much you spend in marketing and sales to win one customer.",
+      "<strong>LTV (lifetime value)</strong>: how much gross margin a customer brings over the whole relationship.",
+      "<strong>Payback</strong>: how many months it takes to recover the CAC from that margin."
+     ]
+    ],
+    [
+     "p",
+     "Work backwards from the revenue goal: how many new customers you need, at what CAC you can afford them and how long you can wait for payback given your cash. That gives you a realistic budget ceiling and a target cost per acquisition for each channel. If you do not have reliable numbers yet, making them reliable is the first project of 2027."
+    ],
+    [
+     "h2",
+     "Audit your 2026 channels"
+    ],
+    [
+     "p",
+     "Look at the last twelve months channel by channel. For each one, list spend, conversions, cost per conversion, revenue or pipeline influenced and what you learned. Separate what worked, what did not and what you could not measure. Be honest about the last group: a channel you cannot measure is not necessarily a bad channel, but it is one you should not scale blindly."
+    ],
+    [
+     "h2",
+     "A framework to split budget by stage"
+    ],
+    [
+     "p",
+     "Instead of splitting by platform, split by the role each channel plays:"
+    ],
+    [
+     "h3",
+     "Demand capture: paid search"
+    ],
+    [
+     "p",
+     "People already looking for what you sell. Paid search on Google and Bing, brand campaigns and Shopping for e-commerce. It is usually the most measurable spend and the first to fund, up to the point where extra budget only buys more expensive clicks."
+    ],
+    [
+     "h3",
+     "Demand creation: paid social and content"
+    ],
+    [
+     "p",
+     "People who fit your customer profile but are not searching yet. Paid social on Meta, LinkedIn or TikTok, video, newsletters and content that educates. It fills the pipeline for the months ahead and needs patience and creative testing."
+    ],
+    [
+     "h3",
+     "Compounding channels: SEO and AEO"
+    ],
+    [
+     "p",
+     "Content, technical work and brand signals that keep bringing traffic, leads and mentions in AI answers without paying per click. Results take months, but each piece of work adds to the next. Protect this line in the budget even when paid channels look more urgent. Our <a href=\"{seo-aeo}\">AEO and SEO services</a> cover this layer."
+    ],
+    [
+     "h2",
+     "Illustrative starting points (not benchmarks)"
+    ],
+    [
+     "p",
+     "The splits below are scenarios to start a conversation, not data or industry averages. The right mix depends on your margins, sales cycle, competition, market and how much demand already exists for your product."
+    ],
+    [
+     "ul",
+     [
+      "<strong>A local service business with existing search demand</strong> might start heavier on paid search and local SEO, with a smaller share for paid social and a test reserve.",
+      "<strong>A new product in a category people do not search for yet</strong> might start heavier on demand creation, with paid search limited to brand and high intent terms.",
+      "<strong>An established brand with organic traffic</strong> might move more budget into SEO, AEO and content, and use paid media to fill specific gaps."
+     ]
+    ],
+    [
+     "h2",
+     "Keep a test budget reserve"
+    ],
+    [
+     "p",
+     "Set aside a fixed part of the budget for experiments: a new platform, a new audience, a new offer or a new format. Define each test before launching it: hypothesis, budget, duration and the metric that decides whether it scales. Tests that win move into the main plan next quarter; tests that lose are stopped without drama."
+    ],
+    [
+     "h2",
+     "Build the measurement plan before spending"
+    ],
+    [
+     "ul",
+     [
+      "Review GA4 events and key events so they reflect real business actions, not only page views.",
+      "Connect conversions to Google Ads and Meta, with enhanced conversions or the Conversions API where appropriate.",
+      "Import offline conversions (qualified leads, closed deals) from your CRM, so platforms optimize for revenue and not only for form fills.",
+      "Create a channel group for AI referral traffic and track mentions in AI answers, as we explain in <a href=\"{post:aeo-measure}\">how to measure AEO</a>.",
+      "Agree on one dashboard and one source of truth for the numbers."
+     ]
+    ],
+    [
+     "h2",
+     "Review every quarter"
+    ],
+    [
+     "p",
+     "A yearly plan is a starting point. Every quarter, compare each channel against its target CAC and payback, move budget from what underperforms to what works, graduate or stop tests and update the forecast. Leave room for changes in the market, in AI search and in your own offer."
+    ],
+    [
+     "p",
+     "If you want help building your 2027 plan, our <a href=\"{service:consulting}\">marketing strategy consulting</a> starts from your numbers, and our <a href=\"{service:performance-marketing}\">performance marketing services</a> can run the paid media side."
+    ]
+   ],
+   "faq_title": "Frequently asked questions",
+   "faq": [
+    [
+     "How much should I spend on marketing in 2027?",
+     "There is no universal number. Start from your revenue goal, the number of new customers you need and the acquisition cost you can afford given your margins and payback period. That gives you a budget range grounded in your business. Then adjust it by channel as results come in during quarterly reviews."
+    ],
+    [
+     "Should I move budget from SEO to AEO?",
+     "It is usually not a choice between them. AEO builds on SEO: technical health, useful content and a trustworthy brand support both. What changes is the format and the measurement. Most plans keep one budget line for SEO and AEO together, with part of the work focused on answering questions for AI assistants."
+    ],
+    [
+     "How big should the test budget be?",
+     "It depends on the total budget and your appetite for risk. The key is that it is large enough for each test to reach a clear result in a reasonable time and small enough that a failed test does not hurt the core plan. Define the hypothesis, duration and deciding metric before starting."
+    ]
+   ],
+   "takeaways": [
+    "Build the 2027 plan from revenue goals, CAC, LTV and payback, not from last year's budget.",
+    "Split budget by role: demand capture, demand creation and compounding channels such as SEO and AEO.",
+    "Keep a test reserve and fix measurement, including offline conversions, before scaling.",
+    "Treat example splits as starting points and review the mix every quarter."
+   ]
+  },
+  "es": {
+   "slug": "plan-de-marketing-2027",
+   "title": "Plan de marketing 2027: cómo repartir el presupuesto entre SEO, AEO y medios pagados",
+   "seo": [
+    "Plan de marketing 2027: presupuesto para SEO, AEO y ads",
+    "Arma tu plan de marketing 2027: parte de tus metas de ingresos y tu economía unitaria y reparte el presupuesto entre búsqueda paga, redes, SEO y AEO.",
+    "plan de marketing 2027"
+   ],
+   "tldr": "Un buen plan de marketing para 2027 parte de las metas de ingresos y de la economía unitaria, no del presupuesto del año anterior. Revisa qué funcionó en 2026, reparte la inversión según el rol de cada canal (captar demanda, crear demanda y canales que se acumulan, como SEO y AEO), guarda una reserva para pruebas, ordena la medición primero y revisa cada trimestre.",
+   "intro": "Un plan de marketing 2027 es el documento que convierte las metas de ingresos del próximo año en canales, presupuestos y métricas. Define cuánto puedes pagar por conseguir un cliente, qué canales captan y crean demanda, cuánto va a canales que se acumulan, como SEO y AEO, qué vas a probar y cómo medirás los resultados.",
+   "body": [
+    [
+     "h2",
+     "Parte de las metas de ingresos y la economía unitaria"
+    ],
+    [
+     "p",
+     "Antes de hablar de canales, responde tres preguntas con tus propios números:"
+    ],
+    [
+     "ul",
+     [
+      "<strong>CAC (costo de adquisición de clientes)</strong>: cuánto gastas en marketing y ventas para ganar un cliente.",
+      "<strong>LTV (valor de vida del cliente)</strong>: cuánto margen bruto deja un cliente durante toda la relación.",
+      "<strong>Payback (periodo de recuperación)</strong>: cuántos meses tardas en recuperar el CAC con ese margen."
+     ]
+    ],
+    [
+     "p",
+     "Trabaja hacia atrás desde la meta de ingresos: cuántos clientes necesitas sumar, a qué CAC puedes pagarlos y cuánto tiempo puedes esperar la recuperación según tu caja. Así obtienes un tope de presupuesto realista y un costo por adquisición objetivo para cada canal. Si todavía no tienes números confiables, lograrlos es el primer proyecto de 2027."
+    ],
+    [
+     "h2",
+     "Revisa tus canales de 2026"
+    ],
+    [
+     "p",
+     "Mira los últimos doce meses canal por canal. Para cada uno, anota inversión, conversiones, costo por conversión, ingresos o pipeline influido y lo que aprendiste. Separa lo que funcionó, lo que no y lo que no pudiste medir. Sé honesto con ese último grupo: un canal que no puedes medir no es necesariamente malo, pero no conviene escalarlo a ciegas."
+    ],
+    [
+     "h2",
+     "Un marco para repartir el presupuesto por etapa"
+    ],
+    [
+     "p",
+     "En lugar de repartir por plataforma, reparte según el rol de cada canal:"
+    ],
+    [
+     "h3",
+     "Captar demanda: búsqueda paga"
+    ],
+    [
+     "p",
+     "Personas que ya buscan lo que vendes. Búsqueda paga en Google y Bing, campañas de marca y Shopping para e-commerce. Suele ser la inversión más medible y la primera en financiarse, hasta el punto en que más presupuesto solo compra clics más caros."
+    ],
+    [
+     "h3",
+     "Crear demanda: redes pagas y contenido"
+    ],
+    [
+     "p",
+     "Personas que encajan con tu perfil de cliente pero todavía no buscan. Publicidad en Meta, LinkedIn o TikTok, video, newsletters y contenido que educa. Llena el pipeline de los próximos meses y necesita paciencia y pruebas creativas."
+    ],
+    [
+     "h3",
+     "Canales que se acumulan: SEO y AEO"
+    ],
+    [
+     "p",
+     "Contenido, trabajo técnico y señales de marca que siguen trayendo tráfico, contactos y menciones en las respuestas de la IA sin pagar por clic. Los resultados toman meses, pero cada trabajo suma al siguiente. Protege esta línea del presupuesto aunque los canales pagados parezcan más urgentes. Nuestros <a href=\"{seo-aeo}\">servicios de AEO y SEO</a> cubren esta capa."
+    ],
+    [
+     "h2",
+     "Puntos de partida de ejemplo (no son referencias del mercado)"
+    ],
+    [
+     "p",
+     "Los repartos de abajo son escenarios para empezar la conversación, no datos ni promedios del sector. La mezcla correcta depende de tus márgenes, tu ciclo de venta, la competencia, tu mercado y cuánta demanda existe ya para tu producto."
+    ],
+    [
+     "ul",
+     [
+      "<strong>Un negocio de servicios locales con demanda de búsqueda</strong> podría empezar con más peso en búsqueda paga y SEO local, una parte menor para redes pagas y una reserva de pruebas.",
+      "<strong>Un producto nuevo en una categoría que la gente todavía no busca</strong> podría empezar con más peso en crear demanda, con búsqueda paga limitada a marca y términos de alta intención.",
+      "<strong>Una marca consolidada con tráfico orgánico</strong> podría mover más presupuesto a SEO, AEO y contenido, y usar medios pagados para cubrir huecos concretos."
+     ]
+    ],
+    [
+     "h2",
+     "Guarda una reserva para pruebas"
+    ],
+    [
+     "p",
+     "Separa una parte fija del presupuesto para experimentos: una plataforma nueva, una audiencia nueva, una oferta nueva o un formato nuevo. Define cada prueba antes de lanzarla: hipótesis, presupuesto, duración y la métrica que decide si escala. Las pruebas que ganan pasan al plan principal el trimestre siguiente; las que pierden se detienen sin drama."
+    ],
+    [
+     "h2",
+     "Arma el plan de medición antes de invertir"
+    ],
+    [
+     "ul",
+     [
+      "Revisa los eventos y eventos clave de GA4 para que reflejen acciones reales del negocio, no solo visitas.",
+      "Conecta las conversiones con Google Ads y Meta, con conversiones mejoradas o la API de Conversiones cuando corresponda.",
+      "Importa conversiones offline (contactos calificados, ventas cerradas) desde tu CRM, para que las plataformas optimicen por ingresos y no solo por formularios.",
+      "Crea un grupo de canales para el tráfico que llega desde la IA y mide las menciones en sus respuestas, como explicamos en <a href=\"{post:aeo-measure}\">cómo medir el AEO</a>.",
+      "Acuerden un solo tablero y una sola fuente de verdad para los números."
+     ]
+    ],
+    [
+     "h2",
+     "Revisa cada trimestre"
+    ],
+    [
+     "p",
+     "Un plan anual es un punto de partida. Cada trimestre, compara cada canal con su CAC y periodo de recuperación objetivo, mueve presupuesto de lo que rinde menos a lo que funciona, gradúa o detén las pruebas y actualiza la proyección. Deja margen para los cambios del mercado, de la búsqueda con IA y de tu propia oferta."
+    ],
+    [
+     "p",
+     "Si quieres ayuda para armar tu plan 2027, nuestra <a href=\"{service:consulting}\">consultoría de estrategia de marketing</a> parte de tus números, y nuestros <a href=\"{service:performance-marketing}\">servicios de performance marketing</a> pueden gestionar los medios pagados."
+    ]
+   ],
+   "faq_title": "Preguntas frecuentes",
+   "faq": [
+    [
+     "¿Cuánto debería invertir en marketing en 2027?",
+     "No hay un número universal. Parte de tu meta de ingresos, de la cantidad de clientes que necesitas sumar y del costo de adquisición que puedes pagar según tus márgenes y tu periodo de recuperación. Eso te da un rango de presupuesto basado en tu negocio. Después ajústalo por canal según los resultados de cada revisión trimestral."
+    ],
+    [
+     "¿Debería pasar presupuesto del SEO al AEO?",
+     "No hace falta elegir. El AEO se apoya en el SEO: la salud técnica, el contenido útil y una marca confiable sostienen a ambos. Lo que cambia es el formato y la medición. La mayoría de los planes mantiene una sola línea para SEO y AEO, con parte del trabajo enfocado en responder preguntas para los asistentes de IA."
+    ],
+    [
+     "¿Qué tan grande debe ser el presupuesto de pruebas?",
+     "Depende del presupuesto total y de cuánto riesgo aceptas. Lo importante es que alcance para que cada prueba llegue a un resultado claro en un tiempo razonable, y que sea lo bastante chico para que una prueba fallida no afecte el plan principal. Define la hipótesis, la duración y la métrica de decisión antes de empezar."
+    ]
+   ],
+   "takeaways": [
+    "Arma el plan 2027 desde las metas de ingresos, el CAC, el LTV y el payback, no desde el presupuesto anterior.",
+    "Reparte el presupuesto por rol: captar demanda, crear demanda y canales que se acumulan, como SEO y AEO.",
+    "Guarda una reserva para pruebas y ordena la medición, incluidas las conversiones offline, antes de escalar.",
+    "Toma los repartos de ejemplo como puntos de partida y revisa la mezcla cada trimestre."
+   ]
+  }
  }
 ]
