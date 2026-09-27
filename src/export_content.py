@@ -27,6 +27,17 @@ def headings(s):
         'faq': {'es': f'Preguntas frecuentes sobre {es}', 'en': f'{nm(s, 1, True)} FAQ'},
     }
 
+def cmp(c):
+    out = {'title': pair(c[0]), 'col1': pair(c[1]), 'col2': pair(c[2]), 'rows': []}
+    if len(c) > 4:
+        out['col3'] = pair(c[4])
+    for r in c[3]:
+        row = {'label': {'es': r[0], 'en': r[1]}, 'c1': {'es': r[2], 'en': r[3]}, 'c2': {'es': r[4], 'en': r[5]}}
+        if len(r) > 6:
+            row['c3'] = {'es': r[6], 'en': r[7]}
+        out['rows'].append(row)
+    return out
+
 services = []
 for s in S:
     x = X[s['slug']]
@@ -37,8 +48,7 @@ for s in S:
         'inc': [{'title': {'es': a, 'en': b}, 'text': {'es': c, 'en': d}} for a, b, c, d in s['inc']],
         'who': [pair(w) for w in s['who']],
         'faq': [{'q': {'es': a, 'en': b}, 'a': {'es': c, 'en': d}} for a, b, c, d in x['faq']],
-        'cmp': {'title': pair(x['cmp'][0]), 'col1': pair(x['cmp'][1]), 'col2': pair(x['cmp'][2]),
-                'rows': [{'label': {'es': a, 'en': b}, 'c1': {'es': c, 'en': d}, 'c2': {'es': e, 'en': f}} for a, b, c, d, e, f in x['cmp'][3]]},
+        'cmp': cmp(x['cmp']),
         'defs': [{'term': {'es': a, 'en': b}, 'def': {'es': c, 'en': d}} for a, b, c, d in x['defs']],
         'ref': ({'label': pair(x['ref'][0]), 'url': x['ref'][1]} if x['ref'] else None),
         'headings': headings(s), 'testi': x['testi'], 'team': list(x['team']), 'rel': list(s['rel']),

@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.2.5
+Stable tag: 1.2.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,12 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.2.7 =
+* Blog: 4 artículos nuevos de AEO en EN y ES, programados cada martes (29-sep, 6-oct, 13-oct y 20-oct de 2026). Los enlaces entre ellos se activan al publicarse cada uno.
+
+= 1.2.6 =
+* Tabla comparativa con tercera columna opcional; SEO + AEO ahora compara SEO, AEO y GEO.
 
 = 1.2.5 =
 * SEO + AEO: GEO en conceptos clave y pregunta "¿Qué es el GEO y en qué se diferencia del AEO?" en EN y ES.

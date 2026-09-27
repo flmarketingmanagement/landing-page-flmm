@@ -13,6 +13,7 @@ defined( 'ABSPATH' ) || exit;
 require_once __DIR__ . '/data.php';
 require_once __DIR__ . '/local.php';
 require_once __DIR__ . '/complianz.php';
+require_once __DIR__ . '/newposts.php';
 
 /**
  * Pasos disponibles: clave => array( título, función ).
@@ -26,6 +27,7 @@ function flmm_mig_steps() {
 		'company'   => array( '5. Páginas de empresa (Florida, Lakeland, About, podcasts, privacidad, contacto)', 'flmm_mig_step_company' ),
 		'home'      => array( '6. Home y blog (portada, página de entradas)', 'flmm_mig_step_home' ),
 		'posts'     => array( '7. Blog: idiomas, pares EN/ES, categorías y correcciones', 'flmm_mig_step_posts' ),
+		'newposts'  => array( '7b. Artículos nuevos del blog (EN y ES, programados)', 'flmm_mig_step_newposts' ),
 		'author'    => array( '8. Autor: biografía EN y ES', 'flmm_mig_step_author' ),
 		'cookies'   => array( '8b. Banner de cookies (Complianz): textos EN/ES y política de cookies en español', 'flmm_mig_step_cookies' ),
 		'menus'     => array( '9. Menús en ambos idiomas', 'flmm_mig_step_menus' ),
