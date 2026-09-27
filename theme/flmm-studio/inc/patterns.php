@@ -477,10 +477,12 @@ function flmm_pattern_service_comparison( $lang, $s = null ) {
 	$c    = $s['cmp'];
 	$rows = '';
 	foreach ( $c['rows'] as $row ) {
-		$rows .= '<tr><td>' . flmm_tx( $row['label'], $lang ) . '</td><td>' . flmm_tx( $row['c1'], $lang ) . '</td><td>' . flmm_tx( $row['c2'], $lang ) . '</td></tr>';
+		$rows .= '<tr><td>' . flmm_tx( $row['label'], $lang ) . '</td><td>' . flmm_tx( $row['c1'], $lang ) . '</td><td>' . flmm_tx( $row['c2'], $lang ) . '</td>'
+			. ( isset( $row['c3'] ) ? '<td>' . flmm_tx( $row['c3'], $lang ) . '</td>' : '' ) . '</tr>';
 	}
+	$col3 = isset( $c['col3'] ) ? '<th>' . flmm_tx( $c['col3'], $lang ) . '</th>' : '';
 	$table = flmm_bo( 'table', array( 'hasFixedLayout' => false, 'className' => 'is-style-comparison flmm-rv' ) )
-		. '<figure class="wp-block-table is-style-comparison flmm-rv"><table><thead><tr><th></th><th>' . flmm_tx( $c['col1'], $lang ) . '</th><th>' . flmm_tx( $c['col2'], $lang ) . '</th></tr></thead><tbody>' . $rows . '</tbody></table></figure><!-- /wp:table -->';
+		. '<figure class="wp-block-table is-style-comparison flmm-rv"><table><thead><tr><th></th><th>' . flmm_tx( $c['col1'], $lang ) . '</th><th>' . flmm_tx( $c['col2'], $lang ) . '</th>' . $col3 . '</tr></thead><tbody>' . $rows . '</tbody></table></figure><!-- /wp:table -->';
 	return flmm_section( flmm_sec_head( 'es' === $lang ? 'Comparativa' : 'Comparison', flmm_tx( $c['title'], $lang ) ) . $table, 'is-surface' );
 }
 

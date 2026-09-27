@@ -707,8 +707,8 @@
    ],
    "cmp": {
     "title": {
-     "es": "SEO vs. AEO",
-     "en": "SEO vs. AEO"
+     "es": "SEO vs. AEO vs. GEO",
+     "en": "SEO vs. AEO vs. GEO"
     },
     "col1": {
      "es": "SEO",
@@ -731,6 +731,10 @@
       "c2": {
        "es": "Respuestas de ChatGPT, Gemini, Perplexity",
        "en": "Answers from ChatGPT, Gemini, Perplexity"
+      },
+      "c3": {
+       "es": "Recomendaciones de la IA sobre tu categoría",
+       "en": "AI recommendations in your category"
       }
      },
      {
@@ -745,6 +749,10 @@
       "c2": {
        "es": "Ser citado y recomendado por la IA",
        "en": "Being cited and recommended by AI"
+      },
+      "c3": {
+       "es": "Que la IA mencione y recomiende tu marca",
+       "en": "AI mentioning and recommending your brand"
       }
      },
      {
@@ -759,6 +767,10 @@
       "c2": {
        "es": "Respuestas directas, entidades, datos",
        "en": "Direct answers, entities, facts"
+      },
+      "c3": {
+       "es": "Menciones externas, reseñas, autoridad temática",
+       "en": "External mentions, reviews, topical authority"
       }
      },
      {
@@ -773,9 +785,17 @@
       "c2": {
        "es": "Menciones y citas en respuestas de IA",
        "en": "Mentions and citations in AI answers"
+      },
+      "c3": {
+       "es": "Presencia de tu marca frente a la competencia en la IA",
+       "en": "Brand share of voice in AI answers"
       }
      }
-    ]
+    ],
+    "col3": {
+     "es": "GEO",
+     "en": "GEO"
+    }
    },
    "defs": [
     {
