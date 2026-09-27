@@ -6,20 +6,20 @@
   "en": "Marketing strategy"
  },
  "title": {
-  "es": "Consultoría y estrategia de marketing digital | FL Marketing",
-  "en": "Digital Marketing Strategy & Consulting | FL Marketing"
+  "es": "Estrategia de marketing digital y consultoría | FL Marketing",
+  "en": "Digital Marketing Strategy &amp; Consulting | FL Marketing"
  },
  "desc": {
-  "es": "Consultoría de marketing digital para definir objetivos, canales y presupuesto con metas medibles. Estrategia senior para marcas en EE. UU. y Latinoamérica.",
-  "en": "Digital marketing consulting to define goals, channels and budget with measurable targets. Senior strategy for growing brands in the US and Latin America."
+  "es": "Estrategia de marketing digital y consultoría senior para definir objetivos, canales y presupuesto con metas medibles. Conversemos sobre tu próximo paso.",
+  "en": "Digital marketing strategy and senior consulting to set goals, channels and budget with measurable targets for US and LATAM brands. Plan your next step."
  },
  "h1": {
-  "es": "Estrategia y consultoría de marketing digital",
+  "es": "Estrategia de marketing digital y consultoría",
   "en": "Digital marketing strategy &amp; consulting"
  },
  "lead": {
-  "es": "La consultoría de marketing digital define qué hacer, en qué canales y con qué presupuesto para que tu marca crezca de forma medible. Analizamos tu situación actual, detectamos oportunidades y construimos un plan con metas claras por etapa, que tu equipo o el nuestro puede ejecutar.",
-  "en": "Digital marketing consulting defines what to do, on which channels and with what budget so your brand grows in a measurable way. We analyze your current situation, find opportunities and build a plan with clear targets for each stage, ready for your team or ours to execute."
+  "es": "Una estrategia de marketing digital define qué hacer, en qué canales y con qué presupuesto para que tu marca crezca de forma medible. En nuestra consultoría analizamos tu situación actual, detectamos oportunidades y construimos un plan con metas claras por etapa, listo para que lo ejecute tu equipo o el nuestro.",
+  "en": "A digital marketing strategy defines what to do, on which channels and with what budget so your brand grows in a measurable way. In our consulting work, we analyze your current situation, find opportunities and build a plan with clear targets for each stage, ready for your team or ours to execute."
  },
  "inc": [
   {
@@ -223,11 +223,17 @@
    }
   }
  ],
- "ref": null,
+ "ref": {
+  "label": {
+   "es": "Think with Google",
+   "en": "Think with Google"
+  },
+  "url": "https://www.thinkwithgoogle.com/"
+ },
  "headings": {
   "inc": {
-   "es": "¿Qué incluye nuestro servicio de estrategia de marketing?",
-   "en": "What’s included in our marketing strategy service?"
+   "es": "¿Qué incluye nuestro servicio de estrategia de marketing digital?",
+   "en": "What does our digital marketing strategy service include?"
   },
   "defs": {
    "es": "Conceptos clave de estrategia de marketing",
@@ -246,8 +252,8 @@
    "en": "Why choose us for marketing strategy?"
   },
   "faq": {
-   "es": "Preguntas frecuentes sobre estrategia de marketing",
-   "en": "Marketing strategy FAQ"
+   "es": "Estrategia de marketing digital: preguntas frecuentes",
+   "en": "Digital marketing strategy: frequently asked questions"
   }
  },
  "testi": "carol",
@@ -261,6 +267,56 @@
   "analytics",
   "growth-hacking"
  ],
+ "kw": {
+  "es": "estrategia de marketing digital",
+  "en": "digital marketing strategy"
+ },
+ "guide": {
+  "label": {
+   "es": "Cómo evaluarla",
+   "en": "How to evaluate it"
+  },
+  "h2": {
+   "es": "¿Cómo saber si una estrategia de marketing digital funciona?",
+   "en": "How do you know if a digital marketing strategy is working?"
+  },
+  "intro": {
+   "es": "Un plan solo tiene valor si cambia decisiones. Antes de aprobar cualquier documento, revisa que responda tres cosas: qué problema del negocio resuelve, cómo se medirá el avance y quién hace qué cada semana. Estas son las señales que buscamos al revisar una estrategia de marketing digital, ya sea que la hayamos escrito nosotros o que venga de otro equipo, y que puedes usar tú también.",
+   "en": "A plan only has value if it changes decisions. Before you approve any document, check that it answers three things: which business problem it solves, how progress will be measured and who does what each week. These are the signs we look for when we review a digital marketing strategy, whether we wrote it or inherited it from another team, and you can use them too."
+  },
+  "items": [
+   {
+    "h": {
+     "es": "Parte del negocio, no del canal",
+     "en": "Start from the business, not the channel"
+    },
+    "p": {
+     "es": "Una estrategia útil empieza por los márgenes, el ciclo de venta, el ticket promedio y la capacidad real de atender nuevos clientes. Recién después elige canales. Si un plan arranca con \"necesitamos TikTok\" o \"hay que publicar más\" sin explicar cómo eso se conecta con los ingresos, es una lista de tácticas. Pide el razonamiento detrás de cada canal y el rol que cumple en cada etapa, desde el descubrimiento hasta la recompra.",
+     "en": "A useful strategy begins with margins, sales cycle, average order value and your real capacity to serve new customers. Only then does it choose channels. If a plan opens with \"we need TikTok\" or \"we need more posts\" without explaining how that connects to revenue, it is a list of tactics. Ask for the reasoning behind each channel and the role it plays at each stage, from discovery to repeat purchase."
+    }
+   },
+   {
+    "h": {
+     "es": "Errores frecuentes",
+     "en": "Common mistakes"
+    },
+    "p": {
+     "es": "Los errores más comunes son repartir un presupuesto pequeño entre demasiados canales, fijar metas sin una línea base y medir el éxito con alcance o seguidores cuando el negocio necesita ventas. Otra falla habitual es la medición: si las conversiones no se registran bien, cada decisión posterior se apoya en suposiciones. Un buen plan corrige primero los datos, se concentra en menos canales y deja por escrito qué se va a dejar de hacer.",
+     "en": "The most frequent mistakes are spreading a small budget across too many channels, setting goals without a baseline and measuring success with reach or followers when the business needs sales. Another common gap is tracking: if conversions are not recorded correctly, every later decision rests on guesses. A good plan fixes measurement first, focuses on fewer channels and states in writing what will be stopped, not only what will be added."
+    }
+   },
+   {
+    "h": {
+     "es": "Qué esperar los primeros meses",
+     "en": "What to expect in the first months"
+    },
+    "p": {
+     "es": "Las primeras semanas se dedican al diagnóstico, a ordenar los datos y a acordar prioridades. Luego viene una etapa de pruebas en la que algunas ideas funcionan y otras se descartan, y eso es parte del proceso, no un fracaso. En los meses siguientes, el plan se revisa de forma periódica contra sus KPIs y se ajusta. Una estrategia de marketing digital es un documento vivo que tu equipo debe entender lo suficiente como para defender cada decisión.",
+     "en": "The first weeks go to the audit, cleaning up data and agreeing on priorities. Then comes a testing phase where some ideas work and others are discarded; that is part of the process, not a failure. Over the following months, the plan is reviewed regularly against its KPIs and adjusted. A digital marketing strategy is a living document, and your team should understand it well enough to defend each decision it contains."
+    }
+   }
+  ]
+ },
  "testimonial": {
   "quote": {
    "es": "«Trabajar con ustedes ha tenido un impacto real en nuestra agencia. Su enfoque estratégico y su apoyo constante mejoraron significativamente cómo gestionamos marcas de vino en cinco países.»",

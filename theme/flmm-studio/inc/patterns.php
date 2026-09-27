@@ -524,6 +524,29 @@ function flmm_pattern_service_concepts( $lang, $s = null ) {
 }
 
 /**
+ * Guía del servicio: texto de profundidad con subtítulos (opcional).
+ *
+ * @param string $lang Idioma.
+ * @param array  $s    Datos del servicio.
+ * @return string
+ */
+function flmm_pattern_service_guide( $lang, $s = null ) {
+	$s = $s ? $s : flmm_pattern_data( 'service-sample' );
+	if ( empty( $s['guide'] ) ) {
+		return '';
+	}
+	$g    = $s['guide'];
+	$body = flmm_p( flmm_tx( $g['intro'], $lang ) );
+	foreach ( $g['items'] as $item ) {
+		$body .= flmm_h( 3, flmm_tx( $item['h'], $lang ) ) . flmm_p( flmm_tx( $item['p'], $lang ) );
+	}
+	return flmm_section(
+		flmm_sec_head( flmm_tx( $g['label'], $lang ), flmm_tx( $g['h2'], $lang ) )
+		. flmm_group( $body, array( 'className' => 'flmm-guide flmm-rv', 'layout' => array( 'type' => 'default' ) ) )
+	);
+}
+
+/**
  * Método del servicio (mismos tres pasos del home, con título propio).
  *
  * @param string $lang Idioma.

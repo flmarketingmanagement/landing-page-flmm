@@ -14,7 +14,7 @@ POSTS = [
             'title': 'Digital Marketing Agency in Lakeland: How to Choose the Right One',
             'seo': ['Digital Marketing Agency in Lakeland: How to Choose',
                     'How to choose a digital marketing agency in Lakeland: what to expect, the questions to ask, the red flags to avoid and how to compare local and remote teams.',
-                    'digital marketing agency lakeland'],
+                    'digital marketing agency in Lakeland'],
             'tldr': 'A good digital marketing agency in Lakeland covers local SEO, your Google Business Profile, Google and Meta Ads, your website and analytics, and reports on leads and sales. Before you sign, ask who does the work, who owns your accounts and data, and how the contract ends.',
             'intro': 'To choose a digital marketing agency in Lakeland, look for a team that covers local SEO, Google Business Profile, Google and Meta Ads, your website and analytics, and that reports on leads and sales instead of vanity metrics. Before signing, ask who does the work, who owns your accounts and how the contract ends.',
             'body': [
@@ -140,7 +140,7 @@ POSTS = [
             'title': 'How to Choose a Marketing Agency in Florida',
             'seo': ['How to Choose a Marketing Agency in Florida',
                     'How to choose a marketing agency in Florida: define your goals, compare specialists and full-service teams, check bilingual skills and evaluate each proposal.',
-                    'marketing agency florida'],
+                    'marketing agency in Florida'],
             'tldr': 'Choosing a marketing agency in Florida starts with your goals, not with the agency. Decide whether you need a specialist or a full-service team, check if they can work in English and Spanish, ask how they measure results and judge each proposal by its first 90 days plan.',
             'intro': 'To choose a marketing agency in Florida, first define what you need: more leads, more online sales or a stronger brand. Then compare agencies on how they measure results, who does the work, whether they can reach English and Spanish speaking customers and how clear their first 90 days plan is, not only on price.',
             'body': [
@@ -286,7 +286,7 @@ POSTS = [
             'title': 'Local SEO in Lakeland: Google Business Profile and AI Answers',
             'seo': ['Local SEO in Lakeland: Google Business Profile and AI',
                     'Local SEO in Lakeland step by step: Google Business Profile, reviews, NAP consistency, location pages, local links and how the same signals feed AI answers.',
-                    'local seo lakeland'],
+                    'local SEO in Lakeland'],
             'tldr': 'Local SEO in Lakeland rests on a complete Google Business Profile, steady reviews with replies, consistent business data, useful location and service pages and real local links. The same signals help Google Maps, classic results and AI answers, including Google AI Overviews.',
             'intro': 'Local SEO in Lakeland is the work of making your business show up when people nearby search for what you offer, on Google, Google Maps and AI assistants. It combines a complete Google Business Profile, reviews, consistent business data, pages for Lakeland and Polk County and local links, measured by calls, visits and forms.',
             'body': [

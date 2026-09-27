@@ -53,15 +53,15 @@ function flmm_mig_title_overrides() {
  */
 function flmm_mig_media() {
 	return array(
-		'consulting'            => array( 'Marketing strategy: chess pieces and a pink growth path toward a clear goal', 'Estrategia de marketing: piezas de ajedrez y un camino rosa de crecimiento hacia un objetivo claro' ),
-		'performance-marketing' => array( 'Performance marketing: scattered audiences focused into a single conversion', 'Performance marketing: audiencias dispersas que se enfocan en una sola conversión' ),
-		'seo-aeo'               => array( 'SEO and AEO: content connected to search engines and AI answers', 'SEO y AEO: contenido conectado a buscadores y a respuestas de IA' ),
+		'consulting'            => array( 'Digital marketing strategy: chess pieces and a pink growth path toward a clear goal', 'Estrategia de marketing digital: piezas de ajedrez y un camino rosa de crecimiento hacia un objetivo claro' ),
+		'performance-marketing' => array( 'Performance marketing agency: scattered audiences focused into a single conversion', 'Agencia de performance marketing: audiencias dispersas que se enfocan en una sola conversión' ),
+		'seo-aeo'               => array( 'AEO and SEO services: content connected to search engines and AI answers', 'Servicios de AEO y SEO: contenido conectado a buscadores y a respuestas de IA' ),
 		'aeo-content'           => array( 'AEO content: an article feeding answers in ChatGPT, Claude, Google, Gemini and Perplexity', 'Contenido AEO: un artículo que alimenta respuestas en ChatGPT, Claude, Google, Gemini y Perplexity' ),
-		'design-branding'       => array( 'Creative and multimedia content: design, typography, video and audio assets', 'Contenido creativo y multimedia: diseño, tipografía, video y audio' ),
-		'website'               => array( 'E-commerce website: product page, mobile store, cart and checkout', 'Sitio de e-commerce: página de producto, tienda móvil, carrito y pago' ),
+		'design-branding'       => array( 'Graphic design and branding: typography, video and audio assets for creative content', 'Diseño gráfico y branding: tipografía, video y audio para contenido creativo' ),
+		'website'               => array( 'E-commerce development: product page, mobile store, cart and checkout', 'Desarrollo de e-commerce: página de producto, tienda móvil, carrito y pago' ),
 		'growth-hacking'        => array( 'Growth hacking: a rocket rising over growth metrics and experiments', 'Growth hacking: un cohete que sube sobre métricas de crecimiento y experimentos' ),
 		'analytics'             => array( 'Marketing analytics: scattered data turned into a clear trend through a lens', 'Analítica de marketing: datos dispersos que una lupa convierte en una tendencia clara' ),
-		'ai-assistants'         => array( 'AI assistant: scattered messages processed into organized, actionable outputs', 'Asistente de IA: mensajes dispersos procesados en resultados ordenados y accionables' ),
+		'ai-assistants'         => array( 'Custom AI assistants: scattered messages processed into organized, actionable outputs', 'Asistentes de IA a medida: mensajes dispersos procesados en resultados ordenados y accionables' ),
 		'marketing-automation'  => array( 'Marketing automation: tools like Google, Meta, Slack and Shopify connected through one hub', 'Automatización de marketing: herramientas como Google, Meta, Slack y Shopify conectadas en un solo centro' ),
 		'privacy-policy'        => array( 'Privacy policy: a shield protecting personal data', 'Política de privacidad: un escudo que protege los datos personales' ),
 		'about-team'            => array( 'FL Marketing Management team: people connected to ideas, content, growth and clients around the world', 'Equipo de FL Marketing Management: personas conectadas con ideas, contenido, crecimiento y clientes en todo el mundo' ),
@@ -69,7 +69,7 @@ function flmm_mig_media() {
 		'post-metrics'          => array( 'B2B performance marketing metrics: a count to start measuring what matters, beyond CPC', 'Métricas de performance marketing B2B: un conteo para empezar a medir lo que importa, más allá del CPC' ),
 		'post-dictionary'       => array( 'AI marketing glossary: loose letters connected to organized terms and definitions', 'Glosario de marketing con IA: letras sueltas conectadas a términos y definiciones ordenadas' ),
 		'post-entropy'          => array( 'Shannon entropy in marketing: many audience segments connected into one clear signal', 'Entropía de Shannon en marketing: muchos segmentos de audiencia conectados en una señal clara' ),
-		'home-hero'             => array( 'Digital marketing connected: search, AI answers, data and global reach linked by one path', 'Marketing digital conectado: búsqueda, respuestas de IA, datos y alcance global unidos por un mismo camino' ),
+		'home-hero'             => array( 'Digital marketing agency: search, AI answers, data and global reach linked by one path', 'Agencia de marketing digital: búsqueda, respuestas de IA, datos y alcance global unidos por un mismo camino' ),
 		'post-seo-aeo-geo'      => array( 'SEO vs AEO vs GEO: a search results page, an AI answer and a generative engine connected in sequence', 'SEO vs AEO vs GEO: una página de resultados, una respuesta de IA y un motor generativo conectados en secuencia' ),
 		'post-aeo-services'     => array( 'AEO services: a question connected to a clear, structured answer', 'Servicios de AEO: una pregunta conectada a una respuesta clara y estructurada' ),
 		'post-gemini-overviews' => array( 'Gemini and AI Overviews: an AI summary citing one web page as its source', 'Gemini y AI Overviews: un resumen de IA que cita una página web como fuente' ),
@@ -92,20 +92,20 @@ function flmm_mig_media() {
 function flmm_mig_page_seo() {
 	return array(
 		'home'                    => array(
-			'en' => array( 'FL Marketing Management | Performance & AI Marketing Agency', 'Boutique digital marketing agency for the US and Latin America: performance, SEO + AEO, e-commerce, analytics and AI automation with measurable results.', 'digital marketing agency' ),
-			'es' => array( 'FL Marketing Management | Agencia de marketing digital', 'Agencia boutique de marketing digital para EE. UU. y Latinoamérica: performance, SEO + AEO, e-commerce, analítica y automatización con IA medibles.', 'agencia de marketing digital' ),
+			'en' => array( 'Digital Marketing Agency: Performance & AI | FL Marketing', 'Digital marketing agency for brands in the US and Latin America: performance, SEO + AEO, e-commerce, analytics and AI automation with measurable results.', 'digital marketing agency' ),
+			'es' => array( 'Agencia de marketing digital y performance | FL Marketing', 'Agencia de marketing digital para marcas en EE. UU. y Latinoamérica: performance, SEO + AEO, e-commerce, analítica y automatización con IA medibles.', 'agencia de marketing digital' ),
 		),
 		'blog'                    => array(
 			'en' => array( 'Digital Marketing, SEO, AEO & AI Blog | FL Marketing', 'Articles on performance marketing, SEO, AEO and artificial intelligence for B2B and e-commerce brands, written by the FL Marketing Management team.', 'digital marketing blog' ),
 			'es' => array( 'Blog de marketing digital, SEO, AEO e IA | FL Marketing', 'Artículos sobre performance marketing, SEO, AEO e inteligencia artificial para marcas B2B y e-commerce, escritos por el equipo de FL Marketing Management.', 'blog de marketing digital' ),
 		),
 		'marketing-agency-florida' => array(
-			'en' => array( 'Performance Marketing Agency in Florida | FL Marketing', 'Florida performance marketing agency: Google, Meta, TikTok and LinkedIn Ads, SEO + AEO and analytics for Florida businesses, in English and Spanish.', 'florida performance marketing agency' ),
+			'en' => array( 'Performance Marketing Agency in Florida | FL Marketing', 'Performance marketing agency in Florida: Google, Meta, TikTok and LinkedIn Ads, SEO + AEO and analytics for Florida businesses, in English and Spanish.', 'performance marketing agency in Florida' ),
 			'es' => array( 'Agencia de performance marketing en Florida | FL Marketing', 'Agencia de performance marketing en Florida: Google, Meta, TikTok y LinkedIn Ads, SEO + AEO y analítica para empresas de Florida, en inglés y español.', 'agencia de performance marketing en Florida' ),
 		),
 		'digital-marketing-lakeland' => array(
-			'en' => array( 'SEO Marketing Services in Lakeland, FL | FL Marketing', 'SEO marketing services in Lakeland, FL: local SEO, Google Business Profile, AEO, Google and Meta Ads and websites for local businesses, in English and Spanish.', 'seo marketing services lakeland' ),
-			'es' => array( 'SEO y marketing digital en Lakeland, Florida | FL Marketing', 'Servicios de SEO y marketing digital en Lakeland, Florida: SEO local, Perfil de Empresa de Google, AEO, Google y Meta Ads y sitios web, en inglés y español.', 'SEO y marketing digital en Lakeland' ),
+			'en' => array( 'SEO Services in Lakeland, FL: Local SEO & Ads | FL Marketing', 'SEO services in Lakeland, FL: local SEO, Google Business Profile, AEO, Google and Meta Ads and websites for local businesses, in English and Spanish.', 'SEO services in Lakeland' ),
+			'es' => array( 'Servicios de SEO en Lakeland, Florida | FL Marketing', 'Servicios de SEO en Lakeland, Florida: SEO local, Perfil de Empresa de Google, AEO, Google y Meta Ads y sitios web para negocios locales, en inglés y español.', 'servicios de SEO en Lakeland' ),
 		),
 		'about'                   => array(
 			'en' => array( 'About FL Marketing Management | Digital Marketing Agency', 'Meet FL Marketing Management, a Florida-based boutique consultancy for performance marketing, AI automation, analytics and SEO + AEO that builds growth systems.', 'FL Marketing Management' ),
@@ -136,7 +136,7 @@ function flmm_mig_page_seo() {
 function flmm_mig_home_lead() {
 	return array(
 		'en' => 'FL Marketing Management is a boutique digital marketing agency for brands in the US and Latin America. One senior team covers strategy, performance marketing, SEO and AEO, content, e-commerce, analytics and AI automation, and measures every action against revenue instead of vanity metrics.',
-		'es' => 'FL Marketing Management es una agencia boutique de marketing digital para marcas en EE. UU. y Latinoamérica. Un solo equipo senior cubre estrategia, performance marketing, SEO y AEO, contenido, e-commerce, analítica y automatización con IA, y mide cada acción contra los ingresos y no contra métricas de vanidad.',
+		'es' => 'FL Marketing Management es una agencia de marketing digital boutique para marcas en EE. UU. y Latinoamérica. Un solo equipo senior cubre estrategia, performance marketing, SEO y AEO, contenido, e-commerce, analítica y automatización con IA, y mide cada acción contra los ingresos y no contra métricas de vanidad.',
 	);
 }
 
@@ -148,8 +148,8 @@ function flmm_mig_posts() {
 		array(
 			'cat'   => 'performance',
 			'image' => 'post-metrics',
-			'en'  => array( 'id' => 1591, 'slug' => 'performance-marketing-metrics', 'seo' => array( 'B2B Performance Marketing Metrics Beyond CPC (2026)', 'Which B2B performance marketing metrics drive growth in 2026 beyond CPC and CTR: a three-layer hierarchy that connects ad spend with pipeline and revenue.', 'B2B performance marketing metrics' ) ),
-			'es'  => array( 'id' => 1844, 'slug' => 'metricas-de-performance-marketing-b2b-mas-alla-del-cpc', 'seo' => array( 'Métricas de performance marketing B2B más allá del CPC', 'El CPC y el CTR ya no explican el performance B2B. Conoce la jerarquía de métricas 2026 que conecta la inversión con los ingresos y alimenta a la IA.', 'métricas de performance marketing B2B' ) ),
+			'en'  => array( 'id' => 1591, 'slug' => 'performance-marketing-metrics', 'seo' => array( 'B2B Performance Marketing Metrics Beyond CPC (2026)', 'Which B2B performance marketing metrics drive growth in 2026 beyond CPC and CTR: a three-layer hierarchy that connects ad spend with pipeline and revenue.', 'B2B performance marketing' ) ),
+			'es'  => array( 'id' => 1844, 'slug' => 'metricas-de-performance-marketing-b2b-mas-alla-del-cpc', 'seo' => array( 'Métricas de performance marketing B2B más allá del CPC', 'El CPC y el CTR ya no explican el performance marketing B2B. Conoce la jerarquía de métricas que conecta la inversión con los ingresos y alimenta a la IA.', 'performance marketing B2B' ) ),
 		),
 		array(
 			'cat'   => 'aeo',
@@ -160,8 +160,8 @@ function flmm_mig_posts() {
 		array(
 			'cat'   => 'ai',
 			'image' => 'post-entropy',
-			'en'  => array( 'id' => 1568, 'slug' => 'ai-shannon-entropy', 'seo' => array( 'AI & Shannon Entropy in B2B Performance Marketing', 'How AI and Shannon entropy reduce noise in B2B performance marketing, so teams and algorithms decide with cleaner signals, faster learning and higher ROI.', 'Shannon entropy marketing' ) ),
-			'es'  => array( 'id' => 1838, 'slug' => 'ia-y-entropia-de-shannon-en-performance-marketing-b2b', 'seo' => array( 'IA y entropía de Shannon en performance marketing B2B', 'La entropía de Shannon explica por qué más datos dañan el marketing B2B. Descubre cómo la IA reduce el ruido, afina las señales y mejora el ROI.', 'entropía de Shannon en marketing' ) ),
+			'en'  => array( 'id' => 1568, 'slug' => 'ai-shannon-entropy', 'seo' => array( 'AI & Shannon Entropy in B2B Performance Marketing', 'How AI and Shannon entropy reduce noise in B2B performance marketing, so teams and algorithms decide with cleaner signals, faster learning and higher ROI.', 'Shannon entropy' ) ),
+			'es'  => array( 'id' => 1838, 'slug' => 'ia-y-entropia-de-shannon-en-performance-marketing-b2b', 'seo' => array( 'IA y entropía de Shannon en performance marketing B2B', 'La entropía de Shannon explica por qué más datos dañan el marketing B2B. Descubre cómo la IA reduce el ruido, afina las señales y mejora el ROI.', 'entropía de Shannon' ) ),
 		),
 	);
 }

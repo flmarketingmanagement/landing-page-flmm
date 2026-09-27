@@ -1,6 +1,7 @@
 """Artículos nuevos del blog (EN y ES). Genera theme/flmm-studio/inc/migrate/blog-posts.json.
 
 Bloques: ["p", html], ["h2", texto], ["h3", texto], ["ul", [items]], ["ol", [items]].
+ref: ["Etiqueta del enlace externo", "https://..."] (fuente oficial; se muestra como "Reference:" / "Referencia:" antes del FAQ).
 Enlaces internos con marcadores que el migrador reemplaza por la URL del idioma:
 {seo-aeo}, {florida}, {lakeland}, {service:slug}, {post:clave}.
 
@@ -22,12 +23,12 @@ POSTS.append({
         'slug': 'seo-vs-aeo-vs-geo',
         'title': 'SEO vs AEO vs GEO: Differences and How to Apply Them by Industry',
         'seo': ['SEO vs AEO vs GEO: Differences and Uses by Industry',
-                'SEO, AEO and GEO explained: what each one optimizes, how they overlap and how to apply them in SaaS, e-commerce, local services and professional firms.',
+                'SEO vs AEO vs GEO explained: what each one optimizes, how they overlap and how to apply them in SaaS, e-commerce, local services and professional firms.',
                 'seo vs aeo vs geo'],
         'tldr': 'SEO gets you ranked on Google, AEO gets your content quoted as a direct answer and GEO gets your brand mentioned by generative AI. They share one foundation: useful content, a clean technical structure and a trustworthy brand. What changes by industry is where you put the effort first.',
-        'intro': 'SEO, AEO and GEO are three ways to be found online. SEO (Search Engine Optimization) improves your ranking in search results. AEO (Answer Engine Optimization) structures content so assistants can quote it as an answer. GEO (Generative Engine Optimization) works on how AI models perceive and mention your brand when they write a response.',
+        'intro': 'SEO vs AEO vs GEO compares three ways to be found online. SEO (Search Engine Optimization) improves your ranking in search results. AEO (Answer Engine Optimization) structures content so assistants can quote it as an answer. GEO (Generative Engine Optimization) works on how AI models perceive and mention your brand when they write a response.',
         'body': [
-            ['h2', 'What SEO, AEO and GEO optimize'],
+            ['h2', 'SEO vs AEO vs GEO: what each one optimizes'],
             ['ul', [
                 '<strong>SEO</strong>: rankings and clicks from Google and other search engines. It works on keywords, technical health, content quality and links.',
                 '<strong>AEO</strong>: being the answer. It works on direct, well-structured responses, FAQs and structured data, so assistants and AI Overviews can quote a specific passage.',
@@ -73,12 +74,12 @@ POSTS.append({
         'slug': 'seo-aeo-geo-diferencias',
         'title': 'SEO vs AEO vs GEO: diferencias y cómo aplicarlos según tu industria',
         'seo': ['SEO vs AEO vs GEO: diferencias y usos por industria',
-                'SEO, AEO y GEO explicados: qué optimiza cada uno, en qué se cruzan y cómo aplicarlos en SaaS, e-commerce, servicios locales y servicios profesionales.',
+                'SEO vs AEO vs GEO explicados: qué optimiza cada uno, en qué se cruzan y cómo aplicarlos en SaaS, e-commerce, servicios locales y servicios profesionales.',
                 'SEO vs AEO vs GEO'],
         'tldr': 'El SEO te posiciona en Google, el AEO hace que tu contenido sea citado como respuesta directa y el GEO logra que la IA generativa mencione tu marca. Comparten una misma base: contenido útil, una estructura técnica limpia y una marca confiable. Lo que cambia según la industria es por dónde empezar.',
-        'intro': 'SEO, AEO y GEO son tres formas de ser encontrado en internet. El SEO (Search Engine Optimization) mejora tu posición en los resultados de búsqueda. El AEO (Answer Engine Optimization) estructura el contenido para que los asistentes lo citen como respuesta. El GEO (Generative Engine Optimization) trabaja en cómo los modelos de IA perciben y mencionan tu marca.',
+        'intro': 'SEO vs AEO vs GEO compara tres formas de ser encontrado en internet. El SEO (Search Engine Optimization) mejora tu posición en los resultados de búsqueda. El AEO (Answer Engine Optimization) estructura el contenido para que los asistentes lo citen como respuesta. El GEO (Generative Engine Optimization) trabaja en cómo los modelos de IA perciben y mencionan tu marca.',
         'body': [
-            ['h2', 'Qué optimizan el SEO, el AEO y el GEO'],
+            ['h2', 'SEO vs AEO vs GEO: qué optimiza cada uno'],
             ['ul', [
                 '<strong>SEO</strong>: posiciones y clics en Google y otros buscadores. Trabaja palabras clave, salud técnica, calidad del contenido y enlaces.',
                 '<strong>AEO</strong>: ser la respuesta. Trabaja respuestas directas y bien estructuradas, preguntas frecuentes y datos estructurados, para que los asistentes y los AI Overviews citen un fragmento concreto.',
@@ -236,10 +237,10 @@ POSTS.append({
         'slug': 'show-up-in-gemini-and-ai-overviews',
         'title': 'How to Show Up in Gemini and Google AI Overviews',
         'seo': ['How to Show Up in Gemini and Google AI Overviews',
-                'How Gemini and Google AI Overviews choose their sources and the practical steps to make your content eligible: technical SEO, direct answers and trust signals.',
-                'gemini aeo'],
+                'How to show up in Gemini and Google AI Overviews: how they choose sources and the steps to make your content eligible, from SEO to trust signals.',
+                'show up in Gemini'],
         'tldr': 'Gemini and AI Overviews build on Google Search. There is no special tag or form to get in: you need a site Google can read, pages that answer questions directly, clear structure and signals that your brand is trustworthy.',
-        'intro': 'Showing up in Gemini and Google AI Overviews means having your content selected as a source when Google’s AI writes an answer. Both draw on Google’s index, so the base is solid SEO. On top of that you need direct answers, clear structure, structured data and consistent signals that your brand is trustworthy.',
+        'intro': 'To show up in Gemini and Google AI Overviews, your content must be selected as a source when Google’s AI writes an answer. Both draw on Google’s index, so the base is solid SEO. On top of that you need direct answers, clear structure, structured data and consistent signals that your brand is trustworthy.',
         'body': [
             ['h2', 'How Gemini and AI Overviews choose sources'],
             ['p', 'Google does not publish a formula, but its guidance for site owners is consistent: AI features use content from its index and follow the same quality principles as Search. Pages that are crawlable, helpful, well structured and backed by credible sources are the ones that tend to be selected.'],
@@ -258,7 +259,7 @@ POSTS.append({
             ['p', 'Use clear H2 and H3 headings, structured data for your organization, services, articles and FAQs, visible author information and an updated date on content that changes. Structure does not guarantee inclusion, but it removes doubt about what each page is about.'],
             ['h2', 'Step 4: build trust beyond your site'],
             ['p', 'Keep your company facts consistent in your Google Business Profile, directories and social profiles, collect genuine reviews and earn mentions in industry media. These signals help Google understand who you are and why your content is reliable.'],
-            ['h2', 'How to track your presence'],
+            ['h2', 'How to track whether you show up in Gemini'],
             ['p', 'Search Console includes traffic from AI features inside the standard Web performance report, so watch the queries and pages that gain impressions. Complement it by checking your key questions in Gemini and AI Overviews every month and noting which sources appear. If you want a team to handle it, see our <a href="{seo-aeo}">AEO and SEO services</a> and our guide on <a href="{post:aeo-services}">what AEO services include</a>.'],
         ],
         'faq_title': 'Frequently asked questions',
@@ -278,7 +279,7 @@ POSTS.append({
         'slug': 'como-aparecer-en-gemini-y-ai-overviews',
         'title': 'Cómo aparecer en Gemini y en los AI Overviews de Google',
         'seo': ['Cómo aparecer en Gemini y en los AI Overviews de Google',
-                'Cómo eligen sus fuentes Gemini y los AI Overviews de Google y los pasos prácticos para que tu contenido califique: SEO técnico, respuestas directas y confianza.',
+                'Cómo aparecer en Gemini y en los AI Overviews de Google: cómo eligen sus fuentes y los pasos para que tu contenido califique, del SEO a la confianza.',
                 'aparecer en Gemini'],
         'tldr': 'Gemini y los AI Overviews se apoyan en la Búsqueda de Google. No existe una etiqueta ni un formulario especial para entrar: necesitas un sitio que Google pueda leer, páginas que respondan de forma directa, una estructura clara y señales de que tu marca es confiable.',
         'intro': 'Aparecer en Gemini y en los AI Overviews de Google significa que tu contenido sea elegido como fuente cuando la IA de Google escribe una respuesta. Ambos usan el índice de Google, así que la base es un SEO sólido. Además necesitas respuestas directas, una estructura clara, datos estructurados y señales coherentes de que tu marca es confiable.',
@@ -300,7 +301,7 @@ POSTS.append({
             ['p', 'Usa títulos H2 y H3 claros, datos estructurados para tu organización, servicios, artículos y preguntas frecuentes, información visible del autor y una fecha de actualización en el contenido que cambia. La estructura no garantiza la inclusión, pero elimina dudas sobre de qué trata cada página.'],
             ['h2', 'Paso 4: construye confianza fuera de tu sitio'],
             ['p', 'Mantén los datos de tu empresa iguales en tu Perfil de Empresa de Google, directorios y redes sociales, junta reseñas reales y consigue menciones en medios del sector. Estas señales ayudan a Google a entender quién eres y por qué tu contenido es confiable.'],
-            ['h2', 'Cómo medir tu presencia'],
+            ['h2', 'Cómo medir si logras aparecer en Gemini'],
             ['p', 'Search Console incluye el tráfico de las funciones de IA dentro del informe de rendimiento web, así que revisa qué consultas y páginas ganan impresiones. Compleméntalo revisando cada mes tus preguntas clave en Gemini y en los AI Overviews y anotando qué fuentes aparecen. Si quieres que un equipo lo haga, mira nuestros <a href="{seo-aeo}">servicios de AEO y SEO</a> y nuestra guía sobre <a href="{post:aeo-services}">qué incluyen los servicios de AEO</a>.'],
         ],
         'faq_title': 'Preguntas frecuentes',
@@ -346,7 +347,7 @@ POSTS.append({
                 'How much does [your product] cost?',
                 'How to [job to be done] with [your product].',
             ]],
-            ['h2', 'Pages that AI assistants can use'],
+            ['h2', 'AEO for SaaS: pages that AI assistants can use'],
             ['ul', [
                 '<strong>Comparison pages</strong>: honest side-by-side comparisons with the competitors buyers actually consider.',
                 '<strong>Alternatives pages</strong>: why teams switch to you and who you are the best fit for.',
@@ -399,7 +400,7 @@ POSTS.append({
                 '¿Cuánto cuesta [tu producto]?',
                 'Cómo [tarea] con [tu producto].',
             ]],
-            ['h2', 'Páginas que los asistentes de IA pueden usar'],
+            ['h2', 'AEO para SaaS: páginas que los asistentes de IA pueden usar'],
             ['ul', [
                 '<strong>Páginas comparativas</strong>: comparaciones honestas con los competidores que los compradores realmente consideran.',
                 '<strong>Páginas de alternativas</strong>: por qué los equipos se cambian a tu producto y para quién es la mejor opción.',
@@ -464,6 +465,21 @@ def check():
             for q, a in d['faq']:
                 w = words(a)
                 if not 40 <= w <= 60: probs.append(f'faq {w} "{q[:30]}"')
+            kw = d['seo'][2].lower()
+            plain = lambda s: re.sub('<[^>]+>', '', s).lower()
+            if kw not in plain(t): probs.append('kw no está en title SEO')
+            if kw not in plain(desc): probs.append('kw no está en desc')
+            if kw not in plain(d['intro']): probs.append('kw no está en la entrada')
+            h2s = [b[1] for b in d['body'] if b[0] in ('h2', 'h3')] + [d['faq_title']] + [q for q, _ in d['faq']]
+            if not any(kw in plain(h) for h in h2s): probs.append('kw no está en ningún subtítulo')
+            ft = d['faq_title'].lower()
+            if not ft.startswith('frequently asked questions' if lang == 'en' else 'preguntas frecuentes'): probs.append('faq_title debe empezar con Frequently asked questions / Preguntas frecuentes')
+            if kw not in ft: probs.append('kw no está en faq_title')
+            full = ' '.join([d['tldr'], d['intro']] + [b[1] if isinstance(b[1], str) else ' '.join(b[1]) for b in d['body']] + [d['faq_title']] + [q + ' ' + a for q, a in d['faq']] + d['takeaways'])
+            fw = words(full); n = plain(full).count(kw)
+            dens = 100 * n / fw
+            if not 0.6 <= dens <= 2.0: probs.append(f'densidad {dens:.2f}% ({n} veces en {fw} palabras; objetivo 0,6 a 2)')
+            if not d.get('ref') or not d['ref'][1].startswith('https://'): probs.append('falta ref (etiqueta, url)')
             blob = json.dumps(d, ensure_ascii=False)
             if '\u2014' in blob: probs.append('raya larga')
             print(p['key'], lang, 'OK' if not probs else probs)

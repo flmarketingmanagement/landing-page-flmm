@@ -9,15 +9,15 @@
    "title": "SEO vs AEO vs GEO: Differences and How to Apply Them by Industry",
    "seo": [
     "SEO vs AEO vs GEO: Differences and Uses by Industry",
-    "SEO, AEO and GEO explained: what each one optimizes, how they overlap and how to apply them in SaaS, e-commerce, local services and professional firms.",
+    "SEO vs AEO vs GEO explained: what each one optimizes, how they overlap and how to apply them in SaaS, e-commerce, local services and professional firms.",
     "seo vs aeo vs geo"
    ],
    "tldr": "SEO gets you ranked on Google, AEO gets your content quoted as a direct answer and GEO gets your brand mentioned by generative AI. They share one foundation: useful content, a clean technical structure and a trustworthy brand. What changes by industry is where you put the effort first.",
-   "intro": "SEO, AEO and GEO are three ways to be found online. SEO (Search Engine Optimization) improves your ranking in search results. AEO (Answer Engine Optimization) structures content so assistants can quote it as an answer. GEO (Generative Engine Optimization) works on how AI models perceive and mention your brand when they write a response.",
+   "intro": "SEO vs AEO vs GEO compares three ways to be found online. SEO (Search Engine Optimization) improves your ranking in search results. AEO (Answer Engine Optimization) structures content so assistants can quote it as an answer. GEO (Generative Engine Optimization) works on how AI models perceive and mention your brand when they write a response.",
    "body": [
     [
      "h2",
-     "What SEO, AEO and GEO optimize"
+     "SEO vs AEO vs GEO: what each one optimizes"
     ],
     [
      "ul",
@@ -125,15 +125,15 @@
    "title": "SEO vs AEO vs GEO: diferencias y cómo aplicarlos según tu industria",
    "seo": [
     "SEO vs AEO vs GEO: diferencias y usos por industria",
-    "SEO, AEO y GEO explicados: qué optimiza cada uno, en qué se cruzan y cómo aplicarlos en SaaS, e-commerce, servicios locales y servicios profesionales.",
+    "SEO vs AEO vs GEO explicados: qué optimiza cada uno, en qué se cruzan y cómo aplicarlos en SaaS, e-commerce, servicios locales y servicios profesionales.",
     "SEO vs AEO vs GEO"
    ],
    "tldr": "El SEO te posiciona en Google, el AEO hace que tu contenido sea citado como respuesta directa y el GEO logra que la IA generativa mencione tu marca. Comparten una misma base: contenido útil, una estructura técnica limpia y una marca confiable. Lo que cambia según la industria es por dónde empezar.",
-   "intro": "SEO, AEO y GEO son tres formas de ser encontrado en internet. El SEO (Search Engine Optimization) mejora tu posición en los resultados de búsqueda. El AEO (Answer Engine Optimization) estructura el contenido para que los asistentes lo citen como respuesta. El GEO (Generative Engine Optimization) trabaja en cómo los modelos de IA perciben y mencionan tu marca.",
+   "intro": "SEO vs AEO vs GEO compara tres formas de ser encontrado en internet. El SEO (Search Engine Optimization) mejora tu posición en los resultados de búsqueda. El AEO (Answer Engine Optimization) estructura el contenido para que los asistentes lo citen como respuesta. El GEO (Generative Engine Optimization) trabaja en cómo los modelos de IA perciben y mencionan tu marca.",
    "body": [
     [
      "h2",
-     "Qué optimizan el SEO, el AEO y el GEO"
+     "SEO vs AEO vs GEO: qué optimiza cada uno"
     ],
     [
      "ul",
@@ -427,11 +427,11 @@
    "title": "How to Show Up in Gemini and Google AI Overviews",
    "seo": [
     "How to Show Up in Gemini and Google AI Overviews",
-    "How Gemini and Google AI Overviews choose their sources and the practical steps to make your content eligible: technical SEO, direct answers and trust signals.",
-    "gemini aeo"
+    "How to show up in Gemini and Google AI Overviews: how they choose sources and the steps to make your content eligible, from SEO to trust signals.",
+    "show up in Gemini"
    ],
    "tldr": "Gemini and AI Overviews build on Google Search. There is no special tag or form to get in: you need a site Google can read, pages that answer questions directly, clear structure and signals that your brand is trustworthy.",
-   "intro": "Showing up in Gemini and Google AI Overviews means having your content selected as a source when Google’s AI writes an answer. Both draw on Google’s index, so the base is solid SEO. On top of that you need direct answers, clear structure, structured data and consistent signals that your brand is trustworthy.",
+   "intro": "To show up in Gemini and Google AI Overviews, your content must be selected as a source when Google’s AI writes an answer. Both draw on Google’s index, so the base is solid SEO. On top of that you need direct answers, clear structure, structured data and consistent signals that your brand is trustworthy.",
    "body": [
     [
      "h2",
@@ -485,7 +485,7 @@
     ],
     [
      "h2",
-     "How to track your presence"
+     "How to track whether you show up in Gemini"
     ],
     [
      "p",
@@ -519,7 +519,7 @@
    "title": "Cómo aparecer en Gemini y en los AI Overviews de Google",
    "seo": [
     "Cómo aparecer en Gemini y en los AI Overviews de Google",
-    "Cómo eligen sus fuentes Gemini y los AI Overviews de Google y los pasos prácticos para que tu contenido califique: SEO técnico, respuestas directas y confianza.",
+    "Cómo aparecer en Gemini y en los AI Overviews de Google: cómo eligen sus fuentes y los pasos para que tu contenido califique, del SEO a la confianza.",
     "aparecer en Gemini"
    ],
    "tldr": "Gemini y los AI Overviews se apoyan en la Búsqueda de Google. No existe una etiqueta ni un formulario especial para entrar: necesitas un sitio que Google pueda leer, páginas que respondan de forma directa, una estructura clara y señales de que tu marca es confiable.",
@@ -577,7 +577,7 @@
     ],
     [
      "h2",
-     "Cómo medir tu presencia"
+     "Cómo medir si logras aparecer en Gemini"
     ],
     [
      "p",
@@ -648,7 +648,7 @@
     ],
     [
      "h2",
-     "Pages that AI assistants can use"
+     "AEO for SaaS: pages that AI assistants can use"
     ],
     [
      "ul",
@@ -745,7 +745,7 @@
     ],
     [
      "h2",
-     "Páginas que los asistentes de IA pueden usar"
+     "AEO para SaaS: páginas que los asistentes de IA pueden usar"
     ],
     [
      "ul",
@@ -1074,7 +1074,7 @@
    "seo": [
     "Digital Marketing Agency in Lakeland: How to Choose",
     "How to choose a digital marketing agency in Lakeland: what to expect, the questions to ask, the red flags to avoid and how to compare local and remote teams.",
-    "digital marketing agency lakeland"
+    "digital marketing agency in Lakeland"
    ],
    "tldr": "A good digital marketing agency in Lakeland covers local SEO, your Google Business Profile, Google and Meta Ads, your website and analytics, and reports on leads and sales. Before you sign, ask who does the work, who owns your accounts and data, and how the contract ends.",
    "intro": "To choose a digital marketing agency in Lakeland, look for a team that covers local SEO, Google Business Profile, Google and Meta Ads, your website and analytics, and that reports on leads and sales instead of vanity metrics. Before signing, ask who does the work, who owns your accounts and how the contract ends.",
@@ -1402,7 +1402,7 @@
     ],
     [
      "h2",
-     "What this checklist cannot do"
+     "What an AEO checklist cannot do"
     ],
     [
      "p",
@@ -1525,7 +1525,7 @@
     ],
     [
      "h2",
-     "Lo que este checklist no puede hacer"
+     "Lo que un checklist de AEO no puede hacer"
     ],
     [
      "p",
@@ -1566,7 +1566,7 @@
    "seo": [
     "How to Choose a Marketing Agency in Florida",
     "How to choose a marketing agency in Florida: define your goals, compare specialists and full-service teams, check bilingual skills and evaluate each proposal.",
-    "marketing agency florida"
+    "marketing agency in Florida"
    ],
    "tldr": "Choosing a marketing agency in Florida starts with your goals, not with the agency. Decide whether you need a specialist or a full-service team, check if they can work in English and Spanish, ask how they measure results and judge each proposal by its first 90 days plan.",
    "intro": "To choose a marketing agency in Florida, first define what you need: more leads, more online sales or a stronger brand. Then compare agencies on how they measure results, who does the work, whether they can reach English and Spanish speaking customers and how clear their first 90 days plan is, not only on price.",
@@ -1901,7 +1901,7 @@
     ],
     [
      "h2",
-     "The schema types that matter for AEO"
+     "Schema for AEO: the types that matter"
     ],
     [
      "h3",
@@ -2037,7 +2037,7 @@
     ],
     [
      "h2",
-     "Los tipos de schema que importan para el AEO"
+     "Schema para AEO: los tipos que importan"
     ],
     [
      "h3",
@@ -2410,7 +2410,7 @@
    "seo": [
     "Local SEO in Lakeland: Google Business Profile and AI",
     "Local SEO in Lakeland step by step: Google Business Profile, reviews, NAP consistency, location pages, local links and how the same signals feed AI answers.",
-    "local seo lakeland"
+    "local SEO in Lakeland"
    ],
    "tldr": "Local SEO in Lakeland rests on a complete Google Business Profile, steady reviews with replies, consistent business data, useful location and service pages and real local links. The same signals help Google Maps, classic results and AI answers, including Google AI Overviews.",
    "intro": "Local SEO in Lakeland is the work of making your business show up when people nearby search for what you offer, on Google, Google Maps and AI assistants. It combines a complete Google Business Profile, reviews, consistent business data, pages for Lakeland and Polk County and local links, measured by calls, visits and forms.",
@@ -2697,15 +2697,15 @@
    "title": "AEO in Florida: How Local Businesses Get Recommended by AI",
    "seo": [
     "AEO in Florida: How Local Businesses Get Recommended by AI",
-    "Local AEO for Florida businesses: how to get recommended by AI assistants in Tampa, Orlando or Lakeland with a strong Google profile, reviews and local answers.",
-    "aeo florida"
+    "AEO in Florida for local businesses: how to get recommended by AI assistants in Tampa, Orlando or Lakeland with a strong Google profile and reviews.",
+    "AEO in Florida"
    ],
    "tldr": "People in Florida ask AI assistants for the best local provider, and the answers draw on your Google Business Profile, reviews, directories and website. Local AEO makes those signals complete and consistent, adds service and city pages with direct answers and serves both English and Spanish speakers.",
    "intro": "AEO in Florida for local businesses (local Answer Engine Optimization) is the work of making a local company easy for AI assistants to recommend when people ask for the best provider in their city. It combines a complete Google Business Profile, reviews, consistent business data, service and city pages with direct answers and bilingual content.",
    "body": [
     [
      "h2",
-     "How people ask AI assistants for local businesses"
+     "AEO in Florida: how people ask AI for local businesses"
     ],
     [
      "p",
@@ -2823,7 +2823,7 @@
    "title": "AEO en Florida: cómo lograr que la IA recomiende tu negocio local",
    "seo": [
     "AEO en Florida: que la IA recomiende tu negocio local",
-    "AEO local para negocios en Florida: cómo lograr que la IA te recomiende en Tampa, Orlando o Lakeland con un buen perfil de Google, reseñas y respuestas locales.",
+    "AEO en Florida para negocios locales: cómo lograr que la IA te recomiende en Tampa, Orlando o Lakeland con un buen perfil de Google y reseñas.",
     "AEO en Florida"
    ],
    "tldr": "En Florida la gente pregunta a los asistentes de IA por el mejor proveedor local, y las respuestas se apoyan en tu Perfil de Empresa de Google, tus reseñas, los directorios y tu sitio. El AEO local hace que esas señales estén completas y sean coherentes, suma páginas por servicio y ciudad con respuestas directas y atiende a clientes en inglés y en español.",
@@ -2831,7 +2831,7 @@
    "body": [
     [
      "h2",
-     "Cómo le piden las personas negocios locales a la IA"
+     "AEO en Florida: cómo le piden las personas negocios locales a la IA"
     ],
     [
      "p",
@@ -3061,7 +3061,7 @@
     ],
     [
      "h2",
-     "Review every quarter"
+     "Review your marketing plan 2027 every quarter"
     ],
     [
      "p",
@@ -3205,7 +3205,7 @@
     ],
     [
      "h2",
-     "Revisa cada trimestre"
+     "Revisa tu plan de marketing 2027 cada trimestre"
     ],
     [
      "p",
