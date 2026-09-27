@@ -370,22 +370,33 @@ function flmm_mig_company_page( $slug, $lang ) {
 			);
 
 		case 'privacy-policy':
-			$mail = '<a href="mailto:' . esc_attr( $email ) . '">' . esc_html( $email ) . '</a>';
+			$mail    = '<a href="mailto:' . esc_attr( $email ) . '">' . esc_html( $email ) . '</a>';
+			$cpages  = function_exists( 'flmm_mig_state' ) ? (array) flmm_mig_state( 'cookies' ) : array();
+			$cpage   = ! empty( $cpages[ $lang ] ) ? get_permalink( $cpages[ $lang ] ) : home_url( $es ? '/es/politica-de-cookies/' : '/cookie-policy/' );
+			$cookies = '<a href="' . esc_url( $cpage ) . '">' . ( $es ? 'política de cookies' : 'cookie policy' ) . '</a>';
 			if ( $es ) {
 				return array(
 					'title'   => 'Política de privacidad',
-					'content' => flmm_p( 'Esta política de privacidad explica qué información puede recopilar <strong>FL Marketing Management LLC</strong> («nosotros») cuando visitas flmarketingmanagement.com, cómo la usamos y protegemos, y qué opciones tienes sobre ella. Se aplica al sitio web, al formulario de contacto y a los mensajes que nos envías por correo.' )
-						. flmm_p( 'Fecha de vigencia: enero de 2026.', 'flmm-updated' )
+					'content' => flmm_p( 'Esta política de privacidad explica qué información puede recopilar <strong>FL Marketing Management LLC</strong> («nosotros») cuando visitas flmarketingmanagement.com, cómo la usamos y protegemos, con quién la compartimos y qué derechos tienes. Se aplica al sitio web, al formulario de contacto, al chat del sitio y a los mensajes que nos envías por correo.' )
+						. flmm_p( 'Fecha de vigencia: septiembre de 2026.', 'flmm-updated' )
 						. flmm_h( 2, 'Información que recopilamos' )
-						. flmm_mig_list( array( '<strong>Datos personales:</strong> cuando visitas el sitio o nos escribes por correo (' . $mail . ') o por el formulario, podemos recopilar tu nombre, tu correo electrónico y cualquier otra información que decidas compartir.', '<strong>Datos de uso:</strong> podemos recopilar automáticamente información sobre tu interacción con el sitio, como tu dirección IP, el tipo de navegador y las páginas que visitas.', '<strong>Contacto y activación de funciones:</strong> al contactarnos por el formulario, el correo o el teléfono, aceptas la activación de la función o el servicio que solicitas. Esto incluye, entre otras, consultas sobre nuestros productos, servicios o funciones adicionales. Usamos esa información solo para los fines descritos en esta política.' ) )
-						. flmm_h( 2, 'Cookies y analítica' )
-						. flmm_p( 'Usamos Google Tag Manager para cargar herramientas de medición que pueden usar cookies o tecnologías similares. Nos ayudan a entender cómo se usa el sitio y a mejorarlo. Puedes bloquear o borrar las cookies desde la configuración de tu navegador.' )
-						. flmm_h( 2, 'Cómo usamos tu información' )
-						. flmm_mig_list( array( 'Para responder tus consultas y prestar los servicios que solicitas.', 'Para personalizar tu experiencia en el sitio.', 'Para mejorar el sitio y nuestros servicios a partir de tus comentarios.' ) )
+						. flmm_mig_list( array( '<strong>Datos que nos entregas:</strong> cuando nos escribes por el formulario, por correo (' . $mail . ') o por el chat, recopilamos tu nombre, tu correo electrónico, los servicios que te interesan y el contenido de tu mensaje.', '<strong>Datos de uso:</strong> si lo aceptas en el banner de cookies, recopilamos información sobre cómo usas el sitio, como las páginas que visitas, el tipo de navegador y dispositivo, y una dirección IP abreviada o aproximada.', '<strong>Contacto y activación de funciones:</strong> al contactarnos por el formulario, el correo o el teléfono, aceptas la activación de la función o el servicio que solicitas. Esto incluye, entre otras, consultas sobre nuestros productos, servicios o funciones adicionales. Usamos esa información solo para los fines descritos en esta política.' ) )
+						. flmm_h( 2, 'Cómo usamos tu información y con qué base' )
+						. flmm_mig_list( array( 'Para responder tus consultas y preparar una propuesta, porque nos lo pides (medidas previas a un contrato).', 'Para medir el uso del sitio y mejorarlo, solo si aceptas las cookies de estadísticas.', 'Para medir el resultado de nuestras campañas publicitarias, solo si aceptas las cookies de marketing.', 'Para proteger el sitio y cumplir obligaciones legales, por nuestro interés legítimo o por obligación legal.' ) )
+						. flmm_h( 2, 'Cookies, analítica y publicidad' )
+						. flmm_p( 'Al entrar al sitio verás un banner donde puedes aceptar, rechazar o elegir por categoría las cookies que no son necesarias. Usamos Google Tag Manager para cargar Google Analytics 4 (estadísticas) y los píxeles de Meta y de OpenAI (marketing). Estas herramientas solo se activan si das tu consentimiento, y puedes cambiarlo cuando quieras desde el enlace «Gestionar consentimiento». El detalle de cada cookie está en nuestra ' . $cookies . '.' )
+						. flmm_h( 2, 'Con quién compartimos tu información' )
+						. flmm_p( 'No vendemos ni alquilamos tus datos personales. Los compartimos solo con proveedores que nos ayudan a operar el sitio y que los tratan por cuenta nuestra:' )
+						. flmm_mig_list( array( '<strong>WordPress.com (Automattic):</strong> alojamiento del sitio y formulario de contacto (Jetpack).', '<strong>Google:</strong> Google Tag Manager y Google Analytics, si aceptas las cookies de estadísticas.', '<strong>Meta y OpenAI:</strong> medición de campañas publicitarias, si aceptas las cookies de marketing.', '<strong>n8n:</strong> procesa los mensajes que escribes en el chat del sitio para que nuestro asistente pueda responderte.', '<strong>Telegram:</strong> si decides hablar con Marky Digital, nuestro agente, en Telegram, se aplican también las condiciones y la política de privacidad de Telegram.' ) )
+						. flmm_p( 'Algunos de estos proveedores pueden tratar datos fuera de tu país, incluido Estados Unidos. En esos casos, se usan los mecanismos que exige la ley aplicable para proteger esos datos.' )
+						. flmm_h( 2, 'Cuánto tiempo guardamos tus datos' )
+						. flmm_p( 'Guardamos los datos de contacto el tiempo necesario para responder tu consulta y, si trabajamos juntos, durante la relación comercial y el plazo que exija la ley. Los datos de analítica se guardan según la configuración de conservación de cada herramienta.' )
+						. flmm_h( 2, 'Tus derechos' )
+						. flmm_p( 'Puedes pedirnos acceder a tus datos, corregirlos, eliminarlos, oponerte a su uso, limitarlo o recibirlos en un formato portable, y retirar tu consentimiento en cualquier momento, sin que eso afecte lo que ya se hizo con él. Para ejercer estos derechos, escríbenos a ' . $mail . '. Si vives en la Unión Europea, también puedes presentar un reclamo ante la autoridad de protección de datos de tu país.' )
 						. flmm_h( 2, 'Seguridad' )
 						. flmm_p( 'Tomamos medidas razonables para proteger la información recopilada contra el acceso o la divulgación no autorizados. Sin embargo, ningún método de transmisión por internet ni de almacenamiento electrónico es completamente seguro.' )
-						. flmm_h( 2, 'Tus opciones' )
-						. flmm_p( 'Puedes elegir no entregar cierta información, aunque eso puede limitar tu acceso a algunos servicios o funciones del sitio.' )
+						. flmm_h( 2, 'Menores de edad' )
+						. flmm_p( 'Este sitio está dirigido a empresas y profesionales. No recopilamos a sabiendas datos de menores de 16 años.' )
 						. flmm_h( 2, 'Contacto' )
 						. flmm_p( 'Si tienes preguntas o inquietudes sobre esta política, escríbenos a ' . $mail . '.' )
 						. flmm_h( 2, 'Cambios a esta política' )
@@ -394,18 +405,26 @@ function flmm_mig_company_page( $slug, $lang ) {
 			}
 			return array(
 				'title'   => 'Privacy Policy',
-				'content' => flmm_p( 'This privacy policy explains what information <strong>FL Marketing Management LLC</strong> ("we", "us" or "our") may collect when you visit flmarketingmanagement.com, how we use and protect it, and the choices you have. It applies to the website, the contact form and the messages you send us by email.' )
-					. flmm_p( 'Effective date: January 2026.', 'flmm-updated' )
+				'content' => flmm_p( 'This privacy policy explains what information <strong>FL Marketing Management LLC</strong> ("we", "us" or "our") may collect when you visit flmarketingmanagement.com, how we use and protect it, who we share it with and the rights you have. It applies to the website, the contact form, the website chat and the messages you send us by email.' )
+					. flmm_p( 'Effective date: September 2026.', 'flmm-updated' )
 					. flmm_h( 2, 'Information we collect' )
-					. flmm_mig_list( array( '<strong>Personal information:</strong> when you visit our website or contact us by email (' . $mail . ') or through the form, we may collect your name, email address and any other information you choose to provide.', '<strong>Usage data:</strong> we may automatically collect information about your interactions with our website, including your IP address, browser type and the pages you visit.', '<strong>Contact and activation of features:</strong> by contacting us through our web form, email or phone, you agree to the activation of the feature or service you request. This includes, but is not limited to, inquiries about our products, services or any additional functionality. We use the information provided solely for the purposes described in this policy.' ) )
-					. flmm_h( 2, 'Cookies and analytics' )
-					. flmm_p( 'We use Google Tag Manager to load measurement tools that may use cookies or similar technologies. They help us understand how the website is used and improve it. You can block or delete cookies in your browser settings.' )
-					. flmm_h( 2, 'How we use your information' )
-					. flmm_mig_list( array( 'To respond to your inquiries and provide the services you request.', 'To personalize your experience on our website.', 'To improve our website and services based on your feedback.' ) )
+					. flmm_mig_list( array( '<strong>Information you give us:</strong> when you contact us through the form, by email (' . $mail . ') or through the chat, we collect your name, email address, the services you are interested in and the content of your message.', '<strong>Usage data:</strong> if you accept it in the cookie banner, we collect information about how you use the website, such as the pages you visit, your browser and device type, and a shortened or approximate IP address.', '<strong>Contact and activation of features:</strong> by contacting us through our web form, email or phone, you agree to the activation of the feature or service you request. This includes, but is not limited to, inquiries about our products, services or any additional functionality. We use the information provided solely for the purposes described in this policy.' ) )
+					. flmm_h( 2, 'How we use your information and why' )
+					. flmm_mig_list( array( 'To answer your inquiries and prepare a proposal, because you ask us to (steps prior to a contract).', 'To measure how the website is used and improve it, only if you accept statistics cookies.', 'To measure the results of our advertising campaigns, only if you accept marketing cookies.', 'To protect the website and meet legal obligations, based on our legitimate interest or a legal obligation.' ) )
+					. flmm_h( 2, 'Cookies, analytics and advertising' )
+					. flmm_p( 'When you visit the website you will see a banner where you can accept, deny or choose by category the cookies that are not strictly necessary. We use Google Tag Manager to load Google Analytics 4 (statistics) and the Meta and OpenAI pixels (marketing). These tools only run if you give your consent, and you can change it at any time with the "Manage consent" link. Details about each cookie are in our ' . $cookies . '.' )
+					. flmm_h( 2, 'Who we share your information with' )
+					. flmm_p( 'We do not sell or rent your personal information. We share it only with providers that help us run the website and process it on our behalf:' )
+					. flmm_mig_list( array( '<strong>WordPress.com (Automattic):</strong> website hosting and contact form (Jetpack).', '<strong>Google:</strong> Google Tag Manager and Google Analytics, if you accept statistics cookies.', '<strong>Meta and OpenAI:</strong> measurement of advertising campaigns, if you accept marketing cookies.', '<strong>n8n:</strong> processes the messages you write in the website chat so our assistant can reply.', '<strong>Telegram:</strong> if you choose to talk to Marky Digital, our agent, on Telegram, Telegram’s own terms and privacy policy also apply.' ) )
+					. flmm_p( 'Some of these providers may process data outside your country, including in the United States. In those cases, the safeguards required by applicable law are used to protect that data.' )
+					. flmm_h( 2, 'How long we keep your information' )
+					. flmm_p( 'We keep contact information for as long as needed to answer your inquiry and, if we work together, for the duration of the business relationship and any period required by law. Analytics data is kept according to the retention settings of each tool.' )
+					. flmm_h( 2, 'Your rights' )
+					. flmm_p( 'You can ask us to access, correct or delete your information, object to or restrict its use, or receive it in a portable format, and you can withdraw your consent at any time without affecting what was done before. To exercise these rights, email us at ' . $mail . '. If you live in the European Union, you can also file a complaint with your local data protection authority.' )
 					. flmm_h( 2, 'Security' )
 					. flmm_p( 'We take reasonable measures to protect the information collected from unauthorized access or disclosure. However, no method of transmission over the internet or electronic storage is completely secure.' )
-					. flmm_h( 2, 'Your choices' )
-					. flmm_p( 'You can choose not to provide certain information, but it may limit your ability to access certain services or features on our website.' )
+					. flmm_h( 2, 'Children' )
+					. flmm_p( 'This website is intended for businesses and professionals. We do not knowingly collect information from children under 16.' )
 					. flmm_h( 2, 'Contact us' )
 					. flmm_p( 'If you have any questions or concerns about this privacy policy, please contact us at ' . $mail . '.' )
 					. flmm_h( 2, 'Changes to this policy' )

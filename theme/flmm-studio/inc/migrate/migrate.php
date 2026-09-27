@@ -593,6 +593,22 @@ function flmm_mig_fix_post_content( $content ) {
 	// Enlaces internos rotos de las entradas en español.
 	$content = preg_replace( '#https?://[^"/]+/blog/metricas-performance-marketing-b2b/#', home_url( '/es/blog/metricas-de-performance-marketing-b2b-mas-alla-del-cpc/' ), $content );
 	$content = preg_replace( '#https?://[^"/]+/blog/ia-entropia-shannon-marketing/#', home_url( '/es/blog/ia-y-entropia-de-shannon-en-performance-marketing-b2b/' ), $content );
+	// Cifra de G2 (2026): el informe habla de agentes de IA en la compra, no de buscadores con IA.
+	$content = str_replace(
+		array(
+			'<strong>61% of B2B software buyers now use AI search engines alongside Google</strong> during research, according to G2 (2026).',
+			'61% of B2B buyers now research with AI search too (G2, 2026).',
+			'<strong>el 61% de los compradores de software B2B ya usa motores de búsqueda con IA junto a Google</strong> durante su investigación, según G2 (2026).',
+			'El 61% de los compradores B2B ya investiga también con IA (G2, 2026).',
+		),
+		array(
+			'<strong>61% of B2B software buyers use or plan to use AI agents in the buying process</strong>, according to G2’s 2026 Buyer Behavior Report.',
+			'61% of B2B software buyers use or plan to use AI agents when buying (G2, 2026).',
+			'<strong>el 61% de los compradores de software B2B usa o planea usar agentes de IA en su proceso de compra</strong>, según el informe Buyer Behavior 2026 de G2.',
+			'El 61% de los compradores de software B2B usa o planea usar agentes de IA al comprar (G2, 2026).',
+		),
+		$content
+	);
 	// Raya larga.
 	$dash    = "\u{2014}";
 	$content = str_replace( array( ' ' . $dash . ' ', $dash ), array( ', ', ', ' ), $content );

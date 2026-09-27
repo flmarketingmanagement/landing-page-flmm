@@ -45,6 +45,15 @@ function flmm_mig_cookie_strings() {
 			'The technical storage or access is required to create user profiles to send advertising, or to track the user across websites for similar marketing purposes.',
 			'El almacenamiento o acceso técnico es necesario para crear perfiles de usuario para enviar publicidad o para rastrear al usuario en uno o varios sitios web con fines de marketing similares.',
 		),
+		// Textos por defecto de Complianz en español que quedaron como base (preferencias y estadísticas anónimas).
+		array(
+			'The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.',
+			'El almacenamiento o acceso técnico es necesario para la finalidad legítima de almacenar preferencias no solicitadas por el abonado o usuario.',
+		),
+		array(
+			'The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.',
+			'El almacenamiento o acceso técnico que se utiliza exclusivamente con fines estadísticos anónimos. Sin un requerimiento, el cumplimiento voluntario por parte de tu proveedor de servicios de Internet, o los registros adicionales de un tercero, la información almacenada o recuperada sólo para este propósito no se puede utilizar para identificarte.',
+		),
 		// Textos por defecto de Complianz en español (por si quedan como base).
 		array(
 			'Para ofrecer las mejores experiencias, utilizamos tecnologías como las cookies para almacenar y/o acceder a la información del dispositivo. El consentimiento de estas tecnologías nos permitirá procesar datos como el comportamiento de navegación o las identificaciones únicas en este sitio. No consentir o retirar el consentimiento, puede afectar negativamente a ciertas características y funciones.',

@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,11 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.3.1 =
+* Política de privacidad actualizada (EN y ES): banner de cookies, GA4, píxeles de Meta y OpenAI, n8n, Jetpack y Telegram, bases, conservación, derechos y menores.
+* Banner de cookies: 2 textos que en inglés salían en español.
+* Artículos de métricas B2B: la cifra de G2 (2026) ahora dice lo que dice el informe.
 
 = 1.3.0 =
 * SEO on-page (Rank Math): palabra clave real por servicio, home, Florida y Lakeland; títulos, descripciones, H1, entrada y H2 con la palabra clave.
