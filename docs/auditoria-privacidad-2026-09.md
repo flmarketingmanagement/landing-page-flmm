@@ -55,3 +55,46 @@ Banner: "Accept" y "Deny" en la primera capa, mismo tamaño (155 x 45 px). No ve
 
 ## Aviso
 Revisión técnica y de buenas prácticas; no reemplaza asesoría legal.
+
+---
+
+# Re-auditoría: 27 de septiembre de 2026 (después de ajustar Complianz)
+
+## Resumen
+Complianz ya lista Google Analytics, Facebook (Meta Pixel) y YouTube. La fecha sale en formato ISO en los dos idiomas y los videos de YouTube quedan bloqueados hasta el consentimiento. El escáner confirma el mismo comportamiento correcto en el home y en /podcast/. Quedan 0 críticos, 0 altos, 3 medios, 1 bajo y 1 informativo, casi todos de texto de Complianz.
+
+## Evidencia (escáner en /podcast/, 4 sesiones con HTTP 200)
+| Sesión | Seguimiento | Cookies |
+|---|---|---|
+| Sin interactuar | ninguno (pings sin cookies de Google, `G100`) | ninguna |
+| Tras aceptar | Jetpack Stats, Google Analytics, Meta Pixel | `_ga`, `_ga_FX9HN9DRRN` |
+| Tras rechazar | ninguno (pings sin cookies) | ninguna |
+| Con GPC | ninguno | ninguna |
+
+- Consent Mode default: ad_storage, analytics_storage, ad_user_data, ad_personalization y personalization_storage en `denied`.
+- YouTube: el iframe usa `data-src-cmplz` y muestra un marcador de posición hasta que se aceptan las cookies de marketing.
+
+## Estado de los hallazgos anteriores
+| # | Hallazgo | Estado |
+|---|---|---|
+| 1 | La política de cookies no listaba Meta, OpenAI ni Jetpack Stats | **Parcial:** Facebook y YouTube agregados; faltan OpenAI y Jetpack Stats (ver hallazgos 10 y 11) |
+| 2 | Sin aviso junto al formulario | Corregido |
+| 3 | La publicidad "no perfila" | **Sigue igual** (hallazgo 12) |
+| 4 | Privacidad sin Jetpack Stats ni pings sin cookies | Corregido |
+| 5 | Banner con textos en español en la versión en inglés | Corregido |
+| 6 | Fecha "27 de September de 2026" | Corregido (2026-09-27) |
+| 7 | Chat sin aviso de automatización | Corregido |
+
+## Hallazgos nuevos o pendientes
+| # | Severidad | Área | Hallazgo | Evidencia | Corrección |
+|---|---|---|---|---|---|
+| 10 | Media | Política de cookies | No lista Jetpack Stats, aunque se carga tras aceptar. | Escáner: `stats.wp.com` tras aceptar; la política no menciona Jetpack. | Complianz > Integraciones > Plugins: revisar que Jetpack Stats esté en la categoría Estadísticas; si no aparece como servicio, basta con que figure en la privacidad (ya está). |
+| 11 | Media | Política de cookies | No lista el píxel de OpenAI. | La política no menciona OpenAI. | Si Complianz permite agregar servicios a mano, agrégalo en Marketing; si no, queda cubierto por la política de privacidad. |
+| 12 | Media | Política de cookies | El punto 5.3 dice que las cookies publicitarias "no harán un perfil ... para servir anuncios personalizados". | Texto 5.3 en EN y ES. | Si usas Meta o OpenAI para audiencias o retargeting, en el asistente responde que muestras o personalizas anuncios. Si solo mides conversiones, el texto es correcto. |
+| 13 | Baja | Datos de contacto | La dirección aparece incompleta: "2282 Shasta Street, United States", sin ciudad, estado ni código postal. | Sección de contacto de ambas políticas. | Completa la dirección en Complianz > Asistente > General, o quítala si no quieres publicarla. |
+| 14 | Info | Multilingüe | En la versión ES hay un texto "Consent to service" sin traducir en cada servicio. | Plantilla de Complianz `templates/cookiepolicy/services.php`: es texto solo para lectores de pantalla y viene fijo en inglés. | No es visible y no se puede traducir desde Polylang; se deja así. |
+
+## Preguntas para el dueño (actualizadas)
+1. ¿Los píxeles de Meta y OpenAI se usan para audiencias o retargeting? (hallazgo 12)
+2. ¿Quieres publicar la dirección completa de la empresa? (hallazgo 13)
+3. Siguen abiertas las preguntas 1, 3 y 4 de la auditoría anterior.

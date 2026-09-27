@@ -78,13 +78,10 @@ async function clickConsent(page, selectors, textRe) {
 	// Espera a que el banner aparezca (algunos plugins lo muestran con retraso).
 	await page.waitForSelector(ACCEPT_SEL.concat(DENY_SEL).join(', '), { state: 'visible', timeout: 15000 }).catch(() => {});
 	for (const sel of selectors) {
-		// Algunos plugins repiten la clase en capas ocultas: se usa el primer elemento visible.
-		for (const el of await page.$$(sel)) {
-			if (await el.isVisible().catch(() => false)) {
-				await el.click().catch(() => {});
-				return sel;
-			}
-		}
+		if (!(await page.locator(sel).count())) continue;
+		// Algunos plugins repiten la clase en capas ocultas: se usa el primer elemento visible y se espera a que sea clicable.
+		const ok = await page.locator(sel).locator('visible=true').first().click({ timeout: 15000 }).then(() => true).catch(() => false);
+		if (ok) return sel;
 	}
 	const buttons = await page.$$('button, a[role="button"], [role="button"]');
 	for (const b of buttons) {
@@ -185,7 +182,8 @@ function summarize(r) {
 	if (deny && (deny.trackersAfterClick.length || deny.trackingCookies.length)) findings.push({ severity: 'CRÍTICA', text: 'Seguimiento después de rechazar', trackers: deny.trackersAfterClick, cookies: deny.trackingCookies });
 	if (results.none.banner && !results.none.banner.acceptButton) findings.push({ severity: 'ALTA', text: 'No se detectó un botón de aceptar visible (¿no hay banner o usa otro plugin?)' });
 	if (results.none.banner && results.none.banner.acceptButton && !results.none.banner.denyButton) findings.push({ severity: 'MEDIA', text: 'No hay botón de rechazar visible en la primera capa' });
-	const cm = (results.accept.banner && results.accept.banner.consentMode && results.accept.banner.consentMode.length ? results.accept.banner.consentMode : (results.none.banner ? results.none.banner.consentMode : [])) || [];
+	// Consent Mode: se toma de cualquier sesión que lo haya capturado (gtag.js a veces carga tarde).
+	const cm = ['none', 'accept', 'deny', 'gpc'].map(m => results[m].banner && results[m].banner.consentMode).find(c => c && c.some(x => x.cmd === 'default')) || [];
 	const def = cm.find(c => c.cmd === 'default');
 	if (!def) findings.push({ severity: 'MEDIA', text: 'No se detectó gtag("consent","default") en el dataLayer (Consent Mode v2). Puede cargarse de otra forma; verificar con Tag Assistant.' });
 	else {
@@ -221,7 +219,7 @@ function summarize(r) {
 	console.log('\n## Banner');
 	console.log('- Aceptar: ' + JSON.stringify(b.acceptButton));
 	console.log('- Rechazar: ' + JSON.stringify(b.denyButton));
-	console.log('- Consent Mode default: ' + JSON.stringify((b.consentMode || []).find(c => c.cmd === 'default') || null));
+	console.log('- Consent Mode default: ' + JSON.stringify(cm.find(c => c.cmd === 'default') || null));
 	console.log('\n## Hallazgos');
 	if (!findings.length) console.log('- Sin hallazgos automáticos. Revisa igual las políticas con los checklists.');
 	findings.forEach(f => console.log(`- [${f.severity}] ${f.text}${f.trackers && f.trackers.length ? ': ' + f.trackers.join(', ') : ''}${f.cookies && f.cookies.length ? ' | cookies: ' + f.cookies.join(', ') : ''}`));
