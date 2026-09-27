@@ -666,6 +666,16 @@
     },
     {
      "q": {
+      "es": "¿Qué es el GEO y en qué se diferencia del AEO?",
+      "en": "What is GEO and how is it different from AEO?"
+     },
+     "a": {
+      "es": "El GEO (Generative Engine Optimization) y el AEO se superponen mucho. El AEO busca dar respuestas directas que los asistentes citen; el GEO mira cómo perciben tu marca los modelos generativos: menciones en la web, reseñas, datos coherentes y autoridad temática. En la práctica trabajamos ambos y medimos cuántas veces la IA te menciona y te cita.",
+      "en": "GEO (Generative Engine Optimization) and AEO overlap heavily. AEO focuses on giving direct answers that assistants can cite; GEO looks more broadly at how generative models perceive your brand: mentions across the web, reviews, consistent facts and topical authority. In practice we work on both and measure how often AI answers mention and cite you."
+     }
+    },
+    {
+     "q": {
       "es": "¿Cuánto tarda el SEO en dar resultados?",
       "en": "How long does SEO take to work?"
      },
@@ -786,6 +796,16 @@
      "def": {
       "es": "Answer Engine Optimization: optimización del contenido para que asistentes de IA lo entiendan, lo citen y lo recomienden en sus respuestas.",
       "en": "Answer Engine Optimization: optimizing content so AI assistants understand it, cite it and recommend it in their answers."
+     }
+    },
+    {
+     "term": {
+      "es": "GEO",
+      "en": "GEO"
+     },
+     "def": {
+      "es": "Generative Engine Optimization: trabajo para que los modelos de IA generativa, como ChatGPT, Gemini y Perplexity, encuentren tu marca, confíen en ella y la mencionen al escribir una respuesta.",
+      "en": "Generative Engine Optimization: work that helps generative AI models such as ChatGPT, Gemini and Perplexity find your brand, trust it and mention it when they write an answer."
      }
     },
     {
