@@ -946,7 +946,7 @@
     "medir el AEO"
    ],
    "tldr": "Las posiciones por sí solas no te dicen si los asistentes de IA usan tu contenido. Para medir el AEO, combina una lista fija de preguntas revisadas en ChatGPT, Gemini, Perplexity y los AI Overviews, el tráfico de referencia de IA en GA4, los datos de Search Console, las búsquedas de marca y lo que te cuentan tus leads. Ninguna métrica es perfecta: mira la tendencia.",
-   "intro": "Medir el AEO (Answer Engine Optimization) es comprobar si los asistentes de IA mencionan, citan y enlazan tu marca cuando alguien hace las preguntas que importan para tu negocio. No existe un informe único para esto, así que combinas una lista fija de preguntas revisadas en varias herramientas, el tráfico de IA en GA4, Search Console y lo que dicen tus leads.",
+   "intro": "Medir el AEO (Answer Engine Optimization) es comprobar si los asistentes de IA mencionan, citan y enlazan tu marca cuando alguien hace las preguntas que importan para tu negocio. No existe un informe único para esto, así que combinas una lista fija de preguntas revisadas en varias herramientas, el tráfico de IA en GA4, Search Console y tus leads.",
    "body": [
     [
      "h2",
@@ -1544,7 +1544,7 @@
     ],
     [
      "¿Debería bloquear GPTBot o Google-Extended?",
-     "Es una decisión de negocio sobre cómo se usa tu contenido para construir modelos de IA, no sobre tu visibilidad en las respuestas. Los rastreadores de búsqueda como OAI-SearchBot y Googlebot son los que definen si puedes aparecer en la búsqueda de ChatGPT y en Google. Muchas marcas permiten los de búsqueda y revisan los de entrenamiento con su equipo legal."
+     "Es una decisión de negocio sobre cómo se usa tu contenido para entrenar modelos de IA, no sobre tu visibilidad en las respuestas. Los rastreadores de búsqueda como OAI-SearchBot y Googlebot definen si puedes aparecer en la búsqueda de ChatGPT y en Google. Muchas marcas permiten los de búsqueda y revisan los de entrenamiento con su área legal."
     ]
    ],
    "takeaways": [
@@ -1682,7 +1682,7 @@
     ],
     [
      "p",
-     "FL Marketing Management is a boutique, bilingual team based in Florida. We have worked with Florida businesses such as Arthouse Boca (arthouseboca.com), Había una vez una foto (habiaunavezunafoto.com) and Hart (hart.live). If you are in Polk County, our guide on <a href=\"{post:lakeland-agency}\">choosing a digital marketing agency in Lakeland</a> goes deeper into local needs, and our <a href=\"{lakeland}\">Lakeland services page</a> shows what we do there."
+     "FL Marketing Management is a boutique, bilingual team based in Florida. We have worked with Florida businesses such as arthouseboca.com, habiaunavezunafoto.com and hart.live. If you are in Polk County, our guide on <a href=\"{post:lakeland-agency}\">choosing a digital marketing agency in Lakeland</a> goes deeper into local needs, and our <a href=\"{lakeland}\">Lakeland services page</a> shows what we do there."
     ],
     [
      "p",
@@ -1833,7 +1833,7 @@
     ],
     [
      "p",
-     "FL Marketing Management es un equipo boutique y bilingüe con base en Florida. Hemos trabajado con empresas de Florida como Arthouse Boca (arthouseboca.com), Había una vez una foto (habiaunavezunafoto.com) y Hart (hart.live). Si estás en el condado de Polk, nuestra guía sobre <a href=\"{post:lakeland-agency}\">cómo elegir una agencia de marketing digital en Lakeland</a> profundiza en las necesidades locales, y nuestra <a href=\"{lakeland}\">página de servicios en Lakeland</a> muestra lo que hacemos allí."
+     "FL Marketing Management es un equipo boutique y bilingüe con base en Florida. Hemos trabajado con empresas de Florida como arthouseboca.com, habiaunavezunafoto.com y hart.live. Si estás en el condado de Polk, nuestra guía sobre <a href=\"{post:lakeland-agency}\">cómo elegir una agencia de marketing digital en Lakeland</a> profundiza en las necesidades locales, y nuestra <a href=\"{lakeland}\">página de servicios en Lakeland</a> muestra lo que hacemos allí."
     ],
     [
      "p",
