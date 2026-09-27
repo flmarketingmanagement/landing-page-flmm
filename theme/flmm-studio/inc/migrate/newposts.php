@@ -128,6 +128,9 @@ function flmm_mig_new_post_content( $d, $lang ) {
 				$html .= flmm_p( $block[1] );
 		}
 	}
+	if ( ! empty( $d['ref'] ) ) {
+		$html .= flmm_p( ( 'es' === $lang ? 'Referencia:' : 'Reference:' ) . ' <a href="' . esc_url( $d['ref'][1] ) . '" target="_blank" rel="noreferrer noopener">' . esc_html( $d['ref'][0] ) . '</a>', 'flmm-ref' );
+	}
 	$html .= flmm_h( 2, $d['faq_title'] );
 	foreach ( $d['faq'] as $qa ) {
 		$html .= flmm_h( 3, $qa[0] ) . flmm_p( $qa[1] );

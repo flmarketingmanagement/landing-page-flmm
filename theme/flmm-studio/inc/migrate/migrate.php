@@ -248,6 +248,8 @@ function flmm_mig_step_assign() {
 function flmm_mig_upload( $file, $alt, $title ) {
 	$found = get_posts( array( 'post_type' => 'attachment', 'posts_per_page' => 1, 'meta_key' => '_flmm_source', 'meta_value' => $file, 'lang' => 'en', 'fields' => 'ids' ) );
 	if ( $found ) {
+		// El texto alternativo se actualiza desde el código aunque el archivo ya exista.
+		update_post_meta( (int) $found[0], '_wp_attachment_image_alt', $alt );
 		return (int) $found[0];
 	}
 	require_once ABSPATH . 'wp-admin/includes/image.php';
@@ -388,6 +390,7 @@ function flmm_mig_service_content( $s, $lang ) {
 		. flmm_pattern_service_included( $lang, $s )
 		. flmm_pattern_service_comparison( $lang, $s )
 		. flmm_pattern_service_concepts( $lang, $s )
+		. flmm_pattern_service_guide( $lang, $s )
 		. flmm_pattern_service_method( $lang, $s )
 		. flmm_pattern_service_audience( $lang, $s )
 		. flmm_pattern_service_why( $lang, $s, $testimonial )
@@ -788,7 +791,7 @@ function flmm_mig_step_seo() {
 				continue;
 			}
 			$title = isset( $overrides[ $s['slug'] ][ $lang ] ) ? $overrides[ $s['slug'] ][ $lang ] : html_entity_decode( $s['title'][ $lang ], ENT_QUOTES );
-			flmm_mig_set_seo( $services[ $s['slug'] ][ $lang ], array( $title, html_entity_decode( $s['desc'][ $lang ], ENT_QUOTES ), html_entity_decode( wp_strip_all_tags( $s['name'][ $lang ] ), ENT_QUOTES ) ) );
+			flmm_mig_set_seo( $services[ $s['slug'] ][ $lang ], array( $title, html_entity_decode( $s['desc'][ $lang ], ENT_QUOTES ), html_entity_decode( wp_strip_all_tags( ! empty( $s['kw'] ) ? $s['kw'][ $lang ] : $s['name'][ $lang ] ), ENT_QUOTES ) ) );
 		}
 	}
 	$pages = array_merge( (array) flmm_mig_state( 'company' ), (array) flmm_mig_state( 'home' ) );

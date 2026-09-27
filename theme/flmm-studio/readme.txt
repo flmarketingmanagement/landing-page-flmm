@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.2.9
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,13 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.3.0 =
+* SEO on-page (Rank Math): palabra clave real por servicio, home, Florida y Lakeland; títulos, descripciones, H1, entrada y H2 con la palabra clave.
+* Servicios: sección nueva de guía (unas 300 palabras) y enlace a fuente oficial en todos.
+* Florida y Lakeland: sección de guía, imagen de mapa propia y texto alternativo con la palabra clave.
+* Blog: palabra clave exacta en entrada, H2 y FAQ, densidad natural y referencia externa en cada artículo; artículos a las 9:00 hora de Florida todo el año.
+* El texto alternativo de las imágenes se actualiza desde el código aunque el archivo ya exista.
 
 = 1.2.9 =
 * Blog: 9 artículos nuevos en EN y ES, programados cada martes del 27-oct al 22-dic de 2026 (AEO, Florida, Lakeland y plan 2027).

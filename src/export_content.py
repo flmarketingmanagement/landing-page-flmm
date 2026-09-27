@@ -4,6 +4,10 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, '.')
 from services_data import S
 from services_extra import X, TESTI
+try:
+    from services_seo import SEO  # palabra clave, título, descripción, entrada, guía y referencia por servicio
+except ModuleNotFoundError:
+    SEO = {}
 
 def pair(t):
     return {'es': t[0], 'en': t[1]}
@@ -53,6 +57,21 @@ for s in S:
         'ref': ({'label': pair(x['ref'][0]), 'url': x['ref'][1]} if x['ref'] else None),
         'headings': headings(s), 'testi': x['testi'], 'team': list(x['team']), 'rel': list(s['rel']),
     })
+    o = SEO.get(s['slug'])
+    if o:
+        sv = services[-1]
+        for k in ('kw', 'title', 'desc', 'lead', 'h1'):
+            if k in o:
+                sv[k] = pair(o[k])
+        for k in ('inc', 'faq', 'defs', 'why', 'who', 'method'):
+            if 'h_' + k in o:
+                sv['headings'][k] = pair(o['h_' + k])
+        if o.get('ref'):
+            sv['ref'] = {'label': pair(o['ref'][0]), 'url': o['ref'][1]}
+        if o.get('guide'):
+            g = o['guide']
+            sv['guide'] = {'label': pair(g['label']), 'h2': pair(g['h2']), 'intro': pair(g['intro']),
+                           'items': [{'h': {'es': a, 'en': b}, 'p': {'es': c, 'en': d}} for a, b, c, d in g['items']]}
 testimonials = {k: {'quote': {'es': v[0], 'en': v[1]}, 'name': v[2], 'role': {'es': v[3][0], 'en': v[3][1]}} for k, v in TESTI.items()}
 json.dump({'services': services, 'testimonials': testimonials}, open('content.json', 'w'), ensure_ascii=False, indent=1)
 print(len(services), 'servicios')
@@ -88,6 +107,11 @@ home = {
     'results': {'label': t('t61'), 'title': t('t62'), 'text': t('t63'), 'stats': [
         {'value': same('14+'), 'text': t('t64')}, {'value': same('17+'), 'text': t('t65')},
         {'value': same('Effie'), 'text': t('t66')}, {'value': same('PCM®'), 'text': same('Professional Certified Marketer, AMA')}]},
+}
+# SEO: palabra clave del home (agencia de marketing digital) en el texto de servicios.
+home['services']['text'] = {
+    'es': 'Una agencia de marketing digital con estrategia, medios, contenido, tecnología y datos bajo un mismo techo. Trabajamos pocas cuentas a la vez para dedicarles atención real.',
+    'en': 'A digital marketing agency with strategy, media, content, technology and data under one roof. We work with a limited number of accounts to give each one real attention.',
 }
 # Equipo: nombre, rol y tags desde el HTML del diseño.
 team = []
