@@ -224,6 +224,14 @@ a:hover .flmm-mark { background: var(--pink); color: var(--ink); }
 .flmm-hero__lead { margin-top: 2rem; font-size: clamp(1.05rem, 1.5vw, 1.25rem); color: var(--ink-2); max-width: 56ch; }
 .wp-site-blocks .flmm-hero .flmm-ctas { margin-top: clamp(2.5rem, 5vw, 3.5rem); }
 @media (max-width: 860px) { .wp-site-blocks .flmm-hero { padding-top: 3rem; } }
+/* Hero con ilustración: dos columnas. */
+.wp-site-blocks .flmm-hero__grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: clamp(2rem, 4vw, 4rem); align-items: center; }
+.flmm-hero--art .flmm-hero__title { font-size: clamp(2.75rem, 5.4vw, 5.4rem); }
+.wp-site-blocks .flmm-hero__art { margin: 0; }
+.flmm-hero__art img { display: block; width: 100%; height: auto; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .flmm-hero__art { border-radius: var(--r); overflow: hidden; } }
+:root[data-theme="dark"] .flmm-hero__art { border-radius: var(--r); overflow: hidden; }
+@media (max-width: 860px) { .wp-site-blocks .flmm-hero__grid { grid-template-columns: 1fr; } .flmm-hero__art { max-width: 520px; } }
 
 /* ---------- Servicios (lista numerada) ---------- */
 .wp-site-blocks .flmm-svc { border-top: 1px solid var(--line); }

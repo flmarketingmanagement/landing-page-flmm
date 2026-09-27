@@ -488,6 +488,7 @@ function flmm_mig_step_home() {
 	foreach ( array( 'en', 'es' ) as $lang ) {
 		$hero           = $home['hero'];
 		$hero['lead']   = array( $lang => $lead[ $lang ] );
+		$hero['image']  = flmm_mig_image( 'home-hero', $lang );
 		$content[ $lang ] = flmm_pattern_hero( $lang, $hero )
 			. flmm_pattern_services( $lang, $home['services'], $urls )
 			. flmm_pattern_platforms( $lang, $home['platforms'] )

@@ -15,7 +15,7 @@ POSTS.append({
     'key': 'seo-aeo-geo',
     'publish_gmt': '2026-09-29 13:00:00',
     'cat': 'aeo',
-    'image': 'seo-aeo',
+    'image': 'post-seo-aeo-geo',
     'en': {
         'slug': 'seo-vs-aeo-vs-geo',
         'title': 'SEO vs AEO vs GEO: Differences and How to Apply Them by Industry',
@@ -127,7 +127,7 @@ POSTS.append({
     'key': 'aeo-services',
     'publish_gmt': '2026-10-06 13:00:00',
     'cat': 'aeo',
-    'image': 'aeo-content',
+    'image': 'post-aeo-services',
     'en': {
         'slug': 'what-are-aeo-services',
         'title': 'What Are AEO Services? What They Include and How to Choose a Provider',
@@ -229,7 +229,7 @@ POSTS.append({
     'key': 'gemini-ai-overviews',
     'publish_gmt': '2026-10-13 13:00:00',
     'cat': 'aeo',
-    'image': 'ai-assistants',
+    'image': 'post-gemini-overviews',
     'en': {
         'slug': 'show-up-in-gemini-and-ai-overviews',
         'title': 'How to Show Up in Gemini and Google AI Overviews',
@@ -323,7 +323,7 @@ POSTS.append({
     'key': 'aeo-saas',
     'publish_gmt': '2026-10-20 13:00:00',
     'cat': 'aeo',
-    'image': 'marketing-automation',
+    'image': 'post-aeo-saas',
     'en': {
         'slug': 'aeo-for-saas',
         'title': 'AEO for SaaS: How to Get Your Product Cited by ChatGPT',

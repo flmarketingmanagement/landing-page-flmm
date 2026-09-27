@@ -69,6 +69,11 @@ function flmm_mig_media() {
 		'post-metrics'          => array( 'B2B performance marketing metrics: a count to start measuring what matters, beyond CPC', 'Métricas de performance marketing B2B: un conteo para empezar a medir lo que importa, más allá del CPC' ),
 		'post-dictionary'       => array( 'AI marketing glossary: loose letters connected to organized terms and definitions', 'Glosario de marketing con IA: letras sueltas conectadas a términos y definiciones ordenadas' ),
 		'post-entropy'          => array( 'Shannon entropy in marketing: many audience segments connected into one clear signal', 'Entropía de Shannon en marketing: muchos segmentos de audiencia conectados en una señal clara' ),
+		'home-hero'             => array( 'Digital marketing connected: search, AI answers, data and global reach linked by one path', 'Marketing digital conectado: búsqueda, respuestas de IA, datos y alcance global unidos por un mismo camino' ),
+		'post-seo-aeo-geo'      => array( 'SEO vs AEO vs GEO: a search results page, an AI answer and a generative engine connected in sequence', 'SEO vs AEO vs GEO: una página de resultados, una respuesta de IA y un motor generativo conectados en secuencia' ),
+		'post-aeo-services'     => array( 'AEO services: a question connected to a clear, structured answer', 'Servicios de AEO: una pregunta conectada a una respuesta clara y estructurada' ),
+		'post-gemini-overviews' => array( 'Gemini and AI Overviews: an AI summary citing one web page as its source', 'Gemini y AI Overviews: un resumen de IA que cita una página web como fuente' ),
+		'post-aeo-saas'         => array( 'AEO for SaaS: a software dashboard connected to an AI answer that compares products', 'AEO para SaaS: un panel de software conectado a una respuesta de IA que compara productos' ),
 	);
 }
 
