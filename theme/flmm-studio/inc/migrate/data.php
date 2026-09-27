@@ -165,6 +165,7 @@ function flmm_mig_categories() {
 		'performance' => array( 'en' => array( 'Performance', 'performance' ), 'es' => array( 'Performance', 'performance-es' ) ),
 		'aeo'         => array( 'en' => array( 'AEO', 'aeo' ), 'es' => array( 'AEO', 'aeo-es' ) ),
 		'ai'          => array( 'en' => array( 'AI', 'ai' ), 'es' => array( 'IA', 'ia' ) ),
+		'local'       => array( 'en' => array( 'Local marketing', 'local-marketing' ), 'es' => array( 'Marketing local', 'marketing-local' ) ),
 	);
 }
 
@@ -184,6 +185,10 @@ function flmm_mig_category_descriptions() {
 		'ai'          => array(
 			'en' => 'Articles on artificial intelligence in marketing: key terms, LLMs, automation and practical ways to use AI in strategy, content and paid media campaigns.',
 			'es' => 'Artículos sobre inteligencia artificial en marketing: términos clave, LLM, automatización y formas prácticas de usar la IA en estrategia, contenido y medios.',
+		),
+		'local'       => array(
+			'en' => 'Articles on local marketing in Florida and Lakeland: local SEO, Google Business Profile, AEO for local businesses and how to choose the right marketing agency.',
+			'es' => 'Artículos sobre marketing local en Florida y Lakeland: SEO local, Perfil de Empresa de Google, AEO para negocios locales y cómo elegir una agencia de marketing.',
 		),
 	);
 }

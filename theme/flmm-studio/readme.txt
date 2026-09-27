@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.2.8
+Stable tag: 1.2.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,11 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.2.9 =
+* Blog: 9 artículos nuevos en EN y ES, programados cada martes del 27-oct al 22-dic de 2026 (AEO, Florida, Lakeland y plan 2027).
+* Categoría nueva "Marketing local" / "Local marketing".
+* Contacto: tarjeta oscura con bordes redondeados, separada del footer.
 
 = 1.2.8 =
 * Home: ilustración en el hero, en dos columnas (texto a la izquierda, imagen a la derecha; en móvil va debajo).
