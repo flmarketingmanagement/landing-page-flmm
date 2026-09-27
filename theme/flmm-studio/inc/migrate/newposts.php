@@ -53,6 +53,13 @@ function flmm_mig_new_post_links( $html, $lang ) {
 		'{seo-aeo}' => 'es' === $lang ? home_url( '/es/' . $es_slugs['seo-aeo'] . '/' ) : home_url( '/seo-aeo/' ),
 		'{florida}' => function_exists( 'flmm_mig_local_url' ) ? flmm_mig_local_url( 'marketing-agency-florida', $lang ) : home_url( '/' ),
 	);
+	if ( function_exists( 'flmm_mig_local_url' ) ) {
+		$map['{lakeland}'] = flmm_mig_local_url( 'digital-marketing-lakeland', $lang );
+	}
+	// Páginas de servicios: {service:slug}.
+	foreach ( flmm_mig_service_urls() as $slug => $urls ) {
+		$map[ '{service:' . $slug . '}' ] = $urls[ $lang ];
+	}
 	$html = strtr( $html, $map );
 	// Enlaces a otros artículos nuevos: solo si ya están publicados; si no, queda el texto sin enlace.
 	return preg_replace_callback(

@@ -74,6 +74,15 @@ function flmm_mig_media() {
 		'post-aeo-services'     => array( 'AEO services: a question connected to a clear, structured answer', 'Servicios de AEO: una pregunta conectada a una respuesta clara y estructurada' ),
 		'post-gemini-overviews' => array( 'Gemini and AI Overviews: an AI summary citing one web page as its source', 'Gemini y AI Overviews: un resumen de IA que cita una página web como fuente' ),
 		'post-aeo-saas'         => array( 'AEO for SaaS: a software dashboard connected to an AI answer that compares products', 'AEO para SaaS: un panel de software conectado a una respuesta de IA que compara productos' ),
+		'post-aeo-measure'      => array( 'How to measure AEO: AI answers, one of them cited, connected to a growing analytics chart', 'Cómo medir el AEO: respuestas de IA, una de ellas citada, conectadas a un gráfico de analítica en crecimiento' ),
+		'post-lakeland-agency'  => array( 'Digital marketing in Lakeland: a local store, a phone and a checklist connected to a pin on a city map with a lake', 'Marketing digital en Lakeland: una tienda local, un celular y una lista conectados a un punto en el mapa de una ciudad con un lago' ),
+		'post-aeo-checklist'    => array( 'AEO checklist: completed steps leading to an AI answer', 'Checklist de AEO: pasos completados que llevan a una respuesta de IA' ),
+		'post-florida-agency'   => array( 'Choosing a marketing agency in Florida: the state map connected to three agency proposals', 'Cómo elegir una agencia de marketing en Florida: el mapa del estado conectado a tres propuestas de agencias' ),
+		'post-aeo-schema'       => array( 'Schema for AEO: structured data under a web page connected to an AI answer', 'Schema para AEO: datos estructurados debajo de una página web conectados a una respuesta de IA' ),
+		'post-aeo-ecommerce'    => array( 'AEO for e-commerce: a product page with reviews connected to an AI answer that recommends products', 'AEO para e-commerce: una página de producto con reseñas conectada a una respuesta de IA que recomienda productos' ),
+		'post-lakeland-local-seo' => array( 'Local SEO in Lakeland: a business profile with reviews connected to a pin on a city map with a lake', 'SEO local en Lakeland: un perfil de empresa con reseñas conectado a un punto en el mapa de una ciudad con un lago' ),
+		'post-aeo-local-florida' => array( 'AEO for local businesses in Florida: an AI answer connected to a location on the Florida map', 'AEO para negocios locales en Florida: una respuesta de IA conectada a una ubicación en el mapa de Florida' ),
+		'post-plan-2027'        => array( '2027 marketing plan: a yearly calendar connected to a budget split chart', 'Plan de marketing 2027: un calendario anual conectado a un gráfico de distribución del presupuesto' ),
 	);
 }
 
@@ -165,6 +174,7 @@ function flmm_mig_categories() {
 		'performance' => array( 'en' => array( 'Performance', 'performance' ), 'es' => array( 'Performance', 'performance-es' ) ),
 		'aeo'         => array( 'en' => array( 'AEO', 'aeo' ), 'es' => array( 'AEO', 'aeo-es' ) ),
 		'ai'          => array( 'en' => array( 'AI', 'ai' ), 'es' => array( 'IA', 'ia' ) ),
+		'local'       => array( 'en' => array( 'Local marketing', 'local-marketing' ), 'es' => array( 'Marketing local', 'marketing-local' ) ),
 	);
 }
 
@@ -184,6 +194,10 @@ function flmm_mig_category_descriptions() {
 		'ai'          => array(
 			'en' => 'Articles on artificial intelligence in marketing: key terms, LLMs, automation and practical ways to use AI in strategy, content and paid media campaigns.',
 			'es' => 'Artículos sobre inteligencia artificial en marketing: términos clave, LLM, automatización y formas prácticas de usar la IA en estrategia, contenido y medios.',
+		),
+		'local'       => array(
+			'en' => 'Articles on local marketing in Florida and Lakeland: local SEO, Google Business Profile, AEO for local businesses and how to choose the right marketing agency.',
+			'es' => 'Artículos sobre marketing local en Florida y Lakeland: SEO local, Perfil de Empresa de Google, AEO para negocios locales y cómo elegir una agencia de marketing.',
 		),
 	);
 }

@@ -2,7 +2,7 @@
 
 Bloques: ["p", html], ["h2", texto], ["h3", texto], ["ul", [items]], ["ol", [items]].
 Enlaces internos con marcadores que el migrador reemplaza por la URL del idioma:
-{seo-aeo}, {florida}, {post:clave}.
+{seo-aeo}, {florida}, {lakeland}, {service:slug}, {post:clave}.
 """
 import json, os, re
 
@@ -431,6 +431,17 @@ POSTS.append({
         ],
     },
 })
+
+
+# Artículos de octubre a diciembre (un archivo por grupo).
+import importlib, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+for _mod in ('posts_q4_a', 'posts_q4_b', 'posts_q4_c'):
+    try:
+        POSTS.extend(importlib.import_module(_mod).POSTS)
+    except ModuleNotFoundError:
+        pass
+POSTS.sort(key=lambda p: p['publish_gmt'])
 
 
 def words(html):
