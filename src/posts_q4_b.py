@@ -6,7 +6,7 @@ POSTS = [
         'key': 'aeo-ecommerce',
         'publish_gmt': '2026-12-01 13:00:00',
         'cat': 'aeo',
-        'image': 'website',
+        'image': 'post-aeo-ecommerce',
         'en': {
             'slug': 'aeo-for-ecommerce',
             'title': 'AEO for Ecommerce: How to Get Your Products Recommended by AI',
@@ -126,7 +126,7 @@ POSTS = [
         'key': 'aeo-local-florida',
         'publish_gmt': '2026-12-15 13:00:00',
         'cat': 'local',
-        'image': 'ai-assistants',
+        'image': 'post-aeo-local-florida',
         'en': {
             'slug': 'aeo-for-local-businesses-florida',
             'title': 'AEO in Florida: How Local Businesses Get Recommended by AI',
@@ -246,7 +246,7 @@ POSTS = [
         'key': 'plan-2027',
         'publish_gmt': '2026-12-22 13:00:00',
         'cat': 'performance',
-        'image': 'marketing-automation',
+        'image': 'post-plan-2027',
         'en': {
             'slug': 'marketing-plan-2027',
             'title': 'Marketing Plan 2027: How to Split Your Budget Across SEO, AEO and Paid Media',

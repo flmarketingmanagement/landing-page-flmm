@@ -280,7 +280,7 @@ POSTS = [
         'key': 'lakeland-local-seo',
         'publish_gmt': '2026-12-08 13:00:00',
         'cat': 'local',
-        'image': 'growth-hacking',
+        'image': 'post-lakeland-local-seo',
         'en': {
             'slug': 'local-seo-lakeland',
             'title': 'Local SEO in Lakeland: Google Business Profile and AI Answers',

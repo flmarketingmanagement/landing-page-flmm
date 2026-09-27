@@ -79,6 +79,10 @@ function flmm_mig_media() {
 		'post-aeo-checklist'    => array( 'AEO checklist: completed steps leading to an AI answer', 'Checklist de AEO: pasos completados que llevan a una respuesta de IA' ),
 		'post-florida-agency'   => array( 'Choosing a marketing agency in Florida: the state map connected to three agency proposals', 'Cómo elegir una agencia de marketing en Florida: el mapa del estado conectado a tres propuestas de agencias' ),
 		'post-aeo-schema'       => array( 'Schema for AEO: structured data under a web page connected to an AI answer', 'Schema para AEO: datos estructurados debajo de una página web conectados a una respuesta de IA' ),
+		'post-aeo-ecommerce'    => array( 'AEO for e-commerce: a product page with reviews connected to an AI answer that recommends products', 'AEO para e-commerce: una página de producto con reseñas conectada a una respuesta de IA que recomienda productos' ),
+		'post-lakeland-local-seo' => array( 'Local SEO in Lakeland: a business profile with reviews connected to a pin on a city map with a lake', 'SEO local en Lakeland: un perfil de empresa con reseñas conectado a un punto en el mapa de una ciudad con un lago' ),
+		'post-aeo-local-florida' => array( 'AEO for local businesses in Florida: an AI answer connected to a location on the Florida map', 'AEO para negocios locales en Florida: una respuesta de IA conectada a una ubicación en el mapa de Florida' ),
+		'post-plan-2027'        => array( '2027 marketing plan: a yearly calendar connected to a budget split chart', 'Plan de marketing 2027: un calendario anual conectado a un gráfico de distribución del presupuesto' ),
 	);
 }
 
