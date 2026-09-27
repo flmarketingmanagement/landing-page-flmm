@@ -527,7 +527,13 @@ p.flmm-avatar--sm { width: 36px; height: 36px; font-size: 12px; }
 .wp-block-table.is-style-comparison td { color: var(--ink-2); }
 
 /* Conceptos. */
-.wp-site-blocks .flmm-guide { max-width: 72ch; }
+.wp-site-blocks .flmm-section > .flmm-guide {
+	max-width: 72ch;
+	margin-left: max(0px, calc((100% - var(--wp--style--global--content-size)) / 2)) !important;
+	margin-right: auto !important;
+}
+.flmm-guide a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.flmm-guide a:hover { color: var(--pink); }
 .wp-site-blocks .flmm-guide > * { margin: 0; }
 .wp-site-blocks .flmm-guide > p + p,
 .wp-site-blocks .flmm-guide > h3 + p { margin-top: .75rem; }
