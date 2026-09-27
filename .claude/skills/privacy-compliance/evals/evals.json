@@ -1,0 +1,23 @@
+{
+  "skill_name": "privacy-compliance",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Audita la privacidad de https://flmarketingmanagement.com: banner de Complianz, GTM con GA4, Meta y OpenAI, formulario de Jetpack y chat de n8n. La empresa es una LLC de Florida con clientes en EE. UU. y Latinoamérica.",
+      "expected_output": "Informe con alcance (GDPR como estándar, CCPA y FDBR no aplican por umbrales), evidencia del escáner en 4 sesiones, matriz de hallazgos por severidad con correcciones y preguntas para el dueño.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "vamos a agregar el pixel de tiktok y un formulario para mandar SMS promocionales a clientes de florida, que tengo que cambiar en la politica y en el formulario?",
+      "expected_output": "Indica TCPA y FTSA (consentimiento previo expreso por escrito, STOP, casilla no premarcada), agregar TikTok en ambas políticas y en la categoría marketing del banner, con textos EN/ES listos para pegar.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Write a privacy policy in English and Spanish for a Chilean SaaS startup that uses Stripe, HubSpot, Google Analytics and an AI support chat, selling to Chile, Mexico and the US.",
+      "expected_output": "Política completa EN/ES con Ley 21.719 (vigente desde el 1-dic-2026), aviso de privacidad mexicano, sección de chat con IA, proveedores reales, marcadores [CONFIRMAR] para datos desconocidos y aviso de que no es asesoría legal.",
+      "files": []
+    }
+  ]
+}

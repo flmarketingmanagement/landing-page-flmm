@@ -36,6 +36,10 @@
 - SEO de servicios (palabra clave de Rank Math, título, descripción, entrada, H2, guía y referencia): `src/services_seo_*.py`, validar con `python3 src/check_services_seo.py` y exportar con `python3 src/export_content.py` (copiar `src/content.json` a `inc/migrate/content.json`).
 - Imágenes de la migración: si se reemplaza una, usar un nombre de archivo nuevo (la migración no vuelve a subir un archivo con el mismo nombre).
 
+## Privacidad
+- Auditorías de privacidad y cookies: usar la skill `.claude/skills/privacy-compliance` (escáner `scripts/scan_consent.js`). Última auditoría: `docs/auditoria-privacidad-2026-09.md`.
+- La política de privacidad se genera desde `inc/migrate/data.php` (`privacy-policy`); la de cookies la genera Complianz (se ajusta en su asistente).
+
 ## Theme flmm-studio
 - Textos visibles del theme: usar `flmm__( 'Texto en inglés' )` y agregar la traducción en `inc/i18n.php`.
 - Secciones nuevas: agregar un constructor en `inc/patterns.php` (recibe idioma y datos) y registrarlo en `flmm_pattern_list()`.
