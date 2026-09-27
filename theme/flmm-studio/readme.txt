@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,10 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.2.8 =
+* Home: ilustración en el hero, en dos columnas (texto a la izquierda, imagen a la derecha; en móvil va debajo).
+* Blog: imagen propia para cada uno de los 4 artículos de AEO.
 
 = 1.2.7 =
 * Blog: 4 artículos nuevos de AEO en EN y ES, programados cada martes (29-sep, 6-oct, 13-oct y 20-oct de 2026). Los enlaces entre ellos se activan al publicarse cada uno.

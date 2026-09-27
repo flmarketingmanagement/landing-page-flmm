@@ -244,11 +244,21 @@ function flmm_pattern_hero( $lang, $d = null ) {
 			),
 			'flmm-ctas flmm-rv'
 		);
+	$class = 'flmm-hero';
+	// Con imagen: texto a la izquierda e ilustración a la derecha.
+	if ( ! empty( $d['image']['id'] ) ) {
+		$img   = $d['image'];
+		$inner = flmm_group( $inner, array( 'className' => 'flmm-hero__text', 'layout' => array( 'type' => 'default' ) ) )
+			. flmm_bo( 'image', array( 'id' => (int) $img['id'], 'sizeSlug' => 'full', 'linkDestination' => 'none', 'className' => 'flmm-hero__art flmm-rv' ) )
+			. '<figure class="wp-block-image size-full flmm-hero__art flmm-rv"><img src="' . esc_url( $img['url'] ) . '" alt="' . esc_attr( $img['alt'] ) . '" class="wp-image-' . (int) $img['id'] . '" fetchpriority="high"/></figure><!-- /wp:image -->';
+		$inner = flmm_group( $inner, array( 'className' => 'flmm-hero__grid', 'layout' => array( 'type' => 'default' ) ) );
+		$class .= ' flmm-hero--art';
+	}
 	return flmm_group(
 		$inner,
 		array(
 			'align'     => 'full',
-			'className' => 'flmm-hero',
+			'className' => $class,
 			'layout'    => array( 'type' => 'constrained' ),
 		)
 	);
