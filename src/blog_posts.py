@@ -452,7 +452,7 @@ def check():
                 w = words(a)
                 if not 40 <= w <= 60: probs.append(f'faq {w} "{q[:30]}"')
             blob = json.dumps(d, ensure_ascii=False)
-            if '—' in blob: probs.append('raya larga')
+            if '\u2014' in blob: probs.append('raya larga')
             print(p['key'], lang, 'OK' if not probs else probs)
             ok = ok and not probs
     return ok
