@@ -31,3 +31,8 @@ Datos o decisiones que no se inventaron y hay que confirmar.
 17. ~~**Acceso de red**~~ activo para staging y producción.
 18. ~~**Search Console**~~ sitemap enviado.
 19. **Herramienta de migración:** se mantiene; la migración automática la usa en cada versión.
+
+## Blog desde noticias (n8n)
+- Workflows: "📰 Blog noticias: generar" (dom, mar y jue 13:00 Florida) y "📰 Blog noticias: acciones" (botones de Telegram y formulario de imagen).
+- Registro: Sheet "Noticias por dia", columnas estado/post en Hoja 1 y pestaña Blog.
+- Endpoints del tema: inc/news-blog.php (flmm/v1/news/...). Autenticación con contraseña de aplicación del autor.

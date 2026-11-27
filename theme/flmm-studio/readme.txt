@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.3.2 =
+* Blog desde noticias: endpoints REST (flmm/v1/news) para que n8n cree el par EN/ES en borrador, valide las reglas SEO, asigne la imagen destacada y programe o rechace el artículo.
 
 = 1.3.1 =
 * Política de privacidad actualizada (EN y ES): banner de cookies, GA4, píxeles de Meta y OpenAI, n8n, Jetpack y Telegram, bases, conservación, derechos y menores.
