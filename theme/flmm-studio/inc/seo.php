@@ -163,3 +163,43 @@ function flmm_blog_canonical( $canonical ) {
 	return $canonical;
 }
 add_filter( 'rank_math/frontend/canonical', 'flmm_blog_canonical' );
+
+/**
+ * Limpia el caché del sitemap de Rank Math (si está activo).
+ */
+function flmm_sitemap_flush() {
+	if ( class_exists( '\\RankMath\\Sitemap\\Cache' ) && method_exists( '\\RankMath\\Sitemap\\Cache', 'invalidate_storage' ) ) {
+		\RankMath\Sitemap\Cache::invalidate_storage();
+	}
+}
+
+/**
+ * Al publicar, despublicar o borrar una entrada, el sitemap se regenera para que la incluya al instante.
+ *
+ * @param string  $new_status Estado nuevo.
+ * @param string  $old_status Estado anterior.
+ * @param WP_Post $post       Entrada.
+ */
+function flmm_sitemap_on_status( $new_status, $old_status, $post ) {
+	if ( $new_status !== $old_status && ( 'publish' === $new_status || 'publish' === $old_status ) && in_array( $post->post_type, array( 'post', 'page' ), true ) ) {
+		flmm_sitemap_flush();
+	}
+}
+add_action( 'transition_post_status', 'flmm_sitemap_on_status', 20, 3 );
+
+/**
+ * Jetpack: sin sitemaps propios (el sitemap es el de Rank Math) y sin el botón "Me gusta"
+ * (es un enlace que Google no puede rastrear y carga JavaScript extra).
+ *
+ * @param array $modules Módulos disponibles.
+ * @return array
+ */
+function flmm_jetpack_modules( $modules ) {
+	if ( defined( 'RANK_MATH_VERSION' ) ) {
+		unset( $modules['sitemaps'] );
+	}
+	unset( $modules['likes'] );
+	return $modules;
+}
+add_filter( 'jetpack_get_available_modules', 'flmm_jetpack_modules' );
+add_filter( 'wpl_is_likes_visible', '__return_false' );

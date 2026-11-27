@@ -179,6 +179,40 @@ function flmm_mig_categories() {
 }
 
 /**
+ * Título SEO de cada categoría (Rank Math): clave => EN, ES. Máximo 60 caracteres.
+ */
+function flmm_mig_category_titles() {
+	return array(
+		'performance' => array(
+			'en' => 'Performance Marketing Articles: Paid Media | FL Marketing',
+			'es' => 'Artículos de performance marketing y medios | FL Marketing',
+		),
+		'aeo'         => array(
+			'en' => 'AEO Articles: Get Cited by AI Search | FL Marketing',
+			'es' => 'Artículos de AEO: cómo lograr que la IA te cite',
+		),
+		'ai'          => array(
+			'en' => 'AI in Marketing: Articles and Guides | FL Marketing',
+			'es' => 'IA en marketing: artículos y guías | FL Marketing',
+		),
+		'local'       => array(
+			'en' => 'Local Marketing in Florida: Articles | FL Marketing',
+			'es' => 'Marketing local en Florida: artículos | FL Marketing',
+		),
+	);
+}
+
+/**
+ * SEO de la política de cookies: idioma => título, descripción, keyword.
+ */
+function flmm_mig_cookie_seo() {
+	return array(
+		'en' => array( 'Cookie Policy | FL Marketing Management', 'Read the FL Marketing Management cookie policy: which cookies and similar tools we use, why we use them, how long they last and how to change your consent.', 'cookie policy' ),
+		'es' => array( 'Política de cookies | FL Marketing Management', 'Lee la política de cookies de FL Marketing Management: qué cookies y tecnologías usamos, para qué, cuánto duran y cómo cambiar tu consentimiento.', 'política de cookies' ),
+	);
+}
+
+/**
  * Descripción de cada categoría (se muestra en el archivo y es la meta description): clave => EN, ES.
  */
 function flmm_mig_category_descriptions() {
