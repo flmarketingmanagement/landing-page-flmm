@@ -567,7 +567,7 @@ function flmm_mig_category( $key ) {
  * @param string $content Contenido.
  * @return string
  */
-function flmm_mig_fix_post_content( $content ) {
+function flmm_mig_fix_post_content( $content, $lang = 'en' ) {
 	// TL;DR: el primer párrafo que empieza con "TL;DR" pasa a un grupo con el estilo TL;DR.
 	if ( false === strpos( $content, 'is-style-tldr' ) ) {
 		$content = preg_replace_callback(
@@ -593,6 +593,15 @@ function flmm_mig_fix_post_content( $content ) {
 	// Enlaces internos rotos de las entradas en español.
 	$content = preg_replace( '#https?://[^"/]+/blog/metricas-performance-marketing-b2b/#', home_url( '/es/blog/metricas-de-performance-marketing-b2b-mas-alla-del-cpc/' ), $content );
 	$content = preg_replace( '#https?://[^"/]+/blog/ia-entropia-shannon-marketing/#', home_url( '/es/blog/ia-y-entropia-de-shannon-en-performance-marketing-b2b/' ), $content );
+	// Enlaces antiguos que hoy redirigen: categorías viejas y glosario en español con URL en inglés.
+	$cat_url = static function ( $key ) use ( $lang ) {
+		$def  = flmm_mig_categories()[ $key ][ $lang ];
+		$term = get_term_by( 'slug', $def[1], 'category' );
+		return $term ? get_term_link( $term ) : home_url( '/' );
+	};
+	$content = preg_replace( '#https?://[^"/]+/blog/category/ai-performance-marketing/#', esc_url( $cat_url( 'performance' ) ), $content );
+	$content = preg_replace( '#https?://[^"/]+/blog/category/marketing-strategy-ai/#', esc_url( $cat_url( 'aeo' ) ), $content );
+	$content = preg_replace( '#https?://([^"/]+)/blog/terminos-marketing-ia-2026/#', home_url( '/es/blog/terminos-marketing-ia-2026/' ), $content );
 	// Cifra de G2 (2026): el informe habla de agentes de IA en la compra, no de buscadores con IA.
 	$content = str_replace(
 		array(
@@ -641,7 +650,7 @@ function flmm_mig_step_posts() {
 			pll_set_post_language( $post->ID, $lang );
 			$update = array(
 				'ID'           => $post->ID,
-				'post_content' => flmm_mig_fix_post_content( $post->post_content ),
+				'post_content' => flmm_mig_fix_post_content( $post->post_content, $lang ),
 			);
 			if ( $author ) {
 				$update['post_author'] = $author;
@@ -833,8 +842,20 @@ function flmm_mig_step_seo() {
 			}
 			wp_update_term( $cat[ $lang ], 'category', array( 'description' => $desc ) );
 			update_term_meta( $cat[ $lang ], 'rank_math_description', $desc );
+			$cat_titles = flmm_mig_category_titles();
+			if ( ! empty( $cat_titles[ $key ][ $lang ] ) ) {
+				update_term_meta( $cat[ $lang ], 'rank_math_title', $cat_titles[ $key ][ $lang ] );
+			}
 		}
 	}
+	// Política de cookies (la genera Complianz): título y descripción propios.
+	foreach ( (array) flmm_mig_state( 'cookies' ) as $lang => $cookie_id ) {
+		$cookie_seo = flmm_mig_cookie_seo();
+		if ( $cookie_id && get_post( (int) $cookie_id ) && ! empty( $cookie_seo[ $lang ] ) ) {
+			flmm_mig_set_seo( (int) $cookie_id, $cookie_seo[ $lang ] );
+		}
+	}
+	flmm_sitemap_flush();
 	// Ajustes generales: organización, artículo como BlogPosting y migas de pan en el schema.
 	$titles = (array) get_option( 'rank-math-options-titles', array() );
 	$titles = array_merge(
@@ -845,6 +866,7 @@ function flmm_mig_step_seo() {
 			'website_name'                  => 'FL Marketing Management',
 			'pt_post_default_rich_snippet'  => 'article',
 			'pt_post_default_article_type'  => 'BlogPosting',
+			'pt_page_default_rich_snippet'  => 'off',
 			'social_additional_profiles'    => flmm_option( 'linkedin' ) . "\n" . flmm_option( 'instagram' ),
 		)
 	);

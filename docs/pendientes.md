@@ -40,3 +40,7 @@ Datos o decisiones que no se inventaron y hay que confirmar.
 - Registro: Sheet "Noticias por dia", columnas estado/post en Hoja 1 y pestaña Blog.
 - Endpoints del tema: inc/news-blog.php (flmm/v1/news/...). Autenticación con contraseña de aplicación del autor (credencial n8n "Wordpress FLMM").
 - Bot "⚡️ Buscador de Noticias": Telegram en HTML con texto escapado y sin cortar el envío si un mensaje falla (error del 24-nov corregido).
+
+## SEO general (auditoría 27-nov-2026)
+- Tema 1.3.3: títulos de categorías, SEO de la política de cookies, enlaces antiguos, sitemap de Rank Math al publicar, sin sitemaps ni "Me gusta" de Jetpack, páginas sin schema Article.
+- Revisar en GSC que solo quede el sitemap de Rank Math (sitemap_index.xml).
