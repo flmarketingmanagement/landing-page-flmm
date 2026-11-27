@@ -67,7 +67,7 @@ X = {
 
 "seo-aeo": dict(
  desc=("Servicios de AEO y SEO para posicionar en Google y ser citado por ChatGPT, Gemini, Perplexity y AI Overviews: SEO técnico, contenido y optimización para IA.",
-       "AEO and SEO services to rank on Google and get cited by ChatGPT, Gemini, Perplexity and AI Overviews: technical SEO, content and AI answer optimization."),
+       "SEO and AEO services to rank on Google and get cited by ChatGPT, Gemini, Perplexity and AI Overviews: technical SEO, content and AI answer optimization."),
  cmp=(("SEO vs. AEO vs. GEO","SEO vs. AEO vs. GEO"),("SEO","SEO"),("AEO","AEO"),
       [("Dónde aparece","Where you appear","Resultados de Google y otros buscadores","Google and other search results","Respuestas de ChatGPT, Gemini, Perplexity","Answers from ChatGPT, Gemini, Perplexity","Recomendaciones de la IA sobre tu categoría","AI recommendations in your category"),
        ("Objetivo","Goal","Tráfico orgánico calificado","Qualified organic traffic","Ser citado y recomendado por la IA","Being cited and recommended by AI","Que la IA mencione y recomiende tu marca","AI mentioning and recommending your brand"),

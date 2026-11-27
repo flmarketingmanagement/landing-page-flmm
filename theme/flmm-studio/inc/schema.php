@@ -294,3 +294,42 @@ function flmm_rank_math_global_entities( $add ) {
 	return is_singular() ? true : $add;
 }
 add_filter( 'rank_math/schema/add_global_entities', 'flmm_rank_math_global_entities' );
+
+/**
+ * PodcastSeries en las páginas de los podcasts (Marketing Today y Digitales Sin Fronteras).
+ *
+ * @param array $graph Grafo del theme.
+ * @return array
+ */
+function flmm_schema_podcasts( $graph ) {
+	if ( ! is_page() ) {
+		return $graph;
+	}
+	$post  = get_queried_object();
+	$shows = array(
+		'podcast'                         => array( 'Marketing Today', array( 'https://open.spotify.com/show/1CDdfGMtj3ybNcO6psDRtH', 'https://www.youtube.com/@Marketing.Today.Podcast', 'https://www.instagram.com/marketing.today.podcast/', 'https://www.tiktok.com/@marketing.today.podcast' ) ),
+		'podcast-marketing-today'         => 'podcast',
+		'digitales-sin-fronteras'         => array( 'Digitales Sin Fronteras', array() ),
+		'podcast-digitales-sin-fronteras' => 'digitales-sin-fronteras',
+	);
+	$slug = $post ? $post->post_name : '';
+	if ( ! isset( $shows[ $slug ] ) ) {
+		return $graph;
+	}
+	$show = is_string( $shows[ $slug ] ) ? $shows[ $shows[ $slug ] ] : $shows[ $slug ];
+	$url  = get_permalink( $post );
+	$item = array(
+		'@type'       => 'PodcastSeries',
+		'@id'         => $url . '#podcast',
+		'name'        => $show[0],
+		'url'         => $url,
+		'description' => has_excerpt( $post ) ? get_the_excerpt( $post ) : wp_trim_words( wp_strip_all_tags( $post->post_content ), 40, '' ),
+		'publisher'   => array( '@id' => flmm_org_id() ),
+	);
+	if ( $show[1] ) {
+		$item['sameAs'] = $show[1];
+	}
+	$graph[] = $item;
+	return $graph;
+}
+add_filter( 'flmm_schema_graph', 'flmm_schema_podcasts' );

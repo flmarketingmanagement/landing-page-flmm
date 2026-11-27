@@ -55,7 +55,7 @@ POSTS.append({
                 'Strengthen your brand outside your site: reviews, directories, partners and industry media.',
                 'Measure both worlds: rankings and clicks in Search Console, and mentions of your brand in AI answers for your key questions.',
             ]],
-            ['p', 'If you want a team to run this for you, our <a href="{seo-aeo}">AEO and SEO services</a> cover the full process. For Florida businesses, see our <a href="{florida}">performance marketing agency in Florida</a>.'],
+            ['p', 'If you want a team to run this for you, our <a href="{seo-aeo}">SEO and AEO services</a> cover the full process. For Florida businesses, see our <a href="{florida}">performance marketing agency in Florida</a>.'],
         ],
         'faq_title': 'Frequently asked questions about SEO vs AEO vs GEO',
         'ref': ['Google Search Central: SEO Starter Guide', 'https://developers.google.com/search/docs/fundamentals/seo-starter-guide'],
@@ -164,7 +164,7 @@ POSTS.append({
                 'Be wary of guaranteed placements: no one controls what AI models answer.',
                 'Make sure they understand your industry and the questions your buyers ask.',
             ]],
-            ['p', 'If you are comparing providers, see how we approach it in our <a href="{seo-aeo}">AEO and SEO services</a>.'],
+            ['p', 'If you are comparing providers, see how we approach it in our <a href="{seo-aeo}">SEO and AEO services</a>.'],
         ],
         'faq_title': 'Frequently asked questions about AEO services',
         'ref': ['Google Search Central: AI features and your website', 'https://developers.google.com/search/docs/appearance/ai-features'],
@@ -264,7 +264,7 @@ POSTS.append({
             ['h2', 'Step 4: build trust beyond your site'],
             ['p', 'Keep your company facts consistent in your Google Business Profile, directories and social profiles, collect genuine reviews and earn mentions in industry media. These signals help Google understand who you are and why your content is reliable.'],
             ['h2', 'How to track whether you show up in Gemini'],
-            ['p', 'Search Console includes traffic from AI features inside the standard Web performance report, so watch the queries and pages that gain impressions. Complement it by checking your key questions in Gemini and AI Overviews every month and noting which sources appear. If you want a team to handle it, see our <a href="{seo-aeo}">AEO and SEO services</a> and our guide on <a href="{post:aeo-services}">what AEO services include</a>.'],
+            ['p', 'Search Console includes traffic from AI features inside the standard Web performance report, so watch the queries and pages that gain impressions. Complement it by checking your key questions in Gemini and AI Overviews every month and noting which sources appear. If you want a team to handle it, see our <a href="{seo-aeo}">SEO and AEO services</a> and our guide on <a href="{post:aeo-services}">what AEO services include</a>.'],
         ],
         'faq_title': 'Frequently asked questions on how to show up in Gemini',
         'ref': ['Google Search Central: AI features and your website', 'https://developers.google.com/search/docs/appearance/ai-features'],
@@ -371,7 +371,7 @@ POSTS.append({
                 'Watch referral traffic from AI tools in GA4.',
                 'Add "AI assistant" as an option in your "How did you hear about us?" field.',
             ]],
-            ['p', 'For the bigger picture, read <a href="{post:seo-aeo-geo}">SEO vs AEO vs GEO</a>. If you want a team to run it, see our <a href="{seo-aeo}">AEO and SEO services</a>.'],
+            ['p', 'For the bigger picture, read <a href="{post:seo-aeo-geo}">SEO vs AEO vs GEO</a>. If you want a team to run it, see our <a href="{seo-aeo}">SEO and AEO services</a>.'],
         ],
         'faq_title': 'Frequently asked questions about AEO for SaaS',
         'ref': ['Schema.org: SoftwareApplication', 'https://schema.org/SoftwareApplication'],
@@ -447,7 +447,7 @@ POSTS.append({
 # Artículos de octubre a diciembre (un archivo por grupo).
 import importlib, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-for _mod in ('posts_q4_a', 'posts_q4_b', 'posts_q4_c'):
+for _mod in ('posts_q4_a', 'posts_q4_b', 'posts_q4_c', 'posts_q4_d'):
     try:
         POSTS.extend(importlib.import_module(_mod).POSTS)
     except ModuleNotFoundError:
