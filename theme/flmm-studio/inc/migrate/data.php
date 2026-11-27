@@ -79,6 +79,7 @@ function flmm_mig_media() {
 		'post-aeo-checklist'    => array( 'AEO checklist: completed steps leading to an AI answer', 'Checklist de AEO: pasos completados que llevan a una respuesta de IA' ),
 		'post-florida-agency'   => array( 'Choosing a marketing agency in Florida: the state map connected to three agency proposals', 'Cómo elegir una agencia de marketing en Florida: el mapa del estado conectado a tres propuestas de agencias' ),
 		'post-aeo-schema'       => array( 'Schema for AEO: structured data under a web page connected to an AI answer', 'Schema para AEO: datos estructurados debajo de una página web conectados a una respuesta de IA' ),
+		'post-aeo-marketing'    => array( 'AEO marketing: a question answered by an AI assistant that cites a brand page', 'Marketing AEO: una pregunta respondida por un asistente de IA que cita la página de una marca' ),
 		'post-aeo-ecommerce'    => array( 'AEO for e-commerce: a product page with reviews connected to an AI answer that recommends products', 'AEO para e-commerce: una página de producto con reseñas conectada a una respuesta de IA que recomienda productos' ),
 		'post-lakeland-local-seo' => array( 'Local SEO in Lakeland: a business profile with reviews connected to a pin on a city map with a lake', 'SEO local en Lakeland: un perfil de empresa con reseñas conectado a un punto en el mapa de una ciudad con un lago' ),
 		'post-aeo-local-florida' => array( 'AEO for local businesses in Florida: an AI answer connected to a location on the Florida map', 'AEO para negocios locales en Florida: una respuesta de IA conectada a una ubicación en el mapa de Florida' ),
@@ -104,8 +105,8 @@ function flmm_mig_page_seo() {
 			'es' => array( 'Agencia de performance marketing en Florida | FL Marketing', 'Agencia de performance marketing en Florida: Google, Meta, TikTok y LinkedIn Ads, SEO + AEO y analítica para empresas de Florida, en inglés y español.', 'agencia de performance marketing en Florida' ),
 		),
 		'digital-marketing-lakeland' => array(
-			'en' => array( 'SEO Services in Lakeland, FL: Local SEO & Ads | FL Marketing', 'SEO services in Lakeland, FL: local SEO, Google Business Profile, AEO, Google and Meta Ads and websites for local businesses, in English and Spanish.', 'SEO services in Lakeland' ),
-			'es' => array( 'Servicios de SEO en Lakeland, Florida | FL Marketing', 'Servicios de SEO en Lakeland, Florida: SEO local, Perfil de Empresa de Google, AEO, Google y Meta Ads y sitios web para negocios locales, en inglés y español.', 'servicios de SEO en Lakeland' ),
+			'en' => array( 'SEO Services in Lakeland, FL and Digital Marketing', 'SEO services in Lakeland, FL and digital marketing for local businesses: local SEO, Google Business Profile, AEO, Google and Meta Ads, in English and Spanish.', 'SEO services in Lakeland' ),
+			'es' => array( 'Servicios de SEO en Lakeland y marketing digital en Florida', 'Servicios de SEO en Lakeland, Florida, y marketing digital para negocios locales: SEO local, Perfil de Empresa de Google, AEO y Google y Meta Ads.', 'servicios de SEO en Lakeland' ),
 		),
 		'about'                   => array(
 			'en' => array( 'About FL Marketing Management | Digital Marketing Agency', 'Meet FL Marketing Management, a Florida-based boutique consultancy for performance marketing, AI automation, analytics and SEO + AEO that builds growth systems.', 'FL Marketing Management' ),
@@ -388,7 +389,11 @@ function flmm_mig_company_page( $slug, $lang ) {
 						. flmm_p( 'El tono es profesional y educativo, pero cercano y accesible para cualquier persona interesada en aprender marketing. El objetivo es entregar ideas útiles sobre cómo las empresas y las marcas pueden aprovecharlas para crecer.' )
 						. flmm_h( 2, 'Lo que dicen nuestros oyentes' )
 						. $review( 4, 'Es uno de mis podcasts de marketing favoritos: explica y aterriza las ideas sin tanto tecnicismo. Me gustaría que fuera más frecuente y con más invitados emprendedores.', 'Daniel Goncalves', '4 de 5 estrellas' )
-						. $review( 5, 'Me ha servido mucho para aprender marketing digital. Tengo una empresa pequeña y, con todo lo que hay que aprender al emprender, no consideraba el marketing una prioridad. También tuve el gusto de participar en un episodio para contar mi punto de vista y mis comienzos en el marketing digital como emprendedor.', 'Pablo Pozarski', '5 de 5 estrellas' ),
+						. $review( 5, 'Me ha servido mucho para aprender marketing digital. Tengo una empresa pequeña y, con todo lo que hay que aprender al emprender, no consideraba el marketing una prioridad. También tuve el gusto de participar en un episodio para contar mi punto de vista y mis comienzos en el marketing digital como emprendedor.', 'Pablo Pozarski', '5 de 5 estrellas' )
+						. flmm_h( 2, 'Preguntas frecuentes sobre el podcast Marketing Today' )
+						. flmm_h( 3, '¿De qué trata el podcast Marketing Today?' ) . flmm_p( 'Marketing Today es un podcast sobre las tendencias y estrategias actuales del marketing digital. Los episodios incluyen entrevistas con expertos, casos de campañas, noticias de marketing y redes sociales y nuevas tendencias en tecnología y publicidad digital, siempre con aprendizajes prácticos que las empresas y marcas pueden aplicar para crecer.' )
+						. flmm_h( 3, '¿Dónde puedo escuchar Marketing Today?' ) . flmm_p( 'Puedes escuchar Marketing Today en Spotify y ver los episodios en YouTube. También compartimos clips y momentos destacados en Instagram y TikTok como @marketing.today.podcast, así puedes seguir el programa en la plataforma que ya usas y no perderte cada episodio nuevo cuando sale.' )
+						. flmm_h( 3, '¿Para quién es el podcast Marketing Today?' ) . flmm_p( 'Es para dueños de negocios, emprendedores y equipos de marketing que quieren entender el marketing digital sin tanto tecnicismo. Las conversaciones son profesionales y educativas pero fáciles de seguir, así que sirven tanto para quienes recién empiezan como para quienes ya gestionan campañas todos los días.' ),
 				);
 			}
 			return array(
@@ -400,7 +405,11 @@ function flmm_mig_company_page( $slug, $lang ) {
 					. flmm_p( 'The tone is professional and educational, yet engaging and accessible to anyone interested in learning about marketing. The goal is to share useful insights on how businesses and brands can leverage these trends for growth.' )
 					. flmm_h( 2, 'What our listeners say' )
 					. $review( 4, 'It is one of my favorite marketing podcasts: it explains ideas and makes them concrete without too much jargon. I would like it to be more frequent and with more entrepreneurs as guests.', 'Daniel Goncalves', '4 out of 5 stars' )
-					. $review( 5, 'It has helped me a lot to learn about digital marketing. I run a small company and, with everything there is to learn as an entrepreneur, I did not consider marketing a priority. I also had the pleasure of joining one of the episodes to share my point of view and my beginnings in digital marketing as an entrepreneur.', 'Pablo Pozarski', '5 out of 5 stars' ),
+					. $review( 5, 'It has helped me a lot to learn about digital marketing. I run a small company and, with everything there is to learn as an entrepreneur, I did not consider marketing a priority. I also had the pleasure of joining one of the episodes to share my point of view and my beginnings in digital marketing as an entrepreneur.', 'Pablo Pozarski', '5 out of 5 stars' )
+					. flmm_h( 2, 'Frequently asked questions about the Marketing Today podcast' )
+					. flmm_h( 3, 'What is the Marketing Today podcast about?' ) . flmm_p( 'Marketing Today is a podcast about current trends and strategies in digital marketing. Episodes include expert interviews, campaign case studies, marketing and social media news, and new trends in technology and digital advertising, always with practical lessons that businesses and brands can apply to grow.' )
+					. flmm_h( 3, 'Where can I listen to Marketing Today?' ) . flmm_p( 'You can listen to Marketing Today on Spotify and watch the episodes on YouTube. We also share short clips and highlights on Instagram and TikTok as @marketing.today.podcast, so you can follow the show on the platform you already use and catch each new episode when it comes out.' )
+					. flmm_h( 3, 'Who is the Marketing Today podcast for?' ) . flmm_p( 'It is for business owners, entrepreneurs and marketing teams who want to understand digital marketing without too much jargon. The conversations are professional and educational but easy to follow, so they work for people who are just starting out and for those who already run campaigns every day.' ),
 			);
 
 		case 'privacy-policy':

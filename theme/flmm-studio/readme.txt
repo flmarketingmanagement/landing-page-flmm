@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.3.5 =
+* SEO según Search Console: Lakeland (title con marketing digital, sección de zonas del condado de Polk y FAQ de costos), /seo-aeo/ enfocado en "SEO and AEO services" y enlaces de los posts con ese texto, podcast Marketing Today con FAQ y schema PodcastSeries, y nuevo artículo pilar "What is AEO marketing" (30-nov).
 
 = 1.3.4 =
 * La categoría principal de Rank Math solo se usa si la entrada la tiene; la migración la actualiza. Quita los enlaces a categorías antiguas en las migas de pan y la etiqueta de los posts viejos.

@@ -146,6 +146,19 @@ function flmm_mig_local_data( $slug, $lang ) {
 					),
 				),
 				array(
+					'label' => $t( 'Areas', 'Zonas' ),
+					'title' => $t( 'SEO and digital marketing in Lakeland, FL and Polk County.', 'SEO y marketing digital en Lakeland, Florida, y el condado de Polk.' ),
+					'text'  => $t( 'We work with businesses in Lakeland and the cities around it. Each area gets its own searches, service pages and Google Business Profile settings, so you show up where your customers actually are.', 'Trabajamos con negocios de Lakeland y las ciudades cercanas. Cada zona tiene sus propias búsquedas, páginas de servicio y ajustes del Perfil de Empresa de Google, para que aparezcas donde de verdad están tus clientes.' ),
+					'list'  => array(
+						$t( 'Lakeland', 'Lakeland' ),
+						$t( 'Winter Haven', 'Winter Haven' ),
+						$t( 'Bartow and Mulberry', 'Bartow y Mulberry' ),
+						$t( 'Auburndale and Lake Wales', 'Auburndale y Lake Wales' ),
+						$t( 'Haines City and Davenport', 'Haines City y Davenport' ),
+						$t( 'Plant City and the I-4 corridor to Tampa and Orlando', 'Plant City y el corredor de la I-4 hacia Tampa y Orlando' ),
+					),
+				),
+				array(
 					'label' => $t( 'Guide', 'Guía' ),
 					'title' => $t( 'How do SEO services in Lakeland work?', '¿Cómo funcionan los servicios de SEO en Lakeland?' ),
 					'guide' => array(
@@ -184,6 +197,10 @@ function flmm_mig_local_data( $slug, $lang ) {
 				array(
 					$t( 'How long does local SEO take to show results?', '¿Cuánto tarda el SEO local en dar resultados?' ),
 					$t( 'Technical fixes and Google Business Profile improvements can show impact within weeks. Rankings for competitive local searches usually take several months, depending on your website, your reviews and your competitors. While SEO builds, Google Ads can bring leads from day one, so many Lakeland businesses combine both.', 'Las correcciones técnicas y las mejoras en el Perfil de Empresa de Google pueden notarse en semanas. Posicionar búsquedas locales competitivas suele tomar varios meses, según tu sitio, tus reseñas y tu competencia. Mientras el SEO avanza, Google Ads puede traer leads desde el primer día, por eso muchas empresas de Lakeland combinan ambos.' ),
+				),
+				array(
+					$t( 'How much do SEO services in Lakeland cost?', '¿Cuánto cuestan los servicios de SEO en Lakeland?' ),
+					$t( 'It depends on your starting point, your competition and how many services and areas you want to cover. We first review your website, your Google Business Profile and your local competitors, and then send a clear proposal with the scope, the monthly fee and what we will report each month.', 'Depende de tu punto de partida, de tu competencia y de cuántos servicios y zonas quieres cubrir. Primero revisamos tu sitio, tu Perfil de Empresa de Google y a tus competidores locales, y luego te enviamos una propuesta clara con el alcance, el valor mensual y lo que reportaremos cada mes.' ),
 				),
 				array(
 					$t( 'Do you only offer SEO?', '¿Solo ofrecen SEO?' ),
