@@ -33,6 +33,10 @@ Datos o decisiones que no se inventaron y hay que confirmar.
 19. **Herramienta de migración:** se mantiene; la migración automática la usa en cada versión.
 
 ## Blog desde noticias (n8n)
-- Workflows: "📰 Blog noticias: generar" (dom, mar y jue 13:00 Florida) y "📰 Blog noticias: acciones" (botones de Telegram y formulario de imagen).
+- Workflows: "📰 Blog noticias: generar" (lunes, miércoles y viernes 9:00 Florida) y "📰 Blog noticias: acciones" (botones de Telegram y formulario de imagen).
+- Al aprobar se publica al instante. Sin imagen usa una genérica de la categoría; la imagen se puede subir o cambiar también con el post publicado.
+- Rechazar manda el par EN/ES a la papelera. Si la validación falla, Claude corrige el post una vez.
+- Publicar 2 o más posts el mismo día está bien.
 - Registro: Sheet "Noticias por dia", columnas estado/post en Hoja 1 y pestaña Blog.
-- Endpoints del tema: inc/news-blog.php (flmm/v1/news/...). Autenticación con contraseña de aplicación del autor.
+- Endpoints del tema: inc/news-blog.php (flmm/v1/news/...). Autenticación con contraseña de aplicación del autor (credencial n8n "Wordpress FLMM").
+- Bot "⚡️ Buscador de Noticias": Telegram en HTML con texto escapado y sin cortar el envío si un mensaje falla (error del 24-nov corregido).
