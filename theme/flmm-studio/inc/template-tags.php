@@ -206,7 +206,7 @@ function flmm_primary_category( $post = null ) {
 		$primary = get_post_meta( $post->ID, 'rank_math_primary_category', true );
 		if ( $primary ) {
 			$term = get_term( (int) $primary, 'category' );
-			if ( $term && ! is_wp_error( $term ) ) {
+			if ( $term && ! is_wp_error( $term ) && has_category( $term->term_id, $post ) ) {
 				return $term;
 			}
 		}
