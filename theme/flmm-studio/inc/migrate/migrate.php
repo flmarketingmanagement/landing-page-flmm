@@ -658,6 +658,7 @@ function flmm_mig_step_posts() {
 			wp_update_post( wp_slash( $update ) );
 			if ( ! empty( $cat[ $lang ] ) ) {
 				wp_set_post_categories( $post->ID, array( $cat[ $lang ] ), false );
+				update_post_meta( $post->ID, 'rank_math_primary_category', $cat[ $lang ] );
 			}
 			$img = ! empty( $pair['image'] ) ? flmm_mig_image( $pair['image'], $lang ) : false;
 			if ( $img ) {

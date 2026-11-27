@@ -3,7 +3,7 @@ Contributors: flmarketingmanagement
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Logo, sello AMA e ilustraciones: propiedad de FL Marketing Management, LLC y de 
 No se incluyen bajo la GPL.
 
 == Changelog ==
+
+= 1.3.4 =
+* La categoría principal de Rank Math solo se usa si la entrada la tiene; la migración la actualiza. Quita los enlaces a categorías antiguas en las migas de pan y la etiqueta de los posts viejos.
 
 = 1.3.3 =
 * SEO: títulos propios de las categorías (EN y ES), título y descripción de la política de cookies, enlaces antiguos de los posts que redirigían, sitemap de Rank Math se regenera al publicar, sin sitemaps de Jetpack duplicados y sin el botón "Me gusta" de Jetpack.
